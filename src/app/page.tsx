@@ -61,7 +61,6 @@ export default function Home() {
     const selectedCodes = selectedCountries.map((country) => country.code);
 
     if (selectedCodes.length === 0) {
-      setRagStatus(null);
       return;
     }
 
@@ -107,15 +106,25 @@ export default function Home() {
   }, [selectedCountries]);
 
   const handleToggleCountry = useCallback((country: CountrySummary) => {
-    setSelectedCountries((currentCountries) => toggleCountrySelection(currentCountries, country));
+    const nextCountries = toggleCountrySelection(selectedCountries, country);
+    setSelectedCountries(nextCountries);
+    if (nextCountries.length === 0) {
+      setRagStatus(null);
+      setIsLoadingStatus(false);
+    }
     setAnswer(null);
     setError(null);
-  }, []);
+  }, [selectedCountries]);
 
   const handleRemoveCountry = useCallback((countryCode: string) => {
-    setSelectedCountries((currentCountries) => removeCountrySelection(currentCountries, countryCode));
+    const nextCountries = removeCountrySelection(selectedCountries, countryCode);
+    setSelectedCountries(nextCountries);
+    if (nextCountries.length === 0) {
+      setRagStatus(null);
+      setIsLoadingStatus(false);
+    }
     setAnswer(null);
-  }, []);
+  }, [selectedCountries]);
 
   const handleAsk = useCallback(
     async (question: string) => {
@@ -191,7 +200,7 @@ export default function Home() {
             {isLoadingStatus ? <LoadingState label="Checking RAG files" /> : null}
             <SelectedCountriesPanel
               selectedCountries={selectedCountries}
-              ragStatus={ragStatus}
+              ragStatus={selectedCountries.length > 0 ? ragStatus : null}
               onRemoveCountry={handleRemoveCountry}
             />
             <AskPanel

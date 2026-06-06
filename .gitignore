@@ -4,5 +4,6 @@ public/cesium/
 dist/
 coverage/
 *.log
+*.tsbuildinfo
 .env
 .env*.local

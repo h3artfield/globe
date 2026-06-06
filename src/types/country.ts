@@ -1,3 +1,5 @@
+import type { Feature, FeatureCollection, Geometry } from "geojson";
+
 export type IsoAlpha3Code = string;
 
 export type CountryFeatureProperties = {
@@ -21,12 +23,6 @@ export type RelationshipStatusSummary = {
   exists: boolean;
 };
 
-export type CountryGeoJsonFeature = GeoJSON.Feature<
-  GeoJSON.Geometry,
-  Record<string, unknown>
->;
+export type CountryGeoJsonFeature = Feature<Geometry, Record<string, unknown>>;
 
-export type CountryGeoJson = GeoJSON.FeatureCollection<
-  GeoJSON.Geometry,
-  Record<string, unknown>
->;
+export type CountryGeoJson = FeatureCollection<Geometry, Record<string, unknown>>;
