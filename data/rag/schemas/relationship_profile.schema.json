@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relationship_profile.schema.json",
+  "title": "Relationship RAG Profile",
+  "type": "object",
+  "required": ["relationship_id", "countries", "version", "last_updated", "sections", "source_notes", "confidence"],
+  "properties": {
+    "relationship_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}_[A-Z]{3}$"
+    },
+    "countries": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$"
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "object"
+    },
+    "source_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["overall", "weak_sections"],
+      "properties": {
+        "overall": {
+          "enum": ["low", "medium", "high", "unknown"]
+        },
+        "weak_sections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

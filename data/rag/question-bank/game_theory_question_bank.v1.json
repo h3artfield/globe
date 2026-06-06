@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "scope": "game_theory",
+  "note": "Seed taxonomy for future RAG generation. The app does not require full question expansion for the MVP.",
+  "categories": [
+    {
+      "id": "actors",
+      "name": "Actors and preferences",
+      "sample_questions": [
+        "Who are the decisive actors inside each state?",
+        "Which goals are existential, negotiable, or symbolic?"
+      ]
+    },
+    {
+      "id": "payoffs",
+      "name": "Payoffs and tradeoffs",
+      "sample_questions": [
+        "What does each actor gain from escalation?",
+        "What costs are likely to deter action?"
+      ]
+    },
+    {
+      "id": "leverage",
+      "name": "Leverage and constraints",
+      "sample_questions": [
+        "Which actor has credible coercive leverage?",
+        "Which domestic constraints limit compromise?"
+      ]
+    },
+    {
+      "id": "moves",
+      "name": "Likely moves",
+      "sample_questions": [
+        "What is the most likely first move?",
+        "What second-order effects follow if the first move fails?"
+      ]
+    }
+  ]
+}

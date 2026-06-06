@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "scope": "country",
+  "target_questions_per_country": 300,
+  "categories": [
+    {
+      "id": "basic_identity",
+      "name": "Basic identity",
+      "sample_questions": [
+        "What is the country's formal name and common name?",
+        "What are the country's core national identity narratives?"
+      ]
+    },
+    {
+      "id": "government",
+      "name": "Current government",
+      "sample_questions": [
+        "Who holds formal executive power?",
+        "Which institutions actually constrain the leadership?"
+      ]
+    },
+    {
+      "id": "military_security",
+      "name": "Military and security",
+      "sample_questions": [
+        "What are the country's primary military capabilities?",
+        "What security threats does the leadership prioritize?"
+      ]
+    },
+    {
+      "id": "economy_dependencies",
+      "name": "Economy and dependencies",
+      "sample_questions": [
+        "Which trade relationships are strategically critical?",
+        "Which economic vulnerabilities can foreign actors exploit?"
+      ]
+    },
+    {
+      "id": "game_theory_profile",
+      "name": "Game-theory profile",
+      "sample_questions": [
+        "What are the leadership's likely red lines?",
+        "What leverage does this country have over rivals and partners?"
+      ]
+    }
+  ]
+}

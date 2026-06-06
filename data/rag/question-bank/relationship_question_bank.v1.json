@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "scope": "relationship",
+  "naming_rule": "Alphabetically sorted ISO Alpha-3 codes joined by underscore.",
+  "categories": [
+    {
+      "id": "history",
+      "name": "Historical relationship",
+      "sample_questions": [
+        "Which historical events shape current trust or hostility?",
+        "Which unresolved grievances affect bargaining?"
+      ]
+    },
+    {
+      "id": "dependencies",
+      "name": "Strategic dependencies",
+      "sample_questions": [
+        "Which country depends more on the other economically?",
+        "Which supply chains, water systems, energy routes, or ports matter most?"
+      ]
+    },
+    {
+      "id": "conflict_cooperation",
+      "name": "Conflict and cooperation",
+      "sample_questions": [
+        "What are the main conflict points?",
+        "What cooperation mechanisms can reduce risk?"
+      ]
+    },
+    {
+      "id": "red_lines",
+      "name": "Red lines and escalation",
+      "sample_questions": [
+        "What actions would each country see as unacceptable?",
+        "What are the most likely escalation paths?"
+      ]
+    }
+  ]
+}

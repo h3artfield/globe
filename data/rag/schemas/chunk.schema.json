@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chunk.schema.json",
+  "title": "RAG Chunk",
+  "type": "object",
+  "required": ["id", "section", "text", "tags", "source_ids"],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "country_code": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "relationship_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}_[A-Z]{3}$"
+    },
+    "section": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "anyOf": [
+    {
+      "required": ["country_code"]
+    },
+    {
+      "required": ["relationship_id"]
+    }
+  ]
+}

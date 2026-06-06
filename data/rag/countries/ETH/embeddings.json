@@ -1,0 +1,4 @@
+{
+  "embeddings": [],
+  "note": "Reserved for optional vector retrieval after local JSON loading is validated."
+}

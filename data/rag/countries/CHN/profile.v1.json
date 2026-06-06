@@ -1,0 +1,56 @@
+{
+  "country_code": "CHN",
+  "country_name": "China",
+  "version": "1.0",
+  "last_updated": "2026-06-06",
+  "sections": {
+    "identity": {
+      "summary": "One-party state and major global manufacturing, trade, and military power."
+    },
+    "long_form_history": {
+      "summary": "Stub history section prepared for externally generated RAG content."
+    },
+    "geography": {},
+    "demographics": {},
+    "government": {
+      "summary": "Chinese Communist Party-led political system centered on party control and state capacity."
+    },
+    "ruling_class": {},
+    "political_factions": {},
+    "economy": {
+      "summary": "Export-oriented and increasingly technology-focused economy with debt, demographics, and property-sector constraints."
+    },
+    "energy": {},
+    "food_water": {},
+    "military": {
+      "summary": "Rapidly modernizing military with emphasis on regional denial, maritime power, missiles, cyber, and space."
+    },
+    "intelligence_security": {},
+    "technology": {},
+    "religion_culture": {},
+    "media_information": {},
+    "foreign_policy": {
+      "summary": "Seeks regional primacy, regime security, trade access, and recognition as a major power."
+    },
+    "alliances": {},
+    "rivals": {
+      "summary": "Strategic competition with the United States and disputes with regional neighbors."
+    },
+    "trade_dependencies": {},
+    "strategic_assets": {},
+    "vulnerabilities": {},
+    "internal_instability": {},
+    "future_scenarios": {},
+    "game_theory_profile": {
+      "leadership_goals": ["Regime stability", "Territorial integrity", "Technological self-sufficiency"],
+      "security_needs": ["Deter intervention near China's coast", "Secure energy and trade routes"],
+      "leverage_points": ["Manufacturing scale", "Market access", "Critical mineral processing"],
+      "red_lines": ["Taiwan independence", "Threats to CCP rule"]
+    }
+  },
+  "source_notes": ["Stub profile for application wiring; replace with sourced RAG content."],
+  "confidence": {
+    "overall": "low",
+    "weak_sections": ["all"]
+  }
+}

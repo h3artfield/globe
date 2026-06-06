@@ -1,0 +1,60 @@
+{
+  "country_code": "EGY",
+  "country_name": "Egypt",
+  "version": "1.0",
+  "last_updated": "2026-06-06",
+  "sections": {
+    "identity": {
+      "summary": "Arab republic with strategic control near the Suez Canal and deep dependence on Nile water."
+    },
+    "long_form_history": {
+      "summary": "Stub history section prepared for externally generated RAG content."
+    },
+    "geography": {
+      "summary": "Population and agriculture are concentrated along the Nile Valley and Delta."
+    },
+    "demographics": {},
+    "government": {
+      "summary": "Presidential system with strong security-state influence."
+    },
+    "ruling_class": {},
+    "political_factions": {},
+    "economy": {},
+    "energy": {},
+    "food_water": {
+      "summary": "Nile flows are treated as a core national security interest."
+    },
+    "military": {
+      "summary": "Large conventional military with significant domestic political and economic roles."
+    },
+    "intelligence_security": {},
+    "technology": {},
+    "religion_culture": {},
+    "media_information": {},
+    "foreign_policy": {
+      "summary": "Balances ties with Gulf partners, the United States, Europe, Russia, and regional actors."
+    },
+    "alliances": {},
+    "rivals": {},
+    "trade_dependencies": {},
+    "strategic_assets": {
+      "summary": "Suez Canal, geographic position, military scale, and diplomatic centrality in Arab politics."
+    },
+    "vulnerabilities": {
+      "summary": "Water insecurity, debt pressure, food import exposure, and domestic economic stress."
+    },
+    "internal_instability": {},
+    "future_scenarios": {},
+    "game_theory_profile": {
+      "leadership_goals": ["Protect Nile water access", "Maintain domestic stability", "Preserve regional status"],
+      "security_needs": ["Avoid water shocks", "Protect borders", "Limit regional spillovers"],
+      "leverage_points": ["Arab diplomacy", "Military credibility", "Suez Canal relevance"],
+      "red_lines": ["Severe reductions in Nile water availability"]
+    }
+  },
+  "source_notes": ["Stub profile for application wiring; replace with sourced RAG content."],
+  "confidence": {
+    "overall": "low",
+    "weak_sections": ["all"]
+  }
+}

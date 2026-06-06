@@ -1,0 +1,8 @@
+.next/
+node_modules/
+public/cesium/
+dist/
+coverage/
+*.log
+.env
+.env*.local
