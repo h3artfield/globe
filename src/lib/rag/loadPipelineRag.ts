@@ -182,7 +182,15 @@ export async function loadPipelineAskContext(
 }
 
 export function summarizeMetrics(metrics: MetricValue[]) {
-  return metrics.map((metric) => ({
+  const seen = new Set<string>();
+  return metrics.filter((metric) => {
+    const key = `${metric.country_code}:${metric.metric_id}:${metric.year ?? "unknown"}:${metric.source_id ?? "unknown"}`;
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  }).map((metric) => ({
     metric_id: metric.metric_id,
     country_code: metric.country_code,
     year: metric.year,

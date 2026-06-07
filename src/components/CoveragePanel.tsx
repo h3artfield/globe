@@ -31,7 +31,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    const controller = new AbortController();
+    let isCancelled = false;
 
     async function loadCoverage() {
       if (selectedCountries.length === 0) {
@@ -45,17 +45,13 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
       try {
         const countries = await Promise.all(
           selectedCountries.map(async (country) => {
-            const response = await fetch(`/api/country/${country.code}/coverage`, {
-              signal: controller.signal,
-            });
+            const response = await fetch(`/api/country/${country.code}/coverage`);
             return response.ok ? ((await response.json()) as CoverageReport) : null;
           }),
         );
         const modulePayloads = await Promise.all(
           selectedCountries.map(async (country) => {
-            const response = await fetch(`/api/country/${country.code}/modules`, {
-              signal: controller.signal,
-            });
+            const response = await fetch(`/api/country/${country.code}/modules`);
             return response.ok
               ? [country.code, ((await response.json()) as { modules: CountryModule[] }).modules] as const
               : [country.code, []] as const;
@@ -63,9 +59,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
         );
         const completionPayloads = await Promise.all(
           selectedCountries.map(async (country) => {
-            const response = await fetch(`/api/pilot/country/${country.code}/completion`, {
-              signal: controller.signal,
-            });
+            const response = await fetch(`/api/pilot/country/${country.code}/completion`);
             return response.ok
               ? [country.code, (await response.json()) as PilotCompletionScore] as const
               : null;
@@ -73,17 +67,13 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
         );
         const readinessPayloads = await Promise.all(
           selectedCountries.map(async (country) => {
-            const response = await fetch(`/api/pilot/country/${country.code}/readiness`, {
-              signal: controller.signal,
-            });
+            const response = await fetch(`/api/pilot/country/${country.code}/readiness`);
             return response.ok ? [country.code, (await response.json()) as PilotReadinessReport] as const : null;
           }),
         );
         const gapPayloads = await Promise.all(
           selectedCountries.map(async (country) => {
-            const response = await fetch(`/api/source-gaps/country/${country.code}`, {
-              signal: controller.signal,
-            });
+            const response = await fetch(`/api/source-gaps/country/${country.code}`);
             return response.ok ? [country.code, (await response.json()) as SourceGapReport] as const : null;
           }),
         );
@@ -91,11 +81,14 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
           (ragStatus?.relationships ?? []).map(async (relationship) => {
             const response = await fetch(
               `/api/relationship/${relationship.relationshipId}/coverage`,
-              { signal: controller.signal },
             );
             return response.ok ? ((await response.json()) as RelationshipCoverageReport) : null;
           }),
         );
+
+        if (isCancelled) {
+          return;
+        }
 
         setCountryCoverage(
           countries.filter((coverage): coverage is CoverageReport => coverage !== null),
@@ -110,7 +103,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
         setReadinessReports(Object.fromEntries(readinessPayloads.filter((item): item is readonly [string, PilotReadinessReport] => item !== null)));
         setSourceGapReports(Object.fromEntries(gapPayloads.filter((item): item is readonly [string, SourceGapReport] => item !== null)));
       } finally {
-        if (!controller.signal.aborted) {
+        if (!isCancelled) {
           setIsLoading(false);
         }
       }
@@ -119,7 +112,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
     loadCoverage();
 
     return () => {
-      controller.abort();
+      isCancelled = true;
     };
   }, [selectedCountries, ragStatus]);
 

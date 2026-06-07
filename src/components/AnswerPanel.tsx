@@ -12,7 +12,11 @@ function ListSection({ title, items }: { title: string; items: string[] }) {
     <div>
       <h3 className="text-sm font-semibold text-slate-200">{title}</h3>
       <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-slate-300">
-        {items.length > 0 ? items.map((item) => <li key={item}>{item}</li>) : <li>None listed.</li>}
+        {items.length > 0 ? (
+          items.map((item, index) => <li key={`${title}-${index}-${item}`}>{item}</li>)
+        ) : (
+          <li>None listed.</li>
+        )}
       </ul>
     </div>
   );

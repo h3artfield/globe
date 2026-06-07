@@ -30,7 +30,7 @@ export async function buildRetrievalContext(input: {
     ])
   ).flat();
   const allChunks = [...pipelineContext.countryChunks, ...pipelineContext.relationshipChunks];
-  const selectedModules = [...relevant.countryModules, ...relevant.relationshipModules];
+  const selectedModules = Array.from(new Set([...relevant.countryModules, ...relevant.relationshipModules]));
   const scoredChunks = await hybridSearch({
     question: input.question,
     chunks: allChunks,
