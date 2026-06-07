@@ -4,6 +4,66 @@ import { buildRetrievalContext } from "@/lib/rag/buildRetrievalContext";
 import { summarizeMetrics } from "@/lib/rag/loadPipelineRag";
 import { saveAnswerAudit } from "@/lib/pilot/answerAudit";
 
+function isNarrativeEvidenceModule(moduleName: string): boolean {
+  return !["scorecard", "economy", "household_income_wealth", "production_industry"].includes(moduleName);
+}
+
+function isAdversaryQuestion(question: string): boolean {
+  const normalizedQuestion = question.toLowerCase();
+  return ["enemy", "enemies", "adversary", "adversaries", "rival", "threat", "becoming enemies"].some((term) =>
+    normalizedQuestion.includes(term),
+  );
+}
+
+function buildGroundedAnswer(input: {
+  question: string;
+  contextLines: string[];
+  missingData: string[];
+  narrativeEvidenceCount: number;
+}) {
+  const adversaryQuestion = isAdversaryQuestion(input.question);
+  const hasNarrativeEvidence = input.narrativeEvidenceCount > 0;
+
+  if (adversaryQuestion && !hasNarrativeEvidence) {
+    return [
+      `Question: ${input.question}`,
+      "",
+      "Short answer: I do not have enough source-backed USA-Egypt adversary or crisis evidence to claim what would make them enemies.",
+      "",
+      "What the current context can support:",
+      "- The retrieved source-backed material is mostly structured World Bank economic/scorecard data.",
+      "- The relevant adversary, threat perception, foreign policy, crisis history, sanctions, public opinion, and diplomatic-break evidence is missing or still pending review.",
+      "",
+      "What would need to be sourced before answering confidently:",
+      "- Official US and Egyptian threat assessments or military doctrine naming the other side as a threat.",
+      "- Sanctions, aid suspension, treaty rupture, basing-access disputes, or formal diplomatic breaks.",
+      "- Documented military incidents, proxy-conflict support, or coercive actions involving both countries.",
+      "- Public-opinion data or state rhetoric showing adversary narratives.",
+      "- Major news/institutional timelines showing a sustained deterioration in the relationship.",
+      "",
+      "Useful retrieved context:",
+      input.contextLines.length > 0 ? input.contextLines.join("\n") : "No source-backed chunks were retrieved.",
+      "",
+      `Missing or weak data: ${input.missingData.length > 0 ? input.missingData.join(" | ") : "none reported"}.`,
+    ].join("\n");
+  }
+
+  return [
+    `Question: ${input.question}`,
+    "",
+    "Source-grounded answer:",
+    hasNarrativeEvidence
+      ? "The answer below is limited to retrieved source-backed chunks and metrics."
+      : "The retrieved context is thin for this question; treat this as a source audit, not a complete intelligence judgment.",
+    "",
+    "Retrieved context used:",
+    input.contextLines.length > 0 ? input.contextLines.join("\n") : "No high-confidence chunks were retrieved.",
+    "",
+    "Grounding rules: use only supplied context, separate facts from inference, prefer official/structured data over Wikipedia, and report missing data.",
+    input.missingData.length > 0 ? `Missing or weak data: ${input.missingData.join(" | ")}` : "Missing or weak data: none reported.",
+  ].join("\n");
+}
+
 export async function POST(request: Request) {
   const body = (await request.json()) as Partial<AskRequest>;
 
@@ -65,19 +125,19 @@ export async function POST(request: Request) {
     retrievalContext.retrievedMetrics.some((metric) => (metric.sample_size ?? 9999) < 100) ? "small sample-size survey data" : null,
     retrievalContext.citations.some((citation) => citation.source_id.includes("manual")) ? "manual notes" : null,
   ].filter((badge): badge is string => Boolean(badge));
+  const narrativeEvidenceChunks = retrievalContext.retrievedChunks.filter(
+    (chunk) => chunk.source_ids.length > 0 && isNarrativeEvidenceModule(chunk.module),
+  );
   const contextLines = retrievalContext.retrievedChunks.slice(0, 6).map((chunk) => {
     const scope = chunk.country_code ?? chunk.relationship_id ?? "context";
     return `- [${chunk.chunk_id}] ${scope}.${chunk.module}: ${chunk.text.slice(0, 500)}`;
   });
-  const answerText = [
-    `Question: ${body.question}`,
-    "",
-    "Retrieved context used for this answer:",
-    contextLines.length > 0 ? contextLines.join("\n") : "No high-confidence chunks were retrieved.",
-    "",
-    "Grounding rules: use only supplied context, separate facts from inference, prefer official/structured data over Wikipedia, and report missing data.",
-    missingData.length > 0 ? `Missing or weak data: ${missingData.join(" | ")}` : "Missing or weak data: none reported.",
-  ].join("\n");
+  const answerText = buildGroundedAnswer({
+    question: body.question,
+    contextLines,
+    missingData,
+    narrativeEvidenceCount: narrativeEvidenceChunks.length,
+  });
 
   const responsePayload: AskResponse & Record<string, unknown> = {
     answer: answerText,

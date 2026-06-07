@@ -161,7 +161,9 @@ export async function loadPipelineAskContext(
   ).sort();
   const missingData = [
     ...countryCoverages.flatMap((coverage) => coverage?.modules_missing ?? []),
-    ...relationshipCoverages.flatMap((coverage) => coverage?.modules_missing ?? []),
+    ...relationshipCoverages.flatMap((coverage, index) =>
+      coverage?.modules_missing ?? [`${relationshipIds[index]}: relationship profile missing`],
+    ),
   ];
 
   return {
