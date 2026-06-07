@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { RagStatusResponse } from "@/types/api";
 import type { CountrySummary } from "@/types/country";
+import type { PilotCompletionScore } from "@/types/pilot";
 import type { CountryModule, CoverageReport, RelationshipCoverageReport } from "@/types/pipeline";
 import { LoadingState } from "./LoadingState";
 
@@ -24,6 +25,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
   const [countryCoverage, setCountryCoverage] = useState<CoverageReport[]>([]);
   const [relationshipCoverage, setRelationshipCoverage] = useState<RelationshipCoverageReport[]>([]);
   const [countryModules, setCountryModules] = useState<Record<string, CountryModule[]>>({});
+  const [completionScores, setCompletionScores] = useState<Record<string, PilotCompletionScore>>({});
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -57,6 +59,16 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
               : [country.code, []] as const;
           }),
         );
+        const completionPayloads = await Promise.all(
+          selectedCountries.map(async (country) => {
+            const response = await fetch(`/api/pilot/country/${country.code}/completion`, {
+              signal: controller.signal,
+            });
+            return response.ok
+              ? [country.code, (await response.json()) as PilotCompletionScore] as const
+              : null;
+          }),
+        );
         const relationships = await Promise.all(
           (ragStatus?.relationships ?? []).map(async (relationship) => {
             const response = await fetch(
@@ -76,6 +88,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
           ),
         );
         setCountryModules(Object.fromEntries(modulePayloads));
+        setCompletionScores(Object.fromEntries(completionPayloads.filter((item): item is readonly [string, PilotCompletionScore] => item !== null)));
       } finally {
         if (!controller.signal.aborted) {
           setIsLoading(false);
@@ -116,6 +129,8 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
               <ScoreBadge label="Narrative" value={coverage.narrative_data_score} />
               <ScoreBadge label="Freshness" value={coverage.freshness_score} />
               <ScoreBadge label="Provenance" value={coverage.provenance_score} />
+              <ScoreBadge label="Pilot ready" value={completionScores[coverage.country_code]?.overall_pilot_readiness ?? null} />
+              <ScoreBadge label="Retrieval" value={completionScores[coverage.country_code]?.retrieval_quality ?? null} />
             </div>
             <p className="mt-3 text-xs text-slate-400">
               Missing modules: {coverage.modules_missing.slice(0, 5).join(", ") || "none"}

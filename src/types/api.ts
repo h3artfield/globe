@@ -10,6 +10,7 @@ export type AskRequest = {
   selectedCountries: IsoAlpha3Code[];
   mode?: AskMode;
   debug?: boolean;
+  saveAudit?: boolean;
 };
 
 export type AskResponse = {

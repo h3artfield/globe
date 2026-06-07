@@ -1,3 +1,5 @@
+"use client";
+
 import type { AskResponse } from "@/types/api";
 
 type AnswerPanelProps = {
@@ -48,6 +50,23 @@ export function AnswerPanel({ answer, error }: AnswerPanelProps) {
       <pre className="mt-4 whitespace-pre-wrap rounded-lg bg-slate-900/80 p-4 text-sm leading-6 text-slate-200">
         {answer.answer}
       </pre>
+      <button
+        type="button"
+        onClick={() => {
+          fetch("/api/audits/answers", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              question: answer.answer.split("\n")[0]?.replace("Question: ", "") ?? "",
+              selectedCountries: answer.selectedCountries,
+              response: answer,
+            }),
+          });
+        }}
+        className="mt-3 rounded-lg border border-cyan-500/60 px-3 py-2 text-sm text-cyan-200 hover:bg-cyan-500/10"
+      >
+        Save Answer Audit
+      </button>
 
       <div className="mt-5 grid gap-4">
         <ListSection title="Key incentives" items={answer.strategicSummary.mainIncentives} />

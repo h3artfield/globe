@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
-import type { AskRequest } from "@/types/api";
+import type { AskRequest, AskResponse } from "@/types/api";
 import { buildRetrievalContext } from "@/lib/rag/buildRetrievalContext";
 import { summarizeMetrics } from "@/lib/rag/loadPipelineRag";
+import { saveAnswerAudit } from "@/lib/pilot/answerAudit";
 
 export async function POST(request: Request) {
   const body = (await request.json()) as Partial<AskRequest>;
@@ -76,7 +77,7 @@ export async function POST(request: Request) {
     missingData.length > 0 ? `Missing or weak data: ${missingData.join(" | ")}` : "Missing or weak data: none reported.",
   ].join("\n");
 
-  return NextResponse.json({
+  const responsePayload: AskResponse & Record<string, unknown> = {
     answer: answerText,
     selectedCountries: body.selectedCountries,
     strategicSummary: {
@@ -106,5 +107,13 @@ export async function POST(request: Request) {
       deescalation_options: [],
     },
     retrieval_debug: body.debug ? retrievalContext.retrievalDebug : undefined,
-  });
+  };
+  if (body.debug && body.saveAudit) {
+    responsePayload.answer_audit = await saveAnswerAudit({
+      question: body.question,
+      selectedCountries: body.selectedCountries,
+      response: responsePayload,
+    });
+  }
+  return NextResponse.json(responsePayload);
 }
