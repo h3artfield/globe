@@ -11,6 +11,7 @@ export function citationsFromChunks(chunks: RagChunk[]): Citation[] {
           country_code: chunk.country_code,
           relationship_id: chunk.relationship_id,
           confidence: chunk.confidence,
+          review_status: chunk.review_status,
         }))
       : [
           {
@@ -20,6 +21,7 @@ export function citationsFromChunks(chunks: RagChunk[]): Citation[] {
             country_code: chunk.country_code,
             relationship_id: chunk.relationship_id,
             confidence: chunk.confidence,
+            review_status: chunk.review_status,
           },
         ],
   );
@@ -37,6 +39,7 @@ export function citationsFromMetrics(metrics: MetricValue[]): Citation[] {
       metric_id: metric.metric_id,
       country_code: metric.country_code,
       confidence: metric.confidence,
+      review_status: metric.review_status,
     }));
 }
 

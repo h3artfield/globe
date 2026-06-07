@@ -29,7 +29,7 @@
     "can_override_official_data": { "type": "boolean" },
     "retrieval_priority": { "type": "number" },
     "claim_type": {
-      "enum": ["fact", "interpretation", "adversary_narrative", "strategic_inference", "scenario", "baseline_summary"]
+      "enum": ["fact", "interpretation", "adversary_narrative", "strategic_inference", "metric", "scenario", "baseline_summary"]
     },
     "year_range": {
       "type": ["array", "null"],

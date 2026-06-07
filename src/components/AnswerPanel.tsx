@@ -60,6 +60,8 @@ export function AnswerPanel({ answer, error }: AnswerPanelProps) {
         />
         <ListSection title="Missing data" items={answer.missingData} />
         <ListSection title="Sources used" items={answer.sourceIds} />
+        <ListSection title="Review status" items={answer.review_statuses ?? []} />
+        <ListSection title="Warning badges" items={answer.warning_badges ?? []} />
         <ListSection title="Modules used" items={answer.modules_used ?? []} />
         <ListSection
           title="Chunks used"

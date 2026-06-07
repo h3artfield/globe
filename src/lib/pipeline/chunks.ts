@@ -46,6 +46,7 @@ export function buildCountryChunk(module: CountryModule, sequence: number): RagC
     year_range: getYearRange(module),
     freshness: getFreshness(module),
     confidence: module.confidence.overall,
+    review_status: module.review_status,
   };
 }
 
@@ -65,5 +66,6 @@ export function buildRelationshipChunk(module: RelationshipModule, sequence: num
     year_range: getYearRange(module),
     freshness: getFreshness(module),
     confidence: module.confidence.overall,
+    review_status: module.review_status,
   };
 }

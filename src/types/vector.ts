@@ -55,6 +55,7 @@ export type Citation = {
   country_code?: string | null;
   relationship_id?: string | null;
   confidence?: string;
+  review_status?: string;
 };
 
 export type MissingDataWarning = {

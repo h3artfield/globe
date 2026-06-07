@@ -24,6 +24,12 @@
     "embeddings:validate": "tsx scripts/embeddings/validate_embeddings.ts",
     "retrieval:test": "tsx scripts/eval/eval_retrieval.ts",
     "eval:retrieval": "tsx scripts/eval/eval_retrieval.ts",
+    "dossier:build": "tsx scripts/dossier/build_country_dossier.ts",
+    "dossier:build:module": "tsx scripts/dossier/build_country_module.ts",
+    "dossier:build:relationship": "tsx scripts/dossier/build_relationship_dossier.ts",
+    "dossier:build:mvp": "tsx scripts/dossier/build_mvp_dossiers.ts && npm run embeddings:build:mvp",
+    "dossier:validate": "tsx scripts/dossier/validate_dossiers.ts",
+    "dossier:report": "tsx scripts/dossier/report_country_dossier.ts",
     "test": "tsx --test test/**/*.test.ts",
     "postinstall": "node scripts/copy-cesium-assets.mjs"
   },

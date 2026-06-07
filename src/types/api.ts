@@ -28,6 +28,7 @@ export type AskResponse = {
     relationship_id: string | null;
     source_ids: string[];
     confidence: string;
+    review_status?: string;
   }>;
   metrics_used?: Array<{
     metric_id: string;
@@ -48,6 +49,8 @@ export type AskResponse = {
     confidence: string;
   }>;
   retrieval_debug?: RetrievalDebugInfo;
+  review_statuses?: string[];
+  warning_badges?: string[];
   debugContext?: RagContext;
 };
 

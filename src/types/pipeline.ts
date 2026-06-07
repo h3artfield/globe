@@ -15,11 +15,21 @@ export type GenerationStatus =
   | "llm_drafted_not_reviewed"
   | "verified";
 
+export type ReviewStatus =
+  | "auto_generated_from_structured_data"
+  | "llm_drafted_unreviewed"
+  | "human_review_pending"
+  | "human_reviewed"
+  | "verified"
+  | "rejected"
+  | "needs_better_sources";
+
 export type ClaimType =
   | "fact"
   | "interpretation"
   | "adversary_narrative"
   | "strategic_inference"
+  | "metric"
   | "scenario"
   | "baseline_summary";
 
@@ -46,6 +56,7 @@ export type MetricValue = {
   freshness_requirement: FreshnessRequirement;
   freshness_status: FreshnessStatus;
   notes: string;
+  review_status?: ReviewStatus;
 };
 
 export type CountryClaim = {
@@ -54,6 +65,7 @@ export type CountryClaim = {
   claim_type: ClaimType;
   source_ids: string[];
   confidence: ConfidenceLevel;
+  review_status?: ReviewStatus;
   last_verified: string;
   notes: string;
 };
@@ -70,6 +82,7 @@ export type CountryModule = {
   open_questions: string[];
   source_ids: string[];
   generation_status?: GenerationStatus;
+  review_status?: ReviewStatus;
   confidence: {
     overall: ConfidenceLevel;
     weak_areas: string[];
@@ -89,6 +102,7 @@ export type RelationshipModule = {
   open_questions: string[];
   source_ids: string[];
   generation_status?: GenerationStatus;
+  review_status?: ReviewStatus;
   confidence: {
     overall: ConfidenceLevel;
     weak_areas: string[];
@@ -112,6 +126,7 @@ export type RagChunk = {
   year_range: [number, number] | null;
   freshness: FreshnessRequirement;
   confidence: ConfidenceLevel;
+  review_status?: ReviewStatus;
 };
 
 export type CoverageReport = {
