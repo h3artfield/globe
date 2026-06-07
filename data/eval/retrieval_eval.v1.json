@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "eval_id": "EGY-adversaries-001",
+      "question": "Who are Egypt's main adversaries?",
+      "selectedCountries": ["EGY"],
+      "expected_modules": ["adversaries_and_rivals", "threat_perception", "foreign_policy"],
+      "expected_relationships": [],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent enemies", "do not treat missing data as confirmed"]
+    },
+    {
+      "eval_id": "EGY_ETH-risks-001",
+      "question": "What are the biggest risks between Egypt and Ethiopia?",
+      "selectedCountries": ["EGY", "ETH"],
+      "expected_modules": ["adversaries_and_rivals", "relationship_event_timeline", "military", "foreign_policy"],
+      "expected_relationships": ["EGY_ETH"],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent events"]
+    },
+    {
+      "eval_id": "RUS_UKR-events-001",
+      "question": "What changed between Russia and Ukraine in the past 20 years?",
+      "selectedCountries": ["RUS", "UKR"],
+      "expected_modules": ["relationship_event_timeline", "top_national_events_20_years", "national_event_timeline", "history"],
+      "expected_relationships": ["RUS_UKR"],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent timeline events"]
+    },
+    {
+      "eval_id": "CHN-allies-rivals-001",
+      "question": "Who are China's strongest allies and rivals?",
+      "selectedCountries": ["CHN"],
+      "expected_modules": ["allies_and_partners", "adversaries_and_rivals", "threat_perception", "foreign_policy"],
+      "expected_relationships": [],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent allies"]
+    },
+    {
+      "eval_id": "SAU-oil-001",
+      "question": "How dependent is Saudi Arabia on oil exports?",
+      "selectedCountries": ["SAU"],
+      "expected_modules": ["trade_exports_imports", "economy", "scorecard"],
+      "expected_relationships": [],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent oil data"]
+    },
+    {
+      "eval_id": "TUR-nationalism-001",
+      "question": "How strong is nationalism in Turkey?",
+      "selectedCountries": ["TUR"],
+      "expected_modules": ["nationalism_cohesion", "national_cohesion_by_demographic", "population_divisions"],
+      "expected_relationships": [],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent survey data"]
+    },
+    {
+      "eval_id": "ISR-demographics-001",
+      "question": "What are the major demographic divisions in Israel?",
+      "selectedCountries": ["ISR"],
+      "expected_modules": ["demographics", "population_divisions", "national_cohesion_by_demographic"],
+      "expected_relationships": [],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent demographic groups"]
+    },
+    {
+      "eval_id": "IRN-events-001",
+      "question": "What were the top events in Iran in the past 20 years?",
+      "selectedCountries": ["IRN"],
+      "expected_modules": ["top_national_events_20_years", "national_event_timeline", "history"],
+      "expected_relationships": [],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent events"]
+    },
+    {
+      "eval_id": "IND_PAK-relationship-001",
+      "question": "What is India's relationship with Pakistan?",
+      "selectedCountries": ["IND", "PAK"],
+      "expected_modules": ["relationship", "relationship_event_timeline", "crisis_history", "war_history"],
+      "expected_relationships": ["IND_PAK"],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not invent crises"]
+    },
+    {
+      "eval_id": "USA_CHN-tech-001",
+      "question": "How does the US compare to China in technology contribution?",
+      "selectedCountries": ["USA", "CHN"],
+      "expected_modules": ["technology_contributions", "economy", "education"],
+      "expected_relationships": ["CHN_USA"],
+      "required_answer_elements": [],
+      "forbidden_answer_behavior": ["do not over-prioritize Wikipedia"]
+    }
+  ]
+}

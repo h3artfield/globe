@@ -60,6 +60,41 @@ export function AnswerPanel({ answer, error }: AnswerPanelProps) {
         />
         <ListSection title="Missing data" items={answer.missingData} />
         <ListSection title="Sources used" items={answer.sourceIds} />
+        <ListSection title="Modules used" items={answer.modules_used ?? []} />
+        <ListSection
+          title="Chunks used"
+          items={(answer.chunks_used ?? []).map((chunk) => `${chunk.chunk_id} (${chunk.module})`)}
+        />
+        <ListSection
+          title="Metrics used"
+          items={(answer.metrics_used ?? []).map(
+            (metric) => `${metric.country_code}.${metric.metric_id} (${metric.year ?? "year unknown"})`,
+          )}
+        />
+        <ListSection
+          title="Citations"
+          items={(answer.citations ?? []).map(
+            (citation) =>
+              `${citation.source_id}${citation.chunk_id ? ` / ${citation.chunk_id}` : ""}${citation.metric_id ? ` / ${citation.metric_id}` : ""}`,
+          )}
+        />
+        {answer.retrieval_debug ? (
+          <details className="rounded-lg border border-slate-800 bg-slate-900/60 p-3">
+            <summary className="cursor-pointer text-sm font-semibold text-slate-200">
+              Retrieval debug
+            </summary>
+            <div className="mt-3 space-y-3 text-xs text-slate-300">
+              <ListSection title="Retrieved chunks" items={answer.retrieval_debug.final_chunks} />
+              <ListSection
+                title="Dropped candidates"
+                items={answer.retrieval_debug.dropped_candidates.slice(0, 20)}
+              />
+              <pre className="max-h-96 overflow-auto rounded bg-slate-950 p-3">
+                {JSON.stringify(answer.retrieval_debug.scoring_breakdown, null, 2)}
+              </pre>
+            </div>
+          </details>
+        ) : null}
       </div>
     </section>
   );

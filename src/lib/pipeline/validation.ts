@@ -135,6 +135,7 @@ export function validateRelationshipModule(
 
 export function validateRagChunk(chunk: RagChunk, location: string): ValidationResult {
   const errors: string[] = [];
+  const warnings: string[] = [];
 
   if (!chunk.module) {
     errors.push(`${location}: RAG chunk has no module`);
@@ -142,6 +143,15 @@ export function validateRagChunk(chunk: RagChunk, location: string): ValidationR
   if (!Array.isArray(chunk.source_ids)) {
     errors.push(`${location}: RAG chunk has no source_ids`);
   }
+  if (Array.isArray(chunk.source_ids) && chunk.source_ids.length === 0) {
+    warnings.push(`${location}: chunk source IDs missing`);
+  }
+  if (
+    (chunk.source_family === "wikipedia" || chunk.source_ids.includes("wikipedia")) &&
+    (!chunk.authority_rank || chunk.can_override_official_data !== false)
+  ) {
+    warnings.push(`${location}: Wikipedia chunk lacks authority metadata`);
+  }
 
-  return { errors, warnings: [] };
+  return { errors, warnings };
 }

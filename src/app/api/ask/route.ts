@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import type { AskRequest } from "@/types/api";
-import { askStrategicQuestion } from "@/lib/ai/askStrategicQuestion";
-import { buildRagContext } from "@/lib/rag/buildRagContext";
-import { loadPipelineAskContext, summarizeMetrics } from "@/lib/rag/loadPipelineRag";
-import { selectRelevantModules } from "@/lib/rag/selectRelevantModules";
+import { buildRetrievalContext } from "@/lib/rag/buildRetrievalContext";
+import { summarizeMetrics } from "@/lib/rag/loadPipelineRag";
 
 export async function POST(request: Request) {
   const body = (await request.json()) as Partial<AskRequest>;
@@ -19,51 +17,74 @@ export async function POST(request: Request) {
     );
   }
 
-  const ragContext = await buildRagContext(body.selectedCountries);
-  const relevantModules = selectRelevantModules(body.question);
-  const pipelineContext = await loadPipelineAskContext(body.selectedCountries, relevantModules);
-  const answer = await askStrategicQuestion(body.question, ragContext);
-  const modulesUsed = [
-    ...pipelineContext.countryModules.map(
-      (module) => `${module.country_code}.${module.module}`,
-    ),
-    ...pipelineContext.relationshipModules.map(
-      (module) => `${module.relationship_id}.${module.module}`,
-    ),
-  ];
-  const metricsUsed = summarizeMetrics(pipelineContext.metrics);
-  const sourceIds = Array.from(new Set([...answer.sourceIds, ...pipelineContext.sourceIds])).sort();
-  const missingData = Array.from(
-    new Set([...answer.missingData, ...pipelineContext.missingData]),
-  ).sort();
-  const answerText =
-    missingData.length > answer.missingData.length
-      ? `${answer.answer}\n\nPipeline missing data: ${missingData.join(" | ")}.`
-      : answer.answer;
+  const retrievalContext = await buildRetrievalContext({
+    question: body.question,
+    selectedCountries: body.selectedCountries,
+    mode: body.mode ?? "strategic",
+  });
+  const modulesUsed = retrievalContext.selectedModules;
+  const chunksUsed = retrievalContext.retrievedChunks.map((chunk) => ({
+    chunk_id: chunk.chunk_id,
+    module: chunk.module,
+    country_code: chunk.country_code,
+    relationship_id: chunk.relationship_id,
+    source_ids: chunk.source_ids,
+    confidence: chunk.confidence,
+  }));
+  const metricsUsed = summarizeMetrics(retrievalContext.retrievedMetrics);
+  const eventsUsed = retrievalContext.retrievedEvents.map((event) => ({
+    event_id: event.event_id,
+    event_date: event.event_date,
+    event_type: event.event_type,
+    country_codes: event.country_codes,
+    relationship_id: event.relationship_id,
+    importance_score: event.importance_score,
+    source_ids: event.source_ids,
+    confidence: event.confidence,
+  }));
+  const sourceIds = Array.from(new Set(retrievalContext.citations.map((citation) => citation.source_id))).sort();
+  const missingData = retrievalContext.missingData.map((warning) => warning.message);
+  const contextLines = retrievalContext.retrievedChunks.slice(0, 6).map((chunk) => {
+    const scope = chunk.country_code ?? chunk.relationship_id ?? "context";
+    return `- [${chunk.chunk_id}] ${scope}.${chunk.module}: ${chunk.text.slice(0, 500)}`;
+  });
+  const answerText = [
+    `Question: ${body.question}`,
+    "",
+    "Retrieved context used for this answer:",
+    contextLines.length > 0 ? contextLines.join("\n") : "No high-confidence chunks were retrieved.",
+    "",
+    "Grounding rules: use only supplied context, separate facts from inference, prefer official/structured data over Wikipedia, and report missing data.",
+    missingData.length > 0 ? `Missing or weak data: ${missingData.join(" | ")}` : "Missing or weak data: none reported.",
+  ].join("\n");
 
   return NextResponse.json({
-    ...answer,
     answer: answerText,
-    sourceIds,
+    selectedCountries: body.selectedCountries,
+    strategicSummary: {
+      mainIncentives: [],
+      mainConstraints: missingData,
+      likelyMoves: [],
+      escalationRisks: [],
+      deescalationOptions: [],
+    },
+    confidence: retrievalContext.citations.length > 0 ? "medium" : "low",
     missingData,
+    sourceIds,
+    citations: retrievalContext.citations,
     modules_used: modulesUsed,
+    chunks_used: chunksUsed,
     metrics_used: metricsUsed,
+    events_used: eventsUsed,
     source_ids: sourceIds,
     missing_data: missingData,
     strategic_summary: {
-      main_incentives: answer.strategicSummary.mainIncentives,
-      main_constraints: answer.strategicSummary.mainConstraints,
-      likely_moves: answer.strategicSummary.likelyMoves,
-      escalation_risks: answer.strategicSummary.escalationRisks,
-      deescalation_options: answer.strategicSummary.deescalationOptions,
+      main_incentives: [],
+      main_constraints: missingData,
+      likely_moves: [],
+      escalation_risks: [],
+      deescalation_options: [],
     },
-    pipeline_context: {
-      relationship_ids: pipelineContext.relationshipIds,
-      country_coverage_reports: pipelineContext.countryCoverages,
-      relationship_coverage_reports: pipelineContext.relationshipCoverages,
-      country_chunks_loaded: pipelineContext.countryChunks.length,
-      relationship_chunks_loaded: pipelineContext.relationshipChunks.length,
-      relevant_topics: relevantModules.topics,
-    },
+    retrieval_debug: body.debug ? retrievalContext.retrievalDebug : undefined,
   });
 }

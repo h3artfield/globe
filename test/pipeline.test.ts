@@ -14,6 +14,12 @@ import { getMetricModule } from "@/lib/pipeline/countryModules";
 import { selectRelevantModules } from "@/lib/rag/selectRelevantModules";
 import { scoreEventImportance } from "@/lib/worldModel/eventImportance";
 import { buildEmptyRelationshipGraph } from "@/lib/worldModel/defaults";
+import { MockEmbeddingProvider } from "@/lib/vector/embeddingProvider";
+import { embedChunks, inferAuthorityRank } from "@/lib/vector/chunkEmbedder";
+import { writeEmbeddedChunks, readEmbeddedChunks } from "@/lib/vector/vectorStore";
+import { hybridSearch } from "@/lib/vector/hybridSearch";
+import { citationsFromChunks } from "@/lib/vector/citationBuilder";
+import { readJsonFile, repoPath } from "@/lib/pipeline/io";
 import { POST as askPost } from "@/app/api/ask/route";
 import { findManualImportFiles, archiveManualImportFiles } from "@/lib/sources/manualImport";
 import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
@@ -215,6 +221,59 @@ test("module generation maps source metrics to source-specific modules", () => {
   assert.equal(getMetricModule("patent_applications_resident"), "technology_contributions");
 });
 
+test("mock embedding provider generates stable dimensions", async () => {
+  const provider = new MockEmbeddingProvider();
+  const vector = await provider.embedText("trade exports imports");
+  assert.equal(vector.length, 64);
+});
+
+test("chunk embedding persistence round trips", async () => {
+  const tempRoot = await mkdtemp(path.join(tmpdir(), "embeddings-"));
+  const provider = new MockEmbeddingProvider();
+  const chunk = buildCountryChunk(countryModule(), 1);
+  const embedded = await embedChunks([chunk], provider);
+  const filePath = path.join(tempRoot, "chunks.embeddings.jsonl");
+  await writeEmbeddedChunks(filePath, embedded);
+  const loaded = await readEmbeddedChunks(filePath);
+  assert.equal(loaded[0].chunk_id, chunk.chunk_id);
+  await rm(tempRoot, { recursive: true, force: true });
+});
+
+test("hybrid retrieval scores relevant trade chunks", async () => {
+  const provider = new MockEmbeddingProvider();
+  const tradeChunk = buildCountryChunk(countryModule({ module: "trade_exports_imports" }), 1);
+  const historyChunk = buildCountryChunk(countryModule({ module: "history", metrics: [] }), 2);
+  const embedded = await embedChunks([tradeChunk, historyChunk], provider);
+  const results = await hybridSearch({
+    question: "exports and imports",
+    chunks: [tradeChunk, historyChunk],
+    embeddedChunks: embedded,
+    selectedModules: ["trade_exports_imports"],
+    selectedCountries: ["USA"],
+    selectedRelationships: [],
+    provider,
+  });
+  assert.equal(results[0].chunk.module, "trade_exports_imports");
+});
+
+test("source authority downgrades Wikipedia chunks", () => {
+  const wikiChunk = buildCountryChunk(countryModule({ module: "wikipedia_baseline", source_ids: ["wikipedia"] }), 1);
+  assert.equal(inferAuthorityRank(wikiChunk), "wikipedia");
+});
+
+test("citation builder emits chunk citations", () => {
+  const chunk = buildCountryChunk(countryModule(), 1);
+  const citations = citationsFromChunks([chunk]);
+  assert.equal(citations[0].chunk_id, chunk.chunk_id);
+});
+
+test("retrieval eval file has expected modules", async () => {
+  const evalFile = await readJsonFile<{ items: Array<{ expected_modules: string[] }> }>(
+    repoPath("data", "eval", "retrieval_eval.v1.json"),
+  );
+  assert.ok(evalFile.items.every((item) => item.expected_modules.length > 0));
+});
+
 test("/api/ask reports missing data from coverage", async () => {
   const response = await askPost(
     new Request("http://localhost/api/ask", {
@@ -231,4 +290,22 @@ test("/api/ask reports missing data from coverage", async () => {
   assert.ok(Array.isArray(payload.missing_data));
   assert.ok(payload.missing_data.length > 0);
   assert.ok(payload.modules_used?.some((moduleName) => moduleName.includes("military")));
+});
+
+test("/api/ask returns citations and retrieval debug", async () => {
+  const response = await askPost(
+    new Request("http://localhost/api/ask", {
+      method: "POST",
+      body: JSON.stringify({
+        question: "Who are Egypt's main adversaries?",
+        selectedCountries: ["EGY"],
+        mode: "strategic",
+        debug: true,
+      }),
+    }),
+  );
+  const payload = (await response.json()) as { citations?: unknown[]; retrieval_debug?: unknown };
+  assert.equal(response.status, 200);
+  assert.ok(Array.isArray(payload.citations));
+  assert.ok(payload.retrieval_debug);
 });

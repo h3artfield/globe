@@ -19,6 +19,11 @@
     "country:build": "tsx scripts/rag/build_country.ts",
     "country:build:mvp": "tsx scripts/rag/build_country.ts --mvp && npm run world-model:build && tsx scripts/rag/coverage_report.ts",
     "world-model:build": "tsx scripts/world_model/build_world_model.ts",
+    "embeddings:build": "tsx scripts/embeddings/build_embeddings.ts",
+    "embeddings:build:mvp": "tsx scripts/embeddings/build_embeddings.ts --mvp",
+    "embeddings:validate": "tsx scripts/embeddings/validate_embeddings.ts",
+    "retrieval:test": "tsx scripts/eval/eval_retrieval.ts",
+    "eval:retrieval": "tsx scripts/eval/eval_retrieval.ts",
     "test": "tsx --test test/**/*.test.ts",
     "postinstall": "node scripts/copy-cesium-assets.mjs"
   },

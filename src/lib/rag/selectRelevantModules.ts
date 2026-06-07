@@ -21,14 +21,14 @@ const QUESTION_MODULE_MAP: Array<{
   },
   {
     topic: "trade",
-    keywords: ["trade", "export", "import", "tariff", "supply chain", "shipping"],
-    countryModules: ["trade_exports_imports", "economy", "logistics_shipping_air_travel"],
+    keywords: ["trade", "export", "exports", "import", "imports", "tariff", "supply chain", "shipping", "oil"],
+    countryModules: ["trade_exports_imports", "economy", "logistics_shipping_air_travel", "scorecard"],
     relationshipModules: ["trade_relationship", "relationship"],
   },
   {
     topic: "immigration",
-    keywords: ["immigration", "migrant", "diaspora", "assimilation", "foreign-born"],
-    countryModules: ["demographic_change", "cultural_assimilation", "national_cohesion_by_demographic"],
+    keywords: ["immigration", "migrant", "diaspora", "assimilation", "foreign-born", "demographic", "divisions"],
+    countryModules: ["demographics", "demographic_change", "cultural_assimilation", "national_cohesion_by_demographic", "population_divisions"],
     relationshipModules: ["relationship"],
   },
   {
@@ -51,7 +51,7 @@ const QUESTION_MODULE_MAP: Array<{
   },
   {
     topic: "technology",
-    keywords: ["technology", "patent", "ai", "semiconductor", "research", "innovation"],
+    keywords: ["technology", "contribution", "patent", "ai", "semiconductor", "research", "innovation"],
     countryModules: ["technology_contributions", "economy", "education"],
     relationshipModules: ["trade_relationship", "relationship"],
   },
@@ -72,6 +72,12 @@ const QUESTION_MODULE_MAP: Array<{
     keywords: ["news", "event", "events", "timeline", "top events", "past 20 years", "scandal", "protest"],
     countryModules: ["top_national_events_20_years", "national_event_timeline", "news_memory", "history"],
     relationshipModules: ["relationship_event_timeline", "crisis_history", "diplomatic_history"],
+  },
+  {
+    topic: "relationship",
+    keywords: ["relationship", "relations", "between"],
+    countryModules: ["foreign_policy", "history"],
+    relationshipModules: ["relationship", "relationship_event_timeline", "crisis_history", "war_history", "diplomatic_history"],
   },
 ];
 
