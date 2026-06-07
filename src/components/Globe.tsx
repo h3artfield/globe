@@ -237,7 +237,7 @@ function styleCountries(
     const isSelected = country ? selectedCodes.has(country.code) : false;
     const isHovered = country ? hoveredCode === country.code : false;
     const fill = isSelected
-      ? Cesium.Color.fromCssColorString("#22d3ee").withAlpha(0.65)
+      ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.75)
       : isHovered
         ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.55)
         : Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.35);
@@ -253,7 +253,7 @@ function styleCountries(
     if (entity.polyline) {
       entity.polyline.material = new Cesium.ColorMaterialProperty(
         isSelected
-          ? Cesium.Color.fromCssColorString("#22d3ee").withAlpha(0.95)
+          ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.95)
           : isHovered
             ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.95)
             : Cesium.Color.fromCssColorString("#38bdf8").withAlpha(0.65),

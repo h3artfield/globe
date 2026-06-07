@@ -213,10 +213,9 @@ export default function Home() {
               isLoading={isAsking}
               onAsk={handleAsk}
             />
+            <AnswerPanel answer={answer} error={error} />
           </aside>
         </div>
-
-        <AnswerPanel answer={answer} error={error} />
       </div>
     </main>
   );

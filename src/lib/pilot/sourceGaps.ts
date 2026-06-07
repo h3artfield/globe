@@ -27,8 +27,32 @@ async function loadRelationshipModule(relationshipId: string, moduleName: string
 
 export async function buildCountrySourceGapReport(countryCodeInput: string): Promise<SourceGapReport> {
   const countryCode = normalizeCountryCode(countryCodeInput);
-  const requirements = await readJsonFile<SourceRequirementsFile>(repoPath("data", "source_requirements", "countries", `${countryCode}.source_requirements.v1.json`));
-  const sourcePack = await readJsonFile<SourcePack>(repoPath("data", "source_packs", "countries", `${countryCode}.source_pack.v1.json`));
+  const requirementsPath = repoPath("data", "source_requirements", "countries", `${countryCode}.source_requirements.v1.json`);
+  const sourcePackPath = repoPath("data", "source_packs", "countries", `${countryCode}.source_pack.v1.json`);
+
+  if (!(await pathExists(requirementsPath)) || !(await pathExists(sourcePackPath))) {
+    const report: SourceGapReport = {
+      target_id: countryCode,
+      target_type: "country",
+      overall_source_readiness: 0,
+      modules: [
+        {
+          module: "source_requirements",
+          readiness: 0,
+          sources_available: 0,
+          sources_required: 1,
+          missing_source_types: ["source_requirements"],
+          missing_claim_types: [],
+          recommendation: `Create source requirements and source pack for ${countryCode}.`,
+        },
+      ],
+    };
+    await writeJsonFile(repoPath("data", "reports", "source_gaps", "countries", `${countryCode}.source_gaps.v1.json`), report);
+    return report;
+  }
+
+  const requirements = await readJsonFile<SourceRequirementsFile>(requirementsPath);
+  const sourcePack = await readJsonFile<SourcePack>(sourcePackPath);
   const gaps: ModuleSourceGap[] = [];
   for (const requirement of requirements.modules) {
     const countryModule = await loadCountryModule(countryCode, requirement.module);
@@ -65,8 +89,30 @@ export async function buildCountrySourceGapReport(countryCodeInput: string): Pro
 export async function buildRelationshipSourceGapReport(relationshipIdInput: string): Promise<SourceGapReport> {
   const [a, b] = relationshipIdInput.split("_");
   const relationshipId = buildRelationshipId(a, b);
-  const requirements = await readJsonFile<SourceRequirementsFile>(repoPath("data", "source_requirements", "relationships", `${relationshipId}.source_requirements.v1.json`));
-  const sourcePack = await readJsonFile<SourcePack>(repoPath("data", "source_packs", "relationships", `${relationshipId}.source_pack.v1.json`));
+  const requirementsPath = repoPath("data", "source_requirements", "relationships", `${relationshipId}.source_requirements.v1.json`);
+  const sourcePackPath = repoPath("data", "source_packs", "relationships", `${relationshipId}.source_pack.v1.json`);
+  if (!(await pathExists(requirementsPath)) || !(await pathExists(sourcePackPath))) {
+    const report: SourceGapReport = {
+      target_id: relationshipId,
+      target_type: "relationship",
+      overall_source_readiness: 0,
+      modules: [
+        {
+          module: "source_requirements",
+          readiness: 0,
+          sources_available: 0,
+          sources_required: 1,
+          missing_source_types: ["source_requirements"],
+          missing_claim_types: [],
+          recommendation: `Create source requirements and source pack for ${relationshipId}.`,
+        },
+      ],
+    };
+    await writeJsonFile(repoPath("data", "reports", "source_gaps", "relationships", `${relationshipId}.source_gaps.v1.json`), report);
+    return report;
+  }
+  const requirements = await readJsonFile<SourceRequirementsFile>(requirementsPath);
+  const sourcePack = await readJsonFile<SourcePack>(sourcePackPath);
   const gaps: ModuleSourceGap[] = [];
   for (const requirement of requirements.modules) {
     const relationshipModule = await loadRelationshipModule(relationshipId, requirement.module);
