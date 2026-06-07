@@ -88,7 +88,7 @@
   "claims_generated": 51,
   "claims_with_sources": 51,
   "claims_rejected": 0,
-  "review_items_created": 474,
+  "review_items_created": 84,
   "missing_data": [
     "adversaries_and_rivals: source-linked claims missing",
     "adversaries_and_rivals: sources missing",
@@ -121,6 +121,7 @@
     "government_current: sources missing",
     "government_current: structured metrics missing",
     "history: source-linked claims missing",
+    "history: sources missing",
     "history: structured metrics missing",
     "identity_foundation: source-linked claims missing",
     "identity_foundation: sources missing",

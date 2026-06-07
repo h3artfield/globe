@@ -10,7 +10,7 @@
       "title": "wikipedia",
       "publisher": "wikipedia",
       "url": "",
-      "retrieved_at": "2026-06-07T02:09:13.023Z",
+      "retrieved_at": "2026-06-07T02:42:17.082Z",
       "file_path": "/data/rag/countries/CHN/chunks.jsonl#CHN-wikipedia_references-039",
       "covers_modules": [
         "wikipedia_baseline",
@@ -25,7 +25,7 @@
       "title": "world_bank_wdi",
       "publisher": "world_bank_wdi",
       "url": "",
-      "retrieved_at": "2026-06-07T02:09:13.023Z",
+      "retrieved_at": "2026-06-07T02:42:17.082Z",
       "file_path": "/data/rag/countries/CHN/chunks.jsonl#CHN-scorecard-040",
       "covers_modules": [
         "average_citizen_life",

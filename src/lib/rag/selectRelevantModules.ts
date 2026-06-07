@@ -1,5 +1,5 @@
-const DEFAULT_COUNTRY_MODULES = ["identity_foundation", "history", "economy", "foreign_policy", "scorecard"];
-const DEFAULT_RELATIONSHIP_MODULES = ["relationship", "game_theory_relationship"];
+const DEFAULT_COUNTRY_MODULES = ["identity_foundation", "history", "economy", "foreign_policy", "scorecard", "manual_source_documents"];
+const DEFAULT_RELATIONSHIP_MODULES = ["relationship", "game_theory_relationship", "manual_source_documents"];
 
 type RelevantModules = {
   countryModules: string[];

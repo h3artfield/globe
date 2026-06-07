@@ -6,38 +6,11 @@
   "summary": "",
   "key_findings": [],
   "metrics": [],
-  "claims": [
-    {
-      "claim_id": "USA-history-test-1780799677164",
-      "text": "Test sourced claim.",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "human_reviewed",
-      "last_verified": "2026-06-07",
-      "notes": "metric_id=gdp_current_usd"
-    },
-    {
-      "claim_id": "USA-history-test-1780799786456",
-      "text": "Test sourced claim.",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "human_reviewed",
-      "last_verified": "2026-06-07",
-      "notes": "metric_id=gdp_current_usd"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Populate this module with sourced metrics, claims, and narrative analysis."
   ],
-  "source_ids": [
-    "world_bank_wdi"
-  ],
+  "source_ids": [],
   "confidence": {
     "overall": "unknown",
     "weak_areas": [
@@ -45,5 +18,5 @@
       "claims"
     ]
   },
-  "review_status": "human_reviewed"
+  "review_status": "human_review_pending"
 }

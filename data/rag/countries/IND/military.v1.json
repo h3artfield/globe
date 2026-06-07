@@ -17,7 +17,7 @@
       "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/IND/indicator/MS.MIL.XPND.CD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "retrieved_at": "2026-06-07T02:42:12.252Z",
       "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
       "raw_record_id": "IND:military_expenditure_current_usd:MS.MIL.XPND.CD",
       "calculation": "MS.MIL.XPND.CD",
