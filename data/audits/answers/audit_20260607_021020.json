@@ -1,0 +1,1760 @@
+{
+  "audit_id": "audit_20260607_021020",
+  "created_at": "2026-06-07T02:10:20.969Z",
+  "question": "Why is the Nile dispute strategically important?",
+  "selectedCountries": [
+    "EGY",
+    "ETH"
+  ],
+  "modules_used": [
+    "identity_foundation",
+    "history",
+    "economy",
+    "foreign_policy",
+    "scorecard",
+    "trade_exports_imports",
+    "logistics_shipping_air_travel",
+    "allies_and_partners",
+    "relationship",
+    "game_theory_relationship",
+    "trade_relationship",
+    "alliance_status",
+    "diplomatic_history"
+  ],
+  "chunks_used": [
+    {
+      "chunk_id": "EGY-scorecard-040",
+      "module": "scorecard",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "ETH-scorecard-040",
+      "module": "scorecard",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "EGY-logistics_shipping_air_travel-019",
+      "module": "logistics_shipping_air_travel",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "EGY-trade_exports_imports-017",
+      "module": "trade_exports_imports",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "ETH-economy-016",
+      "module": "economy",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "ETH-logistics_shipping_air_travel-019",
+      "module": "logistics_shipping_air_travel",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "EGY-economy-016",
+      "module": "economy",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "ETH-trade_exports_imports-017",
+      "module": "trade_exports_imports",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "chunk_id": "EGY-allies_and_partners-032",
+      "module": "allies_and_partners",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "source_ids": [],
+      "confidence": "unknown",
+      "review_status": "human_review_pending"
+    },
+    {
+      "chunk_id": "ETH-allies_and_partners-032",
+      "module": "allies_and_partners",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "source_ids": [],
+      "confidence": "unknown",
+      "review_status": "human_review_pending"
+    }
+  ],
+  "metrics_used": [
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "gdp_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_international_usd"
+    },
+    {
+      "metric_id": "agricultural_production_value_added_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "air_freight_million_ton_km",
+      "country_code": "EGY",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "million_ton_km"
+    },
+    {
+      "metric_id": "air_passengers_carried",
+      "country_code": "EGY",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "passengers"
+    },
+    {
+      "metric_id": "container_port_throughput",
+      "country_code": "EGY",
+      "year": 2022,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "TEU"
+    },
+    {
+      "metric_id": "electricity_production",
+      "country_code": "EGY",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "kwh_per_capita"
+    },
+    {
+      "metric_id": "energy_production",
+      "country_code": "EGY",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "kg_oil_equivalent_per_capita"
+    },
+    {
+      "metric_id": "exports_goods_services_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "fertility_rate",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "births_per_woman"
+    },
+    {
+      "metric_id": "gdp_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_international_usd"
+    },
+    {
+      "metric_id": "gini_index",
+      "country_code": "EGY",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "index"
+    },
+    {
+      "metric_id": "high_technology_exports_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    },
+    {
+      "metric_id": "homicide_rate_per_100k",
+      "country_code": "EGY",
+      "year": 2017,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "per_100k"
+    },
+    {
+      "metric_id": "imports_goods_services_current_usd",
+      "country_code": "EGY",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "unit": "current_usd"
+    }
+  ],
+  "events_used": [],
+  "citations": [
+    {
+      "source_id": "world_bank_wdi",
+      "module": "scorecard",
+      "chunk_id": "EGY-scorecard-040",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "scorecard",
+      "chunk_id": "ETH-scorecard-040",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "logistics_shipping_air_travel",
+      "chunk_id": "EGY-logistics_shipping_air_travel-019",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "trade_exports_imports",
+      "chunk_id": "EGY-trade_exports_imports-017",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "economy",
+      "chunk_id": "ETH-economy-016",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "logistics_shipping_air_travel",
+      "chunk_id": "ETH-logistics_shipping_air_travel-019",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "economy",
+      "chunk_id": "EGY-economy-016",
+      "country_code": "EGY",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "module": "trade_exports_imports",
+      "chunk_id": "ETH-trade_exports_imports-017",
+      "country_code": "ETH",
+      "relationship_id": null,
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "gdp_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NV.AGR.TOTL.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "agricultural_production_value_added_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "air_freight_million_ton_km",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/IS.AIR.PSGR?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "air_passengers_carried",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/IS.SHP.GOOD.TU?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "container_port_throughput",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/EG.USE.ELEC.KH.PC?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "electricity_production",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/EG.USE.PCAP.KG.OE?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "energy_production",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NE.EXP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "exports_goods_services_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/SP.DYN.TFRT.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "fertility_rate",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/SI.POV.GINI?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "gini_index",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/TX.VAL.TECH.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "high_technology_exports_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/VC.IHR.PSRC.P5?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "homicide_rate_per_100k",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NE.IMP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "metric_id": "imports_goods_services_current_usd",
+      "country_code": "EGY",
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data"
+    }
+  ],
+  "review_status_summary": {
+    "auto_generated_from_structured_data": 8,
+    "human_review_pending": 2
+  },
+  "missing_data": [
+    "adversaries_and_rivals",
+    "adversary_narratives",
+    "adversary_status",
+    "alliance_status",
+    "allies_and_partners",
+    "crisis_history",
+    "cultural_assimilation",
+    "diplomatic_history",
+    "foreign_policy",
+    "founding_groups",
+    "future_scenarios",
+    "game_theory_profile",
+    "game_theory_relationship",
+    "government_current",
+    "history",
+    "identity_foundation",
+    "intelligence_security",
+    "leader_dossiers",
+    "math_contributions",
+    "media_information",
+    "military_relationship",
+    "national_cohesion_by_demographic",
+    "national_event_timeline",
+    "nationalism_cohesion",
+    "news_memory",
+    "philosophy_contributions",
+    "population_divisions",
+    "relationship",
+    "relationship_event_timeline",
+    "religion_history",
+    "rivalry_narratives",
+    "ruling_class",
+    "threat_perception",
+    "top_national_events_20_years",
+    "trade_relationship",
+    "war_history",
+    "wikipedia_baseline",
+    "wikipedia_references"
+  ],
+  "warning_badges": [
+    "old metrics",
+    "missing demographic data"
+  ],
+  "retrieval_debug": {
+    "question_type": "trade",
+    "selected_modules": [
+      "identity_foundation",
+      "history",
+      "economy",
+      "foreign_policy",
+      "scorecard",
+      "trade_exports_imports",
+      "logistics_shipping_air_travel",
+      "allies_and_partners",
+      "relationship",
+      "game_theory_relationship",
+      "trade_relationship",
+      "alliance_status",
+      "diplomatic_history"
+    ],
+    "candidate_chunks": [
+      "EGY-identity_foundation-001",
+      "EGY-history-002",
+      "EGY-economy-016",
+      "EGY-trade_exports_imports-017",
+      "EGY-logistics_shipping_air_travel-019",
+      "EGY-foreign_policy-027",
+      "EGY-allies_and_partners-032",
+      "EGY-scorecard-040",
+      "ETH-identity_foundation-001",
+      "ETH-history-002",
+      "ETH-economy-016",
+      "ETH-trade_exports_imports-017",
+      "ETH-logistics_shipping_air_travel-019",
+      "ETH-foreign_policy-027",
+      "ETH-allies_and_partners-032",
+      "ETH-scorecard-040",
+      "EGY_ETH-relationship-001",
+      "EGY_ETH-trade_relationship-002",
+      "EGY_ETH-game_theory_relationship-005",
+      "EGY_ETH-alliance_status-901",
+      "EGY_ETH-diplomatic_history-905"
+    ],
+    "final_chunks": [
+      "EGY-scorecard-040",
+      "ETH-scorecard-040",
+      "EGY-logistics_shipping_air_travel-019",
+      "EGY-trade_exports_imports-017",
+      "ETH-economy-016",
+      "ETH-logistics_shipping_air_travel-019",
+      "EGY-economy-016",
+      "ETH-trade_exports_imports-017",
+      "EGY-allies_and_partners-032",
+      "ETH-allies_and_partners-032"
+    ],
+    "scoring_breakdown": [
+      {
+        "chunk_id": "EGY-scorecard-040",
+        "score": 0.5875020931954832,
+        "scoring": {
+          "semanticScore": 0.21578253117165624,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 1,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "ETH-scorecard-040",
+        "score": 0.5766831261108757,
+        "scoring": {
+          "semanticScore": 0.17070350165245796,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 1,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "EGY-logistics_shipping_air_travel-019",
+        "score": 0.5705150909875909,
+        "scoring": {
+          "semanticScore": 0.22833668863877155,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 0.75,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "EGY-trade_exports_imports-017",
+        "score": 0.5627821581474499,
+        "scoring": {
+          "semanticScore": 0.19611613513818407,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 0.75,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "ETH-economy-016",
+        "score": 0.5560404544768827,
+        "scoring": {
+          "semanticScore": 0.1680257031774874,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 0.75,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "ETH-logistics_shipping_air_travel-019",
+        "score": 0.5544918350453707,
+        "scoring": {
+          "semanticScore": 0.16157312221285405,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 0.75,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "EGY-economy-016",
+        "score": 0.549923724679076,
+        "scoring": {
+          "semanticScore": 0.14253932901995967,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 0.75,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "ETH-trade_exports_imports-017",
+        "score": 0.5358862310427847,
+        "scoring": {
+          "semanticScore": 0.08404977220207888,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.9,
+          "freshnessScore": 0.75,
+          "confidenceScore": 0.7,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "EGY-allies_and_partners-032",
+        "score": 0.3902758591385022,
+        "scoring": {
+          "semanticScore": 0.06900655593423544,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.2,
+          "freshnessScore": 0.4,
+          "confidenceScore": 0.2,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      },
+      {
+        "chunk_id": "ETH-allies_and_partners-032",
+        "score": 0.3902758591385022,
+        "scoring": {
+          "semanticScore": 0.06900655593423544,
+          "keywordScore": 0.14285714285714285,
+          "moduleRelevanceScore": 1,
+          "sourceAuthorityScore": 0.2,
+          "freshnessScore": 0.4,
+          "confidenceScore": 0.2,
+          "eventImportanceScore": 0,
+          "selectedCountryBoost": 1,
+          "selectedRelationshipBoost": 0
+        }
+      }
+    ],
+    "dropped_candidates": [
+      "EGY-identity_foundation-001",
+      "EGY-history-002",
+      "EGY-foreign_policy-027",
+      "ETH-identity_foundation-001",
+      "ETH-history-002",
+      "ETH-foreign_policy-027",
+      "EGY_ETH-relationship-001",
+      "EGY_ETH-trade_relationship-002",
+      "EGY_ETH-game_theory_relationship-005",
+      "EGY_ETH-alliance_status-901",
+      "EGY_ETH-diplomatic_history-905"
+    ]
+  },
+  "answer": "Question: Why is the Nile dispute strategically important?\n\nRetrieved context used for this answer:\n- [EGY-scorecard-040] EGY.scorecard: scorecard has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nagricultural_production_value_added_current_usd=53348334164.8371 current_usd (2024, source=world_bank_wdi); air_freight_million_ton_km=492.65497 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=16672111.302 passengers (2023, source=world_bank_wdi); container_port_throughput=7765482 TEU (2022, source=world_bank_wdi); electricity_production=1492.8\n- [ETH-scorecard-040] ETH.scorecard: scorecard has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nagricultural_production_value_added_current_usd=52070359092.7573 current_usd (2024, source=world_bank_wdi); air_freight_million_ton_km=4015.45864 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=15273254 passengers (2023, source=world_bank_wdi); electricity_production=112.555828390227 kwh_per_capita (2023, source=world_bank_wdi); energy_producti\n- [EGY-logistics_shipping_air_travel-019] EGY.logistics_shipping_air_travel: logistics_shipping_air_travel has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nair_freight_million_ton_km=492.65497 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=16672111.302 passengers (2023, source=world_bank_wdi); container_port_throughput=7765482 TEU (2022, source=world_bank_wdi); tourism_arrivals=13026000 arrivals (2019, source=world_bank_wdi)\nair_freight_million_ton_km is 492.65497 million_ton_\n- [EGY-trade_exports_imports-017] EGY.trade_exports_imports: trade_exports_imports has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nexports_goods_services_current_usd=63713393368.3925 current_usd (2024, source=world_bank_wdi); imports_goods_services_current_usd=90357257459.4849 current_usd (2024, source=world_bank_wdi)\nexports_goods_services_current_usd is 63713393368.3925 current_usd for EGY (2024). imports_goods_services_current_usd is 90357257459.4849 current_usd for EGY (2024).\n- [ETH-economy-016] ETH.economy: economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nfdi_inflows_current_usd=4021755290 current_usd (2024, source=world_bank_wdi); gdp_current_usd=149740297952.986 current_usd (2024, source=world_bank_wdi); gdp_per_capita_current_usd=1133.88279681719 current_usd (2024, source=world_bank_wdi); gdp_ppp_current_international=434151095749.397 current_international_usd (2024, source=world_bank_wdi)\nfdi_inflows_current_usd i\n- [ETH-logistics_shipping_air_travel-019] ETH.logistics_shipping_air_travel: logistics_shipping_air_travel has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nair_freight_million_ton_km=4015.45864 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=15273254 passengers (2023, source=world_bank_wdi); tourism_arrivals=518000 arrivals (2020, source=world_bank_wdi)\nair_freight_million_ton_km is 4015.45864 million_ton_km for ETH (2023). air_passengers_carried is 15273254 passengers for ETH \n\nGrounding rules: use only supplied context, separate facts from inference, prefer official/structured data over Wikipedia, and report missing data.\nMissing or weak data: adversaries_and_rivals | adversary_narratives | adversary_status | alliance_status | allies_and_partners | crisis_history | cultural_assimilation | diplomatic_history | foreign_policy | founding_groups | future_scenarios | game_theory_profile | game_theory_relationship | government_current | history | identity_foundation | intelligence_security | leader_dossiers | math_contributions | media_information | military_relationship | national_cohesion_by_demographic | national_event_timeline | nationalism_cohesion | news_memory | philosophy_contributions | population_divisions | relationship | relationship_event_timeline | religion_history | rivalry_narratives | ruling_class | threat_perception | top_national_events_20_years | trade_relationship | war_history | wikipedia_baseline | wikipedia_references",
+  "response": {
+    "answer": "Question: Why is the Nile dispute strategically important?\n\nRetrieved context used for this answer:\n- [EGY-scorecard-040] EGY.scorecard: scorecard has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nagricultural_production_value_added_current_usd=53348334164.8371 current_usd (2024, source=world_bank_wdi); air_freight_million_ton_km=492.65497 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=16672111.302 passengers (2023, source=world_bank_wdi); container_port_throughput=7765482 TEU (2022, source=world_bank_wdi); electricity_production=1492.8\n- [ETH-scorecard-040] ETH.scorecard: scorecard has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nagricultural_production_value_added_current_usd=52070359092.7573 current_usd (2024, source=world_bank_wdi); air_freight_million_ton_km=4015.45864 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=15273254 passengers (2023, source=world_bank_wdi); electricity_production=112.555828390227 kwh_per_capita (2023, source=world_bank_wdi); energy_producti\n- [EGY-logistics_shipping_air_travel-019] EGY.logistics_shipping_air_travel: logistics_shipping_air_travel has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nair_freight_million_ton_km=492.65497 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=16672111.302 passengers (2023, source=world_bank_wdi); container_port_throughput=7765482 TEU (2022, source=world_bank_wdi); tourism_arrivals=13026000 arrivals (2019, source=world_bank_wdi)\nair_freight_million_ton_km is 492.65497 million_ton_\n- [EGY-trade_exports_imports-017] EGY.trade_exports_imports: trade_exports_imports has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nexports_goods_services_current_usd=63713393368.3925 current_usd (2024, source=world_bank_wdi); imports_goods_services_current_usd=90357257459.4849 current_usd (2024, source=world_bank_wdi)\nexports_goods_services_current_usd is 63713393368.3925 current_usd for EGY (2024). imports_goods_services_current_usd is 90357257459.4849 current_usd for EGY (2024).\n- [ETH-economy-016] ETH.economy: economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nfdi_inflows_current_usd=4021755290 current_usd (2024, source=world_bank_wdi); gdp_current_usd=149740297952.986 current_usd (2024, source=world_bank_wdi); gdp_per_capita_current_usd=1133.88279681719 current_usd (2024, source=world_bank_wdi); gdp_ppp_current_international=434151095749.397 current_international_usd (2024, source=world_bank_wdi)\nfdi_inflows_current_usd i\n- [ETH-logistics_shipping_air_travel-019] ETH.logistics_shipping_air_travel: logistics_shipping_air_travel has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.\nair_freight_million_ton_km=4015.45864 million_ton_km (2023, source=world_bank_wdi); air_passengers_carried=15273254 passengers (2023, source=world_bank_wdi); tourism_arrivals=518000 arrivals (2020, source=world_bank_wdi)\nair_freight_million_ton_km is 4015.45864 million_ton_km for ETH (2023). air_passengers_carried is 15273254 passengers for ETH \n\nGrounding rules: use only supplied context, separate facts from inference, prefer official/structured data over Wikipedia, and report missing data.\nMissing or weak data: adversaries_and_rivals | adversary_narratives | adversary_status | alliance_status | allies_and_partners | crisis_history | cultural_assimilation | diplomatic_history | foreign_policy | founding_groups | future_scenarios | game_theory_profile | game_theory_relationship | government_current | history | identity_foundation | intelligence_security | leader_dossiers | math_contributions | media_information | military_relationship | national_cohesion_by_demographic | national_event_timeline | nationalism_cohesion | news_memory | philosophy_contributions | population_divisions | relationship | relationship_event_timeline | religion_history | rivalry_narratives | ruling_class | threat_perception | top_national_events_20_years | trade_relationship | war_history | wikipedia_baseline | wikipedia_references",
+    "selectedCountries": [
+      "EGY",
+      "ETH"
+    ],
+    "strategicSummary": {
+      "mainIncentives": [],
+      "mainConstraints": [
+        "adversaries_and_rivals",
+        "adversary_narratives",
+        "adversary_status",
+        "alliance_status",
+        "allies_and_partners",
+        "crisis_history",
+        "cultural_assimilation",
+        "diplomatic_history",
+        "foreign_policy",
+        "founding_groups",
+        "future_scenarios",
+        "game_theory_profile",
+        "game_theory_relationship",
+        "government_current",
+        "history",
+        "identity_foundation",
+        "intelligence_security",
+        "leader_dossiers",
+        "math_contributions",
+        "media_information",
+        "military_relationship",
+        "national_cohesion_by_demographic",
+        "national_event_timeline",
+        "nationalism_cohesion",
+        "news_memory",
+        "philosophy_contributions",
+        "population_divisions",
+        "relationship",
+        "relationship_event_timeline",
+        "religion_history",
+        "rivalry_narratives",
+        "ruling_class",
+        "threat_perception",
+        "top_national_events_20_years",
+        "trade_relationship",
+        "war_history",
+        "wikipedia_baseline",
+        "wikipedia_references"
+      ],
+      "likelyMoves": [],
+      "escalationRisks": [],
+      "deescalationOptions": []
+    },
+    "confidence": "medium",
+    "missingData": [
+      "adversaries_and_rivals",
+      "adversary_narratives",
+      "adversary_status",
+      "alliance_status",
+      "allies_and_partners",
+      "crisis_history",
+      "cultural_assimilation",
+      "diplomatic_history",
+      "foreign_policy",
+      "founding_groups",
+      "future_scenarios",
+      "game_theory_profile",
+      "game_theory_relationship",
+      "government_current",
+      "history",
+      "identity_foundation",
+      "intelligence_security",
+      "leader_dossiers",
+      "math_contributions",
+      "media_information",
+      "military_relationship",
+      "national_cohesion_by_demographic",
+      "national_event_timeline",
+      "nationalism_cohesion",
+      "news_memory",
+      "philosophy_contributions",
+      "population_divisions",
+      "relationship",
+      "relationship_event_timeline",
+      "religion_history",
+      "rivalry_narratives",
+      "ruling_class",
+      "threat_perception",
+      "top_national_events_20_years",
+      "trade_relationship",
+      "war_history",
+      "wikipedia_baseline",
+      "wikipedia_references"
+    ],
+    "sourceIds": [
+      "world_bank_wdi"
+    ],
+    "citations": [
+      {
+        "source_id": "world_bank_wdi",
+        "module": "scorecard",
+        "chunk_id": "EGY-scorecard-040",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "scorecard",
+        "chunk_id": "ETH-scorecard-040",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "logistics_shipping_air_travel",
+        "chunk_id": "EGY-logistics_shipping_air_travel-019",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "trade_exports_imports",
+        "chunk_id": "EGY-trade_exports_imports-017",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "economy",
+        "chunk_id": "ETH-economy-016",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "logistics_shipping_air_travel",
+        "chunk_id": "ETH-logistics_shipping_air_travel-019",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "economy",
+        "chunk_id": "EGY-economy-016",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "module": "trade_exports_imports",
+        "chunk_id": "ETH-trade_exports_imports-017",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "fdi_inflows_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "gdp_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "gdp_per_capita_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "gdp_ppp_current_international",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NV.AGR.TOTL.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "agricultural_production_value_added_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "air_freight_million_ton_km",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/IS.AIR.PSGR?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "air_passengers_carried",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/IS.SHP.GOOD.TU?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "container_port_throughput",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/EG.USE.ELEC.KH.PC?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "electricity_production",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/EG.USE.PCAP.KG.OE?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "energy_production",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NE.EXP.GNFS.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "exports_goods_services_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/SP.DYN.TFRT.IN?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "fertility_rate",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/SI.POV.GINI?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "gini_index",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/TX.VAL.TECH.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "high_technology_exports_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/VC.IHR.PSRC.P5?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "homicide_rate_per_100k",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/NE.IMP.GNFS.CD?format=json&per_page=80",
+        "retrieved_at": "2026-06-07T01:15:48.640Z",
+        "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+        "metric_id": "imports_goods_services_current_usd",
+        "country_code": "EGY",
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      }
+    ],
+    "modules_used": [
+      "identity_foundation",
+      "history",
+      "economy",
+      "foreign_policy",
+      "scorecard",
+      "trade_exports_imports",
+      "logistics_shipping_air_travel",
+      "allies_and_partners",
+      "relationship",
+      "game_theory_relationship",
+      "trade_relationship",
+      "alliance_status",
+      "diplomatic_history"
+    ],
+    "chunks_used": [
+      {
+        "chunk_id": "EGY-scorecard-040",
+        "module": "scorecard",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "ETH-scorecard-040",
+        "module": "scorecard",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "EGY-logistics_shipping_air_travel-019",
+        "module": "logistics_shipping_air_travel",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "EGY-trade_exports_imports-017",
+        "module": "trade_exports_imports",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "ETH-economy-016",
+        "module": "economy",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "ETH-logistics_shipping_air_travel-019",
+        "module": "logistics_shipping_air_travel",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "EGY-economy-016",
+        "module": "economy",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "ETH-trade_exports_imports-017",
+        "module": "trade_exports_imports",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "source_ids": [
+          "world_bank_wdi"
+        ],
+        "confidence": "medium",
+        "review_status": "auto_generated_from_structured_data"
+      },
+      {
+        "chunk_id": "EGY-allies_and_partners-032",
+        "module": "allies_and_partners",
+        "country_code": "EGY",
+        "relationship_id": null,
+        "source_ids": [],
+        "confidence": "unknown",
+        "review_status": "human_review_pending"
+      },
+      {
+        "chunk_id": "ETH-allies_and_partners-032",
+        "module": "allies_and_partners",
+        "country_code": "ETH",
+        "relationship_id": null,
+        "source_ids": [],
+        "confidence": "unknown",
+        "review_status": "human_review_pending"
+      }
+    ],
+    "metrics_used": [
+      {
+        "metric_id": "fdi_inflows_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "gdp_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "gdp_per_capita_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "gdp_ppp_current_international",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_international_usd"
+      },
+      {
+        "metric_id": "agricultural_production_value_added_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "air_freight_million_ton_km",
+        "country_code": "EGY",
+        "year": 2023,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "million_ton_km"
+      },
+      {
+        "metric_id": "air_passengers_carried",
+        "country_code": "EGY",
+        "year": 2023,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "passengers"
+      },
+      {
+        "metric_id": "container_port_throughput",
+        "country_code": "EGY",
+        "year": 2022,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "TEU"
+      },
+      {
+        "metric_id": "electricity_production",
+        "country_code": "EGY",
+        "year": 2023,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "kwh_per_capita"
+      },
+      {
+        "metric_id": "energy_production",
+        "country_code": "EGY",
+        "year": 2023,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "kg_oil_equivalent_per_capita"
+      },
+      {
+        "metric_id": "exports_goods_services_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "fdi_inflows_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "fertility_rate",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "births_per_woman"
+      },
+      {
+        "metric_id": "gdp_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "gdp_per_capita_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "gdp_ppp_current_international",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_international_usd"
+      },
+      {
+        "metric_id": "gini_index",
+        "country_code": "EGY",
+        "year": 2021,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "index"
+      },
+      {
+        "metric_id": "high_technology_exports_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      },
+      {
+        "metric_id": "homicide_rate_per_100k",
+        "country_code": "EGY",
+        "year": 2017,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "per_100k"
+      },
+      {
+        "metric_id": "imports_goods_services_current_usd",
+        "country_code": "EGY",
+        "year": 2024,
+        "source_id": "world_bank_wdi",
+        "source_name": "world_bank_wdi",
+        "unit": "current_usd"
+      }
+    ],
+    "events_used": [],
+    "source_ids": [
+      "world_bank_wdi"
+    ],
+    "review_statuses": [
+      "auto_generated_from_structured_data",
+      "human_review_pending"
+    ],
+    "warning_badges": [
+      "old metrics",
+      "missing demographic data"
+    ],
+    "missing_data": [
+      "adversaries_and_rivals",
+      "adversary_narratives",
+      "adversary_status",
+      "alliance_status",
+      "allies_and_partners",
+      "crisis_history",
+      "cultural_assimilation",
+      "diplomatic_history",
+      "foreign_policy",
+      "founding_groups",
+      "future_scenarios",
+      "game_theory_profile",
+      "game_theory_relationship",
+      "government_current",
+      "history",
+      "identity_foundation",
+      "intelligence_security",
+      "leader_dossiers",
+      "math_contributions",
+      "media_information",
+      "military_relationship",
+      "national_cohesion_by_demographic",
+      "national_event_timeline",
+      "nationalism_cohesion",
+      "news_memory",
+      "philosophy_contributions",
+      "population_divisions",
+      "relationship",
+      "relationship_event_timeline",
+      "religion_history",
+      "rivalry_narratives",
+      "ruling_class",
+      "threat_perception",
+      "top_national_events_20_years",
+      "trade_relationship",
+      "war_history",
+      "wikipedia_baseline",
+      "wikipedia_references"
+    ],
+    "strategic_summary": {
+      "main_incentives": [],
+      "main_constraints": [
+        "adversaries_and_rivals",
+        "adversary_narratives",
+        "adversary_status",
+        "alliance_status",
+        "allies_and_partners",
+        "crisis_history",
+        "cultural_assimilation",
+        "diplomatic_history",
+        "foreign_policy",
+        "founding_groups",
+        "future_scenarios",
+        "game_theory_profile",
+        "game_theory_relationship",
+        "government_current",
+        "history",
+        "identity_foundation",
+        "intelligence_security",
+        "leader_dossiers",
+        "math_contributions",
+        "media_information",
+        "military_relationship",
+        "national_cohesion_by_demographic",
+        "national_event_timeline",
+        "nationalism_cohesion",
+        "news_memory",
+        "philosophy_contributions",
+        "population_divisions",
+        "relationship",
+        "relationship_event_timeline",
+        "religion_history",
+        "rivalry_narratives",
+        "ruling_class",
+        "threat_perception",
+        "top_national_events_20_years",
+        "trade_relationship",
+        "war_history",
+        "wikipedia_baseline",
+        "wikipedia_references"
+      ],
+      "likely_moves": [],
+      "escalation_risks": [],
+      "deescalation_options": []
+    },
+    "retrieval_debug": {
+      "question_type": "trade",
+      "selected_modules": [
+        "identity_foundation",
+        "history",
+        "economy",
+        "foreign_policy",
+        "scorecard",
+        "trade_exports_imports",
+        "logistics_shipping_air_travel",
+        "allies_and_partners",
+        "relationship",
+        "game_theory_relationship",
+        "trade_relationship",
+        "alliance_status",
+        "diplomatic_history"
+      ],
+      "candidate_chunks": [
+        "EGY-identity_foundation-001",
+        "EGY-history-002",
+        "EGY-economy-016",
+        "EGY-trade_exports_imports-017",
+        "EGY-logistics_shipping_air_travel-019",
+        "EGY-foreign_policy-027",
+        "EGY-allies_and_partners-032",
+        "EGY-scorecard-040",
+        "ETH-identity_foundation-001",
+        "ETH-history-002",
+        "ETH-economy-016",
+        "ETH-trade_exports_imports-017",
+        "ETH-logistics_shipping_air_travel-019",
+        "ETH-foreign_policy-027",
+        "ETH-allies_and_partners-032",
+        "ETH-scorecard-040",
+        "EGY_ETH-relationship-001",
+        "EGY_ETH-trade_relationship-002",
+        "EGY_ETH-game_theory_relationship-005",
+        "EGY_ETH-alliance_status-901",
+        "EGY_ETH-diplomatic_history-905"
+      ],
+      "final_chunks": [
+        "EGY-scorecard-040",
+        "ETH-scorecard-040",
+        "EGY-logistics_shipping_air_travel-019",
+        "EGY-trade_exports_imports-017",
+        "ETH-economy-016",
+        "ETH-logistics_shipping_air_travel-019",
+        "EGY-economy-016",
+        "ETH-trade_exports_imports-017",
+        "EGY-allies_and_partners-032",
+        "ETH-allies_and_partners-032"
+      ],
+      "scoring_breakdown": [
+        {
+          "chunk_id": "EGY-scorecard-040",
+          "score": 0.5875020931954832,
+          "scoring": {
+            "semanticScore": 0.21578253117165624,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 1,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "ETH-scorecard-040",
+          "score": 0.5766831261108757,
+          "scoring": {
+            "semanticScore": 0.17070350165245796,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 1,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "EGY-logistics_shipping_air_travel-019",
+          "score": 0.5705150909875909,
+          "scoring": {
+            "semanticScore": 0.22833668863877155,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 0.75,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "EGY-trade_exports_imports-017",
+          "score": 0.5627821581474499,
+          "scoring": {
+            "semanticScore": 0.19611613513818407,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 0.75,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "ETH-economy-016",
+          "score": 0.5560404544768827,
+          "scoring": {
+            "semanticScore": 0.1680257031774874,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 0.75,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "ETH-logistics_shipping_air_travel-019",
+          "score": 0.5544918350453707,
+          "scoring": {
+            "semanticScore": 0.16157312221285405,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 0.75,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "EGY-economy-016",
+          "score": 0.549923724679076,
+          "scoring": {
+            "semanticScore": 0.14253932901995967,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 0.75,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "ETH-trade_exports_imports-017",
+          "score": 0.5358862310427847,
+          "scoring": {
+            "semanticScore": 0.08404977220207888,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.9,
+            "freshnessScore": 0.75,
+            "confidenceScore": 0.7,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "EGY-allies_and_partners-032",
+          "score": 0.3902758591385022,
+          "scoring": {
+            "semanticScore": 0.06900655593423544,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.2,
+            "freshnessScore": 0.4,
+            "confidenceScore": 0.2,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        },
+        {
+          "chunk_id": "ETH-allies_and_partners-032",
+          "score": 0.3902758591385022,
+          "scoring": {
+            "semanticScore": 0.06900655593423544,
+            "keywordScore": 0.14285714285714285,
+            "moduleRelevanceScore": 1,
+            "sourceAuthorityScore": 0.2,
+            "freshnessScore": 0.4,
+            "confidenceScore": 0.2,
+            "eventImportanceScore": 0,
+            "selectedCountryBoost": 1,
+            "selectedRelationshipBoost": 0
+          }
+        }
+      ],
+      "dropped_candidates": [
+        "EGY-identity_foundation-001",
+        "EGY-history-002",
+        "EGY-foreign_policy-027",
+        "ETH-identity_foundation-001",
+        "ETH-history-002",
+        "ETH-foreign_policy-027",
+        "EGY_ETH-relationship-001",
+        "EGY_ETH-trade_relationship-002",
+        "EGY_ETH-game_theory_relationship-005",
+        "EGY_ETH-alliance_status-901",
+        "EGY_ETH-diplomatic_history-905"
+      ]
+    }
+  }
+}

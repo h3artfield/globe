@@ -1,8 +1,9 @@
 import type { CountryModule, RelationshipModule } from "@/types/pipeline";
 import type { SourcePack, SourcePackSource } from "@/types/pilot";
 import { buildRelationshipId, normalizeCountryCode } from "@/lib/globe/countryIdMap";
-import { pathExists, readJsonFile, repoPath, writeJsonFile } from "@/lib/pipeline/io";
+import { pathExists, readJsonFile, readJsonLinesFile, repoPath, writeJsonFile } from "@/lib/pipeline/io";
 import { COUNTRY_MODULES, RELATIONSHIP_MODULES } from "@/lib/pipeline/constants";
+import type { RagChunk } from "@/types/pipeline";
 
 function sourceType(sourceId: string): SourcePackSource["source_type"] {
   if (sourceId === "wikipedia") return "wikipedia";
@@ -24,8 +25,8 @@ export async function createCountrySourcePack(countryCodeInput: string): Promise
   for (const moduleName of COUNTRY_MODULES) {
     const filePath = repoPath("data", "rag", "countries", countryCode, `${moduleName}.v1.json`);
     if (!(await pathExists(filePath))) continue;
-    const module = await readJsonFile<CountryModule>(filePath);
-    for (const sourceId of module.source_ids) {
+    const countryModule = await readJsonFile<CountryModule>(filePath);
+    for (const sourceId of countryModule.source_ids) {
       const existing = sources.get(sourceId);
       const covers = Array.from(new Set([...(existing?.covers_modules ?? []), moduleName])).sort();
       sources.set(sourceId, {
@@ -33,13 +34,33 @@ export async function createCountrySourcePack(countryCodeInput: string): Promise
         source_type: sourceType(sourceId),
         title: sourceId,
         publisher: sourceId,
-        url: module.metrics.find((metric) => metric.source_id === sourceId)?.source_url ?? "",
-        retrieved_at: module.metrics.find((metric) => metric.source_id === sourceId)?.retrieved_at ?? new Date().toISOString(),
-        file_path: module.metrics.find((metric) => metric.source_id === sourceId)?.raw_file_path ?? `/data/rag/countries/${countryCode}/${moduleName}.v1.json`,
+        url: countryModule.metrics.find((metric) => metric.source_id === sourceId)?.source_url ?? "",
+        retrieved_at: countryModule.metrics.find((metric) => metric.source_id === sourceId)?.retrieved_at ?? new Date().toISOString(),
+        file_path: countryModule.metrics.find((metric) => metric.source_id === sourceId)?.raw_file_path ?? `/data/rag/countries/${countryCode}/${moduleName}.v1.json`,
         covers_modules: covers,
         authority_rank: authorityRank(sourceId),
         notes: "",
       });
+    }
+  }
+  const chunksPath = repoPath("data", "rag", "countries", countryCode, "chunks.jsonl");
+  if (await pathExists(chunksPath)) {
+    for (const chunk of await readJsonLinesFile<RagChunk>(chunksPath)) {
+      for (const sourceId of chunk.source_ids) {
+        const existing = sources.get(sourceId);
+        sources.set(sourceId, {
+          source_id: sourceId,
+          source_type: (chunk.source_family as SourcePackSource["source_type"]) || sourceType(sourceId),
+          title: sourceId,
+          publisher: sourceId.split(":")[0],
+          url: "",
+          retrieved_at: new Date().toISOString(),
+          file_path: `/data/rag/countries/${countryCode}/chunks.jsonl#${chunk.chunk_id}`,
+          covers_modules: Array.from(new Set([...(existing?.covers_modules ?? []), chunk.module])).sort(),
+          authority_rank: chunk.authority_rank || authorityRank(sourceId),
+          notes: "Chunk-level source record.",
+        });
+      }
     }
   }
 
@@ -61,8 +82,8 @@ export async function createRelationshipSourcePack(relationshipIdInput: string):
   for (const moduleName of RELATIONSHIP_MODULES) {
     const filePath = repoPath("data", "rag", "relationships", relationshipId, `${moduleName}.v1.json`);
     if (!(await pathExists(filePath))) continue;
-    const module = await readJsonFile<RelationshipModule>(filePath);
-    for (const sourceId of module.source_ids) {
+    const relationshipModule = await readJsonFile<RelationshipModule>(filePath);
+    for (const sourceId of relationshipModule.source_ids) {
       const existing = sources.get(sourceId);
       sources.set(sourceId, {
         source_id: sourceId,
@@ -76,6 +97,26 @@ export async function createRelationshipSourcePack(relationshipIdInput: string):
         authority_rank: authorityRank(sourceId),
         notes: "",
       });
+    }
+  }
+  const chunksPath = repoPath("data", "rag", "relationships", relationshipId, "chunks.jsonl");
+  if (await pathExists(chunksPath)) {
+    for (const chunk of await readJsonLinesFile<RagChunk>(chunksPath)) {
+      for (const sourceId of chunk.source_ids) {
+        const existing = sources.get(sourceId);
+        sources.set(sourceId, {
+          source_id: sourceId,
+          source_type: (chunk.source_family as SourcePackSource["source_type"]) || sourceType(sourceId),
+          title: sourceId,
+          publisher: sourceId.split(":")[0],
+          url: "",
+          retrieved_at: new Date().toISOString(),
+          file_path: `/data/rag/relationships/${relationshipId}/chunks.jsonl#${chunk.chunk_id}`,
+          covers_modules: Array.from(new Set([...(existing?.covers_modules ?? []), chunk.module])).sort(),
+          authority_rank: chunk.authority_rank || authorityRank(sourceId),
+          notes: "Chunk-level source record.",
+        });
+      }
     }
   }
   const pack: SourcePack = {

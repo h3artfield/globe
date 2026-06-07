@@ -1,6 +1,6 @@
 {
   "country_code": "CHN",
-  "generated_at": "2026-06-07T01:55:13.456Z",
+  "generated_at": "2026-06-07T02:09:13.045Z",
   "items": [
     {
       "review_id": "CHN-founding_groups-001",
@@ -2094,6 +2094,1742 @@
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
       "created_at": "2026-06-07T01:52:23.519Z"
+    },
+    {
+      "review_id": "CHN-identity_foundation-131",
+      "country_code": "CHN",
+      "module": "identity_foundation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for identity_foundation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.505Z"
+    },
+    {
+      "review_id": "CHN-history-132",
+      "country_code": "CHN",
+      "module": "history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.506Z"
+    },
+    {
+      "review_id": "CHN-founding_groups-133",
+      "country_code": "CHN",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.507Z"
+    },
+    {
+      "review_id": "CHN-religion_history-134",
+      "country_code": "CHN",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.508Z"
+    },
+    {
+      "review_id": "CHN-cultural_assimilation-135",
+      "country_code": "CHN",
+      "module": "cultural_assimilation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for cultural_assimilation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.510Z"
+    },
+    {
+      "review_id": "CHN-population_divisions-136",
+      "country_code": "CHN",
+      "module": "population_divisions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for population_divisions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.510Z"
+    },
+    {
+      "review_id": "CHN-nationalism_cohesion-137",
+      "country_code": "CHN",
+      "module": "nationalism_cohesion",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for nationalism_cohesion?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.511Z"
+    },
+    {
+      "review_id": "CHN-national_cohesion_by_demographic-138",
+      "country_code": "CHN",
+      "module": "national_cohesion_by_demographic",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_cohesion_by_demographic?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.512Z"
+    },
+    {
+      "review_id": "CHN-government_current-139",
+      "country_code": "CHN",
+      "module": "government_current",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for government_current?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.512Z"
+    },
+    {
+      "review_id": "CHN-ruling_class-140",
+      "country_code": "CHN",
+      "module": "ruling_class",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for ruling_class?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.513Z"
+    },
+    {
+      "review_id": "CHN-leader_dossiers-141",
+      "country_code": "CHN",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.513Z"
+    },
+    {
+      "review_id": "CHN-math_contributions-142",
+      "country_code": "CHN",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.520Z"
+    },
+    {
+      "review_id": "CHN-philosophy_contributions-143",
+      "country_code": "CHN",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.521Z"
+    },
+    {
+      "review_id": "CHN-intelligence_security-144",
+      "country_code": "CHN",
+      "module": "intelligence_security",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for intelligence_security?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.522Z"
+    },
+    {
+      "review_id": "CHN-media_information-145",
+      "country_code": "CHN",
+      "module": "media_information",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for media_information?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.523Z"
+    },
+    {
+      "review_id": "CHN-foreign_policy-146",
+      "country_code": "CHN",
+      "module": "foreign_policy",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for foreign_policy?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.524Z"
+    },
+    {
+      "review_id": "CHN-adversary_narratives-147",
+      "country_code": "CHN",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.524Z"
+    },
+    {
+      "review_id": "CHN-game_theory_profile-148",
+      "country_code": "CHN",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.526Z"
+    },
+    {
+      "review_id": "CHN-future_scenarios-149",
+      "country_code": "CHN",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.526Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-150",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.527Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-151",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.527Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-152",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.528Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-153",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.531Z"
+    },
+    {
+      "review_id": "CHN-news_memory-154",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.532Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-155",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.533Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_baseline-156",
+      "country_code": "CHN",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.533Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_references-157",
+      "country_code": "CHN",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:04:27.534Z"
+    },
+    {
+      "review_id": "CHN-identity_foundation-158",
+      "country_code": "CHN",
+      "module": "identity_foundation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for identity_foundation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.365Z"
+    },
+    {
+      "review_id": "CHN-history-159",
+      "country_code": "CHN",
+      "module": "history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.365Z"
+    },
+    {
+      "review_id": "CHN-founding_groups-160",
+      "country_code": "CHN",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.366Z"
+    },
+    {
+      "review_id": "CHN-religion_history-161",
+      "country_code": "CHN",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.366Z"
+    },
+    {
+      "review_id": "CHN-cultural_assimilation-162",
+      "country_code": "CHN",
+      "module": "cultural_assimilation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for cultural_assimilation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.370Z"
+    },
+    {
+      "review_id": "CHN-population_divisions-163",
+      "country_code": "CHN",
+      "module": "population_divisions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for population_divisions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.370Z"
+    },
+    {
+      "review_id": "CHN-nationalism_cohesion-164",
+      "country_code": "CHN",
+      "module": "nationalism_cohesion",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for nationalism_cohesion?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.371Z"
+    },
+    {
+      "review_id": "CHN-national_cohesion_by_demographic-165",
+      "country_code": "CHN",
+      "module": "national_cohesion_by_demographic",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_cohesion_by_demographic?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.372Z"
+    },
+    {
+      "review_id": "CHN-government_current-166",
+      "country_code": "CHN",
+      "module": "government_current",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for government_current?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.372Z"
+    },
+    {
+      "review_id": "CHN-ruling_class-167",
+      "country_code": "CHN",
+      "module": "ruling_class",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for ruling_class?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.373Z"
+    },
+    {
+      "review_id": "CHN-leader_dossiers-168",
+      "country_code": "CHN",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.374Z"
+    },
+    {
+      "review_id": "CHN-math_contributions-169",
+      "country_code": "CHN",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.380Z"
+    },
+    {
+      "review_id": "CHN-philosophy_contributions-170",
+      "country_code": "CHN",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.381Z"
+    },
+    {
+      "review_id": "CHN-intelligence_security-171",
+      "country_code": "CHN",
+      "module": "intelligence_security",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for intelligence_security?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.382Z"
+    },
+    {
+      "review_id": "CHN-media_information-172",
+      "country_code": "CHN",
+      "module": "media_information",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for media_information?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.382Z"
+    },
+    {
+      "review_id": "CHN-foreign_policy-173",
+      "country_code": "CHN",
+      "module": "foreign_policy",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for foreign_policy?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.383Z"
+    },
+    {
+      "review_id": "CHN-adversary_narratives-174",
+      "country_code": "CHN",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.383Z"
+    },
+    {
+      "review_id": "CHN-game_theory_profile-175",
+      "country_code": "CHN",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.385Z"
+    },
+    {
+      "review_id": "CHN-future_scenarios-176",
+      "country_code": "CHN",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.385Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-177",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.386Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-178",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.386Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-179",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.387Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-180",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.388Z"
+    },
+    {
+      "review_id": "CHN-news_memory-181",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.389Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-182",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.389Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_baseline-183",
+      "country_code": "CHN",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.390Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_references-184",
+      "country_code": "CHN",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:06:06.391Z"
+    },
+    {
+      "review_id": "CHN-identity_foundation-185",
+      "country_code": "CHN",
+      "module": "identity_foundation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for identity_foundation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.568Z"
+    },
+    {
+      "review_id": "CHN-history-186",
+      "country_code": "CHN",
+      "module": "history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.568Z"
+    },
+    {
+      "review_id": "CHN-founding_groups-187",
+      "country_code": "CHN",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.569Z"
+    },
+    {
+      "review_id": "CHN-religion_history-188",
+      "country_code": "CHN",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.569Z"
+    },
+    {
+      "review_id": "CHN-cultural_assimilation-189",
+      "country_code": "CHN",
+      "module": "cultural_assimilation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for cultural_assimilation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.571Z"
+    },
+    {
+      "review_id": "CHN-population_divisions-190",
+      "country_code": "CHN",
+      "module": "population_divisions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for population_divisions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.571Z"
+    },
+    {
+      "review_id": "CHN-nationalism_cohesion-191",
+      "country_code": "CHN",
+      "module": "nationalism_cohesion",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for nationalism_cohesion?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.572Z"
+    },
+    {
+      "review_id": "CHN-national_cohesion_by_demographic-192",
+      "country_code": "CHN",
+      "module": "national_cohesion_by_demographic",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_cohesion_by_demographic?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.572Z"
+    },
+    {
+      "review_id": "CHN-government_current-193",
+      "country_code": "CHN",
+      "module": "government_current",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for government_current?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.573Z"
+    },
+    {
+      "review_id": "CHN-ruling_class-194",
+      "country_code": "CHN",
+      "module": "ruling_class",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for ruling_class?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.573Z"
+    },
+    {
+      "review_id": "CHN-leader_dossiers-195",
+      "country_code": "CHN",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.574Z"
+    },
+    {
+      "review_id": "CHN-math_contributions-196",
+      "country_code": "CHN",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.579Z"
+    },
+    {
+      "review_id": "CHN-philosophy_contributions-197",
+      "country_code": "CHN",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.580Z"
+    },
+    {
+      "review_id": "CHN-intelligence_security-198",
+      "country_code": "CHN",
+      "module": "intelligence_security",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for intelligence_security?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.581Z"
+    },
+    {
+      "review_id": "CHN-media_information-199",
+      "country_code": "CHN",
+      "module": "media_information",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for media_information?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.582Z"
+    },
+    {
+      "review_id": "CHN-foreign_policy-200",
+      "country_code": "CHN",
+      "module": "foreign_policy",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for foreign_policy?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.583Z"
+    },
+    {
+      "review_id": "CHN-adversary_narratives-201",
+      "country_code": "CHN",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.583Z"
+    },
+    {
+      "review_id": "CHN-game_theory_profile-202",
+      "country_code": "CHN",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.584Z"
+    },
+    {
+      "review_id": "CHN-future_scenarios-203",
+      "country_code": "CHN",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.584Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-204",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.585Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-205",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.585Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-206",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.586Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-207",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.586Z"
+    },
+    {
+      "review_id": "CHN-news_memory-208",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.587Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-209",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.587Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_baseline-210",
+      "country_code": "CHN",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.588Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_references-211",
+      "country_code": "CHN",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:07:43.589Z"
+    },
+    {
+      "review_id": "CHN-identity_foundation-212",
+      "country_code": "CHN",
+      "module": "identity_foundation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for identity_foundation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.025Z"
+    },
+    {
+      "review_id": "CHN-history-213",
+      "country_code": "CHN",
+      "module": "history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.025Z"
+    },
+    {
+      "review_id": "CHN-founding_groups-214",
+      "country_code": "CHN",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.026Z"
+    },
+    {
+      "review_id": "CHN-religion_history-215",
+      "country_code": "CHN",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.026Z"
+    },
+    {
+      "review_id": "CHN-cultural_assimilation-216",
+      "country_code": "CHN",
+      "module": "cultural_assimilation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for cultural_assimilation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.028Z"
+    },
+    {
+      "review_id": "CHN-population_divisions-217",
+      "country_code": "CHN",
+      "module": "population_divisions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for population_divisions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.029Z"
+    },
+    {
+      "review_id": "CHN-nationalism_cohesion-218",
+      "country_code": "CHN",
+      "module": "nationalism_cohesion",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for nationalism_cohesion?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.029Z"
+    },
+    {
+      "review_id": "CHN-national_cohesion_by_demographic-219",
+      "country_code": "CHN",
+      "module": "national_cohesion_by_demographic",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_cohesion_by_demographic?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.030Z"
+    },
+    {
+      "review_id": "CHN-government_current-220",
+      "country_code": "CHN",
+      "module": "government_current",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for government_current?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.030Z"
+    },
+    {
+      "review_id": "CHN-ruling_class-221",
+      "country_code": "CHN",
+      "module": "ruling_class",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for ruling_class?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.031Z"
+    },
+    {
+      "review_id": "CHN-leader_dossiers-222",
+      "country_code": "CHN",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.032Z"
+    },
+    {
+      "review_id": "CHN-math_contributions-223",
+      "country_code": "CHN",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.037Z"
+    },
+    {
+      "review_id": "CHN-philosophy_contributions-224",
+      "country_code": "CHN",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.037Z"
+    },
+    {
+      "review_id": "CHN-intelligence_security-225",
+      "country_code": "CHN",
+      "module": "intelligence_security",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for intelligence_security?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.038Z"
+    },
+    {
+      "review_id": "CHN-media_information-226",
+      "country_code": "CHN",
+      "module": "media_information",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for media_information?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.038Z"
+    },
+    {
+      "review_id": "CHN-foreign_policy-227",
+      "country_code": "CHN",
+      "module": "foreign_policy",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for foreign_policy?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.039Z"
+    },
+    {
+      "review_id": "CHN-adversary_narratives-228",
+      "country_code": "CHN",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.039Z"
+    },
+    {
+      "review_id": "CHN-game_theory_profile-229",
+      "country_code": "CHN",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.040Z"
+    },
+    {
+      "review_id": "CHN-future_scenarios-230",
+      "country_code": "CHN",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.040Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-231",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.041Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-232",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.041Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-233",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.041Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-234",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.042Z"
+    },
+    {
+      "review_id": "CHN-news_memory-235",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.043Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-236",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.043Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_baseline-237",
+      "country_code": "CHN",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.043Z"
+    },
+    {
+      "review_id": "CHN-wikipedia_references-238",
+      "country_code": "CHN",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T02:09:13.044Z"
     }
   ]
 }

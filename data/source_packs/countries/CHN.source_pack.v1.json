@@ -1,0 +1,49 @@
+{
+  "source_pack_id": "CHN-source-pack-v1",
+  "country_code": "CHN",
+  "relationship_id": null,
+  "last_updated": "2026-06-07",
+  "sources": [
+    {
+      "source_id": "wikipedia",
+      "source_type": "wikipedia",
+      "title": "wikipedia",
+      "publisher": "wikipedia",
+      "url": "",
+      "retrieved_at": "2026-06-07T02:09:13.023Z",
+      "file_path": "/data/rag/countries/CHN/chunks.jsonl#CHN-wikipedia_references-039",
+      "covers_modules": [
+        "wikipedia_baseline",
+        "wikipedia_references"
+      ],
+      "authority_rank": "wikipedia",
+      "notes": "Chunk-level source record."
+    },
+    {
+      "source_id": "world_bank_wdi",
+      "source_type": "international_dataset",
+      "title": "world_bank_wdi",
+      "publisher": "world_bank_wdi",
+      "url": "",
+      "retrieved_at": "2026-06-07T02:09:13.023Z",
+      "file_path": "/data/rag/countries/CHN/chunks.jsonl#CHN-scorecard-040",
+      "covers_modules": [
+        "average_citizen_life",
+        "crime_safety",
+        "demographic_change",
+        "demographics",
+        "economy",
+        "education",
+        "household_income_wealth",
+        "logistics_shipping_air_travel",
+        "military",
+        "production_industry",
+        "scorecard",
+        "technology_contributions",
+        "trade_exports_imports"
+      ],
+      "authority_rank": "international_dataset",
+      "notes": "Chunk-level source record."
+    }
+  ]
+}

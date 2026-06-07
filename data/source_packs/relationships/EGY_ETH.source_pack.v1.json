@@ -1,0 +1,21 @@
+{
+  "source_pack_id": "EGY_ETH-source-pack-v1",
+  "relationship_id": "EGY_ETH",
+  "last_updated": "2026-06-07",
+  "sources": [
+    {
+      "source_id": "news_manual:african_union_gerd_2020",
+      "source_type": "official_primary",
+      "title": "news_manual:african_union_gerd_2020",
+      "publisher": "news_manual",
+      "url": "",
+      "retrieved_at": "2026-06-07T02:09:13.053Z",
+      "file_path": "/data/rag/relationships/EGY_ETH/chunks.jsonl#EGY_ETH-manual_doc-african_union_gerd_2020_md-1",
+      "covers_modules": [
+        "manual_source_documents"
+      ],
+      "authority_rank": "primary",
+      "notes": "Chunk-level source record."
+    }
+  ]
+}

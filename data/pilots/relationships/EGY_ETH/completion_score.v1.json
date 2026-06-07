@@ -1,0 +1,14 @@
+{
+  "scope_id": "EGY_ETH",
+  "structured_metrics_coverage": 0,
+  "narrative_module_coverage": 20,
+  "event_timeline_coverage": 0,
+  "relationship_coverage": 35,
+  "citation_quality": 50,
+  "review_quality": 20,
+  "retrieval_quality": 80,
+  "overall_pilot_readiness": 55,
+  "notes": [
+    "Relationship pilot has imported source chunks, but module-level claims still require review."
+  ]
+}

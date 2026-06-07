@@ -8,8 +8,8 @@ async function main() {
   if (!relationshipInput) throw new Error("Usage: npm run pilot:build:relationship -- EGY_ETH");
   const [a, b] = relationshipInput.split("_");
   const relationshipId = buildRelationshipId(a, b);
-  await createRelationshipSourcePack(relationshipId);
   await importRelationshipDocuments(relationshipId);
+  await createRelationshipSourcePack(relationshipId);
   console.log(JSON.stringify(await buildRelationshipCompletionScore(relationshipId), null, 2));
 }
 

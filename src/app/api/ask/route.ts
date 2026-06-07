@@ -50,7 +50,9 @@ export async function POST(request: Request) {
     new Set([
       ...retrievalContext.retrievedChunks.map((chunk) => chunk.review_status ?? "human_review_pending"),
       ...retrievalContext.retrievedMetrics.map((metric) => metric.review_status ?? "auto_generated_from_structured_data"),
-      ...retrievalContext.citations.map((citation) => citation.review_status).filter(Boolean),
+      ...retrievalContext.citations
+        .map((citation) => citation.review_status)
+        .filter((status): status is string => Boolean(status)),
     ]),
   ).sort();
   const warningBadges = [
@@ -109,10 +111,12 @@ export async function POST(request: Request) {
     retrieval_debug: body.debug ? retrievalContext.retrievalDebug : undefined,
   };
   if (body.debug && body.saveAudit) {
+    const responseForAudit = { ...responsePayload };
+    delete responseForAudit.answer_audit;
     responsePayload.answer_audit = await saveAnswerAudit({
       question: body.question,
       selectedCountries: body.selectedCountries,
-      response: responsePayload,
+      response: responseForAudit,
     });
   }
   return NextResponse.json(responsePayload);

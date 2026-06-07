@@ -15,6 +15,18 @@ async function extractText(filePath: string): Promise<string> {
   return text;
 }
 
+function extractFrontmatter(text: string): Record<string, string> {
+  const match = text.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return {};
+  return Object.fromEntries(
+    match[1]
+      .split(/\r?\n/)
+      .map((line) => line.match(/^([^:]+):\s*(.*)$/))
+      .filter((item): item is RegExpMatchArray => item !== null)
+      .map((item) => [item[1].trim(), item[2].trim()]),
+  );
+}
+
 function chunkText(text: string, size = 1200): string[] {
   const normalized = text.replace(/\s+/g, " ").trim();
   if (!normalized) return [];
@@ -37,7 +49,11 @@ async function importFiles(input: {
 
   for (const file of files) {
     const filePath = path.join(input.sourceDir, file);
-    const textChunks = chunkText(await extractText(filePath));
+    const extracted = await extractText(filePath);
+    const metadata = extractFrontmatter(extracted);
+    const sourceId = metadata.source_id || `manual_doc:${file}`;
+    const sourceType = metadata.source_type || "manual_note";
+    const textChunks = chunkText(extracted);
     textChunks.forEach((text, index) => {
       const chunkId = `${input.scopeId}-manual_doc-${path.basename(file).replace(/[^a-zA-Z0-9]+/g, "_")}-${index + 1}`;
       importedChunks.push({
@@ -47,11 +63,11 @@ async function importFiles(input: {
         module: "manual_source_documents",
         text,
         tags: input.relationship ? ["relationship-manual-source"] : ["country-manual-source"],
-        source_ids: [`manual_doc:${file}`],
-        source_family: "manual_note",
-        authority_rank: "manual",
-        can_override_official_data: false,
-        retrieval_priority: 6,
+        source_ids: [sourceId],
+        source_family: sourceType,
+        authority_rank: sourceType === "official_primary" ? "primary" : "manual",
+        can_override_official_data: sourceType === "official_primary",
+        retrieval_priority: sourceType === "official_primary" ? 1 : 6,
         metric_ids: [],
         claim_type: "fact",
         year_range: null,

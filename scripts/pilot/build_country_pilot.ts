@@ -6,8 +6,8 @@ import { buildCountryCompletionScore } from "@/lib/pilot/completionScore";
 
 async function main() {
   const countryCode = assertIso3(process.argv[2] ?? "");
-  await createCountrySourcePack(countryCode);
   await importCountryDocuments(countryCode);
+  await createCountrySourcePack(countryCode);
   await buildCountryDossier(countryCode);
   console.log(JSON.stringify(await buildCountryCompletionScore(countryCode), null, 2));
 }

@@ -1,6 +1,7 @@
 import type { CoverageReport } from "@/types/pipeline";
 import type { PilotCompletionScore } from "@/types/pilot";
-import { pathExists, readJsonFile, repoPath, writeJsonFile } from "@/lib/pipeline/io";
+import { pathExists, readJsonFile, readJsonLinesFile, repoPath, writeJsonFile } from "@/lib/pipeline/io";
+import type { RagChunk } from "@/types/pipeline";
 
 function average(values: number[]): number {
   return values.length ? Math.round(values.reduce((sum, value) => sum + value, 0) / values.length) : 0;
@@ -30,17 +31,24 @@ export async function buildCountryCompletionScore(countryCode: string): Promise<
 
 export async function buildRelationshipCompletionScore(relationshipId: string): Promise<PilotCompletionScore> {
   const hasEmbeddings = await pathExists(repoPath("data", "vector", "relationships", relationshipId, "chunks.embeddings.jsonl"));
+  const chunksPath = repoPath("data", "rag", "relationships", relationshipId, "chunks.jsonl");
+  const chunks = (await pathExists(chunksPath)) ? await readJsonLinesFile<RagChunk>(chunksPath) : [];
+  const sourcedChunks = chunks.filter((chunk) => chunk.source_ids.length > 0);
   const score: PilotCompletionScore = {
     scope_id: relationshipId,
     structured_metrics_coverage: 0,
-    narrative_module_coverage: 0,
+    narrative_module_coverage: sourcedChunks.length > 0 ? 20 : 0,
     event_timeline_coverage: 0,
-    relationship_coverage: 20,
-    citation_quality: 0,
+    relationship_coverage: sourcedChunks.length > 0 ? 35 : 20,
+    citation_quality: sourcedChunks.length > 0 ? 50 : 0,
     review_quality: 20,
     retrieval_quality: hasEmbeddings ? 80 : 0,
-    overall_pilot_readiness: average([20, hasEmbeddings ? 80 : 0]),
-    notes: ["Relationship pilot remains source-collection pending until verified EGY/ETH Nile documents are imported."],
+    overall_pilot_readiness: average([sourcedChunks.length > 0 ? 35 : 20, sourcedChunks.length > 0 ? 50 : 0, hasEmbeddings ? 80 : 0]),
+    notes: [
+      sourcedChunks.length > 0
+        ? "Relationship pilot has imported source chunks, but module-level claims still require review."
+        : "Relationship pilot remains source-collection pending until verified EGY/ETH Nile documents are imported.",
+    ],
   };
   await writeJsonFile(repoPath("data", "pilots", "relationships", relationshipId, "completion_score.v1.json"), score);
   return score;
