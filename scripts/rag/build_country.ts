@@ -1,6 +1,6 @@
-import type { CountryModule, IndicatorRegistryEntry } from "@/types/pipeline";
+import type { IndicatorRegistryEntry } from "@/types/pipeline";
 import { assertIso3 } from "@/lib/sources/countryCodeMapper";
-import { COUNTRY_MODULES, MVP_COUNTRIES } from "@/lib/pipeline/constants";
+import { MVP_COUNTRIES } from "@/lib/pipeline/constants";
 import { createAllCountryModules } from "@/lib/pipeline/countryModules";
 import { buildCountryChunk } from "@/lib/pipeline/chunks";
 import { buildCountryCoverageReport } from "@/lib/pipeline/coverage";

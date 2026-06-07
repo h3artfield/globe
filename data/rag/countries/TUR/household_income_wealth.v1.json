@@ -5,25 +5,29 @@
   "last_updated": "2026-06-07",
   "summary": "household_income_wealth has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "remittances_received_current_usd: 982000000 current_usd (2024)",
+    "gini_index: 43.7 index (2023)",
     "poverty_rate_national: 13 percent (2024)",
-    "youth_unemployment_rate: 16.042 percent (2025)",
-    "gini_index: 43.7 index (2023)"
+    "remittances_received_current_usd: 982000000 current_usd (2024)",
+    "youth_unemployment_rate: 16.042 percent (2025)"
   ],
   "metrics": [
     {
-      "metric_id": "remittances_received_current_usd",
+      "metric_id": "gini_index",
       "country_code": "TUR",
-      "value": 982000000,
-      "unit": "current_usd",
-      "year": 2024,
+      "value": 43.7,
+      "unit": "index",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
-      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
-      "calculation": "BX.TRF.PWKR.CD.DT",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.GINI?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:gini_index:SI.POV.GINI",
+      "calculation": "SI.POV.GINI",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
-      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI."
     },
     {
       "metric_id": "poverty_rate_national",
@@ -31,13 +35,35 @@
       "value": 13,
       "unit": "percent",
       "year": 2024,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.NAHC?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:poverty_rate_national:SI.POV.NAHC",
       "calculation": "SI.POV.NAHC",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for SI.POV.NAHC."
+    },
+    {
+      "metric_id": "remittances_received_current_usd",
+      "country_code": "TUR",
+      "value": 982000000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:remittances_received_current_usd:BX.TRF.PWKR.CD.DT",
+      "calculation": "BX.TRF.PWKR.CD.DT",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
     },
     {
       "metric_id": "youth_unemployment_rate",
@@ -45,27 +71,17 @@
       "value": 16.042,
       "unit": "percent",
       "year": 2025,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SL.UEM.1524.ZS?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:youth_unemployment_rate:SL.UEM.1524.ZS",
       "calculation": "SL.UEM.1524.ZS",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "fresh",
       "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
-    },
-    {
-      "metric_id": "gini_index",
-      "country_code": "TUR",
-      "value": 43.7,
-      "unit": "index",
-      "year": 2023,
-      "source_name": "world_bank_wdi",
-      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.GINI?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
-      "calculation": "SI.POV.GINI",
-      "confidence": "medium",
-      "freshness_requirement": "latest_available_year",
-      "notes": "Latest non-null World Bank observation for SI.POV.GINI."
     }
   ],
   "claims": [],
@@ -75,6 +91,7 @@
   "source_ids": [
     "world_bank_wdi"
   ],
+  "generation_status": "auto_generated_structured_data",
   "confidence": {
     "overall": "medium",
     "weak_areas": [

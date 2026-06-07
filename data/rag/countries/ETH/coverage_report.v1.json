@@ -1,6 +1,10 @@
 {
   "country_code": "ETH",
   "coverage_score": 38,
+  "structured_data_score": 47,
+  "narrative_data_score": 0,
+  "freshness_score": 75,
+  "provenance_score": 100,
   "modules_complete": [],
   "modules_partial": [
     "demographics",
@@ -89,8 +93,26 @@
     "trust_in_police",
     "willingness_to_fight"
   ],
-  "outdated_metrics": [],
+  "outdated_metrics": [
+    "gini_index",
+    "homicide_rate_per_100k",
+    "literacy_rate_adult",
+    "patent_applications_residents",
+    "poverty_rate_national",
+    "rd_expenditure_percent_gdp",
+    "tourism_arrivals"
+  ],
   "low_confidence_claims": [],
+  "review_queue_items": [
+    "ETH-founding_groups-001",
+    "ETH-religion_history-002",
+    "ETH-leader_dossiers-003",
+    "ETH-math_contributions-004",
+    "ETH-philosophy_contributions-005",
+    "ETH-adversary_narratives-006",
+    "ETH-game_theory_profile-007",
+    "ETH-future_scenarios-008"
+  ],
   "recommended_next_sources": [
     "manual_history_sources",
     "manual_leader_sources",

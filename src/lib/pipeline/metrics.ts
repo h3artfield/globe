@@ -22,12 +22,16 @@ export function createEmptyMetric(
     value: null,
     unit: indicator.unit,
     year: null,
+    source_id: indicator.preferred_sources[0] ?? null,
     source_name: indicator.preferred_sources[0] ?? null,
     source_url: null,
     retrieved_at: retrievedAt,
+    raw_file_path: null,
+    raw_record_id: null,
     calculation: indicator.formula || null,
     confidence: "unknown",
     freshness_requirement: indicator.freshness_requirement,
+    freshness_status: "unknown",
     notes,
   };
 }

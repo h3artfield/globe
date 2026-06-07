@@ -51,7 +51,7 @@ export class WorldBankAdapter implements SourceAdapter {
     await ensureDirectory(path.dirname(this.rawFilesystemPath));
 
     for (const countryCode of MVP_COUNTRIES) {
-      const results = await Promise.all(
+      const results: Array<RawWorldBankRecord | null> = await Promise.all(
         worldBankIndicators.map(async (indicator) => {
           const indicatorCode = indicator.source_indicator_code;
 
@@ -66,7 +66,7 @@ export class WorldBankAdapter implements SourceAdapter {
             );
 
             return {
-              country_code: countryCode,
+              country_code: String(countryCode),
               metric_id: indicator.metric_id,
               indicator_code: indicatorCode,
               source_url: sourceUrl,
@@ -74,7 +74,7 @@ export class WorldBankAdapter implements SourceAdapter {
             } satisfies RawWorldBankRecord;
           } catch (error) {
             return {
-              country_code: countryCode,
+              country_code: String(countryCode),
               metric_id: indicator.metric_id,
               indicator_code: indicatorCode,
               source_url: `https://api.worldbank.org/v2/country/${countryCode}/indicator/${indicatorCode}`,
@@ -95,7 +95,7 @@ export class WorldBankAdapter implements SourceAdapter {
       this.rawFilesystemPath,
       `${JSON.stringify(
         {
-          source_id: this.sourceId,
+          source_id: "world_bank_wdi",
           retrieved_at: this.retrievedAt,
           records: rawRecords,
         } satisfies RawWorldBankFile,

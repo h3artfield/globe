@@ -5,6 +5,10 @@
     "ISR"
   ],
   "coverage_score": 0,
+  "structured_data_score": 0,
+  "narrative_data_score": 0,
+  "freshness_score": null,
+  "provenance_score": null,
   "modules_complete": [],
   "modules_partial": [],
   "modules_missing": [
@@ -18,6 +22,7 @@
   "metrics_missing": [],
   "outdated_metrics": [],
   "low_confidence_claims": [],
+  "review_queue_items": [],
   "recommended_next_sources": [
     "un_comtrade",
     "manual_history_sources",

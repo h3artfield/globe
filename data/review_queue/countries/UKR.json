@@ -1,0 +1,136 @@
+{
+  "country_code": "UKR",
+  "generated_at": "2026-06-07T00:43:41.306Z",
+  "items": [
+    {
+      "review_id": "UKR-founding_groups-001",
+      "country_code": "UKR",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-religion_history-002",
+      "country_code": "UKR",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-leader_dossiers-003",
+      "country_code": "UKR",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-math_contributions-004",
+      "country_code": "UKR",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-philosophy_contributions-005",
+      "country_code": "UKR",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-adversary_narratives-006",
+      "country_code": "UKR",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-game_theory_profile-007",
+      "country_code": "UKR",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    },
+    {
+      "review_id": "UKR-future_scenarios-008",
+      "country_code": "UKR",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T00:43:41.306Z"
+    }
+  ]
+}

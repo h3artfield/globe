@@ -1,6 +1,10 @@
 {
   "country_code": "IND",
   "coverage_score": 39,
+  "structured_data_score": 48,
+  "narrative_data_score": 0,
+  "freshness_score": 76,
+  "provenance_score": 100,
   "modules_complete": [],
   "modules_partial": [
     "demographics",
@@ -90,8 +94,26 @@
     "trust_in_police",
     "willingness_to_fight"
   ],
-  "outdated_metrics": [],
+  "outdated_metrics": [
+    "container_port_throughput",
+    "gini_index",
+    "homicide_rate_per_100k",
+    "patent_applications_residents",
+    "poverty_rate_national",
+    "rd_expenditure_percent_gdp",
+    "tourism_arrivals"
+  ],
   "low_confidence_claims": [],
+  "review_queue_items": [
+    "IND-founding_groups-001",
+    "IND-religion_history-002",
+    "IND-leader_dossiers-003",
+    "IND-math_contributions-004",
+    "IND-philosophy_contributions-005",
+    "IND-adversary_narratives-006",
+    "IND-game_theory_profile-007",
+    "IND-future_scenarios-008"
+  ],
   "recommended_next_sources": [
     "manual_history_sources",
     "manual_leader_sources",

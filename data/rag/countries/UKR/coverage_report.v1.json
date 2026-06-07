@@ -1,6 +1,10 @@
 {
   "country_code": "UKR",
   "coverage_score": 39,
+  "structured_data_score": 48,
+  "narrative_data_score": 0,
+  "freshness_score": 66,
+  "provenance_score": 100,
   "modules_complete": [],
   "modules_partial": [
     "demographics",
@@ -90,8 +94,29 @@
     "trust_in_police",
     "willingness_to_fight"
   ],
-  "outdated_metrics": [],
+  "outdated_metrics": [
+    "air_freight_million_ton_km",
+    "air_passengers_carried",
+    "container_port_throughput",
+    "gini_index",
+    "homicide_rate_per_100k",
+    "literacy_rate_adult",
+    "patent_applications_residents",
+    "poverty_rate_national",
+    "tourism_arrivals",
+    "youth_unemployment_rate"
+  ],
   "low_confidence_claims": [],
+  "review_queue_items": [
+    "UKR-founding_groups-001",
+    "UKR-religion_history-002",
+    "UKR-leader_dossiers-003",
+    "UKR-math_contributions-004",
+    "UKR-philosophy_contributions-005",
+    "UKR-adversary_narratives-006",
+    "UKR-game_theory_profile-007",
+    "UKR-future_scenarios-008"
+  ],
   "recommended_next_sources": [
     "manual_history_sources",
     "manual_leader_sources",

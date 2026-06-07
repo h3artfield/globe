@@ -5,38 +5,46 @@
   "last_updated": "2026-06-07",
   "summary": "logistics_shipping_air_travel has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "air_passengers_carried: 47979994 passengers (2023)",
     "air_freight_million_ton_km: 1036.791068 million_ton_km (2023)",
+    "air_passengers_carried: 47979994 passengers (2023)",
     "tourism_arrivals: 20292000 arrivals (2019)"
   ],
   "metrics": [
-    {
-      "metric_id": "air_passengers_carried",
-      "country_code": "SAU",
-      "value": 47979994,
-      "unit": "passengers",
-      "year": 2023,
-      "source_name": "world_bank_wdi",
-      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/IS.AIR.PSGR?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
-      "calculation": "IS.AIR.PSGR",
-      "confidence": "medium",
-      "freshness_requirement": "latest_available_year",
-      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR."
-    },
     {
       "metric_id": "air_freight_million_ton_km",
       "country_code": "SAU",
       "value": 1036.791068,
       "unit": "million_ton_km",
       "year": 2023,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "SAU:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1",
       "calculation": "IS.AIR.GOOD.MT.K1",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1."
+    },
+    {
+      "metric_id": "air_passengers_carried",
+      "country_code": "SAU",
+      "value": 47979994,
+      "unit": "passengers",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/IS.AIR.PSGR?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "SAU:air_passengers_carried:IS.AIR.PSGR",
+      "calculation": "IS.AIR.PSGR",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR."
     },
     {
       "metric_id": "tourism_arrivals",
@@ -44,12 +52,16 @@
       "value": 20292000,
       "unit": "arrivals",
       "year": 2019,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/ST.INT.ARVL?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "SAU:tourism_arrivals:ST.INT.ARVL",
       "calculation": "ST.INT.ARVL",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
       "notes": "Latest non-null World Bank observation for ST.INT.ARVL."
     }
   ],
@@ -60,6 +72,7 @@
   "source_ids": [
     "world_bank_wdi"
   ],
+  "generation_status": "auto_generated_structured_data",
   "confidence": {
     "overall": "medium",
     "weak_areas": [

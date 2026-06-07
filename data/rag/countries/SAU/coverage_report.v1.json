@@ -1,6 +1,10 @@
 {
   "country_code": "SAU",
   "coverage_score": 36,
+  "structured_data_score": 45,
+  "narrative_data_score": 0,
+  "freshness_score": 85,
+  "provenance_score": 100,
   "modules_complete": [],
   "modules_partial": [
     "demographics",
@@ -89,8 +93,23 @@
     "trust_in_police",
     "willingness_to_fight"
   ],
-  "outdated_metrics": [],
+  "outdated_metrics": [
+    "container_port_throughput",
+    "homicide_rate_per_100k",
+    "patent_applications_residents",
+    "tourism_arrivals"
+  ],
   "low_confidence_claims": [],
+  "review_queue_items": [
+    "SAU-founding_groups-001",
+    "SAU-religion_history-002",
+    "SAU-leader_dossiers-003",
+    "SAU-math_contributions-004",
+    "SAU-philosophy_contributions-005",
+    "SAU-adversary_narratives-006",
+    "SAU-game_theory_profile-007",
+    "SAU-future_scenarios-008"
+  ],
   "recommended_next_sources": [
     "manual_history_sources",
     "manual_leader_sources",

@@ -14,12 +14,16 @@
       "value": 6579460010.16518,
       "unit": "current_usd",
       "year": 2024,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/NV.IND.MANF.CD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ETH:manufacturing_value_added_current_usd:NV.IND.MANF.CD",
       "calculation": "NV.IND.MANF.CD",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for NV.IND.MANF.CD."
     }
   ],
@@ -30,6 +34,7 @@
   "source_ids": [
     "world_bank_wdi"
   ],
+  "generation_status": "auto_generated_structured_data",
   "confidence": {
     "overall": "medium",
     "weak_areas": [

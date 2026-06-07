@@ -14,12 +14,16 @@
       "value": 6.76512531955806,
       "unit": "per_100k",
       "year": 2021,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/VC.IHR.PSRC.P5?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:homicide_rate_per_100k:VC.IHR.PSRC.P5",
       "calculation": "intentional_homicides / population * 100000",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
       "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5."
     }
   ],
@@ -30,6 +34,7 @@
   "source_ids": [
     "world_bank_wdi"
   ],
+  "generation_status": "auto_generated_structured_data",
   "confidence": {
     "overall": "medium",
     "weak_areas": [

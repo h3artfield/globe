@@ -5,38 +5,46 @@
   "last_updated": "2026-06-07",
   "summary": "technology_contributions has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "patent_applications_residents: 6 applications (2020)",
     "high_technology_exports_current_usd: 9855262 current_usd (2023)",
+    "patent_applications_residents: 6 applications (2020)",
     "rd_expenditure_percent_gdp: 0.27437 percent_gdp (2017)"
   ],
   "metrics": [
-    {
-      "metric_id": "patent_applications_residents",
-      "country_code": "ETH",
-      "value": 6,
-      "unit": "applications",
-      "year": 2020,
-      "source_name": "world_bank_wdi",
-      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/IP.PAT.RESD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
-      "calculation": "IP.PAT.RESD",
-      "confidence": "medium",
-      "freshness_requirement": "latest_available_year",
-      "notes": "Latest non-null World Bank observation for IP.PAT.RESD."
-    },
     {
       "metric_id": "high_technology_exports_current_usd",
       "country_code": "ETH",
       "value": 9855262,
       "unit": "current_usd",
       "year": 2023,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/TX.VAL.TECH.CD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ETH:high_technology_exports_current_usd:TX.VAL.TECH.CD",
       "calculation": "TX.VAL.TECH.CD",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for TX.VAL.TECH.CD."
+    },
+    {
+      "metric_id": "patent_applications_residents",
+      "country_code": "ETH",
+      "value": 6,
+      "unit": "applications",
+      "year": 2020,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/IP.PAT.RESD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ETH:patent_applications_residents:IP.PAT.RESD",
+      "calculation": "IP.PAT.RESD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for IP.PAT.RESD."
     },
     {
       "metric_id": "rd_expenditure_percent_gdp",
@@ -44,12 +52,16 @@
       "value": 0.27437,
       "unit": "percent_gdp",
       "year": 2017,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ETH:rd_expenditure_percent_gdp:GB.XPD.RSDV.GD.ZS",
       "calculation": "GB.XPD.RSDV.GD.ZS",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
       "notes": "Latest non-null World Bank observation for GB.XPD.RSDV.GD.ZS."
     }
   ],
@@ -60,6 +72,7 @@
   "source_ids": [
     "world_bank_wdi"
   ],
+  "generation_status": "auto_generated_structured_data",
   "confidence": {
     "overall": "medium",
     "weak_areas": [

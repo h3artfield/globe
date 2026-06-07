@@ -5,24 +5,46 @@
   "last_updated": "2026-06-07",
   "summary": "economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
+    "fdi_inflows_current_usd: 14777900000 current_usd (2024)",
     "gdp_current_usd: 540379921261.681 current_usd (2024)",
     "gdp_per_capita_current_usd: 54176.6844383302 current_usd (2024)",
-    "gdp_ppp_current_international: 570892527370.231 current_international_usd (2024)",
-    "fdi_inflows_current_usd: 14777900000 current_usd (2024)"
+    "gdp_ppp_current_international: 570892527370.231 current_international_usd (2024)"
   ],
   "metrics": [
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "ISR",
+      "value": 14777900000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ISR:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD",
+      "calculation": "BX.KLT.DINV.CD.WD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
+    },
     {
       "metric_id": "gdp_current_usd",
       "country_code": "ISR",
       "value": 540379921261.681,
       "unit": "current_usd",
       "year": 2024,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ISR:gdp_current_usd:NY.GDP.MKTP.CD",
       "calculation": "NY.GDP.MKTP.CD",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD."
     },
     {
@@ -31,12 +53,16 @@
       "value": 54176.6844383302,
       "unit": "current_usd",
       "year": 2024,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ISR:gdp_per_capita_current_usd:NY.GDP.PCAP.CD",
       "calculation": "NY.GDP.PCAP.CD",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD."
     },
     {
@@ -45,27 +71,17 @@
       "value": 570892527370.231,
       "unit": "current_international_usd",
       "year": 2024,
+      "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "retrieved_at": "2026-06-07T00:43:26.196Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "ISR:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD",
       "calculation": "NY.GDP.MKTP.PP.CD",
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
       "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD."
-    },
-    {
-      "metric_id": "fdi_inflows_current_usd",
-      "country_code": "ISR",
-      "value": 14777900000,
-      "unit": "current_usd",
-      "year": 2024,
-      "source_name": "world_bank_wdi",
-      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:10:08.825Z",
-      "calculation": "BX.KLT.DINV.CD.WD",
-      "confidence": "medium",
-      "freshness_requirement": "latest_available_year",
-      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
     }
   ],
   "claims": [],
@@ -75,6 +91,7 @@
   "source_ids": [
     "world_bank_wdi"
   ],
+  "generation_status": "auto_generated_structured_data",
   "confidence": {
     "overall": "medium",
     "weak_areas": [
