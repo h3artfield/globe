@@ -1,6 +1,7 @@
 import type { IndicatorRegistryEntry, MetricValue, SourceCoverageReport } from "@/types/pipeline";
 import path from "node:path";
-import { repoPath, writeJsonFile } from "./io";
+import { mergeMetrics } from "@/lib/metrics/mergeMetrics";
+import { pathExists, readJsonFile, repoPath, writeJsonFile } from "./io";
 
 export type ProcessedMetricsFile = {
   country_code: string;
@@ -38,14 +39,20 @@ export async function writeProcessedMetrics(
   requiredMetricIds: string[],
 ): Promise<void> {
   const countryDirectory = repoPath("data", "processed", "countries", countryCode);
+  const metricsPath = path.join(countryDirectory, "metrics.v1.json");
+  const existingMetrics = (await pathExists(metricsPath))
+    ? (await readJsonFile<ProcessedMetricsFile>(metricsPath)).metrics.filter((metric) => metric.source_id)
+    : [];
+  const mergedMetrics = mergeMetrics(existingMetrics, metrics);
+
   await writeJsonFile(path.join(countryDirectory, "metrics.v1.json"), {
     country_code: countryCode,
     version: "1.0",
     generated_at: generatedAt,
-    metrics,
+    metrics: mergedMetrics,
   } satisfies ProcessedMetricsFile);
 
-  const availableMetricIds = metrics
+  const availableMetricIds = mergedMetrics
     .filter((metric) => metric.value !== null && metric.year !== null)
     .map((metric) => metric.metric_id);
   const missingMetricIds = requiredMetricIds.filter(
@@ -55,7 +62,7 @@ export async function writeProcessedMetrics(
   await writeJsonFile(path.join(countryDirectory, "source_coverage.v1.json"), {
     country_code: countryCode,
     generated_at: generatedAt,
-    sources_checked: Array.from(new Set(metrics.map((metric) => metric.source_name ?? "unknown"))),
+    sources_checked: Array.from(new Set(mergedMetrics.map((metric) => metric.source_id ?? "unknown"))),
     metrics_available: availableMetricIds,
     metrics_missing: missingMetricIds,
     notes: [

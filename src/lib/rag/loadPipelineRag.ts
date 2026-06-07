@@ -16,11 +16,15 @@ export async function loadCountryCoverage(countryCode: string): Promise<Coverage
   return (await pathExists(filePath)) ? readJsonFile<CoverageReport>(filePath) : null;
 }
 
-export async function loadCountryModules(countryCode: string): Promise<CountryModule[]> {
+export async function loadCountryModules(
+  countryCode: string,
+  moduleFilter?: string[],
+): Promise<CountryModule[]> {
   const normalizedCode = normalizeCountryCode(countryCode);
   const modules: CountryModule[] = [];
+  const moduleNames = moduleFilter?.length ? moduleFilter : [...COUNTRY_MODULES];
 
-  for (const moduleName of COUNTRY_MODULES) {
+  for (const moduleName of moduleNames) {
     const filePath = repoPath("data", "rag", "countries", normalizedCode, `${moduleName}.v1.json`);
 
     if (await pathExists(filePath)) {
@@ -59,11 +63,13 @@ export async function loadRelationshipCoverage(
 
 export async function loadRelationshipModules(
   relationshipId: string,
+  moduleFilter?: string[],
 ): Promise<RelationshipModule[]> {
   const normalizedRelationshipId = normalizeRelationshipId(relationshipId);
   const modules: RelationshipModule[] = [];
+  const moduleNames = moduleFilter?.length ? moduleFilter : [...RELATIONSHIP_MODULES];
 
-  for (const moduleName of RELATIONSHIP_MODULES) {
+  for (const moduleName of moduleNames) {
     const filePath = repoPath(
       "data",
       "rag",
@@ -109,15 +115,39 @@ export function normalizeRelationshipId(relationshipId: string): string {
   return buildRelationshipId(parts[0], parts[1]);
 }
 
-export async function loadPipelineAskContext(selectedCountries: string[]) {
+export async function loadPipelineAskContext(
+  selectedCountries: string[],
+  options?: {
+    countryModules?: string[];
+    relationshipModules?: string[];
+  },
+) {
   const normalizedCountries = Array.from(new Set(selectedCountries.map(normalizeCountryCode))).sort();
   const relationshipIds = buildCountryPairs(normalizedCountries).map(([countryA, countryB]) =>
     buildRelationshipId(countryA, countryB),
   );
-  const countryModules = (await Promise.all(normalizedCountries.map(loadCountryModules))).flat();
-  const relationshipModules = (await Promise.all(relationshipIds.map(loadRelationshipModules))).flat();
-  const countryChunks = (await Promise.all(normalizedCountries.map(loadCountryChunks))).flat();
-  const relationshipChunks = (await Promise.all(relationshipIds.map(loadRelationshipChunks))).flat();
+  const countryModules = (
+    await Promise.all(
+      normalizedCountries.map((countryCode) =>
+        loadCountryModules(countryCode, options?.countryModules),
+      ),
+    )
+  ).flat();
+  const relationshipModules = (
+    await Promise.all(
+      relationshipIds.map((relationshipId) =>
+        loadRelationshipModules(relationshipId, options?.relationshipModules),
+      ),
+    )
+  ).flat();
+  const allCountryChunks = (await Promise.all(normalizedCountries.map(loadCountryChunks))).flat();
+  const allRelationshipChunks = (await Promise.all(relationshipIds.map(loadRelationshipChunks))).flat();
+  const countryChunkModules = new Set(options?.countryModules ?? COUNTRY_MODULES);
+  const relationshipChunkModules = new Set(options?.relationshipModules ?? RELATIONSHIP_MODULES);
+  const countryChunks = allCountryChunks.filter((chunk) => countryChunkModules.has(chunk.module));
+  const relationshipChunks = allRelationshipChunks.filter((chunk) =>
+    relationshipChunkModules.has(chunk.module),
+  );
   const countryCoverages = await Promise.all(normalizedCountries.map(loadCountryCoverage));
   const relationshipCoverages = await Promise.all(relationshipIds.map(loadRelationshipCoverage));
   const metrics = countryModules.flatMap((module) => module.metrics);
@@ -156,6 +186,7 @@ export function summarizeMetrics(metrics: MetricValue[]) {
     metric_id: metric.metric_id,
     country_code: metric.country_code,
     year: metric.year,
+    source_id: metric.source_id,
     source_name: metric.source_name,
     unit: metric.unit,
   }));

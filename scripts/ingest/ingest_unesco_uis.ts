@@ -2,10 +2,10 @@ import { getSourceAdapter } from "@/lib/sources/adapters";
 import { runSourceAdapter } from "@/lib/sources/sourceRunner";
 
 async function main() {
-  const adapter = getSourceAdapter("un_desa_migrant_stock");
+  const adapter = getSourceAdapter("unesco_uis");
 
   if (!adapter) {
-    throw new Error("Missing source adapter: un_desa_migrant_stock");
+    throw new Error("Missing source adapter: unesco_uis");
   }
 
   await runSourceAdapter(adapter);

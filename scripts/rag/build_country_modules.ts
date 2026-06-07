@@ -9,6 +9,7 @@ import {
   createPopulationDivisionsPayload,
   createScorecardPayload,
 } from "@/lib/pipeline/specialModules";
+import { writeCountryReviewQueue } from "@/lib/pipeline/reviewQueue";
 
 type IndicatorRegistryFile = {
   indicators: IndicatorRegistryEntry[];
@@ -56,8 +57,10 @@ async function main() {
     await writeJsonFile(`${countryDirectory}/sources.json`, {
       country_code: countryCode,
       generated_at: generatedAt,
-      source_ids: Array.from(new Set(processedMetrics.metrics.map((metric) => metric.source_name))).filter(Boolean),
+      source_ids: Array.from(new Set(processedMetrics.metrics.map((metric) => metric.source_id))).filter(Boolean),
     });
+
+    await writeCountryReviewQueue(countryCode, modules);
   }
 }
 

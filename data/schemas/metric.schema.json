@@ -9,12 +9,16 @@
     "value",
     "unit",
     "year",
+    "source_id",
     "source_name",
     "source_url",
     "retrieved_at",
+    "raw_file_path",
+    "raw_record_id",
     "calculation",
     "confidence",
     "freshness_requirement",
+    "freshness_status",
     "notes"
   ],
   "properties": {
@@ -24,11 +28,16 @@
     "unit": { "type": ["string", "null"] },
     "year": { "type": ["integer", "null"] },
     "source_name": { "type": ["string", "null"] },
+    "source_id": { "type": ["string", "null"] },
     "source_url": { "type": ["string", "null"] },
     "retrieved_at": { "type": ["string", "null"] },
+    "raw_file_path": { "type": ["string", "null"] },
+    "raw_record_id": { "type": ["string", "null"] },
     "calculation": { "type": ["string", "null"] },
+    "input_metric_ids": { "type": "array", "items": { "type": "string" } },
     "confidence": { "enum": ["low", "medium", "high", "unknown"] },
     "freshness_requirement": { "type": "string" },
+    "freshness_status": { "enum": ["fresh", "acceptable", "stale", "unknown"] },
     "notes": { "type": "string" }
   }
 }

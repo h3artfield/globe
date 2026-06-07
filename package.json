@@ -13,6 +13,9 @@
     "pipeline:generate": "tsx scripts/rag/build_country_modules.ts && tsx scripts/rag/build_relationship_modules.ts && tsx scripts/rag/build_country_chunks.ts && tsx scripts/rag/build_relationship_chunks.ts && tsx scripts/rag/coverage_report.ts",
     "pipeline:validate": "tsx scripts/rag/validate_rag.ts",
     "pipeline:mvp": "npm run pipeline:ingest:world-bank && npm run pipeline:generate && npm run pipeline:validate",
+    "country:build": "tsx scripts/rag/build_country.ts",
+    "country:build:mvp": "tsx scripts/rag/build_country.ts --mvp",
+    "test": "tsx --test test/**/*.test.ts",
     "postinstall": "node scripts/copy-cesium-assets.mjs"
   },
   "repository": {

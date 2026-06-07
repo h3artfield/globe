@@ -67,6 +67,17 @@ export const RELATIONSHIP_MODULES = [
   "game_theory_relationship",
 ] as const;
 
+export const HUMAN_REVIEW_COUNTRY_MODULES = [
+  "founding_groups",
+  "religion_history",
+  "leader_dossiers",
+  "adversary_narratives",
+  "math_contributions",
+  "philosophy_contributions",
+  "future_scenarios",
+  "game_theory_profile",
+] as const;
+
 export const WORLD_BANK_INDICATORS: Record<string, string> = {
   gdp_current_usd: "NY.GDP.MKTP.CD",
   gdp_per_capita_current_usd: "NY.GDP.PCAP.CD",

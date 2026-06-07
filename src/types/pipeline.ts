@@ -7,6 +7,14 @@ export type FreshnessRequirement =
   | "monthly_or_quarterly"
   | "static_or_historical";
 
+export type FreshnessStatus = "fresh" | "acceptable" | "stale" | "unknown";
+
+export type GenerationStatus =
+  | "auto_generated_structured_data"
+  | "human_reviewed"
+  | "llm_drafted_not_reviewed"
+  | "verified";
+
 export type ClaimType =
   | "fact"
   | "interpretation"
@@ -20,12 +28,17 @@ export type MetricValue = {
   value: number | string | boolean | null;
   unit: string | null;
   year: number | null;
+  source_id: string | null;
   source_name: string | null;
   source_url: string | null;
   retrieved_at: string | null;
+  raw_file_path: string | null;
+  raw_record_id: string | null;
   calculation: string | null;
+  input_metric_ids?: string[];
   confidence: ConfidenceLevel;
   freshness_requirement: FreshnessRequirement;
+  freshness_status: FreshnessStatus;
   notes: string;
 };
 
@@ -50,6 +63,7 @@ export type CountryModule = {
   claims: CountryClaim[];
   open_questions: string[];
   source_ids: string[];
+  generation_status?: GenerationStatus;
   confidence: {
     overall: ConfidenceLevel;
     weak_areas: string[];
@@ -68,6 +82,7 @@ export type RelationshipModule = {
   claims: CountryClaim[];
   open_questions: string[];
   source_ids: string[];
+  generation_status?: GenerationStatus;
   confidence: {
     overall: ConfidenceLevel;
     weak_areas: string[];
@@ -82,6 +97,7 @@ export type RagChunk = {
   text: string;
   tags: string[];
   source_ids: string[];
+  metric_ids?: string[];
   claim_type: ClaimType;
   year_range: [number, number] | null;
   freshness: FreshnessRequirement;
@@ -91,6 +107,10 @@ export type RagChunk = {
 export type CoverageReport = {
   country_code: string;
   coverage_score: number | null;
+  structured_data_score: number | null;
+  narrative_data_score: number | null;
+  freshness_score: number | null;
+  provenance_score: number | null;
   modules_complete: string[];
   modules_partial: string[];
   modules_missing: string[];
@@ -98,6 +118,7 @@ export type CoverageReport = {
   metrics_missing: string[];
   outdated_metrics: string[];
   low_confidence_claims: string[];
+  review_queue_items: string[];
   recommended_next_sources: string[];
 };
 
@@ -137,4 +158,17 @@ export type IndicatorRegistryEntry = {
   formula: string;
   required: boolean;
   source_indicator_code?: string;
+};
+
+export type ReviewQueueItem = {
+  review_id: string;
+  country_code?: string;
+  relationship_id?: string;
+  module: string;
+  reason: string;
+  required_questions: string[];
+  suggested_sources: string[];
+  status: "pending" | "in_review" | "completed";
+  generation_status: GenerationStatus;
+  created_at: string;
 };

@@ -3,6 +3,7 @@ import { buildRelationshipId } from "@/lib/globe/countryIdMap";
 import { COUNTRY_MODULES, MVP_COUNTRIES, MVP_RELATIONSHIP_PAIRS, RELATIONSHIP_MODULES } from "@/lib/pipeline/constants";
 import { buildCountryCoverageReport, buildRelationshipCoverageReport } from "@/lib/pipeline/coverage";
 import { readJsonFile, repoPath, writeJsonFile } from "@/lib/pipeline/io";
+import { loadCountryReviewQueue } from "@/lib/pipeline/reviewQueue";
 
 type IndicatorRegistryFile = {
   indicators: IndicatorRegistryEntry[];
@@ -21,10 +22,11 @@ async function main() {
         ),
       ),
     );
+    const reviewQueueItems = await loadCountryReviewQueue(countryCode);
 
     await writeJsonFile(
       repoPath("data", "rag", "countries", countryCode, "coverage_report.v1.json"),
-      buildCountryCoverageReport(countryCode, modules, registry.indicators),
+      buildCountryCoverageReport(countryCode, modules, registry.indicators, reviewQueueItems),
     );
   }
 

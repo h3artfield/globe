@@ -43,7 +43,7 @@ export function createCountryModule(
   generatedAt: string,
 ): CountryModule {
   const sourceIds = Array.from(
-    new Set(metrics.map((metric) => metric.source_name).filter((source): source is string => !!source)),
+    new Set(metrics.map((metric) => metric.source_id).filter((source): source is string => !!source)),
   ).sort();
 
   return {
@@ -65,6 +65,7 @@ export function createCountryModule(
         ? ["Add sourced narrative analysis and claim-level citations for this module."]
         : ["Populate this module with sourced metrics, claims, and narrative analysis."],
     source_ids: sourceIds,
+    generation_status: metrics.length > 0 ? "auto_generated_structured_data" : undefined,
     confidence: {
       overall: metrics.length > 0 ? "medium" : "unknown",
       weak_areas: metrics.length > 0 ? ["narrative_claims"] : ["metrics", "claims", "sources"],

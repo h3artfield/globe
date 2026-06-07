@@ -1,5 +1,6 @@
 import type { CountryModule, MetricValue, RagChunk, RelationshipModule } from "@/types/pipeline";
 import { buildRelationshipId } from "@/lib/globe/countryIdMap";
+import { validateMetricProvenance } from "@/lib/provenance/provenanceValidator";
 
 export type ValidationResult = {
   errors: string[];
@@ -29,7 +30,9 @@ export function validateMetric(metric: MetricValue, location: string): Validatio
     errors.push(`${location}: metric ${metric.metric_id} has no unit`);
   }
 
-  return { errors, warnings: [] };
+  const provenance = validateMetricProvenance(metric, `${location}:${metric.metric_id}`);
+
+  return { errors: [...errors, ...provenance.errors], warnings: provenance.warnings };
 }
 
 export function validateCountryModule(module: CountryModule, location: string): ValidationResult {

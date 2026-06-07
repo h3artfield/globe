@@ -1,7 +1,40 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-06-07",
   "sources": [
+    {
+      "source_id": "manual_history_sources",
+      "name": "Manual history source registry",
+      "type": "manual",
+      "base_url": "",
+      "license": "Human-curated per-source license",
+      "coverage": "history, founding groups, national narratives",
+      "refresh_frequency": "as_needed",
+      "priority": 1,
+      "notes": "Manual, source-backed history inputs."
+    },
+    {
+      "source_id": "manual_leader_sources",
+      "name": "Manual leader source dossier registry",
+      "type": "manual",
+      "base_url": "",
+      "license": "Human-curated per-source license",
+      "coverage": "leader biographies, offices, public behavior, patronage networks",
+      "refresh_frequency": "as_needed",
+      "priority": 1,
+      "notes": "Manual, source-backed leader dossier inputs."
+    },
+    {
+      "source_id": "manual_religion_sources",
+      "name": "Manual religion source registry",
+      "type": "manual",
+      "base_url": "",
+      "license": "Human-curated per-source license",
+      "coverage": "religion history and religious demographics",
+      "refresh_frequency": "as_needed",
+      "priority": 1,
+      "notes": "Manual, source-backed religion inputs."
+    },
     {
       "source_id": "world_bank_wdi",
       "name": "World Bank World Development Indicators",
@@ -14,6 +47,17 @@
       "notes": "Primary MVP source for macroeconomic, demographic, education, crime, technology, and military expenditure indicators."
     },
     {
+      "source_id": "manual_philosophy_math_sources",
+      "name": "Manual philosophy and math source registry",
+      "type": "manual",
+      "base_url": "",
+      "license": "Human-curated per-source license",
+      "coverage": "philosophy, math, and intellectual contributions",
+      "refresh_frequency": "as_needed",
+      "priority": 2,
+      "notes": "Manual, source-backed intellectual contribution inputs."
+    },
+    {
       "source_id": "un_comtrade",
       "name": "UN Comtrade",
       "type": "api",
@@ -23,6 +67,17 @@
       "refresh_frequency": "monthly_or_annual",
       "priority": 2,
       "notes": "Future adapter for top exports/imports and partner trade."
+    },
+    {
+      "source_id": "un_desa_migrant_stock",
+      "name": "UN DESA International Migrant Stock",
+      "type": "download",
+      "base_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+      "license": "See UN terms",
+      "coverage": "migrant stock by country and year",
+      "refresh_frequency": "periodic",
+      "priority": 2,
+      "notes": "Future adapter for foreign-born population share and migrant stock."
     },
     {
       "source_id": "unodc",
@@ -47,17 +102,6 @@
       "notes": "Future adapter for regime type, civil liberties, democracy scores."
     },
     {
-      "source_id": "world_values_survey",
-      "name": "World Values Survey",
-      "type": "download",
-      "base_url": "https://www.worldvaluessurvey.org",
-      "license": "See WVS terms",
-      "coverage": "public opinion and cohesion survey data",
-      "refresh_frequency": "wave_based",
-      "priority": 2,
-      "notes": "Future adapter for national pride, trust, willingness to fight, immigration attitudes."
-    },
-    {
       "source_id": "wipo",
       "name": "WIPO IP Statistics Data Center",
       "type": "api",
@@ -67,6 +111,17 @@
       "refresh_frequency": "annual",
       "priority": 2,
       "notes": "Future adapter for patent applications and PCT indicators."
+    },
+    {
+      "source_id": "world_values_survey",
+      "name": "World Values Survey",
+      "type": "download",
+      "base_url": "https://www.worldvaluessurvey.org",
+      "license": "See WVS terms",
+      "coverage": "public opinion and cohesion survey data",
+      "refresh_frequency": "wave_based",
+      "priority": 2,
+      "notes": "Future adapter for national pride, trust, willingness to fight, immigration attitudes."
     },
     {
       "source_id": "oecd_pisa",
@@ -80,59 +135,26 @@
       "notes": "Future adapter for PISA reading, math, and science."
     },
     {
-      "source_id": "un_desa_migrant_stock",
-      "name": "UN DESA International Migrant Stock",
-      "type": "download",
-      "base_url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
-      "license": "See UN terms",
-      "coverage": "migrant stock by country and year",
-      "refresh_frequency": "periodic",
-      "priority": 2,
-      "notes": "Future adapter for foreign-born population share and migrant stock."
+      "source_id": "unctad",
+      "name": "UNCTAD Data Centre",
+      "type": "api",
+      "base_url": "https://unctadstat.unctad.org",
+      "license": "See UNCTAD terms",
+      "coverage": "trade, investment, shipping, and development indicators",
+      "refresh_frequency": "annual",
+      "priority": 3,
+      "notes": "Phase 3 stub adapter; implement before emitting UNCTAD metrics."
     },
     {
-      "source_id": "manual_leader_sources",
-      "name": "Manual leader source dossier registry",
-      "type": "manual",
-      "base_url": "",
-      "license": "Human-curated per-source license",
-      "coverage": "leader biographies, offices, public behavior, patronage networks",
-      "refresh_frequency": "as_needed",
-      "priority": 1,
-      "notes": "Manual, source-backed leader dossier inputs."
-    },
-    {
-      "source_id": "manual_history_sources",
-      "name": "Manual history source registry",
-      "type": "manual",
-      "base_url": "",
-      "license": "Human-curated per-source license",
-      "coverage": "history, founding groups, national narratives",
-      "refresh_frequency": "as_needed",
-      "priority": 1,
-      "notes": "Manual, source-backed history inputs."
-    },
-    {
-      "source_id": "manual_religion_sources",
-      "name": "Manual religion source registry",
-      "type": "manual",
-      "base_url": "",
-      "license": "Human-curated per-source license",
-      "coverage": "religion history and religious demographics",
-      "refresh_frequency": "as_needed",
-      "priority": 1,
-      "notes": "Manual, source-backed religion inputs."
-    },
-    {
-      "source_id": "manual_philosophy_math_sources",
-      "name": "Manual philosophy and math source registry",
-      "type": "manual",
-      "base_url": "",
-      "license": "Human-curated per-source license",
-      "coverage": "philosophy, math, and intellectual contributions",
-      "refresh_frequency": "as_needed",
-      "priority": 2,
-      "notes": "Manual, source-backed intellectual contribution inputs."
+      "source_id": "unesco_uis",
+      "name": "UNESCO Institute for Statistics",
+      "type": "api",
+      "base_url": "https://api.uis.unesco.org",
+      "license": "See UNESCO UIS terms",
+      "coverage": "education indicators and attainment data",
+      "refresh_frequency": "annual",
+      "priority": 3,
+      "notes": "Phase 3 stub adapter; implement before emitting UIS metrics."
     }
   ]
 }

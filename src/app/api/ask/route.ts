@@ -3,6 +3,7 @@ import type { AskRequest } from "@/types/api";
 import { askStrategicQuestion } from "@/lib/ai/askStrategicQuestion";
 import { buildRagContext } from "@/lib/rag/buildRagContext";
 import { loadPipelineAskContext, summarizeMetrics } from "@/lib/rag/loadPipelineRag";
+import { selectRelevantModules } from "@/lib/rag/selectRelevantModules";
 
 export async function POST(request: Request) {
   const body = (await request.json()) as Partial<AskRequest>;
@@ -19,7 +20,8 @@ export async function POST(request: Request) {
   }
 
   const ragContext = await buildRagContext(body.selectedCountries);
-  const pipelineContext = await loadPipelineAskContext(body.selectedCountries);
+  const relevantModules = selectRelevantModules(body.question);
+  const pipelineContext = await loadPipelineAskContext(body.selectedCountries, relevantModules);
   const answer = await askStrategicQuestion(body.question, ragContext);
   const modulesUsed = [
     ...pipelineContext.countryModules.map(
@@ -61,6 +63,7 @@ export async function POST(request: Request) {
       relationship_coverage_reports: pipelineContext.relationshipCoverages,
       country_chunks_loaded: pipelineContext.countryChunks.length,
       relationship_chunks_loaded: pipelineContext.relationshipChunks.length,
+      relevant_topics: relevantModules.topics,
     },
   });
 }

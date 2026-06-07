@@ -5,6 +5,7 @@ import { AnswerPanel } from "@/components/AnswerPanel";
 import { AskPanel } from "@/components/AskPanel";
 import { CountryInfoPanel } from "@/components/CountryInfoPanel";
 import { CountrySearch } from "@/components/CountrySearch";
+import { CoveragePanel } from "@/components/CoveragePanel";
 import { Globe } from "@/components/Globe";
 import { LoadingState } from "@/components/LoadingState";
 import { SelectedCountriesPanel } from "@/components/SelectedCountriesPanel";
@@ -202,6 +203,10 @@ export default function Home() {
               selectedCountries={selectedCountries}
               ragStatus={selectedCountries.length > 0 ? ragStatus : null}
               onRemoveCountry={handleRemoveCountry}
+            />
+            <CoveragePanel
+              selectedCountries={selectedCountries}
+              ragStatus={selectedCountries.length > 0 ? ragStatus : null}
             />
             <AskPanel
               disabled={selectedCountries.length === 0}
