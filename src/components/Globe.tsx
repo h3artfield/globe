@@ -97,6 +97,60 @@ function getFeatureCentroid(feature: CountryGeoJsonFeature): [number, number] | 
   return [(minLon + maxLon) / 2, (minLat + maxLat) / 2];
 }
 
+function isCoordinatePair(value: unknown): value is [number, number] {
+  return (
+    Array.isArray(value) &&
+    value.length >= 2 &&
+    typeof value[0] === "number" &&
+    typeof value[1] === "number"
+  );
+}
+
+function isLinearRing(value: unknown): value is Array<[number, number]> {
+  return Array.isArray(value) && value.length >= 2 && value.every(isCoordinatePair);
+}
+
+function collectLinearRings(value: unknown, rings: Array<Array<[number, number]>>) {
+  if (isLinearRing(value)) {
+    rings.push(value);
+    return;
+  }
+
+  if (Array.isArray(value)) {
+    for (const child of value) {
+      collectLinearRings(child, rings);
+    }
+  }
+}
+
+function getFeatureRings(feature: CountryGeoJsonFeature): Array<Array<[number, number]>> {
+  const rings: Array<Array<[number, number]>> = [];
+
+  if ("coordinates" in feature.geometry) {
+    collectLinearRings(feature.geometry.coordinates, rings);
+  } else if (feature.geometry.type === "GeometryCollection") {
+    for (const geometry of feature.geometry.geometries) {
+      if ("coordinates" in geometry) {
+        collectLinearRings(geometry.coordinates, rings);
+      }
+    }
+  }
+
+  return rings;
+}
+
+function ringToDegreesArray(ring: Array<[number, number]>): number[] {
+  const closedRing = [...ring];
+  const first = closedRing[0];
+  const last = closedRing[closedRing.length - 1];
+
+  if (first && last && (first[0] !== last[0] || first[1] !== last[1])) {
+    closedRing.push(first);
+  }
+
+  return closedRing.flatMap(([lon, lat]) => [lon, lat]);
+}
+
 function styleCountries(
   dataSource: CustomDataSource | null,
   Cesium: CesiumModule | null,
@@ -108,7 +162,7 @@ function styleCountries(
   }
 
   for (const entity of dataSource.entities.values) {
-    if (!entity.point) {
+    if (!entity.point && !entity.polyline) {
       continue;
     }
 
@@ -121,12 +175,24 @@ function styleCountries(
         ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.55)
         : Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.35);
 
-    entity.point.color = new Cesium.ConstantProperty(fill);
-    entity.point.pixelSize = new Cesium.ConstantProperty(isSelected ? 13 : isHovered ? 11 : 7);
-    entity.point.outlineColor = new Cesium.ConstantProperty(
-      isSelected ? Cesium.Color.WHITE : Cesium.Color.fromCssColorString("#0f172a"),
-    );
-    entity.point.outlineWidth = new Cesium.ConstantProperty(isSelected || isHovered ? 2 : 1);
+    if (entity.point) {
+      entity.point.color = new Cesium.ConstantProperty(fill);
+      entity.point.pixelSize = new Cesium.ConstantProperty(isSelected ? 8 : isHovered ? 7 : 4);
+      entity.point.outlineColor = new Cesium.ConstantProperty(
+        isSelected ? Cesium.Color.WHITE : Cesium.Color.fromCssColorString("#0f172a"),
+      );
+      entity.point.outlineWidth = new Cesium.ConstantProperty(isSelected || isHovered ? 2 : 1);
+    }
+    if (entity.polyline) {
+      entity.polyline.material = new Cesium.ColorMaterialProperty(
+        isSelected
+          ? Cesium.Color.fromCssColorString("#22d3ee").withAlpha(0.95)
+          : isHovered
+            ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.95)
+            : Cesium.Color.fromCssColorString("#38bdf8").withAlpha(0.65),
+      );
+      entity.polyline.width = new Cesium.ConstantProperty(isSelected ? 3 : isHovered ? 2.5 : 1.25);
+    }
     if (entity.label) {
       entity.label.show = new Cesium.ConstantProperty(isSelected || isHovered);
     }
@@ -191,17 +257,44 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
         }
         viewerRef.current = viewer;
 
-        const dataSource = new Cesium.CustomDataSource("country-centroids");
+        const dataSource = new Cesium.CustomDataSource("country-boundaries");
 
         for (const feature of geoJson.features) {
           const code = getCountryFeatureIso3(feature.properties, feature.id);
           const centroid = getFeatureCentroid(feature);
 
-          if (!code || !centroid) {
+          if (!code) {
             continue;
           }
 
           const name = getCountryFeatureName(feature.properties, code);
+          const rings = getFeatureRings(feature);
+
+          rings.forEach((ring, index) => {
+            const degrees = ringToDegreesArray(ring);
+            if (degrees.length < 4) {
+              return;
+            }
+
+            dataSource.entities.add({
+              id: `${code}-boundary-${index}`,
+              name,
+              properties: new Cesium.PropertyBag({
+                iso3: code,
+                name,
+              }),
+              polyline: {
+                positions: Cesium.Cartesian3.fromDegreesArray(degrees),
+                width: 1.25,
+                material: Cesium.Color.fromCssColorString("#38bdf8").withAlpha(0.65),
+                clampToGround: false,
+              },
+            });
+          });
+
+          if (!centroid) {
+            continue;
+          }
 
           dataSource.entities.add({
             id: code,
@@ -212,7 +305,7 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
               name,
             }),
             point: {
-              pixelSize: 7,
+              pixelSize: 4,
               color: Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.8),
               outlineColor: Cesium.Color.fromCssColorString("#0f172a"),
               outlineWidth: 1,
@@ -300,7 +393,7 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
         </div>
       ) : null}
       <div className="absolute bottom-4 left-4 rounded-lg border border-slate-700 bg-slate-950/80 px-3 py-2 text-xs text-slate-300 backdrop-blur">
-        Click country markers to toggle selection. Multiple countries can be selected.
+        Click country outlines or markers to toggle selection. Multiple countries can be selected.
       </div>
     </div>
   );
