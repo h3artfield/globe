@@ -17,7 +17,7 @@
       "source_id": "world_bank_wdi",
       "source_name": "world_bank_wdi",
       "source_url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?format=json&per_page=80",
-      "retrieved_at": "2026-06-07T00:58:09.989Z",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
       "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
       "raw_record_id": "IND:life_expectancy:SP.DYN.LE00.IN",
       "calculation": "SP.DYN.LE00.IN",

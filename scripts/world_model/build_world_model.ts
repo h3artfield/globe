@@ -145,9 +145,9 @@ async function main() {
     const reviewItems: ReviewQueueItem[] = await loadCountryReviewQueue(countryCode);
 
     for (const [index, moduleName] of WORLD_MODEL_COUNTRY_MODULES.entries()) {
-      const module = countryWorldModulePayload(countryCode, moduleName);
-      await writeJsonFile(`${countryDirectory}/${moduleName}.v1.json`, module);
-      chunks.push(buildCountryChunk(module, 900 + index));
+      const countryModule = countryWorldModulePayload(countryCode, moduleName);
+      await writeJsonFile(`${countryDirectory}/${moduleName}.v1.json`, countryModule);
+      chunks.push(buildCountryChunk(countryModule, 900 + index));
       reviewItems.push(buildReviewQueueItem(countryCode, moduleName, 900 + index));
     }
 
@@ -207,9 +207,9 @@ async function main() {
     const relationshipDirectory = repoPath("data", "rag", "relationships", relationshipId);
     const chunks = [];
     for (const [index, moduleName] of WORLD_MODEL_RELATIONSHIP_MODULES.entries()) {
-      const module = emptyRelationshipWorldModule(relationshipId, moduleName);
-      await writeJsonFile(`${relationshipDirectory}/${moduleName}.v1.json`, module);
-      chunks.push(buildRelationshipChunk(module, 900 + index));
+      const relationshipModule = emptyRelationshipWorldModule(relationshipId, moduleName);
+      await writeJsonFile(`${relationshipDirectory}/${moduleName}.v1.json`, relationshipModule);
+      chunks.push(buildRelationshipChunk(relationshipModule, 900 + index));
     }
     await appendRelationshipChunks(relationshipId, chunks);
   }

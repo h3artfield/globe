@@ -1,6 +1,6 @@
 {
   "country_code": "IND",
-  "generated_at": "2026-06-07T01:14:39.201Z",
+  "generated_at": "2026-06-07T01:15:51.889Z",
   "items": [
     {
       "review_id": "IND-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-future_scenarios-008",
@@ -130,7 +130,135 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:58:12.299Z"
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-allies_and_partners-009",
+      "country_code": "IND",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-adversaries_and_rivals-010",
+      "country_code": "IND",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-national_event_timeline-011",
+      "country_code": "IND",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-top_national_events_20_years-012",
+      "country_code": "IND",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-news_memory-013",
+      "country_code": "IND",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-threat_perception-014",
+      "country_code": "IND",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-wikipedia_baseline-015",
+      "country_code": "IND",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
+    },
+    {
+      "review_id": "IND-wikipedia_references-016",
+      "country_code": "IND",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:15:51.571Z"
     },
     {
       "review_id": "IND-allies_and_partners-900",
@@ -146,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:12:45.615Z"
+      "created_at": "2026-06-07T01:15:51.887Z"
     },
     {
       "review_id": "IND-adversaries_and_rivals-901",
@@ -162,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:12:45.618Z"
+      "created_at": "2026-06-07T01:15:51.888Z"
     },
     {
       "review_id": "IND-national_event_timeline-902",
@@ -178,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:12:45.618Z"
+      "created_at": "2026-06-07T01:15:51.888Z"
     },
     {
       "review_id": "IND-top_national_events_20_years-903",
@@ -194,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:12:45.619Z"
+      "created_at": "2026-06-07T01:15:51.888Z"
     },
     {
       "review_id": "IND-news_memory-904",
@@ -210,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:12:45.623Z"
+      "created_at": "2026-06-07T01:15:51.888Z"
     },
     {
       "review_id": "IND-threat_perception-905",
@@ -226,199 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:12:45.623Z"
-    },
-    {
-      "review_id": "IND-allies_and_partners-900",
-      "country_code": "IND",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:13:40.339Z"
-    },
-    {
-      "review_id": "IND-adversaries_and_rivals-901",
-      "country_code": "IND",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:13:40.339Z"
-    },
-    {
-      "review_id": "IND-national_event_timeline-902",
-      "country_code": "IND",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:13:40.340Z"
-    },
-    {
-      "review_id": "IND-top_national_events_20_years-903",
-      "country_code": "IND",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:13:40.340Z"
-    },
-    {
-      "review_id": "IND-news_memory-904",
-      "country_code": "IND",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:13:40.340Z"
-    },
-    {
-      "review_id": "IND-threat_perception-905",
-      "country_code": "IND",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:13:40.340Z"
-    },
-    {
-      "review_id": "IND-allies_and_partners-900",
-      "country_code": "IND",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:14:39.200Z"
-    },
-    {
-      "review_id": "IND-adversaries_and_rivals-901",
-      "country_code": "IND",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:14:39.200Z"
-    },
-    {
-      "review_id": "IND-national_event_timeline-902",
-      "country_code": "IND",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:14:39.200Z"
-    },
-    {
-      "review_id": "IND-top_national_events_20_years-903",
-      "country_code": "IND",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:14:39.200Z"
-    },
-    {
-      "review_id": "IND-news_memory-904",
-      "country_code": "IND",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:14:39.200Z"
-    },
-    {
-      "review_id": "IND-threat_perception-905",
-      "country_code": "IND",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T01:14:39.201Z"
+      "created_at": "2026-06-07T01:15:51.888Z"
     }
   ]
 }
