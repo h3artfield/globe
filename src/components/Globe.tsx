@@ -23,6 +23,17 @@ type GlobeProps = {
   onHoverCountry: (country: CountrySummary | null) => void;
 };
 
+type CountryHitArea = {
+  country: CountrySummary;
+  rings: Array<Array<[number, number]>>;
+  bbox: {
+    minLon: number;
+    maxLon: number;
+    minLat: number;
+    maxLat: number;
+  };
+};
+
 function getEntityCountry(
   entity: Entity | undefined,
   Cesium: CesiumModule,
@@ -151,6 +162,62 @@ function ringToDegreesArray(ring: Array<[number, number]>): number[] {
   return closedRing.flatMap(([lon, lat]) => [lon, lat]);
 }
 
+function getRingsBoundingBox(rings: Array<Array<[number, number]>>): CountryHitArea["bbox"] {
+  let minLon = Number.POSITIVE_INFINITY;
+  let maxLon = Number.NEGATIVE_INFINITY;
+  let minLat = Number.POSITIVE_INFINITY;
+  let maxLat = Number.NEGATIVE_INFINITY;
+
+  for (const ring of rings) {
+    for (const [lon, lat] of ring) {
+      minLon = Math.min(minLon, lon);
+      maxLon = Math.max(maxLon, lon);
+      minLat = Math.min(minLat, lat);
+      maxLat = Math.max(maxLat, lat);
+    }
+  }
+
+  return { minLon, maxLon, minLat, maxLat };
+}
+
+function pointInRing(lon: number, lat: number, ring: Array<[number, number]>): boolean {
+  let inside = false;
+
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i, i += 1) {
+    const [xi, yi] = ring[i];
+    const [xj, yj] = ring[j];
+    const intersects =
+      yi > lat !== yj > lat &&
+      lon < ((xj - xi) * (lat - yi)) / (yj - yi || Number.EPSILON) + xi;
+
+    if (intersects) {
+      inside = !inside;
+    }
+  }
+
+  return inside;
+}
+
+function findCountryAtLonLat(
+  lon: number,
+  lat: number,
+  hitAreas: CountryHitArea[],
+): CountrySummary | null {
+  for (const hitArea of hitAreas) {
+    const { bbox } = hitArea;
+
+    if (lon < bbox.minLon || lon > bbox.maxLon || lat < bbox.minLat || lat > bbox.maxLat) {
+      continue;
+    }
+
+    if (hitArea.rings.some((ring) => pointInRing(lon, lat, ring))) {
+      return hitArea.country;
+    }
+  }
+
+  return null;
+}
+
 function styleCountries(
   dataSource: CustomDataSource | null,
   Cesium: CesiumModule | null,
@@ -205,6 +272,8 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
   const dataSourceRef = useRef<CustomDataSource | null>(null);
   const cesiumRef = useRef<CesiumModule | null>(null);
   const handlerRef = useRef<ScreenSpaceEventHandler | null>(null);
+  const hitAreasRef = useRef<CountryHitArea[]>([]);
+  const hoveredCountryRef = useRef<CountrySummary | null>(null);
   const onHoverCountryRef = useRef(onHoverCountry);
   const onToggleCountryRef = useRef(onToggleCountry);
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
@@ -258,6 +327,7 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
         viewerRef.current = viewer;
 
         const dataSource = new Cesium.CustomDataSource("country-boundaries");
+        const hitAreas: CountryHitArea[] = [];
 
         for (const feature of geoJson.features) {
           const code = getCountryFeatureIso3(feature.properties, feature.id);
@@ -269,6 +339,18 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
 
           const name = getCountryFeatureName(feature.properties, code);
           const rings = getFeatureRings(feature);
+
+          if (rings.length > 0) {
+            hitAreas.push({
+              country: {
+                code,
+                name,
+                hasCountryRag: false,
+              },
+              rings,
+              bbox: getRingsBoundingBox(rings),
+            });
+          }
 
           rings.forEach((ring, index) => {
             const degrees = ringToDegreesArray(ring);
@@ -310,7 +392,6 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
               outlineColor: Cesium.Color.fromCssColorString("#0f172a"),
               outlineWidth: 1,
               heightReference: Cesium.HeightReference.NONE,
-              disableDepthTestDistance: Number.POSITIVE_INFINITY,
             },
             label: {
               text: code,
@@ -321,7 +402,6 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
               style: Cesium.LabelStyle.FILL_AND_OUTLINE,
               pixelOffset: new Cesium.Cartesian2(0, -18),
               show: false,
-              disableDepthTestDistance: Number.POSITIVE_INFINITY,
             },
           });
         }
@@ -330,6 +410,7 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
           return;
         }
 
+        hitAreasRef.current = hitAreas;
         dataSourceRef.current = dataSource;
         await viewer.dataSources.add(dataSource);
         viewer.camera.setView({
@@ -341,8 +422,19 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
 
         handler.setInputAction(
           (movement: { endPosition: Cartesian2 }) => {
-            const picked = viewer.scene.pick(movement.endPosition) as { id?: Entity } | undefined;
-            const country = getEntityCountry(picked?.id, Cesium);
+            const cartesian = viewer.camera.pickEllipsoid(
+              movement.endPosition,
+              viewer.scene.globe.ellipsoid,
+            );
+            const cartographic = cartesian ? Cesium.Cartographic.fromCartesian(cartesian) : null;
+            const country = cartographic
+              ? findCountryAtLonLat(
+                  Cesium.Math.toDegrees(cartographic.longitude),
+                  Cesium.Math.toDegrees(cartographic.latitude),
+                  hitAreasRef.current,
+                )
+              : null;
+            hoveredCountryRef.current = country;
             setHoveredCode(country?.code ?? null);
             onHoverCountryRef.current(country);
           },
@@ -351,8 +443,18 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
 
         handler.setInputAction(
           (movement: { position: Cartesian2 }) => {
-            const picked = viewer.scene.pick(movement.position) as { id?: Entity } | undefined;
-            const country = getEntityCountry(picked?.id, Cesium);
+            const cartesian = viewer.camera.pickEllipsoid(
+              movement.position,
+              viewer.scene.globe.ellipsoid,
+            );
+            const cartographic = cartesian ? Cesium.Cartographic.fromCartesian(cartesian) : null;
+            const country = cartographic
+              ? findCountryAtLonLat(
+                  Cesium.Math.toDegrees(cartographic.longitude),
+                  Cesium.Math.toDegrees(cartographic.latitude),
+                  hitAreasRef.current,
+                )
+              : hoveredCountryRef.current;
 
             if (country) {
               onToggleCountryRef.current(country);
