@@ -1,0 +1,16 @@
+{
+  "request_id": "UKR-nationalism_cohesion-sources-1780797237888",
+  "country_code": "UKR",
+  "module": "nationalism_cohesion",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

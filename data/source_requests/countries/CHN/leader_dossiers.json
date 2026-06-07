@@ -1,0 +1,42 @@
+{
+  "request_id": "CHN-leader_dossiers-sources-1780797237608",
+  "country_code": "CHN",
+  "module": "leader_dossiers",
+  "needed_for_questions": [
+    "For leader dossiers, what source-backed evidence answers dossier question 1?",
+    "For leader dossiers, what source-backed evidence answers dossier question 2?",
+    "For leader dossiers, what source-backed evidence answers dossier question 3?",
+    "For leader dossiers, what source-backed evidence answers dossier question 4?",
+    "For leader dossiers, what source-backed evidence answers dossier question 5?",
+    "For leader dossiers, what source-backed evidence answers dossier question 6?",
+    "For leader dossiers, what source-backed evidence answers dossier question 7?",
+    "For leader dossiers, what source-backed evidence answers dossier question 8?",
+    "For leader dossiers, what source-backed evidence answers dossier question 9?",
+    "For leader dossiers, what source-backed evidence answers dossier question 10?",
+    "For leader dossiers, what source-backed evidence answers dossier question 11?",
+    "For leader dossiers, what source-backed evidence answers dossier question 12?",
+    "For leader dossiers, what source-backed evidence answers dossier question 13?",
+    "For leader dossiers, what source-backed evidence answers dossier question 14?",
+    "For leader dossiers, what source-backed evidence answers dossier question 15?",
+    "For leader dossiers, what source-backed evidence answers dossier question 16?",
+    "For leader dossiers, what source-backed evidence answers dossier question 17?",
+    "For leader dossiers, what source-backed evidence answers dossier question 18?",
+    "For leader dossiers, what source-backed evidence answers dossier question 19?",
+    "For leader dossiers, what source-backed evidence answers dossier question 20?",
+    "For leader dossiers, what source-backed evidence answers dossier question 21?",
+    "For leader dossiers, what source-backed evidence answers dossier question 22?",
+    "For leader dossiers, what source-backed evidence answers dossier question 23?",
+    "For leader dossiers, what source-backed evidence answers dossier question 24?",
+    "For leader dossiers, what source-backed evidence answers dossier question 25?"
+  ],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

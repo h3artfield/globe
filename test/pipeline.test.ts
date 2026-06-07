@@ -338,8 +338,8 @@ test("claim approval copies approved claim into module and rebuilds chunks", asy
   };
   await appendApprovedClaimToModule("USA", "history", claim);
   await rebuildCountryChunks("USA");
-  const module = await readJsonFile<CountryModule>(repoPath("data", "rag", "countries", "USA", "history.v1.json"));
-  assert.ok(module.claims.some((item) => item.claim_id === claim.claim_id));
+  const countryModuleValue = await readJsonFile<CountryModule>(repoPath("data", "rag", "countries", "USA", "history.v1.json"));
+  assert.ok(countryModuleValue.claims.some((item) => item.claim_id === claim.claim_id));
 });
 
 test("claim rejection is preserved with reason", async () => {
@@ -366,7 +366,7 @@ test("needs-better-sources flow creates source request", async () => {
 });
 
 test("dossier validator accepts verified sourced claim", () => {
-  const module = countryModule({
+  const countryModuleValue = countryModule({
     claims: [{
       claim_id: "USA-test-verified-001",
       text: "Verified sourced claim.",
@@ -378,6 +378,6 @@ test("dossier validator accepts verified sourced claim", () => {
       notes: "metric_id=gdp_current_usd",
     }],
   });
-  const result = validateDossierModule(module);
+  const result = validateDossierModule(countryModuleValue);
   assert.equal(result.errors.length, 0);
 });

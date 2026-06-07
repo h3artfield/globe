@@ -1,0 +1,16 @@
+{
+  "request_id": "ETH-founding_groups-sources-1780797237765",
+  "country_code": "ETH",
+  "module": "founding_groups",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

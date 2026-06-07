@@ -1,0 +1,16 @@
+{
+  "request_id": "CHN-adversaries_and_rivals-sources-1780797313454",
+  "country_code": "CHN",
+  "module": "adversaries_and_rivals",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

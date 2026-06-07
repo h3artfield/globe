@@ -1,0 +1,16 @@
+{
+  "request_id": "IRN-founding_groups-sources-1780797238117",
+  "country_code": "IRN",
+  "module": "founding_groups",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "request_id": "TUR-founding_groups-sources-1780797238218",
+  "country_code": "TUR",
+  "module": "founding_groups",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

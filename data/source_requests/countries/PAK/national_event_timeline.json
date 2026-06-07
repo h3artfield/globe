@@ -1,0 +1,16 @@
+{
+  "request_id": "PAK-national_event_timeline-sources-1780797237983",
+  "country_code": "PAK",
+  "module": "national_event_timeline",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

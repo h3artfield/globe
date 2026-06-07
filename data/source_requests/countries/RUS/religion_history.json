@@ -1,0 +1,16 @@
+{
+  "request_id": "RUS-religion_history-sources-1780797237827",
+  "country_code": "RUS",
+  "module": "religion_history",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

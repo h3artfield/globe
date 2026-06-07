@@ -1,0 +1,16 @@
+{
+  "request_id": "RUS-top_national_events_20_years-sources-1780797237804",
+  "country_code": "RUS",
+  "module": "top_national_events_20_years",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

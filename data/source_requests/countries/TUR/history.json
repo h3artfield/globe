@@ -1,0 +1,16 @@
+{
+  "request_id": "TUR-history-sources-1780797238215",
+  "country_code": "TUR",
+  "module": "history",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

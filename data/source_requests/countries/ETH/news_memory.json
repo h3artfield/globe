@@ -1,0 +1,16 @@
+{
+  "request_id": "ETH-news_memory-sources-1780797237749",
+  "country_code": "ETH",
+  "module": "news_memory",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

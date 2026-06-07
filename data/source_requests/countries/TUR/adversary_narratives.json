@@ -1,0 +1,42 @@
+{
+  "request_id": "TUR-adversary_narratives-sources-1780797238234",
+  "country_code": "TUR",
+  "module": "adversary_narratives",
+  "needed_for_questions": [
+    "For adversary narratives, what source-backed evidence answers dossier question 1?",
+    "For adversary narratives, what source-backed evidence answers dossier question 2?",
+    "For adversary narratives, what source-backed evidence answers dossier question 3?",
+    "For adversary narratives, what source-backed evidence answers dossier question 4?",
+    "For adversary narratives, what source-backed evidence answers dossier question 5?",
+    "For adversary narratives, what source-backed evidence answers dossier question 6?",
+    "For adversary narratives, what source-backed evidence answers dossier question 7?",
+    "For adversary narratives, what source-backed evidence answers dossier question 8?",
+    "For adversary narratives, what source-backed evidence answers dossier question 9?",
+    "For adversary narratives, what source-backed evidence answers dossier question 10?",
+    "For adversary narratives, what source-backed evidence answers dossier question 11?",
+    "For adversary narratives, what source-backed evidence answers dossier question 12?",
+    "For adversary narratives, what source-backed evidence answers dossier question 13?",
+    "For adversary narratives, what source-backed evidence answers dossier question 14?",
+    "For adversary narratives, what source-backed evidence answers dossier question 15?",
+    "For adversary narratives, what source-backed evidence answers dossier question 16?",
+    "For adversary narratives, what source-backed evidence answers dossier question 17?",
+    "For adversary narratives, what source-backed evidence answers dossier question 18?",
+    "For adversary narratives, what source-backed evidence answers dossier question 19?",
+    "For adversary narratives, what source-backed evidence answers dossier question 20?",
+    "For adversary narratives, what source-backed evidence answers dossier question 21?",
+    "For adversary narratives, what source-backed evidence answers dossier question 22?",
+    "For adversary narratives, what source-backed evidence answers dossier question 23?",
+    "For adversary narratives, what source-backed evidence answers dossier question 24?",
+    "For adversary narratives, what source-backed evidence answers dossier question 25?"
+  ],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

@@ -1,0 +1,42 @@
+{
+  "request_id": "SAU-game_theory_profile-sources-1780797238163",
+  "country_code": "SAU",
+  "module": "game_theory_profile",
+  "needed_for_questions": [
+    "For game theory profile, what source-backed evidence answers dossier question 1?",
+    "For game theory profile, what source-backed evidence answers dossier question 2?",
+    "For game theory profile, what source-backed evidence answers dossier question 3?",
+    "For game theory profile, what source-backed evidence answers dossier question 4?",
+    "For game theory profile, what source-backed evidence answers dossier question 5?",
+    "For game theory profile, what source-backed evidence answers dossier question 6?",
+    "For game theory profile, what source-backed evidence answers dossier question 7?",
+    "For game theory profile, what source-backed evidence answers dossier question 8?",
+    "For game theory profile, what source-backed evidence answers dossier question 9?",
+    "For game theory profile, what source-backed evidence answers dossier question 10?",
+    "For game theory profile, what source-backed evidence answers dossier question 11?",
+    "For game theory profile, what source-backed evidence answers dossier question 12?",
+    "For game theory profile, what source-backed evidence answers dossier question 13?",
+    "For game theory profile, what source-backed evidence answers dossier question 14?",
+    "For game theory profile, what source-backed evidence answers dossier question 15?",
+    "For game theory profile, what source-backed evidence answers dossier question 16?",
+    "For game theory profile, what source-backed evidence answers dossier question 17?",
+    "For game theory profile, what source-backed evidence answers dossier question 18?",
+    "For game theory profile, what source-backed evidence answers dossier question 19?",
+    "For game theory profile, what source-backed evidence answers dossier question 20?",
+    "For game theory profile, what source-backed evidence answers dossier question 21?",
+    "For game theory profile, what source-backed evidence answers dossier question 22?",
+    "For game theory profile, what source-backed evidence answers dossier question 23?",
+    "For game theory profile, what source-backed evidence answers dossier question 24?",
+    "For game theory profile, what source-backed evidence answers dossier question 25?"
+  ],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

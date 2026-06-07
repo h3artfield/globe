@@ -1,0 +1,42 @@
+{
+  "request_id": "IRN-allies_and_partners-sources-1780797238092",
+  "country_code": "IRN",
+  "module": "allies_and_partners",
+  "needed_for_questions": [
+    "For allies and partners, what source-backed evidence answers dossier question 1?",
+    "For allies and partners, what source-backed evidence answers dossier question 2?",
+    "For allies and partners, what source-backed evidence answers dossier question 3?",
+    "For allies and partners, what source-backed evidence answers dossier question 4?",
+    "For allies and partners, what source-backed evidence answers dossier question 5?",
+    "For allies and partners, what source-backed evidence answers dossier question 6?",
+    "For allies and partners, what source-backed evidence answers dossier question 7?",
+    "For allies and partners, what source-backed evidence answers dossier question 8?",
+    "For allies and partners, what source-backed evidence answers dossier question 9?",
+    "For allies and partners, what source-backed evidence answers dossier question 10?",
+    "For allies and partners, what source-backed evidence answers dossier question 11?",
+    "For allies and partners, what source-backed evidence answers dossier question 12?",
+    "For allies and partners, what source-backed evidence answers dossier question 13?",
+    "For allies and partners, what source-backed evidence answers dossier question 14?",
+    "For allies and partners, what source-backed evidence answers dossier question 15?",
+    "For allies and partners, what source-backed evidence answers dossier question 16?",
+    "For allies and partners, what source-backed evidence answers dossier question 17?",
+    "For allies and partners, what source-backed evidence answers dossier question 18?",
+    "For allies and partners, what source-backed evidence answers dossier question 19?",
+    "For allies and partners, what source-backed evidence answers dossier question 20?",
+    "For allies and partners, what source-backed evidence answers dossier question 21?",
+    "For allies and partners, what source-backed evidence answers dossier question 22?",
+    "For allies and partners, what source-backed evidence answers dossier question 23?",
+    "For allies and partners, what source-backed evidence answers dossier question 24?",
+    "For allies and partners, what source-backed evidence answers dossier question 25?"
+  ],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

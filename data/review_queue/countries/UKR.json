@@ -1,6 +1,6 @@
 {
   "country_code": "UKR",
-  "generated_at": "2026-06-07T01:40:36.509Z",
+  "generated_at": "2026-06-07T01:52:23.617Z",
   "items": [
     {
       "review_id": "UKR-founding_groups-001",
@@ -1657,6 +1657,440 @@
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
       "created_at": "2026-06-07T01:40:36.507Z"
+    },
+    {
+      "review_id": "UKR-identity_foundation-104",
+      "country_code": "UKR",
+      "module": "identity_foundation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for identity_foundation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.598Z"
+    },
+    {
+      "review_id": "UKR-history-105",
+      "country_code": "UKR",
+      "module": "history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.599Z"
+    },
+    {
+      "review_id": "UKR-founding_groups-106",
+      "country_code": "UKR",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.599Z"
+    },
+    {
+      "review_id": "UKR-religion_history-107",
+      "country_code": "UKR",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.600Z"
+    },
+    {
+      "review_id": "UKR-cultural_assimilation-108",
+      "country_code": "UKR",
+      "module": "cultural_assimilation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for cultural_assimilation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.601Z"
+    },
+    {
+      "review_id": "UKR-population_divisions-109",
+      "country_code": "UKR",
+      "module": "population_divisions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for population_divisions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.602Z"
+    },
+    {
+      "review_id": "UKR-nationalism_cohesion-110",
+      "country_code": "UKR",
+      "module": "nationalism_cohesion",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for nationalism_cohesion?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.602Z"
+    },
+    {
+      "review_id": "UKR-national_cohesion_by_demographic-111",
+      "country_code": "UKR",
+      "module": "national_cohesion_by_demographic",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_cohesion_by_demographic?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.603Z"
+    },
+    {
+      "review_id": "UKR-government_current-112",
+      "country_code": "UKR",
+      "module": "government_current",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for government_current?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.603Z"
+    },
+    {
+      "review_id": "UKR-ruling_class-113",
+      "country_code": "UKR",
+      "module": "ruling_class",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for ruling_class?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.604Z"
+    },
+    {
+      "review_id": "UKR-leader_dossiers-114",
+      "country_code": "UKR",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.604Z"
+    },
+    {
+      "review_id": "UKR-math_contributions-115",
+      "country_code": "UKR",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.608Z"
+    },
+    {
+      "review_id": "UKR-philosophy_contributions-116",
+      "country_code": "UKR",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.608Z"
+    },
+    {
+      "review_id": "UKR-intelligence_security-117",
+      "country_code": "UKR",
+      "module": "intelligence_security",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for intelligence_security?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.609Z"
+    },
+    {
+      "review_id": "UKR-media_information-118",
+      "country_code": "UKR",
+      "module": "media_information",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for media_information?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.610Z"
+    },
+    {
+      "review_id": "UKR-foreign_policy-119",
+      "country_code": "UKR",
+      "module": "foreign_policy",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for foreign_policy?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.610Z"
+    },
+    {
+      "review_id": "UKR-adversary_narratives-120",
+      "country_code": "UKR",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.611Z"
+    },
+    {
+      "review_id": "UKR-game_theory_profile-121",
+      "country_code": "UKR",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.611Z"
+    },
+    {
+      "review_id": "UKR-future_scenarios-122",
+      "country_code": "UKR",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.612Z"
+    },
+    {
+      "review_id": "UKR-allies_and_partners-123",
+      "country_code": "UKR",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.613Z"
+    },
+    {
+      "review_id": "UKR-adversaries_and_rivals-124",
+      "country_code": "UKR",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.613Z"
+    },
+    {
+      "review_id": "UKR-national_event_timeline-125",
+      "country_code": "UKR",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.614Z"
+    },
+    {
+      "review_id": "UKR-top_national_events_20_years-126",
+      "country_code": "UKR",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.614Z"
+    },
+    {
+      "review_id": "UKR-news_memory-127",
+      "country_code": "UKR",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.614Z"
+    },
+    {
+      "review_id": "UKR-threat_perception-128",
+      "country_code": "UKR",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.615Z"
+    },
+    {
+      "review_id": "UKR-wikipedia_baseline-129",
+      "country_code": "UKR",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.615Z"
+    },
+    {
+      "review_id": "UKR-wikipedia_references-130",
+      "country_code": "UKR",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.616Z"
     }
   ]
 }

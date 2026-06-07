@@ -29,7 +29,9 @@ export async function generateNarrativeDraftForModule(countryCode: string, modul
     chunks: context.retrievedChunks,
     metrics: context.retrievedMetrics,
   });
-  const usableChunks = context.retrievedChunks.filter((chunk) => chunk.source_ids.length > 0);
+  const usableChunks = context.retrievedChunks.filter(
+    (chunk) => chunk.module === moduleName && chunk.source_ids.length > 0,
+  );
   const claims: CountryClaim[] = usableChunks.slice(0, 5).map((chunk, index) => ({
     claim_id: `${countryCode}-${moduleName}-draft-${String(index + 1).padStart(3, "0")}`,
     text: chunk.text.slice(0, 500),
@@ -69,13 +71,18 @@ export async function generateNarrativeDraftForModule(countryCode: string, modul
 
 export async function generateNarrativeDraftForReviewItem(reviewId: string): Promise<NarrativeDraft> {
   const item = await getReviewItem(reviewId);
-  if (!item?.country_code) throw new Error(`Review item not found: ${reviewId}`);
-  const draft = await generateNarrativeDraftForModule(item.country_code, item.module);
-  await updateReviewItem({
-    ...item,
-    status: draft.claims.length > 0 ? "pending" : "pending",
-    draft_ids: Array.from(new Set([...(item.draft_ids ?? []), draft.draft_id])),
-    generation_status: draft.review_status === "needs_better_sources" ? "auto_generated_structured_data" : "llm_drafted_not_reviewed",
-  });
+  const fallbackMatch = reviewId.match(/^([A-Z]{3})-(.+)-\d+$/);
+  const countryCode = item?.country_code ?? fallbackMatch?.[1];
+  const moduleName = item?.module ?? fallbackMatch?.[2];
+  if (!countryCode || !moduleName) throw new Error(`Review item not found: ${reviewId}`);
+  const draft = await generateNarrativeDraftForModule(countryCode, moduleName);
+  if (item) {
+    await updateReviewItem({
+      ...item,
+      status: "pending",
+      draft_ids: Array.from(new Set([...(item.draft_ids ?? []), draft.draft_id])),
+      generation_status: draft.review_status === "needs_better_sources" ? "auto_generated_structured_data" : "llm_drafted_not_reviewed",
+    });
+  }
   return draft;
 }

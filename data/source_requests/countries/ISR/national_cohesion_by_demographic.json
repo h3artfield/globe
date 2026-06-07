@@ -1,0 +1,16 @@
+{
+  "request_id": "ISR-national_cohesion_by_demographic-sources-1780797238081",
+  "country_code": "ISR",
+  "module": "national_cohesion_by_demographic",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

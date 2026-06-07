@@ -1,6 +1,6 @@
 {
   "country_code": "RUS",
-  "generated_at": "2026-06-07T01:40:36.480Z",
+  "generated_at": "2026-06-07T01:52:23.589Z",
   "items": [
     {
       "review_id": "RUS-founding_groups-001",
@@ -1657,6 +1657,440 @@
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
       "created_at": "2026-06-07T01:40:36.478Z"
+    },
+    {
+      "review_id": "RUS-identity_foundation-104",
+      "country_code": "RUS",
+      "module": "identity_foundation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for identity_foundation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.569Z"
+    },
+    {
+      "review_id": "RUS-history-105",
+      "country_code": "RUS",
+      "module": "history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.570Z"
+    },
+    {
+      "review_id": "RUS-founding_groups-106",
+      "country_code": "RUS",
+      "module": "founding_groups",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for founding_groups?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.570Z"
+    },
+    {
+      "review_id": "RUS-religion_history-107",
+      "country_code": "RUS",
+      "module": "religion_history",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for religion_history?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_religion_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.571Z"
+    },
+    {
+      "review_id": "RUS-cultural_assimilation-108",
+      "country_code": "RUS",
+      "module": "cultural_assimilation",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for cultural_assimilation?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.572Z"
+    },
+    {
+      "review_id": "RUS-population_divisions-109",
+      "country_code": "RUS",
+      "module": "population_divisions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for population_divisions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.572Z"
+    },
+    {
+      "review_id": "RUS-nationalism_cohesion-110",
+      "country_code": "RUS",
+      "module": "nationalism_cohesion",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for nationalism_cohesion?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.573Z"
+    },
+    {
+      "review_id": "RUS-national_cohesion_by_demographic-111",
+      "country_code": "RUS",
+      "module": "national_cohesion_by_demographic",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_cohesion_by_demographic?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.573Z"
+    },
+    {
+      "review_id": "RUS-government_current-112",
+      "country_code": "RUS",
+      "module": "government_current",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for government_current?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.574Z"
+    },
+    {
+      "review_id": "RUS-ruling_class-113",
+      "country_code": "RUS",
+      "module": "ruling_class",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for ruling_class?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.574Z"
+    },
+    {
+      "review_id": "RUS-leader_dossiers-114",
+      "country_code": "RUS",
+      "module": "leader_dossiers",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for leader_dossiers?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.575Z"
+    },
+    {
+      "review_id": "RUS-math_contributions-115",
+      "country_code": "RUS",
+      "module": "math_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for math_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.580Z"
+    },
+    {
+      "review_id": "RUS-philosophy_contributions-116",
+      "country_code": "RUS",
+      "module": "philosophy_contributions",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for philosophy_contributions?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_philosophy_math_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.580Z"
+    },
+    {
+      "review_id": "RUS-intelligence_security-117",
+      "country_code": "RUS",
+      "module": "intelligence_security",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for intelligence_security?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.581Z"
+    },
+    {
+      "review_id": "RUS-media_information-118",
+      "country_code": "RUS",
+      "module": "media_information",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for media_information?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.581Z"
+    },
+    {
+      "review_id": "RUS-foreign_policy-119",
+      "country_code": "RUS",
+      "module": "foreign_policy",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for foreign_policy?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.582Z"
+    },
+    {
+      "review_id": "RUS-adversary_narratives-120",
+      "country_code": "RUS",
+      "module": "adversary_narratives",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversary_narratives?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.582Z"
+    },
+    {
+      "review_id": "RUS-game_theory_profile-121",
+      "country_code": "RUS",
+      "module": "game_theory_profile",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for game_theory_profile?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_leader_sources",
+        "manual_history_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.583Z"
+    },
+    {
+      "review_id": "RUS-future_scenarios-122",
+      "country_code": "RUS",
+      "module": "future_scenarios",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for future_scenarios?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_history_sources",
+        "manual_leader_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.584Z"
+    },
+    {
+      "review_id": "RUS-allies_and_partners-123",
+      "country_code": "RUS",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.584Z"
+    },
+    {
+      "review_id": "RUS-adversaries_and_rivals-124",
+      "country_code": "RUS",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.584Z"
+    },
+    {
+      "review_id": "RUS-national_event_timeline-125",
+      "country_code": "RUS",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.585Z"
+    },
+    {
+      "review_id": "RUS-top_national_events_20_years-126",
+      "country_code": "RUS",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.585Z"
+    },
+    {
+      "review_id": "RUS-news_memory-127",
+      "country_code": "RUS",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.586Z"
+    },
+    {
+      "review_id": "RUS-threat_perception-128",
+      "country_code": "RUS",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.586Z"
+    },
+    {
+      "review_id": "RUS-wikipedia_baseline-129",
+      "country_code": "RUS",
+      "module": "wikipedia_baseline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_baseline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.586Z"
+    },
+    {
+      "review_id": "RUS-wikipedia_references-130",
+      "country_code": "RUS",
+      "module": "wikipedia_references",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for wikipedia_references?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:52:23.587Z"
     }
   ]
 }

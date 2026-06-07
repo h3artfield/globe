@@ -1,5 +1,5 @@
 import { readdir } from "node:fs/promises";
-import type { CountryClaim, CountryModule, NarrativeDraft, ReviewQueueItem, ReviewStatus, SourceRequest } from "@/types/pipeline";
+import type { CountryClaim, CountryModule, NarrativeDraft, RagChunk, ReviewQueueItem, ReviewStatus, SourceRequest } from "@/types/pipeline";
 import { buildCountryChunk } from "@/lib/pipeline/chunks";
 import { pathExists, readJsonFile, repoPath, writeJsonFile, writeJsonLinesFile, readJsonLinesFile } from "@/lib/pipeline/io";
 
@@ -39,14 +39,14 @@ export async function saveCountryModule(module: CountryModule): Promise<void> {
 }
 
 export async function appendApprovedClaimToModule(countryCode: string, moduleName: string, claim: CountryClaim): Promise<void> {
-  const module = await loadCountryModule(countryCode, moduleName);
-  const claims = module.claims.some((existing) => existing.claim_id === claim.claim_id)
-    ? module.claims.map((existing) => existing.claim_id === claim.claim_id ? claim : existing)
-    : [...module.claims, claim];
+  const countryModule = await loadCountryModule(countryCode, moduleName);
+  const claims = countryModule.claims.some((existing) => existing.claim_id === claim.claim_id)
+    ? countryModule.claims.map((existing) => existing.claim_id === claim.claim_id ? claim : existing)
+    : [...countryModule.claims, claim];
   const nextModule: CountryModule = {
-    ...module,
+    ...countryModule,
     claims,
-    source_ids: Array.from(new Set([...module.source_ids, ...claim.source_ids])),
+    source_ids: Array.from(new Set([...countryModule.source_ids, ...claim.source_ids])),
     review_status: claims.some((item) => item.review_status === "verified") ? "verified" : "human_reviewed",
     last_updated: new Date().toISOString().slice(0, 10),
   };
@@ -139,5 +139,5 @@ export async function createSourceRequest(countryCode: string, moduleName: strin
 }
 
 export async function getCountryChunks(countryCode: string) {
-  return readJsonLinesFile(repoPath("data", "rag", "countries", countryCode, "chunks.jsonl"));
+  return readJsonLinesFile<RagChunk>(repoPath("data", "rag", "countries", countryCode, "chunks.jsonl"));
 }

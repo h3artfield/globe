@@ -1,0 +1,16 @@
+{
+  "request_id": "EGY-history-sources-1780797237703",
+  "country_code": "EGY",
+  "module": "history",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

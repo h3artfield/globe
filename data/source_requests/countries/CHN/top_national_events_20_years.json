@@ -1,0 +1,16 @@
+{
+  "request_id": "CHN-top_national_events_20_years-sources-1780797237624",
+  "country_code": "CHN",
+  "module": "top_national_events_20_years",
+  "needed_for_questions": [],
+  "suggested_source_types": [
+    "official government biography",
+    "parliament profile",
+    "major news profile",
+    "book/chapter",
+    "think tank report"
+  ],
+  "priority": "high",
+  "status": "open",
+  "notes": ""
+}

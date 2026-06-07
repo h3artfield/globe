@@ -1,0 +1,16 @@
+{
+  "rejected_at": "2026-06-07T01:52:25.832Z",
+  "reason": "test rejection",
+  "claim": {
+    "claim_id": "USA-history-reject-1780797145832",
+    "text": "Rejected claim.",
+    "claim_type": "fact",
+    "source_ids": [
+      "world_bank_wdi"
+    ],
+    "confidence": "low",
+    "review_status": "rejected",
+    "last_verified": "",
+    "notes": ""
+  }
+}
