@@ -33,7 +33,7 @@ const QUESTION_MODULE_MAP: Array<{
   },
   {
     topic: "war",
-    keywords: ["war", "invade", "attack", "military", "escalate", "fight", "deterrence", "crisis"],
+    keywords: ["war", "invade", "attack", "military", "escalate", "fight", "deterrence", "crisis", "risk", "risks"],
     countryModules: ["adversaries_and_rivals", "military", "foreign_policy", "game_theory_profile"],
     relationshipModules: ["relationship", "relationship_event_timeline", "military_relationship", "game_theory_relationship", "crisis_history", "war_history"],
   },

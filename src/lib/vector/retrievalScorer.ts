@@ -32,9 +32,9 @@ export function confidenceScore(confidence: string): number {
 
 export function combineRetrievalScore(input: RetrievalScoreInput): number {
   return (
-    input.semanticScore * 0.3 +
+    input.semanticScore * 0.24 +
     input.keywordScore * 0.18 +
-    input.moduleRelevanceScore * 0.16 +
+    input.moduleRelevanceScore * 0.24 +
     input.sourceAuthorityScore * 0.12 +
     input.freshnessScore * 0.08 +
     input.confidenceScore * 0.06 +

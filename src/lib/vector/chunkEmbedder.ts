@@ -22,7 +22,9 @@ export async function embedChunks(
   chunks: RagChunk[],
   provider: EmbeddingProvider,
 ): Promise<EmbeddedChunk[]> {
-  const embeddings = await provider.embedTexts(chunks.map((chunk) => chunk.text));
+  const embeddings = await provider.embedTexts(
+    chunks.map((chunk) => `${chunk.module} ${(chunk.tags ?? []).join(" ")} ${chunk.text}`),
+  );
 
   return chunks.map((chunk, index) => ({
     chunk_id: chunk.chunk_id,

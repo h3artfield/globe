@@ -43,14 +43,14 @@ export async function hybridSearch(input: {
   const selectedRelationshipSet = new Set(input.selectedRelationships);
 
   return input.embeddedChunks
-    .map((embedded) => {
+    .map((embedded): ScoredChunk | null => {
       const chunk = chunkById.get(embedded.chunk_id);
       if (!chunk) return null;
 
       const semanticScore = Math.max(0, cosineSimilarity(questionEmbedding, embedded.embedding));
       const scoring = {
         semanticScore,
-        keywordScore: keywordScore(input.question, embedded.text),
+        keywordScore: keywordScore(input.question, `${embedded.module} ${embedded.text}`),
         moduleRelevanceScore: selectedModuleSet.has(embedded.module) ? 1 : 0.2,
         sourceAuthorityScore: authorityScore(embedded.authority_rank),
         freshnessScore: freshnessScore(chunk),
