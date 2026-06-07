@@ -1,0 +1,211 @@
+{
+  "target_id": "EGY_ETH",
+  "target_type": "relationship",
+  "overall_source_readiness": 0,
+  "modules": [
+    {
+      "module": "relationship",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "trade_relationship",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "military_relationship",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "rivalry_narratives",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "game_theory_relationship",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "relationship_event_timeline",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add verified event timelines from official statements, major news timelines, and institutional reports."
+    },
+    {
+      "module": "alliance_status",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "adversary_status",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources."
+    },
+    {
+      "module": "crisis_history",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "war_history",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "diplomatic_history",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, academic."
+    },
+    {
+      "module": "top_relationship_events_20_years",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 3,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add verified event timelines from official statements, major news timelines, and institutional reports."
+    }
+  ]
+}

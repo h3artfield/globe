@@ -31,16 +31,16 @@ export async function buildCountrySourceGapReport(countryCodeInput: string): Pro
   const sourcePack = await readJsonFile<SourcePack>(repoPath("data", "source_packs", "countries", `${countryCode}.source_pack.v1.json`));
   const gaps: ModuleSourceGap[] = [];
   for (const requirement of requirements.modules) {
-    const module = await loadCountryModule(countryCode, requirement.module);
+    const countryModule = await loadCountryModule(countryCode, requirement.module);
     const sources = sourcePack.sources.filter((source) => source.covers_modules.includes(requirement.module));
     const sourceTypes = new Set(sources.map((source) => source.source_type));
-    const claimTypes = new Set((module?.claims ?? []).map((claim) => claim.claim_type));
+    const claimTypes = new Set<string>((countryModule?.claims ?? []).map((claim) => claim.claim_type));
     const missingSourceTypes = requirement.required_source_types.filter((type) => !sourceTypes.has(type));
     const missingClaimTypes = requirement.required_claim_types.filter((type) => !claimTypes.has(type));
     const sourceScore = clamp(sources.length / requirement.minimum_sources);
     const typeScore = requirement.required_source_types.length === 0 ? 1 : clamp((requirement.required_source_types.length - missingSourceTypes.length) / requirement.required_source_types.length);
-    const claimScore = clamp((module?.claims.length ?? 0) / requirement.minimum_claim_count);
-    const metricScore = requirement.minimum_metric_count === 0 ? 1 : clamp((module?.metrics.length ?? 0) / requirement.minimum_metric_count);
+    const claimScore = clamp((countryModule?.claims.length ?? 0) / requirement.minimum_claim_count);
+    const metricScore = requirement.minimum_metric_count === 0 ? 1 : clamp((countryModule?.metrics.length ?? 0) / requirement.minimum_metric_count);
     const readiness = Number(((sourceScore + typeScore + claimScore + metricScore) / 4).toFixed(2));
     gaps.push({
       module: requirement.module,
@@ -69,13 +69,13 @@ export async function buildRelationshipSourceGapReport(relationshipIdInput: stri
   const sourcePack = await readJsonFile<SourcePack>(repoPath("data", "source_packs", "relationships", `${relationshipId}.source_pack.v1.json`));
   const gaps: ModuleSourceGap[] = [];
   for (const requirement of requirements.modules) {
-    const module = await loadRelationshipModule(relationshipId, requirement.module);
+    const relationshipModule = await loadRelationshipModule(relationshipId, requirement.module);
     const sources = sourcePack.sources.filter((source) => source.covers_modules.includes(requirement.module));
     const sourceTypes = new Set(sources.map((source) => source.source_type));
-    const claimTypes = new Set((module?.claims ?? []).map((claim) => claim.claim_type));
+    const claimTypes = new Set<string>((relationshipModule?.claims ?? []).map((claim) => claim.claim_type));
     const missingSourceTypes = requirement.required_source_types.filter((type) => !sourceTypes.has(type));
     const missingClaimTypes = requirement.required_claim_types.filter((type) => !claimTypes.has(type));
-    const readiness = Number(((clamp(sources.length / requirement.minimum_sources) + clamp((requirement.required_source_types.length - missingSourceTypes.length) / requirement.required_source_types.length) + clamp((module?.claims.length ?? 0) / requirement.minimum_claim_count)) / 3).toFixed(2));
+    const readiness = Number(((clamp(sources.length / requirement.minimum_sources) + clamp((requirement.required_source_types.length - missingSourceTypes.length) / requirement.required_source_types.length) + clamp((relationshipModule?.claims.length ?? 0) / requirement.minimum_claim_count)) / 3).toFixed(2));
     gaps.push({
       module: requirement.module,
       readiness,

@@ -1,0 +1,30 @@
+{
+  "target_id": "EGY_ETH",
+  "pilot_ready": false,
+  "overall_score": 0,
+  "failed_gates": [
+    "relationship_source_coverage",
+    "trade_relationship_source_coverage",
+    "military_relationship_source_coverage",
+    "rivalry_narratives_source_coverage",
+    "game_theory_relationship_source_coverage",
+    "relationship_event_timeline_source_coverage",
+    "alliance_status_source_coverage",
+    "adversary_status_source_coverage",
+    "crisis_history_source_coverage",
+    "war_history_source_coverage",
+    "diplomatic_history_source_coverage",
+    "top_relationship_events_20_years_source_coverage",
+    "overall_source_readiness"
+  ],
+  "next_actions": [
+    "Add missing source types: official_primary, major_news, academic.",
+    "Add missing source types: official_primary, major_news, academic.",
+    "Add missing source types: official_primary, major_news, academic.",
+    "Add missing source types: official_primary, major_news, academic.",
+    "Add missing source types: official_primary, major_news, academic.",
+    "Add verified event timelines from official statements, major news timelines, and institutional reports.",
+    "Add missing source types: official_primary, major_news, academic.",
+    "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources."
+  ]
+}

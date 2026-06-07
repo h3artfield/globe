@@ -1,0 +1,389 @@
+{
+  "target_id": "EGY_ETH",
+  "requests": [
+    {
+      "request_id": "EGY_ETH-relationship-001",
+      "relationship_id": "EGY_ETH",
+      "module": "relationship",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for relationship?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH relationship official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-trade_relationship-002",
+      "relationship_id": "EGY_ETH",
+      "module": "trade_relationship",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for trade_relationship?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH trade_relationship official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-military_relationship-003",
+      "relationship_id": "EGY_ETH",
+      "module": "military_relationship",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for military_relationship?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH military_relationship official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-rivalry_narratives-004",
+      "relationship_id": "EGY_ETH",
+      "module": "rivalry_narratives",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for rivalry_narratives?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH rivalry_narratives official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-game_theory_relationship-005",
+      "relationship_id": "EGY_ETH",
+      "module": "game_theory_relationship",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for game_theory_relationship?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH game_theory_relationship official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-relationship_event_timeline-006",
+      "relationship_id": "EGY_ETH",
+      "module": "relationship_event_timeline",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for relationship_event_timeline?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH relationship_event_timeline official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add verified event timelines from official statements, major news timelines, and institutional reports.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-alliance_status-007",
+      "relationship_id": "EGY_ETH",
+      "module": "alliance_status",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for alliance_status?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH alliance_status official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-adversary_status-008",
+      "relationship_id": "EGY_ETH",
+      "module": "adversary_status",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for adversary_status?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH adversary_status official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-crisis_history-009",
+      "relationship_id": "EGY_ETH",
+      "module": "crisis_history",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for crisis_history?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH crisis_history official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-war_history-010",
+      "relationship_id": "EGY_ETH",
+      "module": "war_history",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for war_history?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH war_history official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-diplomatic_history-011",
+      "relationship_id": "EGY_ETH",
+      "module": "diplomatic_history",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for diplomatic_history?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH diplomatic_history official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, academic.",
+      "status": "open"
+    },
+    {
+      "request_id": "EGY_ETH-top_relationship_events_20_years-012",
+      "relationship_id": "EGY_ETH",
+      "module": "top_relationship_events_20_years",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for top_relationship_events_20_years?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "suggested_search_queries": [
+        "EGY_ETH top_relationship_events_20_years official statements timeline",
+        "GERD dispute Egypt Ethiopia African Union negotiations timeline",
+        "Egypt Ethiopia Nile dam red lines official statements"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add verified event timelines from official statements, major news timelines, and institutional reports.",
+      "status": "open"
+    }
+  ]
+}

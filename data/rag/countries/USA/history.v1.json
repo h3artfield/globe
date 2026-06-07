@@ -8,7 +8,7 @@
   "metrics": [],
   "claims": [
     {
-      "claim_id": "USA-history-test-1780798156319",
+      "claim_id": "USA-history-test-1780799677164",
       "text": "Test sourced claim.",
       "claim_type": "fact",
       "source_ids": [
@@ -20,7 +20,7 @@
       "notes": "metric_id=gdp_current_usd"
     },
     {
-      "claim_id": "USA-history-test-1780798326048",
+      "claim_id": "USA-history-test-1780799786456",
       "text": "Test sourced claim.",
       "claim_type": "fact",
       "source_ids": [

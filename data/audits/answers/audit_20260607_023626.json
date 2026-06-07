@@ -1,0 +1,34 @@
+{
+  "audit_id": "audit_20260607_023626",
+  "created_at": "2026-06-07T02:36:26.521Z",
+  "question": "Test audit?",
+  "selectedCountries": [
+    "USA"
+  ],
+  "modules_used": [],
+  "chunks_used": [],
+  "metrics_used": [],
+  "events_used": [],
+  "citations": [],
+  "review_status_summary": {},
+  "missing_data": [],
+  "warning_badges": [],
+  "retrieval_debug": null,
+  "answer": "Test",
+  "response": {
+    "answer": "Test",
+    "selectedCountries": [
+      "USA"
+    ],
+    "strategicSummary": {
+      "mainIncentives": [],
+      "mainConstraints": [],
+      "likelyMoves": [],
+      "escalationRisks": [],
+      "deescalationOptions": []
+    },
+    "confidence": "low",
+    "missingData": [],
+    "sourceIds": []
+  }
+}

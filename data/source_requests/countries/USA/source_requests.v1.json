@@ -1,0 +1,741 @@
+{
+  "target_id": "USA",
+  "requests": [
+    {
+      "request_id": "USA-identity_foundation-001",
+      "country_code": "USA",
+      "module": "identity_foundation",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for identity_foundation?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA identity_foundation official source",
+        "USA identity_foundation major news profile",
+        "USA identity_foundation think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-founding_groups-002",
+      "country_code": "USA",
+      "module": "founding_groups",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for founding_groups?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA founding_groups official source",
+        "USA founding_groups major news profile",
+        "USA founding_groups think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-religion_history-003",
+      "country_code": "USA",
+      "module": "religion_history",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for religion_history?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA religion_history official source",
+        "USA religion_history major news profile",
+        "USA religion_history think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-history-004",
+      "country_code": "USA",
+      "module": "history",
+      "priority": "medium",
+      "missing_questions": [
+        "What source-backed evidence is missing for history?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA history official source",
+        "USA history major news profile",
+        "USA history think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-cultural_assimilation-005",
+      "country_code": "USA",
+      "module": "cultural_assimilation",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for cultural_assimilation?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA cultural_assimilation official source",
+        "USA cultural_assimilation major news profile",
+        "USA cultural_assimilation think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-population_divisions-006",
+      "country_code": "USA",
+      "module": "population_divisions",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for population_divisions?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA population_divisions official source",
+        "USA population_divisions major news profile",
+        "USA population_divisions think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-nationalism_cohesion-007",
+      "country_code": "USA",
+      "module": "nationalism_cohesion",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for nationalism_cohesion?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA nationalism_cohesion official source",
+        "USA nationalism_cohesion major news profile",
+        "USA nationalism_cohesion think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-national_cohesion_by_demographic-008",
+      "country_code": "USA",
+      "module": "national_cohesion_by_demographic",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for national_cohesion_by_demographic?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA national_cohesion_by_demographic official source",
+        "USA national_cohesion_by_demographic major news profile",
+        "USA national_cohesion_by_demographic think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-government_current-009",
+      "country_code": "USA",
+      "module": "government_current",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for government_current?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA government_current official source",
+        "USA government_current major news profile",
+        "USA government_current think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-ruling_class-010",
+      "country_code": "USA",
+      "module": "ruling_class",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for ruling_class?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA ruling_class official source",
+        "USA ruling_class major news profile",
+        "USA ruling_class think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-leader_dossiers-011",
+      "country_code": "USA",
+      "module": "leader_dossiers",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for leader_dossiers?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA leader_dossiers official source",
+        "USA leader_dossiers major news profile",
+        "USA leader_dossiers think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add current official biographies, congressional/executive records, and major profile sources.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-education-012",
+      "country_code": "USA",
+      "module": "education",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for education?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA education official source",
+        "USA education major news profile",
+        "USA education think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-math_contributions-013",
+      "country_code": "USA",
+      "module": "math_contributions",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for math_contributions?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA math_contributions official source",
+        "USA math_contributions major news profile",
+        "USA math_contributions think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-philosophy_contributions-014",
+      "country_code": "USA",
+      "module": "philosophy_contributions",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for philosophy_contributions?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA philosophy_contributions official source",
+        "USA philosophy_contributions major news profile",
+        "USA philosophy_contributions think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-intelligence_security-015",
+      "country_code": "USA",
+      "module": "intelligence_security",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for intelligence_security?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA intelligence_security official source",
+        "USA intelligence_security major news profile",
+        "USA intelligence_security think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-media_information-016",
+      "country_code": "USA",
+      "module": "media_information",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for media_information?"
+      ],
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "suggested_source_types": [
+        "international_dataset"
+      ],
+      "suggested_search_queries": [
+        "USA media_information official source",
+        "USA media_information major news profile",
+        "USA media_information think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: international_dataset.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-foreign_policy-017",
+      "country_code": "USA",
+      "module": "foreign_policy",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for foreign_policy?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA foreign_policy official source",
+        "USA foreign_policy major news profile",
+        "USA foreign_policy think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-allies_and_partners-018",
+      "country_code": "USA",
+      "module": "allies_and_partners",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for allies_and_partners?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA allies_and_partners official source",
+        "USA allies_and_partners major news profile",
+        "USA allies_and_partners think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add treaty texts, defense agreements, basing records, UN voting, and diplomatic statements.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-adversaries_and_rivals-019",
+      "country_code": "USA",
+      "module": "adversaries_and_rivals",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for adversaries_and_rivals?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA adversaries_and_rivals official source",
+        "USA adversaries_and_rivals major news profile",
+        "USA adversaries_and_rivals think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-threat_perception-020",
+      "country_code": "USA",
+      "module": "threat_perception",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for threat_perception?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA threat_perception official source",
+        "USA threat_perception major news profile",
+        "USA threat_perception think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-top_national_events_20_years-021",
+      "country_code": "USA",
+      "module": "top_national_events_20_years",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for top_national_events_20_years?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA top_national_events_20_years official source",
+        "USA top_national_events_20_years major news profile",
+        "USA top_national_events_20_years think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add verified event timelines from official statements, major news timelines, and institutional reports.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-news_memory-022",
+      "country_code": "USA",
+      "module": "news_memory",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for news_memory?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA news_memory official source",
+        "USA news_memory major news profile",
+        "USA news_memory think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add verified event timelines from official statements, major news timelines, and institutional reports.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-game_theory_profile-023",
+      "country_code": "USA",
+      "module": "game_theory_profile",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for game_theory_profile?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA game_theory_profile official source",
+        "USA game_theory_profile major news profile",
+        "USA game_theory_profile think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    },
+    {
+      "request_id": "USA-future_scenarios-024",
+      "country_code": "USA",
+      "module": "future_scenarios",
+      "priority": "high",
+      "missing_questions": [
+        "What source-backed evidence is missing for future_scenarios?"
+      ],
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "suggested_search_queries": [
+        "USA future_scenarios official source",
+        "USA future_scenarios major news profile",
+        "USA future_scenarios think tank report"
+      ],
+      "suggested_document_types": [
+        "official statement",
+        "institutional report",
+        "major news timeline",
+        "academic paper"
+      ],
+      "why_it_matters": "Add missing source types: official_primary, major_news, think_tank.",
+      "status": "open"
+    }
+  ]
+}

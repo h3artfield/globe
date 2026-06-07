@@ -10,8 +10,8 @@
       "title": "wikipedia",
       "publisher": "wikipedia",
       "url": "",
-      "retrieved_at": "2026-06-07T02:09:12.947Z",
-      "file_path": "/data/rag/countries/USA/chunks.jsonl#USA-wikipedia_references-039",
+      "retrieved_at": "2026-06-07T02:36:26.501Z",
+      "file_path": "/data/rag/countries/USA/chunks.jsonl#USA-wikipedia_references-040",
       "covers_modules": [
         "wikipedia_baseline",
         "wikipedia_references"
@@ -25,8 +25,8 @@
       "title": "world_bank_wdi",
       "publisher": "world_bank_wdi",
       "url": "",
-      "retrieved_at": "2026-06-07T02:09:12.947Z",
-      "file_path": "/data/rag/countries/USA/chunks.jsonl#USA-scorecard-040",
+      "retrieved_at": "2026-06-07T02:36:26.501Z",
+      "file_path": "/data/rag/countries/USA/chunks.jsonl#USA-trade_exports_imports-038",
       "covers_modules": [
         "average_citizen_life",
         "crime_safety",
