@@ -23,6 +23,9 @@ import { readJsonFile, repoPath } from "@/lib/pipeline/io";
 import { POST as askPost } from "@/app/api/ask/route";
 import { findManualImportFiles, archiveManualImportFiles } from "@/lib/sources/manualImport";
 import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
+import { generateNarrativeDraftForModule } from "@/lib/dossier/narrativeDraftGenerator";
+import { appendApprovedClaimToModule, createSourceRequest, listReviewItems, preserveRejectedClaim, rebuildCountryChunks } from "@/lib/review/reviewWorkflow";
+import { validateDossierModule } from "@/lib/dossier/moduleDraftValidator";
 import type { CountryModule, IndicatorRegistryEntry, MetricValue } from "@/types/pipeline";
 
 function metric(overrides: Partial<MetricValue> = {}): MetricValue {
@@ -308,4 +311,73 @@ test("/api/ask returns citations and retrieval debug", async () => {
   assert.equal(response.status, 200);
   assert.ok(Array.isArray(payload.citations));
   assert.ok(payload.retrieval_debug);
+});
+
+test("review item listing returns pending items", async () => {
+  const items = await listReviewItems();
+  assert.ok(items.length > 0);
+});
+
+test("draft generation from module creates review-status claims or source request", async () => {
+  const draft = await generateNarrativeDraftForModule("USA", "leader_dossiers");
+  assert.ok(draft.prompt_hash);
+  assert.ok(["llm_drafted_unreviewed", "needs_better_sources"].includes(draft.review_status));
+  assert.ok(draft.claims.every((claim) => claim.review_status));
+});
+
+test("claim approval copies approved claim into module and rebuilds chunks", async () => {
+  const claim = {
+    claim_id: `USA-history-test-${Date.now()}`,
+    text: "Test sourced claim.",
+    claim_type: "fact" as const,
+    source_ids: ["world_bank_wdi"],
+    confidence: "medium" as const,
+    review_status: "human_reviewed" as const,
+    last_verified: "2026-06-07",
+    notes: "metric_id=gdp_current_usd",
+  };
+  await appendApprovedClaimToModule("USA", "history", claim);
+  await rebuildCountryChunks("USA");
+  const module = await readJsonFile<CountryModule>(repoPath("data", "rag", "countries", "USA", "history.v1.json"));
+  assert.ok(module.claims.some((item) => item.claim_id === claim.claim_id));
+});
+
+test("claim rejection is preserved with reason", async () => {
+  const claim = {
+    claim_id: `USA-history-reject-${Date.now()}`,
+    text: "Rejected claim.",
+    claim_type: "fact" as const,
+    source_ids: ["world_bank_wdi"],
+    confidence: "low" as const,
+    review_status: "rejected" as const,
+    last_verified: "",
+    notes: "",
+  };
+  await preserveRejectedClaim(claim, "test rejection");
+  const rejected = await readJsonFile<{ claim: { claim_id: string } }>(repoPath("data", "rejected_claims", `${claim.claim_id}.json`));
+  assert.equal(rejected.claim.claim_id, claim.claim_id);
+});
+
+test("needs-better-sources flow creates source request", async () => {
+  const request = await createSourceRequest("USA", "leader_dossiers", ["Who is in power?"]);
+  assert.equal(request.status, "open");
+  const stored = await readJsonFile<{ request_id: string }>(repoPath("data", "source_requests", "countries", "USA", "leader_dossiers.json"));
+  assert.equal(stored.request_id, request.request_id);
+});
+
+test("dossier validator accepts verified sourced claim", () => {
+  const module = countryModule({
+    claims: [{
+      claim_id: "USA-test-verified-001",
+      text: "Verified sourced claim.",
+      claim_type: "fact",
+      source_ids: ["world_bank_wdi"],
+      confidence: "high",
+      review_status: "verified",
+      last_verified: "2026-06-07",
+      notes: "metric_id=gdp_current_usd",
+    }],
+  });
+  const result = validateDossierModule(module);
+  assert.equal(result.errors.length, 0);
 });

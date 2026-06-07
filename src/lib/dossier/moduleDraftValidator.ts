@@ -19,6 +19,12 @@ export function validateDossierModule(module: CountryModule): ModuleDraftValidat
     if (!claimHasGrounding(claim) && claim.review_status !== "needs_better_sources") {
       errors.push(`${claim.claim_id}: generated claim has no source grounding`);
     }
+    if ((claim.review_status === "human_reviewed" || claim.review_status === "verified") && claim.source_ids.length === 0) {
+      errors.push(`${claim.claim_id}: approved/verified claim has no source_ids`);
+    }
+    if (module.module === "adversary_narratives" && claim.claim_type === "fact") {
+      errors.push(`${claim.claim_id}: adversary narrative is marked as fact`);
+    }
     if (module.module === "leader_dossiers" && claim.claim_type === "strategic_inference" && claim.notes.includes("marked_as_fact")) {
       errors.push(`${claim.claim_id}: leader dossier inference is marked as fact`);
     }

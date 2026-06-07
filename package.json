@@ -30,6 +30,9 @@
     "dossier:build:mvp": "tsx scripts/dossier/build_mvp_dossiers.ts && npm run embeddings:build:mvp",
     "dossier:validate": "tsx scripts/dossier/validate_dossiers.ts",
     "dossier:report": "tsx scripts/dossier/report_country_dossier.ts",
+    "draft:module": "tsx scripts/drafts/draft_module.ts",
+    "draft:review-item": "tsx scripts/drafts/draft_review_item.ts",
+    "draft:mvp": "tsx scripts/drafts/draft_mvp.ts",
     "test": "tsx --test test/**/*.test.ts",
     "postinstall": "node scripts/copy-cesium-assets.mjs"
   },

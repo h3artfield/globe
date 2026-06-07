@@ -24,6 +24,17 @@ export type ReviewStatus =
   | "rejected"
   | "needs_better_sources";
 
+export type SourceQuality =
+  | "official_primary"
+  | "international_dataset"
+  | "academic"
+  | "think_tank"
+  | "major_news"
+  | "local_news"
+  | "wikipedia"
+  | "manual_note"
+  | "unknown";
+
 export type ClaimType =
   | "fact"
   | "interpretation"
@@ -205,6 +216,35 @@ export type ReviewQueueItem = {
   status: "pending" | "in_review" | "completed";
   generation_status: GenerationStatus;
   created_at: string;
+  draft_ids?: string[];
+};
+
+export type NarrativeDraft = {
+  draft_id: string;
+  country_code?: string;
+  relationship_id: string | null;
+  module: string;
+  created_at: string;
+  created_by: "llm" | "system";
+  review_status: ReviewStatus;
+  source_ids: string[];
+  claims: CountryClaim[];
+  missing_data: string[];
+  warnings: string[];
+  prompt_hash: string;
+  model_provider: string;
+  model_name: string;
+};
+
+export type SourceRequest = {
+  request_id: string;
+  country_code: string;
+  module: string;
+  needed_for_questions: string[];
+  suggested_source_types: string[];
+  priority: "low" | "medium" | "high";
+  status: "open" | "in_progress" | "closed";
+  notes: string;
 };
 
 export type SourceConfig = {

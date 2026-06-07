@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import type { RagStatusResponse } from "@/types/api";
 import type { CountrySummary } from "@/types/country";
-import type { CoverageReport, RelationshipCoverageReport } from "@/types/pipeline";
+import type { CountryModule, CoverageReport, RelationshipCoverageReport } from "@/types/pipeline";
 import { LoadingState } from "./LoadingState";
 
 type CoveragePanelProps = {
@@ -23,6 +23,7 @@ function ScoreBadge({ label, value }: { label: string; value: number | null }) {
 export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelProps) {
   const [countryCoverage, setCountryCoverage] = useState<CoverageReport[]>([]);
   const [relationshipCoverage, setRelationshipCoverage] = useState<RelationshipCoverageReport[]>([]);
+  const [countryModules, setCountryModules] = useState<Record<string, CountryModule[]>>({});
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -46,6 +47,16 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
             return response.ok ? ((await response.json()) as CoverageReport) : null;
           }),
         );
+        const modulePayloads = await Promise.all(
+          selectedCountries.map(async (country) => {
+            const response = await fetch(`/api/country/${country.code}/modules`, {
+              signal: controller.signal,
+            });
+            return response.ok
+              ? [country.code, ((await response.json()) as { modules: CountryModule[] }).modules] as const
+              : [country.code, []] as const;
+          }),
+        );
         const relationships = await Promise.all(
           (ragStatus?.relationships ?? []).map(async (relationship) => {
             const response = await fetch(
@@ -64,6 +75,7 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
             (coverage): coverage is RelationshipCoverageReport => coverage !== null,
           ),
         );
+        setCountryModules(Object.fromEntries(modulePayloads));
       } finally {
         if (!controller.signal.aborted) {
           setIsLoading(false);
@@ -115,6 +127,16 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
             <p className="mt-1 text-xs text-slate-400">
               Pending review items: {coverage.review_queue_items.length}
             </p>
+            <div className="mt-3 space-y-1 text-xs">
+              {(countryModules[coverage.country_code] ?? []).slice(0, 8).map((module) => (
+                <div key={module.module} className="flex items-center justify-between gap-2 rounded bg-slate-950/60 px-2 py-1">
+                  <span className="text-slate-300">{module.module}</span>
+                  <span className="text-slate-500">
+                    {module.review_status ?? module.generation_status ?? "human_review_pending"}
+                  </span>
+                </div>
+              ))}
+            </div>
             <div className="mt-3 grid grid-cols-1 gap-1 text-xs">
               {coverage.source_family_coverage.slice(0, 9).map((source) => (
                 <div key={source.source_id} className="flex items-center justify-between gap-2 rounded bg-slate-950/60 px-2 py-1">
