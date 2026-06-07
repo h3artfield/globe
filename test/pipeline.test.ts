@@ -26,6 +26,10 @@ import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
 import { generateNarrativeDraftForModule } from "@/lib/dossier/narrativeDraftGenerator";
 import { appendApprovedClaimToModule, createSourceRequest, listReviewItems, preserveRejectedClaim, rebuildCountryChunks } from "@/lib/review/reviewWorkflow";
 import { validateDossierModule } from "@/lib/dossier/moduleDraftValidator";
+import { createCountrySourcePack } from "@/lib/pilot/sourcePack";
+import { buildCountrySourceGapReport, sourceRequestsFromGaps } from "@/lib/pilot/sourceGaps";
+import { buildPilotReadiness } from "@/lib/pilot/readiness";
+import { saveAnswerAudit } from "@/lib/pilot/answerAudit";
 import type { CountryModule, IndicatorRegistryEntry, MetricValue } from "@/types/pipeline";
 
 function metric(overrides: Partial<MetricValue> = {}): MetricValue {
@@ -380,4 +384,46 @@ test("dossier validator accepts verified sourced claim", () => {
   });
   const result = validateDossierModule(countryModuleValue);
   assert.equal(result.errors.length, 0);
+});
+
+test("source gap report produces module readiness", async () => {
+  await createCountrySourcePack("USA");
+  const report = await buildCountrySourceGapReport("USA");
+  assert.equal(report.target_id, "USA");
+  assert.ok(report.modules.some((module) => module.module === "leader_dossiers"));
+});
+
+test("source request generator creates actionable requests", async () => {
+  const report = await buildCountrySourceGapReport("USA");
+  const requests = sourceRequestsFromGaps(report);
+  assert.ok(requests.length > 0);
+  assert.ok(requests[0].suggested_search_queries.length > 0);
+});
+
+test("pilot readiness reports failed gates when sources are missing", async () => {
+  const report = await buildPilotReadiness("USA", "country");
+  assert.equal(report.target_id, "USA");
+  assert.ok(Array.isArray(report.failed_gates));
+});
+
+test("answer audit can be saved", async () => {
+  const audit = await saveAnswerAudit({
+    question: "Test audit?",
+    selectedCountries: ["USA"],
+    response: {
+      answer: "Test",
+      selectedCountries: ["USA"],
+      strategicSummary: {
+        mainIncentives: [],
+        mainConstraints: [],
+        likelyMoves: [],
+        escalationRisks: [],
+        deescalationOptions: [],
+      },
+      confidence: "low",
+      missingData: [],
+      sourceIds: [],
+    },
+  });
+  assert.ok(audit.audit_id.startsWith("audit_"));
 });

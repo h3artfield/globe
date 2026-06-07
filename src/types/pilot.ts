@@ -51,3 +51,62 @@ export type AnswerAuditRecord = {
   answer: string;
   response?: AskResponse;
 };
+
+export type ModuleSourceRequirement = {
+  module: string;
+  minimum_sources: number;
+  required_source_types: SourcePackSource["source_type"][];
+  required_claim_types: string[];
+  freshness_requirement: string;
+  minimum_claim_count: number;
+  minimum_metric_count: number;
+  required_review_status_level: string;
+  completion_threshold: number;
+};
+
+export type SourceRequirementsFile = {
+  target_id: string;
+  target_type: "country" | "relationship";
+  last_updated: string;
+  modules: ModuleSourceRequirement[];
+};
+
+export type ModuleSourceGap = {
+  module: string;
+  readiness: number;
+  sources_available: number;
+  sources_required: number;
+  missing_source_types: string[];
+  missing_claim_types: string[];
+  recommendation: string;
+};
+
+export type SourceGapReport = {
+  target_id: string;
+  target_type: "country" | "relationship";
+  overall_source_readiness: number;
+  modules: ModuleSourceGap[];
+};
+
+export type EnhancedSourceRequest = {
+  request_id: string;
+  country_code?: string;
+  relationship_id?: string;
+  module: string;
+  priority: "low" | "medium" | "high";
+  missing_questions: string[];
+  missing_source_types: string[];
+  suggested_source_types: string[];
+  suggested_search_queries: string[];
+  suggested_document_types: string[];
+  why_it_matters: string;
+  status: "open" | "in_progress" | "closed";
+};
+
+export type PilotReadinessReport = {
+  target_id: string;
+  pilot_ready: boolean;
+  overall_score: number;
+  failed_gates: string[];
+  next_actions: string[];
+};

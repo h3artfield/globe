@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import type { RagStatusResponse } from "@/types/api";
 import type { CountrySummary } from "@/types/country";
-import type { PilotCompletionScore } from "@/types/pilot";
+import type { PilotCompletionScore, PilotReadinessReport, SourceGapReport } from "@/types/pilot";
 import type { CountryModule, CoverageReport, RelationshipCoverageReport } from "@/types/pipeline";
 import { LoadingState } from "./LoadingState";
 
@@ -26,6 +26,8 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
   const [relationshipCoverage, setRelationshipCoverage] = useState<RelationshipCoverageReport[]>([]);
   const [countryModules, setCountryModules] = useState<Record<string, CountryModule[]>>({});
   const [completionScores, setCompletionScores] = useState<Record<string, PilotCompletionScore>>({});
+  const [readinessReports, setReadinessReports] = useState<Record<string, PilotReadinessReport>>({});
+  const [sourceGapReports, setSourceGapReports] = useState<Record<string, SourceGapReport>>({});
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -69,6 +71,22 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
               : null;
           }),
         );
+        const readinessPayloads = await Promise.all(
+          selectedCountries.map(async (country) => {
+            const response = await fetch(`/api/pilot/country/${country.code}/readiness`, {
+              signal: controller.signal,
+            });
+            return response.ok ? [country.code, (await response.json()) as PilotReadinessReport] as const : null;
+          }),
+        );
+        const gapPayloads = await Promise.all(
+          selectedCountries.map(async (country) => {
+            const response = await fetch(`/api/source-gaps/country/${country.code}`, {
+              signal: controller.signal,
+            });
+            return response.ok ? [country.code, (await response.json()) as SourceGapReport] as const : null;
+          }),
+        );
         const relationships = await Promise.all(
           (ragStatus?.relationships ?? []).map(async (relationship) => {
             const response = await fetch(
@@ -89,6 +107,8 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
         );
         setCountryModules(Object.fromEntries(modulePayloads));
         setCompletionScores(Object.fromEntries(completionPayloads.filter((item): item is readonly [string, PilotCompletionScore] => item !== null)));
+        setReadinessReports(Object.fromEntries(readinessPayloads.filter((item): item is readonly [string, PilotReadinessReport] => item !== null)));
+        setSourceGapReports(Object.fromEntries(gapPayloads.filter((item): item is readonly [string, SourceGapReport] => item !== null)));
       } finally {
         if (!controller.signal.aborted) {
           setIsLoading(false);
@@ -142,6 +162,18 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
             <p className="mt-1 text-xs text-slate-400">
               Pending review items: {coverage.review_queue_items.length}
             </p>
+            <div className="mt-3 rounded-lg border border-slate-800 bg-slate-950/60 p-2 text-xs">
+              <p className="font-semibold text-slate-200">Evidence Quality</p>
+              <p className="mt-1 text-slate-400">
+                Source readiness: {Math.round((sourceGapReports[coverage.country_code]?.overall_source_readiness ?? 0) * 100)}%
+              </p>
+              <p className="text-slate-400">Citation quality: {completionScores[coverage.country_code]?.citation_quality ?? 0}%</p>
+              <p className="text-slate-400">Review quality: {completionScores[coverage.country_code]?.review_quality ?? 0}%</p>
+              <p className="text-slate-400">Pilot readiness: {Math.round((readinessReports[coverage.country_code]?.overall_score ?? 0) * 100)}%</p>
+              <p className="mt-1 text-amber-300">
+                Weak areas: {(readinessReports[coverage.country_code]?.failed_gates ?? []).slice(0, 4).join(", ") || "none"}
+              </p>
+            </div>
             <div className="mt-3 space-y-1 text-xs">
               {(countryModules[coverage.country_code] ?? []).slice(0, 8).map((module) => (
                 <div key={module.module} className="flex items-center justify-between gap-2 rounded bg-slate-950/60 px-2 py-1">
