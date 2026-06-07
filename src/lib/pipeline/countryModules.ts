@@ -80,11 +80,11 @@ export function createAllCountryModules(
   const metricsByModule = new Map<string, MetricValue[]>();
 
   for (const metric of metrics) {
-    const module = getMetricModule(metric.metric_id);
-    metricsByModule.set(module, [...(metricsByModule.get(module) ?? []), metric]);
+    const moduleName = getMetricModule(metric.metric_id);
+    metricsByModule.set(moduleName, [...(metricsByModule.get(moduleName) ?? []), metric]);
   }
 
-  return COUNTRY_MODULES.map((module) =>
-    createCountryModule(countryCode, module, metricsByModule.get(module) ?? [], generatedAt),
+  return COUNTRY_MODULES.map((moduleName) =>
+    createCountryModule(countryCode, moduleName, metricsByModule.get(moduleName) ?? [], generatedAt),
   );
 }

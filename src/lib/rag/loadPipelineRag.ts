@@ -20,8 +20,8 @@ export async function loadCountryModules(countryCode: string): Promise<CountryMo
   const normalizedCode = normalizeCountryCode(countryCode);
   const modules: CountryModule[] = [];
 
-  for (const module of COUNTRY_MODULES) {
-    const filePath = repoPath("data", "rag", "countries", normalizedCode, `${module}.v1.json`);
+  for (const moduleName of COUNTRY_MODULES) {
+    const filePath = repoPath("data", "rag", "countries", normalizedCode, `${moduleName}.v1.json`);
 
     if (await pathExists(filePath)) {
       modules.push(await readJsonFile<CountryModule>(filePath));
@@ -63,13 +63,13 @@ export async function loadRelationshipModules(
   const normalizedRelationshipId = normalizeRelationshipId(relationshipId);
   const modules: RelationshipModule[] = [];
 
-  for (const module of RELATIONSHIP_MODULES) {
+  for (const moduleName of RELATIONSHIP_MODULES) {
     const filePath = repoPath(
       "data",
       "rag",
       "relationships",
       normalizedRelationshipId,
-      `${module}.v1.json`,
+      `${moduleName}.v1.json`,
     );
 
     if (await pathExists(filePath)) {

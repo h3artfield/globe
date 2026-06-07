@@ -34,9 +34,14 @@ export async function POST(request: Request) {
   const missingData = Array.from(
     new Set([...answer.missingData, ...pipelineContext.missingData]),
   ).sort();
+  const answerText =
+    missingData.length > answer.missingData.length
+      ? `${answer.answer}\n\nPipeline missing data: ${missingData.join(" | ")}.`
+      : answer.answer;
 
   return NextResponse.json({
     ...answer,
+    answer: answerText,
     sourceIds,
     missingData,
     modules_used: modulesUsed,

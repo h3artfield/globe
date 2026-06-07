@@ -2,7 +2,7 @@ import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 export function repoPath(...segments: string[]): string {
-  return path.join(process.cwd(), ...segments);
+  return path.join(/* turbopackIgnore: true */ process.cwd(), ...segments);
 }
 
 export async function ensureDirectory(directoryPath: string): Promise<void> {

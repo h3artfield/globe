@@ -11,8 +11,11 @@ async function main() {
     const relationshipDirectory = repoPath("data", "rag", "relationships", relationshipId);
     const modules = createAllRelationshipModules(pair, generatedAt);
 
-    for (const module of modules) {
-      await writeJsonFile(`${relationshipDirectory}/${module.module}.v1.json`, module);
+    for (const relationshipModule of modules) {
+      await writeJsonFile(
+        `${relationshipDirectory}/${relationshipModule.module}.v1.json`,
+        relationshipModule,
+      );
     }
 
     await writeJsonFile(`${relationshipDirectory}/sources.json`, {

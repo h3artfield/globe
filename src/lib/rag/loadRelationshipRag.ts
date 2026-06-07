@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { IsoAlpha3Code } from "@/types/country";
 import type { LoadedRelationshipRag } from "@/types/rag";
-import type { RelationshipProfile } from "@/types/relationship";
+import type { RelationshipId, RelationshipProfile } from "@/types/relationship";
 import { buildRelationshipId, normalizeCountryCode } from "@/lib/globe/countryIdMap";
 import { validateRelationshipRag } from "./validateRelationshipRag";
 
@@ -29,7 +29,7 @@ function getRelationshipProfileFilesystemPath(
 }
 
 function convertRelationshipModuleToProfile(value: unknown): RelationshipProfile | null {
-  const module = value as
+  const relationshipModule = value as
     | {
         relationship_id?: string;
         countries?: string[];
@@ -45,37 +45,37 @@ function convertRelationshipModuleToProfile(value: unknown): RelationshipProfile
     | undefined;
 
   if (
-    !module?.relationship_id ||
-    !Array.isArray(module.countries) ||
-    module.countries.length !== 2 ||
-    !module.module
+    !relationshipModule?.relationship_id ||
+    !Array.isArray(relationshipModule.countries) ||
+    relationshipModule.countries.length !== 2 ||
+    !relationshipModule.module
   ) {
     return null;
   }
 
   return {
-    relationship_id: module.relationship_id,
-    countries: module.countries as [string, string],
-    version: module.version ?? "1.0",
-    last_updated: module.last_updated ?? new Date().toISOString().slice(0, 10),
+    relationship_id: relationshipModule.relationship_id as RelationshipId,
+    countries: relationshipModule.countries as [string, string],
+    version: relationshipModule.version ?? "1.0",
+    last_updated: relationshipModule.last_updated ?? new Date().toISOString().slice(0, 10),
     sections: {
-      [module.module]: {
-        summary: module.summary ?? "",
-        key_findings: module.key_findings ?? [],
-        metrics: module.metrics ?? [],
-        claims: module.claims ?? [],
+      [relationshipModule.module]: {
+        summary: relationshipModule.summary ?? "",
+        key_findings: relationshipModule.key_findings ?? [],
+        metrics: relationshipModule.metrics ?? [],
+        claims: relationshipModule.claims ?? [],
       },
     },
     source_notes: ["Loaded from pipeline relationship module format."],
     confidence: {
       overall:
-        module.confidence?.overall === "low" ||
-        module.confidence?.overall === "medium" ||
-        module.confidence?.overall === "high" ||
-        module.confidence?.overall === "unknown"
-          ? module.confidence.overall
+        relationshipModule.confidence?.overall === "low" ||
+        relationshipModule.confidence?.overall === "medium" ||
+        relationshipModule.confidence?.overall === "high" ||
+        relationshipModule.confidence?.overall === "unknown"
+          ? relationshipModule.confidence.overall
           : "unknown",
-      weak_sections: module.confidence?.weak_areas ?? [],
+      weak_sections: relationshipModule.confidence?.weak_areas ?? [],
     },
   };
 }

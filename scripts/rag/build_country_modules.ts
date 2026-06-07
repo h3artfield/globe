@@ -38,19 +38,19 @@ async function main() {
     const modules = createAllCountryModules(countryCode, processedMetrics.metrics, generatedAt);
     const countryDirectory = repoPath("data", "rag", "countries", countryCode);
 
-    for (const module of modules) {
+    for (const countryModule of modules) {
       const payload =
-        module.module === "national_cohesion_by_demographic"
-          ? createNationalCohesionPayload(module)
-          : module.module === "population_divisions"
-            ? createPopulationDivisionsPayload(module)
-            : module.module === "leader_dossiers"
-              ? createLeaderDossiersPayload(module)
-              : module.module === "scorecard"
-                ? createScorecardPayload(module, processedMetrics.metrics)
-                : module;
+        countryModule.module === "national_cohesion_by_demographic"
+          ? createNationalCohesionPayload(countryModule)
+          : countryModule.module === "population_divisions"
+            ? createPopulationDivisionsPayload(countryModule)
+            : countryModule.module === "leader_dossiers"
+              ? createLeaderDossiersPayload(countryModule)
+              : countryModule.module === "scorecard"
+                ? createScorecardPayload(countryModule, processedMetrics.metrics)
+                : countryModule;
 
-      await writeJsonFile(`${countryDirectory}/${module.module}.v1.json`, payload);
+      await writeJsonFile(`${countryDirectory}/${countryModule.module}.v1.json`, payload);
     }
 
     await writeJsonFile(`${countryDirectory}/sources.json`, {

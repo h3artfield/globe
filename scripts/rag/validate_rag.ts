@@ -9,10 +9,10 @@ async function main() {
   const warnings: string[] = [];
 
   for (const countryCode of MVP_COUNTRIES) {
-    for (const module of COUNTRY_MODULES) {
-      const location = `countries/${countryCode}/${module}.v1.json`;
+    for (const moduleName of COUNTRY_MODULES) {
+      const location = `countries/${countryCode}/${moduleName}.v1.json`;
       const payload = await readJsonFile<CountryModule>(
-        repoPath("data", "rag", "countries", countryCode, `${module}.v1.json`),
+        repoPath("data", "rag", "countries", countryCode, `${moduleName}.v1.json`),
       );
       const result = validateCountryModule(payload, location);
       errors.push(...result.errors);
@@ -32,10 +32,10 @@ async function main() {
   for (const pair of MVP_RELATIONSHIP_PAIRS) {
     const relationshipId = buildRelationshipId(pair[0], pair[1]);
 
-    for (const module of RELATIONSHIP_MODULES) {
-      const location = `relationships/${relationshipId}/${module}.v1.json`;
+    for (const moduleName of RELATIONSHIP_MODULES) {
+      const location = `relationships/${relationshipId}/${moduleName}.v1.json`;
       const payload = await readJsonFile<RelationshipModule>(
-        repoPath("data", "rag", "relationships", relationshipId, `${module}.v1.json`),
+        repoPath("data", "rag", "relationships", relationshipId, `${moduleName}.v1.json`),
       );
       const result = validateRelationshipModule(payload, location);
       errors.push(...result.errors);
