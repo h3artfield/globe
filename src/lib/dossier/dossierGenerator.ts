@@ -1,6 +1,7 @@
 import type { CountryModule, MetricValue, ReviewQueueItem } from "@/types/pipeline";
 import { COUNTRY_MODULES } from "@/lib/pipeline/constants";
 import { buildCountryChunk } from "@/lib/pipeline/chunks";
+import { buildCountryCoverageReport } from "@/lib/pipeline/coverage";
 import { getMetricModule } from "@/lib/pipeline/countryModules";
 import { pathExists, readJsonFile, readJsonLinesFile, repoPath, writeJsonFile, writeJsonLinesFile } from "@/lib/pipeline/io";
 import { buildReviewQueueItem, loadCountryReviewQueue } from "@/lib/pipeline/reviewQueue";
@@ -10,6 +11,21 @@ import { detectModuleMissingData } from "./missingDataDetector";
 import { validateDossierModule } from "./moduleDraftValidator";
 import { claimHasGrounding } from "./sourceGrounding";
 import { writeDossierBuildReport, type DossierBuildReport } from "./dossierBuildReport";
+import { reviewStatusForMetric } from "./reviewStatus";
+
+type IndicatorRegistryFile = {
+  indicators: Array<{
+    metric_id: string;
+    label: string;
+    module: string;
+    preferred_sources: string[];
+    unit: string;
+    freshness_requirement: "unknown" | "latest_available_year" | "annual" | "monthly_or_quarterly" | "static_or_historical";
+    formula: string;
+    required: boolean;
+    source_indicator_code?: string;
+  }>;
+};
 
 async function loadMetrics(countryCode: string): Promise<MetricValue[]> {
   const filePath = repoPath("data", "processed", "countries", countryCode, "metrics.v1.json");
@@ -43,13 +59,17 @@ function metricsForModule(metrics: MetricValue[], moduleName: string): MetricVal
 
 export async function buildCountryModuleDossier(countryCode: string, moduleName: string) {
   const metrics = metricsForModule(await loadMetrics(countryCode), moduleName);
+  const metricsWithReviewStatus = metrics.map((metric) => ({
+    ...metric,
+    review_status: metric.review_status ?? reviewStatusForMetric(metric),
+  }));
   const existing = await loadModule(countryCode, moduleName);
-  const claims = metrics.map((metric, index) => claimFromMetric(countryCode, moduleName, metric, index));
-  const sourceIds = Array.from(new Set([...existing.source_ids, ...metrics.flatMap((metric) => metric.source_id ? [metric.source_id] : [])])).sort();
-  const module: CountryModule = {
+  const claims = metricsWithReviewStatus.map((metric, index) => claimFromMetric(countryCode, moduleName, metric, index));
+  const sourceIds = Array.from(new Set([...existing.source_ids, ...metricsWithReviewStatus.flatMap((metric) => metric.source_id ? [metric.source_id] : [])])).sort();
+  const countryModule: CountryModule = {
     ...existing,
     last_updated: new Date().toISOString().slice(0, 10),
-    metrics,
+    metrics: metricsWithReviewStatus,
     claims,
     key_findings: claims.map((claim) => claim.text),
     source_ids: sourceIds,
@@ -60,13 +80,13 @@ export async function buildCountryModuleDossier(countryCode: string, moduleName:
     },
   };
 
-  const validation = validateDossierModule(module);
+  const validation = validateDossierModule(countryModule);
   if (validation.errors.length > 0) {
     throw new Error(validation.errors.join("\n"));
   }
 
-  await writeJsonFile(repoPath("data", "rag", "countries", countryCode, `${moduleName}.v1.json`), module);
-  return { module, validation };
+  await writeJsonFile(repoPath("data", "rag", "countries", countryCode, `${moduleName}.v1.json`), countryModule);
+  return { module: countryModule, validation };
 }
 
 export async function buildCountryDossier(countryCode: string, moduleFilter?: string[]) {
@@ -110,6 +130,20 @@ export async function buildCountryDossier(countryCode: string, moduleFilter?: st
     generated_at: new Date().toISOString(),
     items: reviewQueueItems,
   });
+  const registry = await readJsonFile<IndicatorRegistryFile>(
+    repoPath("data", "sources", "indicator_registry.v1.json"),
+  );
+  const generatedModules = await Promise.all(
+    COUNTRY_MODULES.map((moduleName) =>
+      readJsonFile<CountryModule>(
+        repoPath("data", "rag", "countries", countryCode, `${moduleName}.v1.json`),
+      ),
+    ),
+  );
+  await writeJsonFile(
+    repoPath("data", "rag", "countries", countryCode, "coverage_report.v1.json"),
+    buildCountryCoverageReport(countryCode, generatedModules, registry.indicators, reviewQueueItems),
+  );
 
   const report: DossierBuildReport = {
     country_code: countryCode,

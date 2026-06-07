@@ -16,7 +16,6 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
-      "events",
       "claims"
     ]
   },
@@ -29,5 +28,6 @@
   "border_dispute_opponents": [],
   "public_opinion_adversaries": [],
   "regime_narrative_enemies": [],
-  "top_adversaries_ranked": []
+  "top_adversaries_ranked": [],
+  "review_status": "human_review_pending"
 }

@@ -5,10 +5,10 @@
   "last_updated": "2026-06-07",
   "summary": "economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "fdi_inflows_current_usd: 27139853378.1402 current_usd (2024)",
-    "gdp_current_usd: 3909891533858.08 current_usd (2024)",
-    "gdp_per_capita_current_usd: 2694.73780859961 current_usd (2024)",
-    "gdp_ppp_current_international: 16192422603162.4 current_international_usd (2024)"
+    "fdi_inflows_current_usd is 27139853378.1402 current_usd for IND (2024).",
+    "gdp_current_usd is 3909891533858.08 current_usd for IND (2024).",
+    "gdp_per_capita_current_usd is 2694.73780859961 current_usd for IND (2024).",
+    "gdp_ppp_current_international is 16192422603162.4 current_international_usd for IND (2024)."
   ],
   "metrics": [
     {
@@ -27,7 +27,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "gdp_current_usd",
@@ -45,7 +46,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD."
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "gdp_per_capita_current_usd",
@@ -63,7 +65,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD."
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "gdp_ppp_current_international",
@@ -81,10 +84,60 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD."
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "IND-economy-metric-001",
+      "text": "fdi_inflows_current_usd is 27139853378.1402 current_usd for IND (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/IND/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=IND:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD; metric_id=fdi_inflows_current_usd"
+    },
+    {
+      "claim_id": "IND-economy-metric-002",
+      "text": "gdp_current_usd is 3909891533858.08 current_usd for IND (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=IND:gdp_current_usd:NY.GDP.MKTP.CD; metric_id=gdp_current_usd"
+    },
+    {
+      "claim_id": "IND-economy-metric-003",
+      "text": "gdp_per_capita_current_usd is 2694.73780859961 current_usd for IND (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=IND:gdp_per_capita_current_usd:NY.GDP.PCAP.CD; metric_id=gdp_per_capita_current_usd"
+    },
+    {
+      "claim_id": "IND-economy-metric-004",
+      "text": "gdp_ppp_current_international is 16192422603162.4 current_international_usd for IND (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=IND:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD; metric_id=gdp_ppp_current_international"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -95,7 +148,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

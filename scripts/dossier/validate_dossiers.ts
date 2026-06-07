@@ -8,10 +8,10 @@ async function main() {
   const warnings: string[] = [];
   for (const countryCode of MVP_COUNTRIES) {
     for (const moduleName of COUNTRY_MODULES) {
-      const module = await readJsonFile<CountryModule>(
+      const countryModule = await readJsonFile<CountryModule>(
         repoPath("data", "rag", "countries", countryCode, `${moduleName}.v1.json`),
       );
-      const result = validateDossierModule(module);
+      const result = validateDossierModule(countryModule);
       errors.push(...result.errors);
       warnings.push(...result.warnings);
     }

@@ -16,8 +16,8 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
-      "events",
       "claims"
     ]
-  }
+  },
+  "review_status": "human_review_pending"
 }

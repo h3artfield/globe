@@ -5,10 +5,10 @@
   "last_updated": "2026-06-07",
   "summary": "logistics_shipping_air_travel has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "air_freight_million_ton_km: 3.127453466 million_ton_km (2022)",
-    "air_passengers_carried: 452343.767 passengers (2022)",
-    "container_port_throughput: 1022376 TEU (2021)",
-    "tourism_arrivals: 3382000 arrivals (2020)"
+    "air_freight_million_ton_km is 3.127453466 million_ton_km for UKR (2022).",
+    "air_passengers_carried is 452343.767 passengers for UKR (2022).",
+    "container_port_throughput is 1022376 TEU for UKR (2021).",
+    "tourism_arrivals is 3382000 arrivals for UKR (2020)."
   ],
   "metrics": [
     {
@@ -27,7 +27,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1."
+      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "air_passengers_carried",
@@ -45,7 +46,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR."
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "container_port_throughput",
@@ -63,7 +65,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for IS.SHP.GOOD.TU."
+      "notes": "Latest non-null World Bank observation for IS.SHP.GOOD.TU.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "tourism_arrivals",
@@ -81,10 +84,60 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for ST.INT.ARVL."
+      "notes": "Latest non-null World Bank observation for ST.INT.ARVL.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "UKR-logistics_shipping_air_travel-metric-001",
+      "text": "air_freight_million_ton_km is 3.127453466 million_ton_km for UKR (2022).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/UKR/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=UKR:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1; metric_id=air_freight_million_ton_km"
+    },
+    {
+      "claim_id": "UKR-logistics_shipping_air_travel-metric-002",
+      "text": "air_passengers_carried is 452343.767 passengers for UKR (2022).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/UKR/indicator/IS.AIR.PSGR?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=UKR:air_passengers_carried:IS.AIR.PSGR; metric_id=air_passengers_carried"
+    },
+    {
+      "claim_id": "UKR-logistics_shipping_air_travel-metric-003",
+      "text": "container_port_throughput is 1022376 TEU for UKR (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/UKR/indicator/IS.SHP.GOOD.TU?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=UKR:container_port_throughput:IS.SHP.GOOD.TU; metric_id=container_port_throughput"
+    },
+    {
+      "claim_id": "UKR-logistics_shipping_air_travel-metric-004",
+      "text": "tourism_arrivals is 3382000 arrivals for UKR (2020).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/UKR/indicator/ST.INT.ARVL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=UKR:tourism_arrivals:ST.INT.ARVL; metric_id=tourism_arrivals"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -95,7 +148,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

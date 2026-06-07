@@ -14,9 +14,8 @@
   "confidence": {
     "overall": "unknown",
     "weak_areas": [
-      "metrics",
-      "claims",
-      "sources"
+      "sources",
+      "claims"
     ]
   },
   "tracked_division_types": [
@@ -40,5 +39,6 @@
     "resource_region_vs_tax_region",
     "globalized_elite_vs_local_working_class"
   ],
-  "divisions": []
+  "divisions": [],
+  "review_status": "human_review_pending"
 }

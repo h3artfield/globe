@@ -5,9 +5,9 @@
   "last_updated": "2026-06-07",
   "summary": "technology_contributions has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "high_technology_exports_current_usd: 19428780000 current_usd (2024)",
-    "patent_applications_residents: 1592 applications (2021)",
-    "rd_expenditure_percent_gdp: 6.34589 percent_gdp (2023)"
+    "high_technology_exports_current_usd is 19428780000 current_usd for ISR (2024).",
+    "patent_applications_residents is 1592 applications for ISR (2021).",
+    "rd_expenditure_percent_gdp is 6.34589 percent_gdp for ISR (2023)."
   ],
   "metrics": [
     {
@@ -26,7 +26,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for TX.VAL.TECH.CD."
+      "notes": "Latest non-null World Bank observation for TX.VAL.TECH.CD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "patent_applications_residents",
@@ -44,7 +45,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for IP.PAT.RESD."
+      "notes": "Latest non-null World Bank observation for IP.PAT.RESD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "rd_expenditure_percent_gdp",
@@ -62,10 +64,48 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for GB.XPD.RSDV.GD.ZS."
+      "notes": "Latest non-null World Bank observation for GB.XPD.RSDV.GD.ZS.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "ISR-technology_contributions-metric-001",
+      "text": "high_technology_exports_current_usd is 19428780000 current_usd for ISR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/TX.VAL.TECH.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:high_technology_exports_current_usd:TX.VAL.TECH.CD; metric_id=high_technology_exports_current_usd"
+    },
+    {
+      "claim_id": "ISR-technology_contributions-metric-002",
+      "text": "patent_applications_residents is 1592 applications for ISR (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/IP.PAT.RESD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:patent_applications_residents:IP.PAT.RESD; metric_id=patent_applications_residents"
+    },
+    {
+      "claim_id": "ISR-technology_contributions-metric-003",
+      "text": "rd_expenditure_percent_gdp is 6.34589 percent_gdp for ISR (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:rd_expenditure_percent_gdp:GB.XPD.RSDV.GD.ZS; metric_id=rd_expenditure_percent_gdp"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -76,7 +116,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

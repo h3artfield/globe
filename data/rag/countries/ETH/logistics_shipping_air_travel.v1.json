@@ -5,9 +5,9 @@
   "last_updated": "2026-06-07",
   "summary": "logistics_shipping_air_travel has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "air_freight_million_ton_km: 4015.45864 million_ton_km (2023)",
-    "air_passengers_carried: 15273254 passengers (2023)",
-    "tourism_arrivals: 518000 arrivals (2020)"
+    "air_freight_million_ton_km is 4015.45864 million_ton_km for ETH (2023).",
+    "air_passengers_carried is 15273254 passengers for ETH (2023).",
+    "tourism_arrivals is 518000 arrivals for ETH (2020)."
   ],
   "metrics": [
     {
@@ -26,7 +26,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1."
+      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "air_passengers_carried",
@@ -44,7 +45,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR."
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "tourism_arrivals",
@@ -62,10 +64,48 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for ST.INT.ARVL."
+      "notes": "Latest non-null World Bank observation for ST.INT.ARVL.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "ETH-logistics_shipping_air_travel-metric-001",
+      "text": "air_freight_million_ton_km is 4015.45864 million_ton_km for ETH (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ETH/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ETH:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1; metric_id=air_freight_million_ton_km"
+    },
+    {
+      "claim_id": "ETH-logistics_shipping_air_travel-metric-002",
+      "text": "air_passengers_carried is 15273254 passengers for ETH (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ETH/indicator/IS.AIR.PSGR?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ETH:air_passengers_carried:IS.AIR.PSGR; metric_id=air_passengers_carried"
+    },
+    {
+      "claim_id": "ETH-logistics_shipping_air_travel-metric-003",
+      "text": "tourism_arrivals is 518000 arrivals for ETH (2020).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ETH/indicator/ST.INT.ARVL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ETH:tourism_arrivals:ST.INT.ARVL; metric_id=tourism_arrivals"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -76,7 +116,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

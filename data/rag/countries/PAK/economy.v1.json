@@ -5,10 +5,10 @@
   "last_updated": "2026-06-07",
   "summary": "economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "fdi_inflows_current_usd: 2663000000 current_usd (2024)",
-    "gdp_current_usd: 371570000121.266 current_usd (2024)",
-    "gdp_per_capita_current_usd: 1478.77277977996 current_usd (2024)",
-    "gdp_ppp_current_international: 1570963817829.03 current_international_usd (2024)"
+    "fdi_inflows_current_usd is 2663000000 current_usd for PAK (2024).",
+    "gdp_current_usd is 371570000121.266 current_usd for PAK (2024).",
+    "gdp_per_capita_current_usd is 1478.77277977996 current_usd for PAK (2024).",
+    "gdp_ppp_current_international is 1570963817829.03 current_international_usd for PAK (2024)."
   ],
   "metrics": [
     {
@@ -27,7 +27,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "gdp_current_usd",
@@ -45,7 +46,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD."
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "gdp_per_capita_current_usd",
@@ -63,7 +65,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD."
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "gdp_ppp_current_international",
@@ -81,10 +84,60 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD."
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "PAK-economy-metric-001",
+      "text": "fdi_inflows_current_usd is 2663000000 current_usd for PAK (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD; metric_id=fdi_inflows_current_usd"
+    },
+    {
+      "claim_id": "PAK-economy-metric-002",
+      "text": "gdp_current_usd is 371570000121.266 current_usd for PAK (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/NY.GDP.MKTP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:gdp_current_usd:NY.GDP.MKTP.CD; metric_id=gdp_current_usd"
+    },
+    {
+      "claim_id": "PAK-economy-metric-003",
+      "text": "gdp_per_capita_current_usd is 1478.77277977996 current_usd for PAK (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/NY.GDP.PCAP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:gdp_per_capita_current_usd:NY.GDP.PCAP.CD; metric_id=gdp_per_capita_current_usd"
+    },
+    {
+      "claim_id": "PAK-economy-metric-004",
+      "text": "gdp_ppp_current_international is 1570963817829.03 current_international_usd for PAK (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD; metric_id=gdp_ppp_current_international"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -95,7 +148,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

@@ -5,7 +5,7 @@
   "last_updated": "2026-06-07",
   "summary": "military has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "military_expenditure_current_usd: 64704990025.4782 current_usd (2024)"
+    "military_expenditure_current_usd is 64704990025.4782 current_usd for UKR (2024)."
   ],
   "metrics": [
     {
@@ -24,10 +24,24 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for MS.MIL.XPND.CD."
+      "notes": "Latest non-null World Bank observation for MS.MIL.XPND.CD.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "UKR-military-metric-001",
+      "text": "military_expenditure_current_usd is 64704990025.4782 current_usd for UKR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/UKR/indicator/MS.MIL.XPND.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=UKR:military_expenditure_current_usd:MS.MIL.XPND.CD; metric_id=military_expenditure_current_usd"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -38,7 +52,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

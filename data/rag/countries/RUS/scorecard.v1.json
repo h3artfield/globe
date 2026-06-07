@@ -5,9 +5,35 @@
   "last_updated": "2026-06-07",
   "summary": "scorecard has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "agricultural_production_value_added_current_usd: 59640759949.5317 current_usd (2024)",
-    "electricity_production: 7285.35211230393 kwh_per_capita (2023)",
-    "energy_production: 5498.30525622561 kg_oil_equivalent_per_capita (2023)"
+    "agricultural_production_value_added_current_usd is 59640759949.5317 current_usd for RUS (2024).",
+    "air_freight_million_ton_km is 1268.80857 million_ton_km for RUS (2023).",
+    "air_passengers_carried is 98872628 passengers for RUS (2023).",
+    "container_port_throughput is 3914304 TEU for RUS (2022).",
+    "electricity_production is 7285.35211230393 kwh_per_capita for RUS (2023).",
+    "energy_production is 5498.30525622561 kg_oil_equivalent_per_capita for RUS (2023).",
+    "exports_goods_services_current_usd is 476430904566.737 current_usd for RUS (2024).",
+    "fdi_inflows_current_usd is -9350250000 current_usd for RUS (2024).",
+    "fertility_rate is 1.418 births_per_woman for RUS (2024).",
+    "gdp_current_usd is 2173835806671.66 current_usd for RUS (2024).",
+    "gdp_per_capita_current_usd is 14889.0185546875 current_usd for RUS (2024).",
+    "gdp_ppp_current_international is 6921249292202.15 current_international_usd for RUS (2024).",
+    "gini_index is 33 index for RUS (2023).",
+    "high_technology_exports_current_usd is 10598637533 current_usd for RUS (2021).",
+    "homicide_rate_per_100k is 6.76512531955806 per_100k for RUS (2021).",
+    "imports_goods_services_current_usd is 382411727676.268 current_usd for RUS (2024).",
+    "life_expectancy is 73.4404878048781 years for RUS (2024).",
+    "literacy_rate_adult is 99.9300003051758 percent for RUS (2021).",
+    "manufacturing_value_added_current_usd is 288112754152.696 current_usd for RUS (2024).",
+    "military_expenditure_current_usd is 148967275140.483 current_usd for RUS (2024).",
+    "net_migration is -251822 people for RUS (2025).",
+    "patent_applications_residents is 19569 applications for RUS (2021).",
+    "population_total is 143533851 people for RUS (2024).",
+    "poverty_rate_national is 7.2 percent for RUS (2024).",
+    "rd_expenditure_percent_gdp is 0.93706 percent_gdp for RUS (2024).",
+    "remittances_received_current_usd is 1907830000 current_usd for RUS (2024).",
+    "tourism_arrivals is 6359000 arrivals for RUS (2020).",
+    "urban_population_share is 75.1119136177067 percent for RUS (2024).",
+    "youth_unemployment_rate is 7.613 percent for RUS (2025)."
   ],
   "metrics": [
     {
@@ -26,7 +52,65 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NV.AGR.TOTL.CD."
+      "notes": "Latest non-null World Bank observation for NV.AGR.TOTL.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "air_freight_million_ton_km",
+      "country_code": "RUS",
+      "value": 1268.80857,
+      "unit": "million_ton_km",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1",
+      "calculation": "IS.AIR.GOOD.MT.K1",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "air_passengers_carried",
+      "country_code": "RUS",
+      "value": 98872628,
+      "unit": "passengers",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/IS.AIR.PSGR?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:air_passengers_carried:IS.AIR.PSGR",
+      "calculation": "IS.AIR.PSGR",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "container_port_throughput",
+      "country_code": "RUS",
+      "value": 3914304,
+      "unit": "TEU",
+      "year": 2022,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/IS.SHP.GOOD.TU?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:container_port_throughput:IS.SHP.GOOD.TU",
+      "calculation": "IS.SHP.GOOD.TU when available",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for IS.SHP.GOOD.TU.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "electricity_production",
@@ -44,7 +128,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for EG.USE.ELEC.KH.PC."
+      "notes": "Latest non-null World Bank observation for EG.USE.ELEC.KH.PC.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "energy_production",
@@ -62,10 +147,797 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for EG.USE.PCAP.KG.OE."
+      "notes": "Latest non-null World Bank observation for EG.USE.PCAP.KG.OE.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "exports_goods_services_current_usd",
+      "country_code": "RUS",
+      "value": 476430904566.737,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NE.EXP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:exports_goods_services_current_usd:NE.EXP.GNFS.CD",
+      "calculation": "NE.EXP.GNFS.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NE.EXP.GNFS.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "RUS",
+      "value": -9350250000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD",
+      "calculation": "BX.KLT.DINV.CD.WD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "fertility_rate",
+      "country_code": "RUS",
+      "value": 1.418,
+      "unit": "births_per_woman",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SP.DYN.TFRT.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:fertility_rate:SP.DYN.TFRT.IN",
+      "calculation": "SP.DYN.TFRT.IN",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.DYN.TFRT.IN.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gdp_current_usd",
+      "country_code": "RUS",
+      "value": 2173835806671.66,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:gdp_current_usd:NY.GDP.MKTP.CD",
+      "calculation": "NY.GDP.MKTP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "RUS",
+      "value": 14889.0185546875,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:gdp_per_capita_current_usd:NY.GDP.PCAP.CD",
+      "calculation": "NY.GDP.PCAP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "RUS",
+      "value": 6921249292202.15,
+      "unit": "current_international_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD",
+      "calculation": "NY.GDP.MKTP.PP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gini_index",
+      "country_code": "RUS",
+      "value": 33,
+      "unit": "index",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SI.POV.GINI?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:gini_index:SI.POV.GINI",
+      "calculation": "SI.POV.GINI",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "high_technology_exports_current_usd",
+      "country_code": "RUS",
+      "value": 10598637533,
+      "unit": "current_usd",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/TX.VAL.TECH.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:high_technology_exports_current_usd:TX.VAL.TECH.CD",
+      "calculation": "TX.VAL.TECH.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for TX.VAL.TECH.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "homicide_rate_per_100k",
+      "country_code": "RUS",
+      "value": 6.76512531955806,
+      "unit": "per_100k",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/VC.IHR.PSRC.P5?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:homicide_rate_per_100k:VC.IHR.PSRC.P5",
+      "calculation": "intentional_homicides / population * 100000",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "imports_goods_services_current_usd",
+      "country_code": "RUS",
+      "value": 382411727676.268,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NE.IMP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:imports_goods_services_current_usd:NE.IMP.GNFS.CD",
+      "calculation": "NE.IMP.GNFS.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NE.IMP.GNFS.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "life_expectancy",
+      "country_code": "RUS",
+      "value": 73.4404878048781,
+      "unit": "years",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SP.DYN.LE00.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:life_expectancy:SP.DYN.LE00.IN",
+      "calculation": "SP.DYN.LE00.IN",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.DYN.LE00.IN.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "literacy_rate_adult",
+      "country_code": "RUS",
+      "value": 99.9300003051758,
+      "unit": "percent",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SE.ADT.LITR.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:literacy_rate_adult:SE.ADT.LITR.ZS",
+      "calculation": "SE.ADT.LITR.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for SE.ADT.LITR.ZS.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "manufacturing_value_added_current_usd",
+      "country_code": "RUS",
+      "value": 288112754152.696,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/NV.IND.MANF.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:manufacturing_value_added_current_usd:NV.IND.MANF.CD",
+      "calculation": "NV.IND.MANF.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NV.IND.MANF.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "military_expenditure_current_usd",
+      "country_code": "RUS",
+      "value": 148967275140.483,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/MS.MIL.XPND.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:military_expenditure_current_usd:MS.MIL.XPND.CD",
+      "calculation": "MS.MIL.XPND.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for MS.MIL.XPND.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "net_migration",
+      "country_code": "RUS",
+      "value": -251822,
+      "unit": "people",
+      "year": 2025,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SM.POP.NETM?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:net_migration:SM.POP.NETM",
+      "calculation": "SM.POP.NETM",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "fresh",
+      "notes": "Latest non-null World Bank observation for SM.POP.NETM.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "patent_applications_residents",
+      "country_code": "RUS",
+      "value": 19569,
+      "unit": "applications",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/IP.PAT.RESD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:patent_applications_residents:IP.PAT.RESD",
+      "calculation": "IP.PAT.RESD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for IP.PAT.RESD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "population_total",
+      "country_code": "RUS",
+      "value": 143533851,
+      "unit": "people",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SP.POP.TOTL?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:population_total:SP.POP.TOTL",
+      "calculation": "SP.POP.TOTL",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.POP.TOTL.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "poverty_rate_national",
+      "country_code": "RUS",
+      "value": 7.2,
+      "unit": "percent",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SI.POV.NAHC?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:poverty_rate_national:SI.POV.NAHC",
+      "calculation": "SI.POV.NAHC",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SI.POV.NAHC.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "rd_expenditure_percent_gdp",
+      "country_code": "RUS",
+      "value": 0.93706,
+      "unit": "percent_gdp",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:rd_expenditure_percent_gdp:GB.XPD.RSDV.GD.ZS",
+      "calculation": "GB.XPD.RSDV.GD.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for GB.XPD.RSDV.GD.ZS.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "remittances_received_current_usd",
+      "country_code": "RUS",
+      "value": 1907830000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:remittances_received_current_usd:BX.TRF.PWKR.CD.DT",
+      "calculation": "BX.TRF.PWKR.CD.DT",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "tourism_arrivals",
+      "country_code": "RUS",
+      "value": 6359000,
+      "unit": "arrivals",
+      "year": 2020,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/ST.INT.ARVL?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:tourism_arrivals:ST.INT.ARVL",
+      "calculation": "ST.INT.ARVL",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for ST.INT.ARVL.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "urban_population_share",
+      "country_code": "RUS",
+      "value": 75.1119136177067,
+      "unit": "percent",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:urban_population_share:SP.URB.TOTL.IN.ZS",
+      "calculation": "SP.URB.TOTL.IN.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.URB.TOTL.IN.ZS.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "youth_unemployment_rate",
+      "country_code": "RUS",
+      "value": 7.613,
+      "unit": "percent",
+      "year": 2025,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/RUS/indicator/SL.UEM.1524.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "RUS:youth_unemployment_rate:SL.UEM.1524.ZS",
+      "calculation": "SL.UEM.1524.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "fresh",
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "RUS-scorecard-metric-001",
+      "text": "agricultural_production_value_added_current_usd is 59640759949.5317 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NV.AGR.TOTL.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:agricultural_production_value_added_current_usd:NV.AGR.TOTL.CD; metric_id=agricultural_production_value_added_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-002",
+      "text": "air_freight_million_ton_km is 1268.80857 million_ton_km for RUS (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1; metric_id=air_freight_million_ton_km"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-003",
+      "text": "air_passengers_carried is 98872628 passengers for RUS (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/IS.AIR.PSGR?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:air_passengers_carried:IS.AIR.PSGR; metric_id=air_passengers_carried"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-004",
+      "text": "container_port_throughput is 3914304 TEU for RUS (2022).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/IS.SHP.GOOD.TU?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:container_port_throughput:IS.SHP.GOOD.TU; metric_id=container_port_throughput"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-005",
+      "text": "electricity_production is 7285.35211230393 kwh_per_capita for RUS (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/EG.USE.ELEC.KH.PC?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:electricity_production:EG.USE.ELEC.KH.PC; metric_id=electricity_production"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-006",
+      "text": "energy_production is 5498.30525622561 kg_oil_equivalent_per_capita for RUS (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/EG.USE.PCAP.KG.OE?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:energy_production:EG.USE.PCAP.KG.OE; metric_id=energy_production"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-007",
+      "text": "exports_goods_services_current_usd is 476430904566.737 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NE.EXP.GNFS.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:exports_goods_services_current_usd:NE.EXP.GNFS.CD; metric_id=exports_goods_services_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-008",
+      "text": "fdi_inflows_current_usd is -9350250000 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD; metric_id=fdi_inflows_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-009",
+      "text": "fertility_rate is 1.418 births_per_woman for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SP.DYN.TFRT.IN?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:fertility_rate:SP.DYN.TFRT.IN; metric_id=fertility_rate"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-010",
+      "text": "gdp_current_usd is 2173835806671.66 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.MKTP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gdp_current_usd:NY.GDP.MKTP.CD; metric_id=gdp_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-011",
+      "text": "gdp_per_capita_current_usd is 14889.0185546875 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.PCAP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gdp_per_capita_current_usd:NY.GDP.PCAP.CD; metric_id=gdp_per_capita_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-012",
+      "text": "gdp_ppp_current_international is 6921249292202.15 current_international_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD; metric_id=gdp_ppp_current_international"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-013",
+      "text": "gini_index is 33 index for RUS (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SI.POV.GINI?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gini_index:SI.POV.GINI; metric_id=gini_index"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-014",
+      "text": "high_technology_exports_current_usd is 10598637533 current_usd for RUS (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/TX.VAL.TECH.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:high_technology_exports_current_usd:TX.VAL.TECH.CD; metric_id=high_technology_exports_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-015",
+      "text": "homicide_rate_per_100k is 6.76512531955806 per_100k for RUS (2021).",
+      "claim_type": "metric",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/VC.IHR.PSRC.P5?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:homicide_rate_per_100k:VC.IHR.PSRC.P5; metric_id=homicide_rate_per_100k"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-016",
+      "text": "imports_goods_services_current_usd is 382411727676.268 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NE.IMP.GNFS.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:imports_goods_services_current_usd:NE.IMP.GNFS.CD; metric_id=imports_goods_services_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-017",
+      "text": "life_expectancy is 73.4404878048781 years for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SP.DYN.LE00.IN?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:life_expectancy:SP.DYN.LE00.IN; metric_id=life_expectancy"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-018",
+      "text": "literacy_rate_adult is 99.9300003051758 percent for RUS (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SE.ADT.LITR.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:literacy_rate_adult:SE.ADT.LITR.ZS; metric_id=literacy_rate_adult"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-019",
+      "text": "manufacturing_value_added_current_usd is 288112754152.696 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NV.IND.MANF.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:manufacturing_value_added_current_usd:NV.IND.MANF.CD; metric_id=manufacturing_value_added_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-020",
+      "text": "military_expenditure_current_usd is 148967275140.483 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/MS.MIL.XPND.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:military_expenditure_current_usd:MS.MIL.XPND.CD; metric_id=military_expenditure_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-021",
+      "text": "net_migration is -251822 people for RUS (2025).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SM.POP.NETM?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:net_migration:SM.POP.NETM; metric_id=net_migration"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-022",
+      "text": "patent_applications_residents is 19569 applications for RUS (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/IP.PAT.RESD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:patent_applications_residents:IP.PAT.RESD; metric_id=patent_applications_residents"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-023",
+      "text": "population_total is 143533851 people for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SP.POP.TOTL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:population_total:SP.POP.TOTL; metric_id=population_total"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-024",
+      "text": "poverty_rate_national is 7.2 percent for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SI.POV.NAHC?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:poverty_rate_national:SI.POV.NAHC; metric_id=poverty_rate_national"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-025",
+      "text": "rd_expenditure_percent_gdp is 0.93706 percent_gdp for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:rd_expenditure_percent_gdp:GB.XPD.RSDV.GD.ZS; metric_id=rd_expenditure_percent_gdp"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-026",
+      "text": "remittances_received_current_usd is 1907830000 current_usd for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:remittances_received_current_usd:BX.TRF.PWKR.CD.DT; metric_id=remittances_received_current_usd"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-027",
+      "text": "tourism_arrivals is 6359000 arrivals for RUS (2020).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/ST.INT.ARVL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:tourism_arrivals:ST.INT.ARVL; metric_id=tourism_arrivals"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-028",
+      "text": "urban_population_share is 75.1119136177067 percent for RUS (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:urban_population_share:SP.URB.TOTL.IN.ZS; metric_id=urban_population_share"
+    },
+    {
+      "claim_id": "RUS-scorecard-metric-029",
+      "text": "youth_unemployment_rate is 7.613 percent for RUS (2025).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SL.UEM.1524.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:youth_unemployment_rate:SL.UEM.1524.ZS; metric_id=youth_unemployment_rate"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -76,7 +948,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
   },
   "scorecard": {
@@ -611,5 +1483,6 @@
     "methodology_notes": [
       "No composite scoring is calculated until scoring weights and source coverage are explicit."
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

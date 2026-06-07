@@ -5,8 +5,8 @@
   "last_updated": "2026-06-07",
   "summary": "trade_exports_imports has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "exports_goods_services_current_usd: 3753056083349.04 current_usd (2024)",
-    "imports_goods_services_current_usd: 3219342570126.17 current_usd (2024)"
+    "exports_goods_services_current_usd is 3753056083349.04 current_usd for CHN (2024).",
+    "imports_goods_services_current_usd is 3219342570126.17 current_usd for CHN (2024)."
   ],
   "metrics": [
     {
@@ -25,7 +25,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NE.EXP.GNFS.CD."
+      "notes": "Latest non-null World Bank observation for NE.EXP.GNFS.CD.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "imports_goods_services_current_usd",
@@ -43,10 +44,36 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NE.IMP.GNFS.CD."
+      "notes": "Latest non-null World Bank observation for NE.IMP.GNFS.CD.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "CHN-trade_exports_imports-metric-001",
+      "text": "exports_goods_services_current_usd is 3753056083349.04 current_usd for CHN (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/CHN/indicator/NE.EXP.GNFS.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=CHN:exports_goods_services_current_usd:NE.EXP.GNFS.CD; metric_id=exports_goods_services_current_usd"
+    },
+    {
+      "claim_id": "CHN-trade_exports_imports-metric-002",
+      "text": "imports_goods_services_current_usd is 3219342570126.17 current_usd for CHN (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/CHN/indicator/NE.IMP.GNFS.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=CHN:imports_goods_services_current_usd:NE.IMP.GNFS.CD; metric_id=imports_goods_services_current_usd"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -57,7 +84,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

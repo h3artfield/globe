@@ -5,7 +5,7 @@
   "last_updated": "2026-06-07",
   "summary": "average_citizen_life has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "life_expectancy: 67.603 years (2024)"
+    "life_expectancy is 67.603 years for ETH (2024)."
   ],
   "metrics": [
     {
@@ -24,10 +24,24 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for SP.DYN.LE00.IN."
+      "notes": "Latest non-null World Bank observation for SP.DYN.LE00.IN.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "ETH-average_citizen_life-metric-001",
+      "text": "life_expectancy is 67.603 years for ETH (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/ETH/indicator/SP.DYN.LE00.IN?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ETH:life_expectancy:SP.DYN.LE00.IN; metric_id=life_expectancy"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -38,7 +52,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

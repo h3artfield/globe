@@ -5,7 +5,7 @@
   "last_updated": "2026-06-07",
   "summary": "production_industry has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "manufacturing_value_added_current_usd: 54053889062.4105 current_usd (2024)"
+    "manufacturing_value_added_current_usd is 54053889062.4105 current_usd for EGY (2024)."
   ],
   "metrics": [
     {
@@ -24,10 +24,24 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NV.IND.MANF.CD."
+      "notes": "Latest non-null World Bank observation for NV.IND.MANF.CD.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "EGY-production_industry-metric-001",
+      "text": "manufacturing_value_added_current_usd is 54053889062.4105 current_usd for EGY (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/EGY/indicator/NV.IND.MANF.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=EGY:manufacturing_value_added_current_usd:NV.IND.MANF.CD; metric_id=manufacturing_value_added_current_usd"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -38,7 +52,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

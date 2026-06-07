@@ -5,10 +5,10 @@
   "last_updated": "2026-06-07",
   "summary": "logistics_shipping_air_travel has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "air_freight_million_ton_km: 309.514606 million_ton_km (2023)",
-    "air_passengers_carried: 7153419 passengers (2023)",
-    "container_port_throughput: 3383580 TEU (2022)",
-    "tourism_arrivals: 966000 arrivals (2012)"
+    "air_freight_million_ton_km is 309.514606 million_ton_km for PAK (2023).",
+    "air_passengers_carried is 7153419 passengers for PAK (2023).",
+    "container_port_throughput is 3383580 TEU for PAK (2022).",
+    "tourism_arrivals is 966000 arrivals for PAK (2012)."
   ],
   "metrics": [
     {
@@ -27,7 +27,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1."
+      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "air_passengers_carried",
@@ -45,7 +46,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR."
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "container_port_throughput",
@@ -63,7 +65,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for IS.SHP.GOOD.TU."
+      "notes": "Latest non-null World Bank observation for IS.SHP.GOOD.TU.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "tourism_arrivals",
@@ -81,10 +84,60 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for ST.INT.ARVL."
+      "notes": "Latest non-null World Bank observation for ST.INT.ARVL.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "PAK-logistics_shipping_air_travel-metric-001",
+      "text": "air_freight_million_ton_km is 309.514606 million_ton_km for PAK (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1; metric_id=air_freight_million_ton_km"
+    },
+    {
+      "claim_id": "PAK-logistics_shipping_air_travel-metric-002",
+      "text": "air_passengers_carried is 7153419 passengers for PAK (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/IS.AIR.PSGR?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:air_passengers_carried:IS.AIR.PSGR; metric_id=air_passengers_carried"
+    },
+    {
+      "claim_id": "PAK-logistics_shipping_air_travel-metric-003",
+      "text": "container_port_throughput is 3383580 TEU for PAK (2022).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/IS.SHP.GOOD.TU?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:container_port_throughput:IS.SHP.GOOD.TU; metric_id=container_port_throughput"
+    },
+    {
+      "claim_id": "PAK-logistics_shipping_air_travel-metric-004",
+      "text": "tourism_arrivals is 966000 arrivals for PAK (2012).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/ST.INT.ARVL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:tourism_arrivals:ST.INT.ARVL; metric_id=tourism_arrivals"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -95,7 +148,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

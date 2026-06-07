@@ -16,7 +16,6 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
-      "events",
       "claims"
     ]
   },
@@ -28,5 +27,6 @@
   "intelligence_partners": [],
   "diplomatic_supporters": [],
   "trade_dependency_partners": [],
-  "top_allies_ranked": []
+  "top_allies_ranked": [],
+  "review_status": "human_review_pending"
 }

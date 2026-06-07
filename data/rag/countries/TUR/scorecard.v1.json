@@ -5,9 +5,35 @@
   "last_updated": "2026-06-07",
   "summary": "scorecard has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "agricultural_production_value_added_current_usd: 79106775252.7513 current_usd (2024)",
-    "electricity_production: 3730.82314747655 kwh_per_capita (2024)",
-    "energy_production: 1924.93815098993 kg_oil_equivalent_per_capita (2024)"
+    "agricultural_production_value_added_current_usd is 79106775252.7513 current_usd for TUR (2024).",
+    "air_freight_million_ton_km is 8367.297795 million_ton_km for TUR (2023).",
+    "air_passengers_carried is 125940241 passengers for TUR (2023).",
+    "container_port_throughput is 12366172 TEU for TUR (2022).",
+    "electricity_production is 3730.82314747655 kwh_per_capita for TUR (2024).",
+    "energy_production is 1924.93815098993 kg_oil_equivalent_per_capita for TUR (2024).",
+    "exports_goods_services_current_usd is 374686274269.711 current_usd for TUR (2024).",
+    "fdi_inflows_current_usd is 11698000000 current_usd for TUR (2024).",
+    "fertility_rate is 1.48 births_per_woman for TUR (2024).",
+    "gdp_current_usd is 1359123768774.12 current_usd for TUR (2024).",
+    "gdp_per_capita_current_usd is 15892.7157287241 current_usd for TUR (2024).",
+    "gdp_ppp_current_international is 3902987817630.99 current_international_usd for TUR (2024).",
+    "gini_index is 43.7 index for TUR (2023).",
+    "high_technology_exports_current_usd is 9903861226 current_usd for TUR (2024).",
+    "homicide_rate_per_100k is 3.22789482308636 per_100k for TUR (2023).",
+    "imports_goods_services_current_usd is 367379077168.558 current_usd for TUR (2024).",
+    "life_expectancy is 77.421 years for TUR (2024).",
+    "literacy_rate_adult is 97.2600021362305 percent for TUR (2021).",
+    "manufacturing_value_added_current_usd is 228910150844.692 current_usd for TUR (2024).",
+    "military_expenditure_current_usd is 24978735534.6038 current_usd for TUR (2024).",
+    "net_migration is -258205 people for TUR (2025).",
+    "patent_applications_residents is 8234 applications for TUR (2021).",
+    "population_total is 85518661 people for TUR (2024).",
+    "poverty_rate_national is 13 percent for TUR (2024).",
+    "rd_expenditure_percent_gdp is 1.42224 percent_gdp for TUR (2023).",
+    "remittances_received_current_usd is 982000000 current_usd for TUR (2024).",
+    "tourism_arrivals is 15971000 arrivals for TUR (2020).",
+    "urban_population_share is 89.3443122873887 percent for TUR (2024).",
+    "youth_unemployment_rate is 16.042 percent for TUR (2025)."
   ],
   "metrics": [
     {
@@ -26,7 +52,65 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NV.AGR.TOTL.CD."
+      "notes": "Latest non-null World Bank observation for NV.AGR.TOTL.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "air_freight_million_ton_km",
+      "country_code": "TUR",
+      "value": 8367.297795,
+      "unit": "million_ton_km",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1",
+      "calculation": "IS.AIR.GOOD.MT.K1",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "air_passengers_carried",
+      "country_code": "TUR",
+      "value": 125940241,
+      "unit": "passengers",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/IS.AIR.PSGR?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:air_passengers_carried:IS.AIR.PSGR",
+      "calculation": "IS.AIR.PSGR",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "container_port_throughput",
+      "country_code": "TUR",
+      "value": 12366172,
+      "unit": "TEU",
+      "year": 2022,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/IS.SHP.GOOD.TU?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:container_port_throughput:IS.SHP.GOOD.TU",
+      "calculation": "IS.SHP.GOOD.TU when available",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for IS.SHP.GOOD.TU.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "electricity_production",
@@ -44,7 +128,8 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for EG.USE.ELEC.KH.PC."
+      "notes": "Latest non-null World Bank observation for EG.USE.ELEC.KH.PC.",
+      "review_status": "auto_generated_from_structured_data"
     },
     {
       "metric_id": "energy_production",
@@ -62,10 +147,797 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for EG.USE.PCAP.KG.OE."
+      "notes": "Latest non-null World Bank observation for EG.USE.PCAP.KG.OE.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "exports_goods_services_current_usd",
+      "country_code": "TUR",
+      "value": 374686274269.711,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NE.EXP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:exports_goods_services_current_usd:NE.EXP.GNFS.CD",
+      "calculation": "NE.EXP.GNFS.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NE.EXP.GNFS.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "TUR",
+      "value": 11698000000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD",
+      "calculation": "BX.KLT.DINV.CD.WD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "fertility_rate",
+      "country_code": "TUR",
+      "value": 1.48,
+      "unit": "births_per_woman",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.DYN.TFRT.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:fertility_rate:SP.DYN.TFRT.IN",
+      "calculation": "SP.DYN.TFRT.IN",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.DYN.TFRT.IN.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gdp_current_usd",
+      "country_code": "TUR",
+      "value": 1359123768774.12,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:gdp_current_usd:NY.GDP.MKTP.CD",
+      "calculation": "NY.GDP.MKTP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "TUR",
+      "value": 15892.7157287241,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:gdp_per_capita_current_usd:NY.GDP.PCAP.CD",
+      "calculation": "NY.GDP.PCAP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "TUR",
+      "value": 3902987817630.99,
+      "unit": "current_international_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD",
+      "calculation": "NY.GDP.MKTP.PP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "gini_index",
+      "country_code": "TUR",
+      "value": 43.7,
+      "unit": "index",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.GINI?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:gini_index:SI.POV.GINI",
+      "calculation": "SI.POV.GINI",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "high_technology_exports_current_usd",
+      "country_code": "TUR",
+      "value": 9903861226,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/TX.VAL.TECH.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:high_technology_exports_current_usd:TX.VAL.TECH.CD",
+      "calculation": "TX.VAL.TECH.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for TX.VAL.TECH.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "homicide_rate_per_100k",
+      "country_code": "TUR",
+      "value": 3.22789482308636,
+      "unit": "per_100k",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/VC.IHR.PSRC.P5?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:homicide_rate_per_100k:VC.IHR.PSRC.P5",
+      "calculation": "intentional_homicides / population * 100000",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "imports_goods_services_current_usd",
+      "country_code": "TUR",
+      "value": 367379077168.558,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NE.IMP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:imports_goods_services_current_usd:NE.IMP.GNFS.CD",
+      "calculation": "NE.IMP.GNFS.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NE.IMP.GNFS.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "life_expectancy",
+      "country_code": "TUR",
+      "value": 77.421,
+      "unit": "years",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.DYN.LE00.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:life_expectancy:SP.DYN.LE00.IN",
+      "calculation": "SP.DYN.LE00.IN",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.DYN.LE00.IN.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "literacy_rate_adult",
+      "country_code": "TUR",
+      "value": 97.2600021362305,
+      "unit": "percent",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SE.ADT.LITR.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:literacy_rate_adult:SE.ADT.LITR.ZS",
+      "calculation": "SE.ADT.LITR.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for SE.ADT.LITR.ZS.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "manufacturing_value_added_current_usd",
+      "country_code": "TUR",
+      "value": 228910150844.692,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NV.IND.MANF.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:manufacturing_value_added_current_usd:NV.IND.MANF.CD",
+      "calculation": "NV.IND.MANF.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for NV.IND.MANF.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "military_expenditure_current_usd",
+      "country_code": "TUR",
+      "value": 24978735534.6038,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/MS.MIL.XPND.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:military_expenditure_current_usd:MS.MIL.XPND.CD",
+      "calculation": "MS.MIL.XPND.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for MS.MIL.XPND.CD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "net_migration",
+      "country_code": "TUR",
+      "value": -258205,
+      "unit": "people",
+      "year": 2025,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SM.POP.NETM?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:net_migration:SM.POP.NETM",
+      "calculation": "SM.POP.NETM",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "fresh",
+      "notes": "Latest non-null World Bank observation for SM.POP.NETM.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "patent_applications_residents",
+      "country_code": "TUR",
+      "value": 8234,
+      "unit": "applications",
+      "year": 2021,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/IP.PAT.RESD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:patent_applications_residents:IP.PAT.RESD",
+      "calculation": "IP.PAT.RESD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for IP.PAT.RESD.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "population_total",
+      "country_code": "TUR",
+      "value": 85518661,
+      "unit": "people",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.POP.TOTL?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:population_total:SP.POP.TOTL",
+      "calculation": "SP.POP.TOTL",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.POP.TOTL.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "poverty_rate_national",
+      "country_code": "TUR",
+      "value": 13,
+      "unit": "percent",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.NAHC?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:poverty_rate_national:SI.POV.NAHC",
+      "calculation": "SI.POV.NAHC",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SI.POV.NAHC.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "rd_expenditure_percent_gdp",
+      "country_code": "TUR",
+      "value": 1.42224,
+      "unit": "percent_gdp",
+      "year": 2023,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:rd_expenditure_percent_gdp:GB.XPD.RSDV.GD.ZS",
+      "calculation": "GB.XPD.RSDV.GD.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for GB.XPD.RSDV.GD.ZS.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "remittances_received_current_usd",
+      "country_code": "TUR",
+      "value": 982000000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:remittances_received_current_usd:BX.TRF.PWKR.CD.DT",
+      "calculation": "BX.TRF.PWKR.CD.DT",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "tourism_arrivals",
+      "country_code": "TUR",
+      "value": 15971000,
+      "unit": "arrivals",
+      "year": 2020,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/ST.INT.ARVL?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:tourism_arrivals:ST.INT.ARVL",
+      "calculation": "ST.INT.ARVL",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "Latest non-null World Bank observation for ST.INT.ARVL.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "urban_population_share",
+      "country_code": "TUR",
+      "value": 89.3443122873887,
+      "unit": "percent",
+      "year": 2024,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:urban_population_share:SP.URB.TOTL.IN.ZS",
+      "calculation": "SP.URB.TOTL.IN.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "acceptable",
+      "notes": "Latest non-null World Bank observation for SP.URB.TOTL.IN.ZS.",
+      "review_status": "auto_generated_from_structured_data"
+    },
+    {
+      "metric_id": "youth_unemployment_rate",
+      "country_code": "TUR",
+      "value": 16.042,
+      "unit": "percent",
+      "year": 2025,
+      "source_id": "world_bank_wdi",
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SL.UEM.1524.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T01:15:48.640Z",
+      "raw_file_path": "/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json",
+      "raw_record_id": "TUR:youth_unemployment_rate:SL.UEM.1524.ZS",
+      "calculation": "SL.UEM.1524.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "fresh",
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "TUR-scorecard-metric-001",
+      "text": "agricultural_production_value_added_current_usd is 79106775252.7513 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NV.AGR.TOTL.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:agricultural_production_value_added_current_usd:NV.AGR.TOTL.CD; metric_id=agricultural_production_value_added_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-002",
+      "text": "air_freight_million_ton_km is 8367.297795 million_ton_km for TUR (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:air_freight_million_ton_km:IS.AIR.GOOD.MT.K1; metric_id=air_freight_million_ton_km"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-003",
+      "text": "air_passengers_carried is 125940241 passengers for TUR (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/IS.AIR.PSGR?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:air_passengers_carried:IS.AIR.PSGR; metric_id=air_passengers_carried"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-004",
+      "text": "container_port_throughput is 12366172 TEU for TUR (2022).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/IS.SHP.GOOD.TU?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:container_port_throughput:IS.SHP.GOOD.TU; metric_id=container_port_throughput"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-005",
+      "text": "electricity_production is 3730.82314747655 kwh_per_capita for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/EG.USE.ELEC.KH.PC?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:electricity_production:EG.USE.ELEC.KH.PC; metric_id=electricity_production"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-006",
+      "text": "energy_production is 1924.93815098993 kg_oil_equivalent_per_capita for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/EG.USE.PCAP.KG.OE?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:energy_production:EG.USE.PCAP.KG.OE; metric_id=energy_production"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-007",
+      "text": "exports_goods_services_current_usd is 374686274269.711 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NE.EXP.GNFS.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:exports_goods_services_current_usd:NE.EXP.GNFS.CD; metric_id=exports_goods_services_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-008",
+      "text": "fdi_inflows_current_usd is 11698000000 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD; metric_id=fdi_inflows_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-009",
+      "text": "fertility_rate is 1.48 births_per_woman for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SP.DYN.TFRT.IN?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:fertility_rate:SP.DYN.TFRT.IN; metric_id=fertility_rate"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-010",
+      "text": "gdp_current_usd is 1359123768774.12 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.MKTP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:gdp_current_usd:NY.GDP.MKTP.CD; metric_id=gdp_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-011",
+      "text": "gdp_per_capita_current_usd is 15892.7157287241 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.PCAP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:gdp_per_capita_current_usd:NY.GDP.PCAP.CD; metric_id=gdp_per_capita_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-012",
+      "text": "gdp_ppp_current_international is 3902987817630.99 current_international_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD; metric_id=gdp_ppp_current_international"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-013",
+      "text": "gini_index is 43.7 index for TUR (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.GINI?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:gini_index:SI.POV.GINI; metric_id=gini_index"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-014",
+      "text": "high_technology_exports_current_usd is 9903861226 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/TX.VAL.TECH.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:high_technology_exports_current_usd:TX.VAL.TECH.CD; metric_id=high_technology_exports_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-015",
+      "text": "homicide_rate_per_100k is 3.22789482308636 per_100k for TUR (2023).",
+      "claim_type": "metric",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/VC.IHR.PSRC.P5?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:homicide_rate_per_100k:VC.IHR.PSRC.P5; metric_id=homicide_rate_per_100k"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-016",
+      "text": "imports_goods_services_current_usd is 367379077168.558 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NE.IMP.GNFS.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:imports_goods_services_current_usd:NE.IMP.GNFS.CD; metric_id=imports_goods_services_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-017",
+      "text": "life_expectancy is 77.421 years for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SP.DYN.LE00.IN?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:life_expectancy:SP.DYN.LE00.IN; metric_id=life_expectancy"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-018",
+      "text": "literacy_rate_adult is 97.2600021362305 percent for TUR (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SE.ADT.LITR.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:literacy_rate_adult:SE.ADT.LITR.ZS; metric_id=literacy_rate_adult"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-019",
+      "text": "manufacturing_value_added_current_usd is 228910150844.692 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/NV.IND.MANF.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:manufacturing_value_added_current_usd:NV.IND.MANF.CD; metric_id=manufacturing_value_added_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-020",
+      "text": "military_expenditure_current_usd is 24978735534.6038 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/MS.MIL.XPND.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:military_expenditure_current_usd:MS.MIL.XPND.CD; metric_id=military_expenditure_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-021",
+      "text": "net_migration is -258205 people for TUR (2025).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SM.POP.NETM?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:net_migration:SM.POP.NETM; metric_id=net_migration"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-022",
+      "text": "patent_applications_residents is 8234 applications for TUR (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/IP.PAT.RESD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:patent_applications_residents:IP.PAT.RESD; metric_id=patent_applications_residents"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-023",
+      "text": "population_total is 85518661 people for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SP.POP.TOTL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:population_total:SP.POP.TOTL; metric_id=population_total"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-024",
+      "text": "poverty_rate_national is 13 percent for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SI.POV.NAHC?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:poverty_rate_national:SI.POV.NAHC; metric_id=poverty_rate_national"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-025",
+      "text": "rd_expenditure_percent_gdp is 1.42224 percent_gdp for TUR (2023).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:rd_expenditure_percent_gdp:GB.XPD.RSDV.GD.ZS; metric_id=rd_expenditure_percent_gdp"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-026",
+      "text": "remittances_received_current_usd is 982000000 current_usd for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:remittances_received_current_usd:BX.TRF.PWKR.CD.DT; metric_id=remittances_received_current_usd"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-027",
+      "text": "tourism_arrivals is 15971000 arrivals for TUR (2020).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/ST.INT.ARVL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:tourism_arrivals:ST.INT.ARVL; metric_id=tourism_arrivals"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-028",
+      "text": "urban_population_share is 89.3443122873887 percent for TUR (2024).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:urban_population_share:SP.URB.TOTL.IN.ZS; metric_id=urban_population_share"
+    },
+    {
+      "claim_id": "TUR-scorecard-metric-029",
+      "text": "youth_unemployment_rate is 16.042 percent for TUR (2025).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/TUR/indicator/SL.UEM.1524.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=TUR:youth_unemployment_rate:SL.UEM.1524.ZS; metric_id=youth_unemployment_rate"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -76,7 +948,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
   },
   "scorecard": {
@@ -611,5 +1483,6 @@
     "methodology_notes": [
       "No composite scoring is calculated until scoring weights and source coverage are explicit."
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

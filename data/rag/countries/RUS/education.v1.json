@@ -5,7 +5,7 @@
   "last_updated": "2026-06-07",
   "summary": "education has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "literacy_rate_adult: 99.9300003051758 percent (2021)"
+    "literacy_rate_adult is 99.9300003051758 percent for RUS (2021)."
   ],
   "metrics": [
     {
@@ -24,10 +24,24 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for SE.ADT.LITR.ZS."
+      "notes": "Latest non-null World Bank observation for SE.ADT.LITR.ZS.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "RUS-education-metric-001",
+      "text": "literacy_rate_adult is 99.9300003051758 percent for RUS (2021).",
+      "claim_type": "fact",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SE.ADT.LITR.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:literacy_rate_adult:SE.ADT.LITR.ZS; metric_id=literacy_rate_adult"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -38,7 +52,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }

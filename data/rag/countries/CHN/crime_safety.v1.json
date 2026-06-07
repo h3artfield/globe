@@ -5,7 +5,7 @@
   "last_updated": "2026-06-07",
   "summary": "crime_safety has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "homicide_rate_per_100k: 0.5018560705357 per_100k (2020)"
+    "homicide_rate_per_100k is 0.5018560705357 per_100k for CHN (2020)."
   ],
   "metrics": [
     {
@@ -24,10 +24,24 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5."
+      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5.",
+      "review_status": "auto_generated_from_structured_data"
     }
   ],
-  "claims": [],
+  "claims": [
+    {
+      "claim_id": "CHN-crime_safety-metric-001",
+      "text": "homicide_rate_per_100k is 0.5018560705357 per_100k for CHN (2020).",
+      "claim_type": "metric",
+      "source_ids": [
+        "world_bank_wdi"
+      ],
+      "confidence": "medium",
+      "review_status": "auto_generated_from_structured_data",
+      "last_verified": "2026-06-07",
+      "notes": "source_url=https://api.worldbank.org/v2/country/CHN/indicator/VC.IHR.PSRC.P5?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=CHN:homicide_rate_per_100k:VC.IHR.PSRC.P5; metric_id=homicide_rate_per_100k"
+    }
+  ],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -38,7 +52,8 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_claims"
+      "narrative_context"
     ]
-  }
+  },
+  "review_status": "auto_generated_from_structured_data"
 }
