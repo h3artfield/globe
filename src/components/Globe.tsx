@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Cartesian2, Entity, GeoJsonDataSource, ScreenSpaceEventHandler, Viewer } from "cesium";
-import type { CountrySummary } from "@/types/country";
+import type { Cartesian2, CustomDataSource, Entity, ScreenSpaceEventHandler, Viewer } from "cesium";
+import type { CountryGeoJsonFeature, CountrySummary } from "@/types/country";
 import {
   getCountryFeatureIso3,
   getCountryFeatureName,
@@ -47,8 +47,58 @@ function getEntityCountry(
   };
 }
 
+function collectCoordinates(coordinates: unknown, points: Array<[number, number]>) {
+  if (!Array.isArray(coordinates)) {
+    return;
+  }
+
+  if (
+    coordinates.length >= 2 &&
+    typeof coordinates[0] === "number" &&
+    typeof coordinates[1] === "number"
+  ) {
+    points.push([coordinates[0], coordinates[1]]);
+    return;
+  }
+
+  for (const child of coordinates) {
+    collectCoordinates(child, points);
+  }
+}
+
+function getFeatureCentroid(feature: CountryGeoJsonFeature): [number, number] | null {
+  const points: Array<[number, number]> = [];
+  if ("coordinates" in feature.geometry) {
+    collectCoordinates(feature.geometry.coordinates, points);
+  } else if (feature.geometry.type === "GeometryCollection") {
+    for (const geometry of feature.geometry.geometries) {
+      if ("coordinates" in geometry) {
+        collectCoordinates(geometry.coordinates, points);
+      }
+    }
+  }
+
+  if (points.length === 0) {
+    return null;
+  }
+
+  let minLon = Number.POSITIVE_INFINITY;
+  let maxLon = Number.NEGATIVE_INFINITY;
+  let minLat = Number.POSITIVE_INFINITY;
+  let maxLat = Number.NEGATIVE_INFINITY;
+
+  for (const [lon, lat] of points) {
+    minLon = Math.min(minLon, lon);
+    maxLon = Math.max(maxLon, lon);
+    minLat = Math.min(minLat, lat);
+    maxLat = Math.max(maxLat, lat);
+  }
+
+  return [(minLon + maxLon) / 2, (minLat + maxLat) / 2];
+}
+
 function styleCountries(
-  dataSource: GeoJsonDataSource | null,
+  dataSource: CustomDataSource | null,
   Cesium: CesiumModule | null,
   selectedCodes: Set<string>,
   hoveredCode: string | null,
@@ -58,7 +108,7 @@ function styleCountries(
   }
 
   for (const entity of dataSource.entities.values) {
-    if (!entity.polygon) {
+    if (!entity.point) {
       continue;
     }
 
@@ -71,22 +121,22 @@ function styleCountries(
         ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.55)
         : Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.35);
 
-    entity.polygon.material = new Cesium.ColorMaterialProperty(fill);
-    entity.polygon.arcType = new Cesium.ConstantProperty(Cesium.ArcType.GEODESIC);
-    entity.polygon.granularity = new Cesium.ConstantProperty(Cesium.Math.RADIANS_PER_DEGREE * 2);
-    entity.polygon.height = new Cesium.ConstantProperty(0);
-    entity.polygon.perPositionHeight = new Cesium.ConstantProperty(false);
-    entity.polygon.outline = new Cesium.ConstantProperty(true);
-    entity.polygon.outlineColor = new Cesium.ConstantProperty(
-      isSelected ? Cesium.Color.WHITE : Cesium.Color.fromCssColorString("#94a3b8").withAlpha(0.5),
+    entity.point.color = new Cesium.ConstantProperty(fill);
+    entity.point.pixelSize = new Cesium.ConstantProperty(isSelected ? 13 : isHovered ? 11 : 7);
+    entity.point.outlineColor = new Cesium.ConstantProperty(
+      isSelected ? Cesium.Color.WHITE : Cesium.Color.fromCssColorString("#0f172a"),
     );
+    entity.point.outlineWidth = new Cesium.ConstantProperty(isSelected || isHovered ? 2 : 1);
+    if (entity.label) {
+      entity.label.show = new Cesium.ConstantProperty(isSelected || isHovered);
+    }
   }
 }
 
 export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: GlobeProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const viewerRef = useRef<Viewer | null>(null);
-  const dataSourceRef = useRef<GeoJsonDataSource | null>(null);
+  const dataSourceRef = useRef<CustomDataSource | null>(null);
   const cesiumRef = useRef<CesiumModule | null>(null);
   const handlerRef = useRef<ScreenSpaceEventHandler | null>(null);
   const onHoverCountryRef = useRef(onHoverCountry);
@@ -141,21 +191,57 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
         }
         viewerRef.current = viewer;
 
-        const dataSource = await Cesium.GeoJsonDataSource.load(geoJson, {
-          clampToGround: false,
-          fill: Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.35),
-          stroke: Cesium.Color.fromCssColorString("#94a3b8").withAlpha(0.5),
-          strokeWidth: 1,
-        });
+        const dataSource = new Cesium.CustomDataSource("country-centroids");
+
+        for (const feature of geoJson.features) {
+          const code = getCountryFeatureIso3(feature.properties, feature.id);
+          const centroid = getFeatureCentroid(feature);
+
+          if (!code || !centroid) {
+            continue;
+          }
+
+          const name = getCountryFeatureName(feature.properties, code);
+
+          dataSource.entities.add({
+            id: code,
+            name,
+            position: Cesium.Cartesian3.fromDegrees(centroid[0], centroid[1]),
+            properties: new Cesium.PropertyBag({
+              iso3: code,
+              name,
+            }),
+            point: {
+              pixelSize: 7,
+              color: Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.8),
+              outlineColor: Cesium.Color.fromCssColorString("#0f172a"),
+              outlineWidth: 1,
+              heightReference: Cesium.HeightReference.NONE,
+              disableDepthTestDistance: Number.POSITIVE_INFINITY,
+            },
+            label: {
+              text: code,
+              font: "12px sans-serif",
+              fillColor: Cesium.Color.WHITE,
+              outlineColor: Cesium.Color.BLACK,
+              outlineWidth: 2,
+              style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+              pixelOffset: new Cesium.Cartesian2(0, -18),
+              show: false,
+              disableDepthTestDistance: Number.POSITIVE_INFINITY,
+            },
+          });
+        }
 
         if (!isMounted) {
           return;
         }
 
         dataSourceRef.current = dataSource;
-        styleCountries(dataSource, Cesium, new Set(), null);
         await viewer.dataSources.add(dataSource);
-        await viewer.zoomTo(dataSource);
+        viewer.camera.setView({
+          destination: Cesium.Cartesian3.fromDegrees(15, 20, 22000000),
+        });
         styleCountries(dataSource, Cesium, new Set(), null);
 
         const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -214,7 +300,7 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
         </div>
       ) : null}
       <div className="absolute bottom-4 left-4 rounded-lg border border-slate-700 bg-slate-950/80 px-3 py-2 text-xs text-slate-300 backdrop-blur">
-        Click countries to toggle selection. Multiple countries can be selected.
+        Click country markers to toggle selection. Multiple countries can be selected.
       </div>
     </div>
   );
