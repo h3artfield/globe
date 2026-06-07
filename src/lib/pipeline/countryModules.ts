@@ -1,4 +1,5 @@
 import type { CountryModule, MetricValue } from "@/types/pipeline";
+import { SOURCE_METRIC_DEFINITIONS } from "@/lib/sources/sourceMetricDefinitions";
 import { COUNTRY_MODULES } from "./constants";
 
 const METRIC_MODULE_OVERRIDES: Record<string, string> = {
@@ -33,6 +34,13 @@ const METRIC_MODULE_OVERRIDES: Record<string, string> = {
 };
 
 export function getMetricModule(metricId: string): string {
+  for (const definitions of Object.values(SOURCE_METRIC_DEFINITIONS)) {
+    const definition = definitions.find((entry) => entry.metric_id === metricId);
+    if (definition) {
+      return definition.module;
+    }
+  }
+
   return METRIC_MODULE_OVERRIDES[metricId] ?? "scorecard";
 }
 

@@ -1,0 +1,10 @@
+{
+  "source_id": "oecd_pisa",
+  "mode": "manual_file",
+  "api_base_url": "",
+  "manual_import_dir": "/data/manual_imports/oecd_pisa",
+  "raw_output_dir": "/data/raw/oecd_pisa",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "Manual CSV/JSON import is supported. API use is only enabled when a stable unauthenticated endpoint is configured here."
+}

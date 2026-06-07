@@ -2,6 +2,17 @@ import type { CountryModule, MetricValue, RagChunk, RelationshipModule } from "@
 import { buildRelationshipId } from "@/lib/globe/countryIdMap";
 import { validateMetricProvenance } from "@/lib/provenance/provenanceValidator";
 
+const MODULE_SOURCE_WARNINGS: Record<string, { sourceIds: string[]; message: string }> = {
+  trade_exports_imports: { sourceIds: ["un_comtrade", "unctad"], message: "trade module lacks trade data" },
+  crime_safety: { sourceIds: ["unodc"], message: "crime module lacks crime data" },
+  demographic_change: { sourceIds: ["un_desa_migrant_stock"], message: "demographic_change module lacks migration data" },
+  nationalism_cohesion: { sourceIds: ["world_values_survey"], message: "national_cohesion module lacks survey data" },
+  national_cohesion_by_demographic: { sourceIds: ["world_values_survey"], message: "national_cohesion module lacks survey data" },
+  technology_contributions: { sourceIds: ["wipo"], message: "technology_contributions module lacks WIPO/patent data" },
+  education: { sourceIds: ["unesco_uis", "oecd_pisa"], message: "education module lacks education/PISA/UIS data" },
+  government_current: { sourceIds: ["vdem", "manual_leader_sources"], message: "government_current module lacks V-Dem or verified manual source" },
+};
+
 export type ValidationResult = {
   errors: string[];
   warnings: string[];
@@ -62,6 +73,15 @@ export function validateCountryModule(module: CountryModule, location: string): 
         errors.push(`${location}: leader dossier ${index} has no source_ids`);
       }
     }
+  }
+
+  const sourceWarning = MODULE_SOURCE_WARNINGS[module.module];
+  if (
+    sourceWarning &&
+    !module.metrics.some((metric) => metric.source_id && sourceWarning.sourceIds.includes(metric.source_id)) &&
+    !module.source_ids.some((sourceId) => sourceWarning.sourceIds.includes(sourceId))
+  ) {
+    warnings.push(`${location}: ${sourceWarning.message}`);
   }
 
   return mergeResults([

@@ -1,6 +1,8 @@
 import type { IndicatorRegistryEntry, MetricValue, SourceCoverageReport } from "@/types/pipeline";
 import path from "node:path";
 import { mergeMetrics } from "@/lib/metrics/mergeMetrics";
+import { SOURCE_METRIC_DEFINITIONS } from "@/lib/sources/sourceMetricDefinitions";
+import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
 import { pathExists, readJsonFile, repoPath, writeJsonFile } from "./io";
 
 export type ProcessedMetricsFile = {
@@ -67,6 +69,9 @@ export async function writeProcessedMetrics(
     country_code: countryCode,
     generated_at: generatedAt,
     sources_checked: Array.from(new Set(mergedMetrics.map((metric) => metric.source_id ?? "unknown"))),
+    source_family_coverage: Object.keys(SOURCE_METRIC_DEFINITIONS).map((sourceId) =>
+      buildSourceFamilyCoverage(sourceId, mergedMetrics),
+    ),
     metrics_available: availableMetricIds,
     metrics_missing: missingMetricIds,
     notes: [

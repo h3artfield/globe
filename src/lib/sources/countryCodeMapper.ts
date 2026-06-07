@@ -16,6 +16,26 @@ const ISO2_TO_ISO3: Record<string, string> = {
   WLD: "WLD",
 };
 
+const COUNTRY_NAME_TO_ISO3: Record<string, string> = {
+  "UNITED STATES": "USA",
+  "UNITED STATES OF AMERICA": "USA",
+  CHINA: "CHN",
+  EGYPT: "EGY",
+  ETHIOPIA: "ETH",
+  RUSSIA: "RUS",
+  "RUSSIAN FEDERATION": "RUS",
+  UKRAINE: "UKR",
+  INDIA: "IND",
+  PAKISTAN: "PAK",
+  ISRAEL: "ISR",
+  IRAN: "IRN",
+  "IRAN ISLAMIC REPUBLIC OF": "IRN",
+  "SAUDI ARABIA": "SAU",
+  TURKEY: "TUR",
+  TURKIYE: "TUR",
+  WORLD: "WLD",
+};
+
 export function mapToIso3(countryCode: string): string | null {
   const normalizedCode = normalizeCountryCode(countryCode);
 
@@ -23,7 +43,7 @@ export function mapToIso3(countryCode: string): string | null {
     return normalizedCode;
   }
 
-  return ISO2_TO_ISO3[normalizedCode] ?? null;
+  return ISO2_TO_ISO3[normalizedCode] ?? COUNTRY_NAME_TO_ISO3[normalizedCode] ?? null;
 }
 
 export function assertIso3(countryCode: string): string {

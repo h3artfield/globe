@@ -36,6 +36,11 @@ export type MetricValue = {
   raw_record_id: string | null;
   calculation: string | null;
   input_metric_ids?: string[];
+  sample_size?: number | null;
+  question_wording?: string | null;
+  response_mapping?: string | null;
+  demographic_cut?: string | null;
+  demographic_group?: string | null;
   confidence: ConfidenceLevel;
   freshness_requirement: FreshnessRequirement;
   freshness_status: FreshnessStatus;
@@ -119,6 +124,7 @@ export type CoverageReport = {
   outdated_metrics: string[];
   low_confidence_claims: string[];
   review_queue_items: string[];
+  source_family_coverage: SourceFamilyCoverage[];
   recommended_next_sources: string[];
 };
 
@@ -131,9 +137,17 @@ export type SourceCoverageReport = {
   country_code: string;
   generated_at: string;
   sources_checked: string[];
+  source_family_coverage?: SourceFamilyCoverage[];
   metrics_available: string[];
   metrics_missing: string[];
   notes: string[];
+};
+
+export type SourceFamilyCoverage = {
+  source_id: string;
+  status: "available" | "partial" | "missing" | "not_applicable";
+  metrics_available: string[];
+  metrics_missing: string[];
 };
 
 export type SourceRegistryEntry = {
@@ -171,4 +185,15 @@ export type ReviewQueueItem = {
   status: "pending" | "in_review" | "completed";
   generation_status: GenerationStatus;
   created_at: string;
+};
+
+export type SourceConfig = {
+  source_id: string;
+  mode: "api" | "manual_file" | "hybrid";
+  api_base_url: string;
+  manual_import_dir: string;
+  raw_output_dir: string;
+  requires_api_key: boolean;
+  env_key_name: string;
+  notes: string;
 };

@@ -1,13 +1,20 @@
 import assert from "node:assert/strict";
+import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
 import test from "node:test";
 import { buildRelationshipId } from "@/lib/globe/countryIdMap";
 import { assertIso3 } from "@/lib/sources/countryCodeMapper";
 import { mergeMetrics } from "@/lib/metrics/mergeMetrics";
+import { calculateWorldShare } from "@/lib/metrics/calculateWorldShare";
 import { validateMetricProvenance } from "@/lib/provenance/provenanceValidator";
 import { buildCountryCoverageReport } from "@/lib/pipeline/coverage";
 import { buildCountryChunk } from "@/lib/pipeline/chunks";
+import { getMetricModule } from "@/lib/pipeline/countryModules";
 import { selectRelevantModules } from "@/lib/rag/selectRelevantModules";
 import { POST as askPost } from "@/app/api/ask/route";
+import { findManualImportFiles, archiveManualImportFiles } from "@/lib/sources/manualImport";
+import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
 import type { CountryModule, IndicatorRegistryEntry, MetricValue } from "@/types/pipeline";
 
 function metric(overrides: Partial<MetricValue> = {}): MetricValue {
@@ -55,7 +62,8 @@ test("relationship IDs are alphabetically sorted", () => {
 
 test("country ISO3 validation rejects invalid codes", () => {
   assert.equal(assertIso3("usa"), "USA");
-  assert.throws(() => assertIso3("United States"));
+  assert.equal(assertIso3("United States"), "USA");
+  assert.throws(() => assertIso3("Atlantis"));
 });
 
 test("metric merge replaces by country, metric, year, and source", () => {
@@ -100,6 +108,91 @@ test("question module selection maps trade questions", () => {
   const selection = selectRelevantModules("How would tariffs affect exports and shipping?");
   assert.ok(selection.countryModules.includes("trade_exports_imports"));
   assert.ok(selection.relationshipModules.includes("trade_relationship"));
+});
+
+test("manual file import detection finds CSV files", async () => {
+  const tempRoot = await mkdtemp(path.join(tmpdir(), "manual-import-"));
+  const importDir = path.join(tempRoot, "imports");
+  await mkdir(importDir, { recursive: true });
+  await writeFile(path.join(tempRoot, "ignore.txt"), "nope");
+  await writeFile(path.join(importDir, "metrics.csv"), "country_code,year,metric_id,value\nUSA,2024,exports_total_usd,1\n");
+
+  const files = await findManualImportFiles({
+    source_id: "un_comtrade",
+    mode: "manual_file",
+    api_base_url: "",
+    manual_import_dir: importDir,
+    raw_output_dir: path.join(tempRoot, "raw"),
+    requires_api_key: false,
+    env_key_name: "",
+    notes: "",
+  });
+
+  assert.equal(files.length, 1);
+  await rm(tempRoot, { recursive: true, force: true });
+});
+
+test("raw file archival copies manual files", async () => {
+  const tempRoot = await mkdtemp(path.join(tmpdir(), "manual-archive-"));
+  const importDir = path.join(tempRoot, "imports");
+  await mkdir(importDir, { recursive: true });
+  const sourceFile = path.join(importDir, "metrics.csv");
+  await writeFile(sourceFile, "country_code,year,metric_id,value\nUSA,2024,exports_total_usd,1\n");
+
+  const archived = await archiveManualImportFiles(
+    {
+      source_id: "un_comtrade",
+      mode: "manual_file",
+      api_base_url: "",
+      manual_import_dir: importDir,
+      raw_output_dir: path.join(tempRoot, "raw"),
+      requires_api_key: false,
+      env_key_name: "",
+      notes: "",
+    },
+    [sourceFile],
+    "2026-06-07",
+  );
+
+  assert.equal(archived.archivedFiles.length, 1);
+  assert.ok(archived.archivedFiles[0].endsWith("metrics.csv"));
+  await rm(tempRoot, { recursive: true, force: true });
+});
+
+test("derived world-share calculation includes formula and source", () => {
+  const share = calculateWorldShare(
+    metric({ metric_id: "exports_total_usd", value: 10, source_id: "un_comtrade" }),
+    metric({ metric_id: "exports_total_usd", country_code: "WLD", value: 100, source_id: "un_comtrade" }),
+    "exports_world_share_percent",
+  );
+
+  assert.equal(share?.value, 10);
+  assert.equal(share?.source_id, "derived_from_un_comtrade");
+  assert.ok(share?.calculation?.includes("world_total"));
+});
+
+test("source coverage reporting marks partial source coverage", () => {
+  const coverage = buildSourceFamilyCoverage("un_comtrade", [
+    metric({ metric_id: "exports_total_usd", source_id: "un_comtrade" }),
+  ]);
+  assert.equal(coverage.status, "partial");
+  assert.ok(coverage.metrics_missing.includes("imports_total_usd"));
+});
+
+test("demographic sample-size warning is detected by provenance validator input", () => {
+  const surveyMetric = metric({
+    metric_id: "national_pride_score",
+    source_id: "world_values_survey",
+    sample_size: 50,
+  });
+  const result = validateMetricProvenance(surveyMetric);
+  assert.ok(result.warnings.some((warning) => warning.includes("sample size is too small")));
+});
+
+test("module generation maps source metrics to source-specific modules", () => {
+  assert.equal(getMetricModule("exports_total_usd"), "trade_exports_imports");
+  assert.equal(getMetricModule("electoral_democracy_index"), "government_current");
+  assert.equal(getMetricModule("patent_applications_resident"), "technology_contributions");
 });
 
 test("/api/ask reports missing data from coverage", async () => {

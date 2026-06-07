@@ -1,19 +1,21 @@
 import type { SourceAdapter } from "../SourceAdapter";
+import { ManualFileAdapter } from "./manualFileAdapter";
 import { StubSourceAdapter } from "./stubAdapter";
 import { WorldBankAdapter } from "./worldBankAdapter";
 
 export function getSourceAdapters(): SourceAdapter[] {
   return [
     new WorldBankAdapter(),
-    new StubSourceAdapter("un_comtrade", "UN Comtrade adapter placeholder; do not emit trade metrics until implemented."),
-    new StubSourceAdapter("unodc", "UNODC adapter placeholder; crime metrics require official definitions and source metadata."),
-    new StubSourceAdapter("vdem", "V-Dem adapter placeholder; democracy metrics require dataset version metadata."),
-    new StubSourceAdapter("un_desa_migrant_stock", "UN DESA adapter placeholder; migration metrics require dataset release metadata."),
-    new StubSourceAdapter("wipo", "WIPO adapter placeholder; patent metrics require WIPO raw archival."),
-    new StubSourceAdapter("world_values_survey", "WVS adapter placeholder; survey metrics require sample size and question wording."),
-    new StubSourceAdapter("oecd_pisa", "OECD PISA adapter placeholder; education metrics require assessment year metadata."),
-    new StubSourceAdapter("unesco_uis", "UNESCO UIS adapter placeholder; education indicators require UIS source mapping."),
-    new StubSourceAdapter("unctad", "UNCTAD adapter placeholder; trade/development indicators require source mapping."),
+    new ManualFileAdapter("un_comtrade"),
+    new ManualFileAdapter("unodc"),
+    new ManualFileAdapter("vdem"),
+    new ManualFileAdapter("un_desa_migrant_stock"),
+    new ManualFileAdapter("wipo"),
+    new ManualFileAdapter("world_values_survey"),
+    new ManualFileAdapter("oecd_pisa"),
+    new ManualFileAdapter("unesco_uis"),
+    new ManualFileAdapter("unctad"),
+    new StubSourceAdapter("future_source_stub", "Reserved placeholder for future source adapters."),
   ];
 }
 

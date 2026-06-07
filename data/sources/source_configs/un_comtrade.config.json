@@ -1,0 +1,10 @@
+{
+  "source_id": "un_comtrade",
+  "mode": "hybrid",
+  "api_base_url": "https://comtradeapi.un.org",
+  "manual_import_dir": "/data/manual_imports/un_comtrade",
+  "raw_output_dir": "/data/raw/un_comtrade",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "Manual CSV/JSON import is supported. API use is only enabled when a stable unauthenticated endpoint is configured here."
+}

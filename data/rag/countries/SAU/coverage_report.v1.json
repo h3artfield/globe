@@ -1,7 +1,7 @@
 {
   "country_code": "SAU",
-  "coverage_score": 36,
-  "structured_data_score": 45,
+  "coverage_score": 21,
+  "structured_data_score": 21,
   "narrative_data_score": 0,
   "freshness_score": 85,
   "provenance_score": 100,
@@ -73,25 +73,53 @@
   ],
   "metrics_missing": [
     "civil_liberties",
+    "civil_liberties_index",
     "corruption_measures",
     "democracy_score",
+    "election_fairness_index",
+    "electoral_democracy_index",
+    "export_concentration_score",
+    "exports_total_usd",
+    "exports_world_share_percent",
     "foreign_born_population_share",
+    "homicide_count",
+    "import_dependency_score",
+    "imports_total_usd",
+    "imports_world_share_percent",
+    "international_migrant_stock_total",
+    "liberal_democracy_index",
+    "liner_shipping_connectivity_index",
+    "literacy_rate",
+    "media_freedom_index",
     "migration_stock",
     "military_personnel",
     "national_pride",
+    "national_pride_score",
+    "patent_applications_resident",
+    "pct_applications",
+    "political_corruption_index",
     "political_rights",
     "poverty_rate_national",
     "regime_type",
+    "rule_of_law_index",
     "support_for_immigration",
     "support_for_national_sovereignty",
+    "top_export_partners",
     "top_export_products",
+    "top_import_partners",
     "top_import_products",
     "top_trade_partners",
     "trade_balance_current_usd",
+    "trade_balance_usd",
+    "trade_openness",
+    "trust_government_score",
     "trust_in_government",
     "trust_in_military",
     "trust_in_police",
-    "willingness_to_fight"
+    "trust_military_score",
+    "trust_police_score",
+    "willingness_to_fight",
+    "willingness_to_fight_score"
   ],
   "outdated_metrics": [
     "container_port_throughput",
@@ -109,6 +137,137 @@
     "SAU-adversary_narratives-006",
     "SAU-game_theory_profile-007",
     "SAU-future_scenarios-008"
+  ],
+  "source_family_coverage": [
+    {
+      "source_id": "world_bank_wdi",
+      "status": "available",
+      "metrics_available": [
+        "agricultural_production_value_added_current_usd",
+        "air_freight_million_ton_km",
+        "air_passengers_carried",
+        "container_port_throughput",
+        "electricity_production",
+        "energy_production",
+        "exports_goods_services_current_usd",
+        "fdi_inflows_current_usd",
+        "fertility_rate",
+        "gdp_current_usd",
+        "gdp_per_capita_current_usd",
+        "gdp_ppp_current_international",
+        "high_technology_exports_current_usd",
+        "homicide_rate_per_100k",
+        "imports_goods_services_current_usd",
+        "life_expectancy",
+        "literacy_rate_adult",
+        "manufacturing_value_added_current_usd",
+        "military_expenditure_current_usd",
+        "net_migration",
+        "patent_applications_residents",
+        "population_total",
+        "rd_expenditure_percent_gdp",
+        "remittances_received_current_usd",
+        "tourism_arrivals",
+        "urban_population_share",
+        "youth_unemployment_rate"
+      ],
+      "metrics_missing": []
+    },
+    {
+      "source_id": "un_comtrade",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "export_concentration_score",
+        "exports_total_usd",
+        "exports_world_share_percent",
+        "import_dependency_score",
+        "imports_total_usd",
+        "imports_world_share_percent",
+        "top_export_partners",
+        "top_export_products",
+        "top_import_partners",
+        "top_import_products",
+        "trade_balance_usd"
+      ]
+    },
+    {
+      "source_id": "unodc",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "homicide_count",
+        "homicide_rate_per_100k"
+      ]
+    },
+    {
+      "source_id": "un_desa_migrant_stock",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "foreign_born_population_share",
+        "international_migrant_stock_total"
+      ]
+    },
+    {
+      "source_id": "vdem",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "civil_liberties_index",
+        "election_fairness_index",
+        "electoral_democracy_index",
+        "liberal_democracy_index",
+        "media_freedom_index",
+        "political_corruption_index",
+        "regime_type",
+        "rule_of_law_index"
+      ]
+    },
+    {
+      "source_id": "world_values_survey",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "national_pride_score",
+        "trust_government_score",
+        "trust_military_score",
+        "trust_police_score",
+        "willingness_to_fight_score"
+      ]
+    },
+    {
+      "source_id": "wipo",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "patent_applications_resident",
+        "pct_applications"
+      ]
+    },
+    {
+      "source_id": "unesco_uis",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "literacy_rate"
+      ]
+    },
+    {
+      "source_id": "oecd_pisa",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": []
+    },
+    {
+      "source_id": "unctad",
+      "status": "missing",
+      "metrics_available": [],
+      "metrics_missing": [
+        "liner_shipping_connectivity_index",
+        "trade_openness"
+      ]
+    }
   ],
   "recommended_next_sources": [
     "manual_history_sources",

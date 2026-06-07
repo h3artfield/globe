@@ -34,6 +34,9 @@ export function validateMetricProvenance(
   if (metric.source_id?.startsWith("derived_from_") && !metric.calculation) {
     warnings.push(`${location}: derived metric with missing formula`);
   }
+  if ((metric.sample_size ?? 0) > 0 && (metric.sample_size ?? 0) < 100) {
+    warnings.push(`${location}: sample size is too small`);
+  }
 
   const expectedFreshness = calculateFreshnessStatus(
     metric.year,

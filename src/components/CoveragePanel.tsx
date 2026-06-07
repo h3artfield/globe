@@ -115,6 +115,24 @@ export function CoveragePanel({ selectedCountries, ragStatus }: CoveragePanelPro
             <p className="mt-1 text-xs text-slate-400">
               Pending review items: {coverage.review_queue_items.length}
             </p>
+            <div className="mt-3 grid grid-cols-1 gap-1 text-xs">
+              {coverage.source_family_coverage.slice(0, 9).map((source) => (
+                <div key={source.source_id} className="flex items-center justify-between gap-2 rounded bg-slate-950/60 px-2 py-1">
+                  <span className="text-slate-300">{source.source_id}</span>
+                  <span
+                    className={
+                      source.status === "available"
+                        ? "text-emerald-300"
+                        : source.status === "partial"
+                          ? "text-cyan-300"
+                          : "text-amber-300"
+                    }
+                  >
+                    {source.status}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
 

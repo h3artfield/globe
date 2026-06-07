@@ -6,6 +6,8 @@ import type {
   RelationshipModule,
   ReviewQueueItem,
 } from "@/types/pipeline";
+import { SOURCE_METRIC_DEFINITIONS } from "@/lib/sources/sourceMetricDefinitions";
+import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
 import { COUNTRY_MODULES, RELATIONSHIP_MODULES } from "./constants";
 
 export function buildCountryCoverageReport(
@@ -78,6 +80,9 @@ export function buildCountryCoverageReport(
     ).sort(),
     low_confidence_claims: lowConfidenceClaims,
     review_queue_items: reviewQueueItems.map((item) => item.review_id),
+    source_family_coverage: Object.keys(SOURCE_METRIC_DEFINITIONS).map((sourceId) =>
+      buildSourceFamilyCoverage(sourceId, allMetrics),
+    ),
     recommended_next_sources: [
       "manual_history_sources",
       "manual_leader_sources",
@@ -118,6 +123,7 @@ export function buildRelationshipCoverageReport(
     outdated_metrics: [],
     low_confidence_claims: [],
     review_queue_items: [],
+    source_family_coverage: [],
     recommended_next_sources: ["un_comtrade", "manual_history_sources", "manual_leader_sources"],
   };
 }

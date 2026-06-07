@@ -1,0 +1,10 @@
+{
+  "source_id": "un_desa_migrant_stock",
+  "mode": "manual_file",
+  "api_base_url": "",
+  "manual_import_dir": "/data/manual_imports/un_desa_migrant_stock",
+  "raw_output_dir": "/data/raw/un_desa_migrant_stock",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "Manual CSV/JSON import is supported. API use is only enabled when a stable unauthenticated endpoint is configured here."
+}
