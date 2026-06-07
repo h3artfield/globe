@@ -1,0 +1,31 @@
+{
+  "country_code": "CHN",
+  "module": "wikipedia_references",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "World-model data is pending verified event/alliance/adversary sources."
+  ],
+  "source_ids": [
+    "wikipedia"
+  ],
+  "generation_status": "auto_generated_structured_data",
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "sources",
+      "events",
+      "claims"
+    ]
+  },
+  "page_title": "",
+  "page_url": "",
+  "revision_id": null,
+  "retrieved_at": null,
+  "cited_external_references": [],
+  "important_linked_pages": []
+}

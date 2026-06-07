@@ -1,0 +1,36 @@
+{
+  "country_code": "UKR",
+  "module": "wikipedia_baseline",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "World-model data is pending verified event/alliance/adversary sources."
+  ],
+  "source_ids": [
+    "wikipedia"
+  ],
+  "generation_status": "auto_generated_structured_data",
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "sources",
+      "events",
+      "claims"
+    ]
+  },
+  "page_title": "",
+  "page_url": "",
+  "revision_id": null,
+  "retrieved_at": null,
+  "license": "CC BY-SA",
+  "attribution": "Wikipedia contributors",
+  "source_family": "wikipedia",
+  "claim_type": "baseline_summary",
+  "authority_rank": "secondary_tertiary",
+  "can_override_official_data": false,
+  "sections": {}
+}

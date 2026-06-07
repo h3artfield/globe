@@ -1,0 +1,10 @@
+{
+  "source_id": "correlates_of_war",
+  "mode": "manual_file",
+  "api_base_url": "",
+  "manual_import_dir": "/data/manual_imports/correlates_of_war",
+  "raw_output_dir": "/data/raw/correlates_of_war",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "World-model source config. Manual imports are preferred unless stable API access is implemented."
+}

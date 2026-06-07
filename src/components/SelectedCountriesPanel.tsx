@@ -1,5 +1,10 @@
+"use client";
+
+import { useState } from "react";
 import type { CountrySummary } from "@/types/country";
 import type { RagStatusResponse } from "@/types/api";
+
+const TABS = ["Overview", "Coverage", "Scorecard", "Allies", "Adversaries", "Top Events", "Timeline", "Sources"];
 
 type SelectedCountriesPanelProps = {
   selectedCountries: CountrySummary[];
@@ -12,6 +17,7 @@ export function SelectedCountriesPanel({
   ragStatus,
   onRemoveCountry,
 }: SelectedCountriesPanelProps) {
+  const [activeTab, setActiveTab] = useState("Overview");
   const countryStatusByCode = new Map(
     ragStatus?.countries.map((country) => [country.code, country]) ?? [],
   );
@@ -27,6 +33,29 @@ export function SelectedCountriesPanel({
           {selectedCountries.length}
         </span>
       </div>
+
+      <div className="mt-4 flex flex-wrap gap-1">
+        {TABS.map((tab) => (
+          <button
+            key={tab}
+            type="button"
+            onClick={() => setActiveTab(tab)}
+            className={
+              activeTab === tab
+                ? "rounded-full bg-cyan-500 px-2 py-1 text-[11px] font-semibold text-slate-950"
+                : "rounded-full border border-slate-700 px-2 py-1 text-[11px] text-slate-400 hover:text-slate-100"
+            }
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+      {activeTab !== "Overview" ? (
+        <p className="mt-3 rounded-lg bg-slate-900/70 p-2 text-xs text-slate-400">
+          {activeTab} data is loaded from the corresponding country RAG/world-model files when
+          available. Missing files are shown as coverage or review-queue gaps.
+        </p>
+      ) : null}
 
       {selectedCountries.length === 0 ? (
         <p className="mt-4 text-sm text-slate-400">Click countries on the globe to build context.</p>
@@ -96,6 +125,11 @@ export function SelectedCountriesPanel({
                 </div>
                 <p className="mt-1 break-all text-slate-500">
                   {relationship.relationshipProfilePath}
+                </p>
+                <p className="mt-2 text-slate-500">
+                  World model: alignment, hostility, top relationship events, crisis history,
+                  war history, and trade dependency are exposed through relationship modules as
+                  verified data becomes available.
                 </p>
               </div>
             ))}

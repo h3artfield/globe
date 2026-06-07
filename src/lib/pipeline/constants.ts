@@ -56,6 +56,14 @@ export const COUNTRY_MODULES = [
   "average_citizen_life",
   "game_theory_profile",
   "future_scenarios",
+  "allies_and_partners",
+  "adversaries_and_rivals",
+  "national_event_timeline",
+  "top_national_events_20_years",
+  "news_memory",
+  "threat_perception",
+  "wikipedia_baseline",
+  "wikipedia_references",
   "scorecard",
 ] as const;
 
@@ -65,6 +73,12 @@ export const RELATIONSHIP_MODULES = [
   "military_relationship",
   "rivalry_narratives",
   "game_theory_relationship",
+  "relationship_event_timeline",
+  "alliance_status",
+  "adversary_status",
+  "crisis_history",
+  "war_history",
+  "diplomatic_history",
 ] as const;
 
 export const HUMAN_REVIEW_COUNTRY_MODULES = [
@@ -76,6 +90,14 @@ export const HUMAN_REVIEW_COUNTRY_MODULES = [
   "philosophy_contributions",
   "future_scenarios",
   "game_theory_profile",
+  "allies_and_partners",
+  "adversaries_and_rivals",
+  "national_event_timeline",
+  "top_national_events_20_years",
+  "news_memory",
+  "threat_perception",
+  "wikipedia_baseline",
+  "wikipedia_references",
 ] as const;
 
 export const WORLD_BANK_INDICATORS: Record<string, string> = {
@@ -126,9 +148,23 @@ export const MODULE_TOPIC_TAGS: Record<string, string[]> = {
   foreign_policy: ["country-foreign-policy"],
   average_citizen_life: ["country-average-citizen-life"],
   game_theory_profile: ["country-game-theory"],
+  allies_and_partners: ["country-allies"],
+  adversaries_and_rivals: ["country-adversaries"],
+  national_event_timeline: ["country-event-timeline"],
+  top_national_events_20_years: ["country-top-events-20-years"],
+  news_memory: ["country-news-memory"],
+  threat_perception: ["country-threat-perception"],
+  wikipedia_baseline: ["country-wikipedia-baseline"],
+  wikipedia_references: ["country-wikipedia-references"],
   relationship: ["relationship-overview"],
   trade_relationship: ["relationship-trade"],
   military_relationship: ["relationship-military"],
   rivalry_narratives: ["relationship-rivalry"],
   game_theory_relationship: ["relationship-red-lines", "relationship-escalation-paths"],
+  relationship_event_timeline: ["relationship-top-events-20-years"],
+  alliance_status: ["relationship-alliance-status"],
+  adversary_status: ["relationship-adversary-status"],
+  crisis_history: ["relationship-crisis-history"],
+  war_history: ["relationship-war-history"],
+  diplomatic_history: ["relationship-diplomatic-history"],
 };

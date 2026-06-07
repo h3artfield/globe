@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "nodes": [
+    {
+      "country_code": "USA",
+      "name": "USA",
+      "region": "",
+      "power_tier": "global",
+      "source_ids": []
+    },
+    {
+      "country_code": "CHN",
+      "name": "CHN",
+      "region": "",
+      "power_tier": "global",
+      "source_ids": []
+    },
+    {
+      "country_code": "EGY",
+      "name": "EGY",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "ETH",
+      "name": "ETH",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "RUS",
+      "name": "RUS",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "UKR",
+      "name": "UKR",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "IND",
+      "name": "IND",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "PAK",
+      "name": "PAK",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "ISR",
+      "name": "ISR",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "IRN",
+      "name": "IRN",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "SAU",
+      "name": "SAU",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    },
+    {
+      "country_code": "TUR",
+      "name": "TUR",
+      "region": "",
+      "power_tier": "regional",
+      "source_ids": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "CHN",
+      "to": "USA",
+      "relationship_id": "CHN_USA",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "EGY",
+      "to": "ETH",
+      "relationship_id": "EGY_ETH",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "RUS",
+      "to": "UKR",
+      "relationship_id": "RUS_UKR",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "IND",
+      "to": "PAK",
+      "relationship_id": "IND_PAK",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "IRN",
+      "to": "ISR",
+      "relationship_id": "IRN_ISR",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "IRN",
+      "to": "SAU",
+      "relationship_id": "IRN_SAU",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "SAU",
+      "to": "TUR",
+      "relationship_id": "SAU_TUR",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    },
+    {
+      "from": "RUS",
+      "to": "TUR",
+      "relationship_id": "RUS_TUR",
+      "overall_alignment_score": null,
+      "alliance_score": null,
+      "hostility_score": null,
+      "trade_dependency_score": null,
+      "military_tension_score": null,
+      "sanctions_score": null,
+      "diplomatic_support_score": null,
+      "public_opinion_score": null,
+      "historical_grievance_score": null,
+      "trend": "unknown",
+      "source_ids": [],
+      "confidence": "unknown"
+    }
+  ]
+}

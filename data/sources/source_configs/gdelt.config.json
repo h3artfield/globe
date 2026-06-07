@@ -1,0 +1,10 @@
+{
+  "source_id": "gdelt",
+  "mode": "hybrid",
+  "api_base_url": "https://api.gdeltproject.org/api/v2",
+  "manual_import_dir": "/data/manual_imports/gdelt",
+  "raw_output_dir": "/data/raw/gdelt",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "World-model source config. Manual imports are preferred unless stable API access is implemented."
+}

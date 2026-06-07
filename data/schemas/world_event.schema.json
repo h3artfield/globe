@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "world_event.schema.json",
+  "title": "World model event",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "event_id",
+        "event_date",
+        "year",
+        "country_codes",
+        "relationship_id",
+        "event_type",
+        "event_category",
+        "headline",
+        "summary",
+        "actors",
+        "locations",
+        "importance_score",
+        "source_ids",
+        "claim_type",
+        "confidence",
+        "notes"
+      ],
+      "properties": {
+        "event_id": { "type": "string" },
+        "event_date": { "type": "string" },
+        "year": { "type": "integer" },
+        "country_codes": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{3}$" } },
+        "relationship_id": { "type": ["string", "null"] },
+        "event_type": { "type": "string" },
+        "event_category": { "type": "string" },
+        "headline": { "type": "string" },
+        "summary": { "type": "string" },
+        "actors": { "type": "array", "items": { "type": "string" } },
+        "locations": { "type": "array", "items": { "type": "string" } },
+        "importance_score": { "type": ["number", "null"] },
+        "domestic_impact_score": { "type": ["number", "null"] },
+        "international_impact_score": { "type": ["number", "null"] },
+        "economic_impact_score": { "type": ["number", "null"] },
+        "security_impact_score": { "type": ["number", "null"] },
+        "regime_impact_score": { "type": ["number", "null"] },
+        "long_term_importance": { "enum": ["low", "medium", "high", "historic"] },
+        "source_ids": { "type": "array", "items": { "type": "string" } },
+        "claim_type": { "type": "string" },
+        "confidence": { "enum": ["low", "medium", "high", "unknown"] },
+        "notes": { "type": "string" }
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "event_id",
+        "relationship_id",
+        "event_date",
+        "year",
+        "countries",
+        "event_type",
+        "headline",
+        "summary",
+        "actors",
+        "importance_score",
+        "source_ids",
+        "confidence",
+        "notes"
+      ],
+      "properties": {
+        "relationship_id": { "type": "string", "pattern": "^[A-Z]{3}_[A-Z]{3}$" },
+        "countries": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "string", "pattern": "^[A-Z]{3}$" } }
+      }
+    }
+  ]
+}

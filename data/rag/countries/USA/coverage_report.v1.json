@@ -1,6 +1,6 @@
 {
   "country_code": "USA",
-  "coverage_score": 21,
+  "coverage_score": 20,
   "structured_data_score": 21,
   "narrative_data_score": 0,
   "freshness_score": 81,
@@ -40,7 +40,15 @@
     "foreign_policy",
     "adversary_narratives",
     "game_theory_profile",
-    "future_scenarios"
+    "future_scenarios",
+    "allies_and_partners",
+    "adversaries_and_rivals",
+    "national_event_timeline",
+    "top_national_events_20_years",
+    "news_memory",
+    "threat_perception",
+    "wikipedia_baseline",
+    "wikipedia_references"
   ],
   "metrics_available": [
     "agricultural_production_value_added_current_usd",
@@ -137,7 +145,25 @@
     "USA-philosophy_contributions-005",
     "USA-adversary_narratives-006",
     "USA-game_theory_profile-007",
-    "USA-future_scenarios-008"
+    "USA-future_scenarios-008",
+    "USA-allies_and_partners-900",
+    "USA-adversaries_and_rivals-901",
+    "USA-national_event_timeline-902",
+    "USA-top_national_events_20_years-903",
+    "USA-news_memory-904",
+    "USA-threat_perception-905",
+    "USA-allies_and_partners-900",
+    "USA-adversaries_and_rivals-901",
+    "USA-national_event_timeline-902",
+    "USA-top_national_events_20_years-903",
+    "USA-news_memory-904",
+    "USA-threat_perception-905",
+    "USA-allies_and_partners-900",
+    "USA-adversaries_and_rivals-901",
+    "USA-national_event_timeline-902",
+    "USA-top_national_events_20_years-903",
+    "USA-news_memory-904",
+    "USA-threat_perception-905"
   ],
   "source_family_coverage": [
     {

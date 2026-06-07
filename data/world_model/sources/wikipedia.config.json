@@ -1,0 +1,10 @@
+{
+  "source_id": "wikipedia",
+  "mode": "api",
+  "api_base_url": "https://en.wikipedia.org/w/api.php",
+  "manual_import_dir": "/data/manual_imports/wikipedia",
+  "raw_output_dir": "/data/raw/wikipedia",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "World-model source config. Manual imports are preferred unless stable API access is implemented."
+}

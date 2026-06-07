@@ -11,6 +11,21 @@ const MODULE_SOURCE_WARNINGS: Record<string, { sourceIds: string[]; message: str
   technology_contributions: { sourceIds: ["wipo"], message: "technology_contributions module lacks WIPO/patent data" },
   education: { sourceIds: ["unesco_uis", "oecd_pisa"], message: "education module lacks education/PISA/UIS data" },
   government_current: { sourceIds: ["vdem", "manual_leader_sources"], message: "government_current module lacks V-Dem or verified manual source" },
+  allies_and_partners: { sourceIds: ["treaties_manual", "un_voting", "news_manual"], message: "allies_and_partners module lacks alliance/treaty/diplomatic source data" },
+  adversaries_and_rivals: { sourceIds: ["sanctions", "news_manual", "acled", "ucdp"], message: "adversaries_and_rivals module lacks adversary/conflict source data" },
+  national_event_timeline: { sourceIds: ["gdelt", "acled", "news_manual"], message: "national_event_timeline module lacks event/news source data" },
+  top_national_events_20_years: { sourceIds: ["gdelt", "news_manual"], message: "top_national_events_20_years module lacks verified event/news source data" },
+  news_memory: { sourceIds: ["gdelt", "news_manual"], message: "news_memory module lacks verified news source data" },
+  threat_perception: { sourceIds: ["news_manual", "sanctions", "treaties_manual"], message: "threat_perception module lacks threat/adversary source data" },
+};
+
+const RELATIONSHIP_MODULE_SOURCE_WARNINGS: Record<string, string> = {
+  relationship_event_timeline: "relationship_event_timeline module lacks verified relationship event data",
+  alliance_status: "alliance_status module lacks treaty/alliance source data",
+  adversary_status: "adversary_status module lacks adversary/sanctions/conflict source data",
+  crisis_history: "crisis_history module lacks verified crisis event data",
+  war_history: "war_history module lacks COW/UCDP/manual war source data",
+  diplomatic_history: "diplomatic_history module lacks diplomatic event source data",
 };
 
 export type ValidationResult = {
@@ -99,6 +114,17 @@ export function validateRelationshipModule(
 
   if (module.relationship_id !== expectedRelationshipId) {
     errors.push(`${location}: relationship pair is not alphabetically sorted`);
+  }
+  if (
+    RELATIONSHIP_MODULE_SOURCE_WARNINGS[module.module] &&
+    module.metrics.length === 0 &&
+    module.claims.length === 0 &&
+    module.source_ids.length === 0
+  ) {
+    return mergeResults([
+      { errors, warnings: [RELATIONSHIP_MODULE_SOURCE_WARNINGS[module.module]] },
+      ...module.metrics.map((metric) => validateMetric(metric, location)),
+    ]);
   }
 
   return mergeResults([

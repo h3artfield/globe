@@ -1,6 +1,6 @@
 {
   "country_code": "TUR",
-  "coverage_score": 22,
+  "coverage_score": 21,
   "structured_data_score": 23,
   "narrative_data_score": 0,
   "freshness_score": 86,
@@ -40,7 +40,15 @@
     "foreign_policy",
     "adversary_narratives",
     "game_theory_profile",
-    "future_scenarios"
+    "future_scenarios",
+    "allies_and_partners",
+    "adversaries_and_rivals",
+    "national_event_timeline",
+    "top_national_events_20_years",
+    "news_memory",
+    "threat_perception",
+    "wikipedia_baseline",
+    "wikipedia_references"
   ],
   "metrics_available": [
     "agricultural_production_value_added_current_usd",
@@ -137,7 +145,25 @@
     "TUR-philosophy_contributions-005",
     "TUR-adversary_narratives-006",
     "TUR-game_theory_profile-007",
-    "TUR-future_scenarios-008"
+    "TUR-future_scenarios-008",
+    "TUR-allies_and_partners-900",
+    "TUR-adversaries_and_rivals-901",
+    "TUR-national_event_timeline-902",
+    "TUR-top_national_events_20_years-903",
+    "TUR-news_memory-904",
+    "TUR-threat_perception-905",
+    "TUR-allies_and_partners-900",
+    "TUR-adversaries_and_rivals-901",
+    "TUR-national_event_timeline-902",
+    "TUR-top_national_events_20_years-903",
+    "TUR-news_memory-904",
+    "TUR-threat_perception-905",
+    "TUR-allies_and_partners-900",
+    "TUR-adversaries_and_rivals-901",
+    "TUR-national_event_timeline-902",
+    "TUR-top_national_events_20_years-903",
+    "TUR-news_memory-904",
+    "TUR-threat_perception-905"
   ],
   "source_family_coverage": [
     {

@@ -1,0 +1,10 @@
+{
+  "source_id": "news_manual",
+  "mode": "manual_file",
+  "api_base_url": "",
+  "manual_import_dir": "/data/manual_imports/news_manual",
+  "raw_output_dir": "/data/raw/news_manual",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "World-model source config. Manual imports are preferred unless stable API access is implemented."
+}

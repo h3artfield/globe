@@ -1,0 +1,178 @@
+{
+  "country_code": "ETH",
+  "period": "2006-2026",
+  "years": [
+    {
+      "year": 2006,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2007,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2008,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2009,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2010,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2011,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2012,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2013,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2014,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2015,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2016,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2017,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2018,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2019,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2020,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2021,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2022,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2023,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2024,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2025,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    },
+    {
+      "year": 2026,
+      "domestic_events": [],
+      "foreign_policy_events": [],
+      "economic_events": [],
+      "security_events": [],
+      "cultural_social_events": []
+    }
+  ],
+  "coverage": {
+    "status": "pending_review",
+    "warning": "Top events are not generated until verified event/news data is available."
+  }
+}

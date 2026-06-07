@@ -1,6 +1,6 @@
 {
   "country_code": "UKR",
-  "coverage_score": 22,
+  "coverage_score": 21,
   "structured_data_score": 23,
   "narrative_data_score": 0,
   "freshness_score": 66,
@@ -40,7 +40,15 @@
     "foreign_policy",
     "adversary_narratives",
     "game_theory_profile",
-    "future_scenarios"
+    "future_scenarios",
+    "allies_and_partners",
+    "adversaries_and_rivals",
+    "national_event_timeline",
+    "top_national_events_20_years",
+    "news_memory",
+    "threat_perception",
+    "wikipedia_baseline",
+    "wikipedia_references"
   ],
   "metrics_available": [
     "agricultural_production_value_added_current_usd",
@@ -143,7 +151,25 @@
     "UKR-philosophy_contributions-005",
     "UKR-adversary_narratives-006",
     "UKR-game_theory_profile-007",
-    "UKR-future_scenarios-008"
+    "UKR-future_scenarios-008",
+    "UKR-allies_and_partners-900",
+    "UKR-adversaries_and_rivals-901",
+    "UKR-national_event_timeline-902",
+    "UKR-top_national_events_20_years-903",
+    "UKR-news_memory-904",
+    "UKR-threat_perception-905",
+    "UKR-allies_and_partners-900",
+    "UKR-adversaries_and_rivals-901",
+    "UKR-national_event_timeline-902",
+    "UKR-top_national_events_20_years-903",
+    "UKR-news_memory-904",
+    "UKR-threat_perception-905",
+    "UKR-allies_and_partners-900",
+    "UKR-adversaries_and_rivals-901",
+    "UKR-national_event_timeline-902",
+    "UKR-top_national_events_20_years-903",
+    "UKR-news_memory-904",
+    "UKR-threat_perception-905"
   ],
   "source_family_coverage": [
     {

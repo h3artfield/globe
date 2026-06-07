@@ -24,8 +24,12 @@
     "text": { "type": "string" },
     "tags": { "type": "array", "items": { "type": "string" } },
     "source_ids": { "type": "array", "items": { "type": "string" } },
+    "source_family": { "type": "string" },
+    "authority_rank": { "type": "string" },
+    "can_override_official_data": { "type": "boolean" },
+    "retrieval_priority": { "type": "number" },
     "claim_type": {
-      "enum": ["fact", "interpretation", "adversary_narrative", "strategic_inference", "scenario"]
+      "enum": ["fact", "interpretation", "adversary_narrative", "strategic_inference", "scenario", "baseline_summary"]
     },
     "year_range": {
       "type": ["array", "null"],

@@ -1,0 +1,10 @@
+{
+  "country_code": "USA",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "events": [],
+  "coverage": {
+    "status": "pending_review",
+    "warning": "No verified national event source has been ingested yet."
+  }
+}

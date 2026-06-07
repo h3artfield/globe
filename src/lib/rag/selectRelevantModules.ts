@@ -33,9 +33,9 @@ const QUESTION_MODULE_MAP: Array<{
   },
   {
     topic: "war",
-    keywords: ["war", "invade", "attack", "military", "escalate", "fight", "deterrence"],
-    countryModules: ["military", "foreign_policy", "game_theory_profile"],
-    relationshipModules: ["relationship", "military_relationship", "game_theory_relationship"],
+    keywords: ["war", "invade", "attack", "military", "escalate", "fight", "deterrence", "crisis"],
+    countryModules: ["adversaries_and_rivals", "military", "foreign_policy", "game_theory_profile"],
+    relationshipModules: ["relationship", "relationship_event_timeline", "military_relationship", "game_theory_relationship", "crisis_history", "war_history"],
   },
   {
     topic: "leader",
@@ -54,6 +54,24 @@ const QUESTION_MODULE_MAP: Array<{
     keywords: ["technology", "patent", "ai", "semiconductor", "research", "innovation"],
     countryModules: ["technology_contributions", "economy", "education"],
     relationshipModules: ["trade_relationship", "relationship"],
+  },
+  {
+    topic: "allies",
+    keywords: ["ally", "allies", "alliance", "partner", "partners", "protects", "bases", "intelligence sharing"],
+    countryModules: ["allies_and_partners", "foreign_policy"],
+    relationshipModules: ["relationship", "alliance_status", "diplomatic_history"],
+  },
+  {
+    topic: "enemies",
+    keywords: ["enemy", "enemies", "adversary", "adversaries", "rival", "rivals", "threat", "sanction", "sanctions"],
+    countryModules: ["adversaries_and_rivals", "threat_perception"],
+    relationshipModules: ["relationship", "adversary_status", "rivalry_narratives", "crisis_history"],
+  },
+  {
+    topic: "events",
+    keywords: ["news", "event", "events", "timeline", "top events", "past 20 years", "scandal", "protest"],
+    countryModules: ["top_national_events_20_years", "national_event_timeline", "news_memory", "history"],
+    relationshipModules: ["relationship_event_timeline", "crisis_history", "diplomatic_history"],
   },
 ];
 

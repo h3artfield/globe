@@ -20,7 +20,8 @@ export type ClaimType =
   | "interpretation"
   | "adversary_narrative"
   | "strategic_inference"
-  | "scenario";
+  | "scenario"
+  | "baseline_summary";
 
 export type MetricValue = {
   metric_id: string;
@@ -102,6 +103,10 @@ export type RagChunk = {
   text: string;
   tags: string[];
   source_ids: string[];
+  source_family?: string;
+  authority_rank?: string;
+  can_override_official_data?: boolean;
+  retrieval_priority?: number;
   metric_ids?: string[];
   claim_type: ClaimType;
   year_range: [number, number] | null;

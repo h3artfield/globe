@@ -1,0 +1,27 @@
+{
+  "relationship_id": "CHN_USA",
+  "countries": [
+    "CHN",
+    "USA"
+  ],
+  "module": "relationship_event_timeline",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  ],
+  "source_ids": [],
+  "generation_status": "auto_generated_structured_data",
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "sources",
+      "events",
+      "claims"
+    ]
+  }
+}

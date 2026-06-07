@@ -1,0 +1,32 @@
+{
+  "country_code": "TUR",
+  "module": "allies_and_partners",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "World-model data is pending verified event/alliance/adversary sources."
+  ],
+  "source_ids": [],
+  "generation_status": "auto_generated_structured_data",
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "sources",
+      "events",
+      "claims"
+    ]
+  },
+  "formal_alliances": [],
+  "security_partners": [],
+  "economic_partners": [],
+  "patron_client_relationships": [],
+  "military_base_relationships": [],
+  "intelligence_partners": [],
+  "diplomatic_supporters": [],
+  "trade_dependency_partners": [],
+  "top_allies_ranked": []
+}

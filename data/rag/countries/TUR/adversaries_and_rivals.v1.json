@@ -1,0 +1,33 @@
+{
+  "country_code": "TUR",
+  "module": "adversaries_and_rivals",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "World-model data is pending verified event/alliance/adversary sources."
+  ],
+  "source_ids": [],
+  "generation_status": "auto_generated_structured_data",
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "sources",
+      "events",
+      "claims"
+    ]
+  },
+  "declared_adversaries": [],
+  "strategic_rivals": [],
+  "military_opponents": [],
+  "sanctions_targets": [],
+  "historical_enemies": [],
+  "proxy_conflict_opponents": [],
+  "border_dispute_opponents": [],
+  "public_opinion_adversaries": [],
+  "regime_narrative_enemies": [],
+  "top_adversaries_ranked": []
+}

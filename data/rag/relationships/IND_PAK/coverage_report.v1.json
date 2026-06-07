@@ -16,13 +16,20 @@
     "trade_relationship",
     "military_relationship",
     "rivalry_narratives",
-    "game_theory_relationship"
+    "game_theory_relationship",
+    "relationship_event_timeline",
+    "alliance_status",
+    "adversary_status",
+    "crisis_history",
+    "war_history",
+    "diplomatic_history"
   ],
   "metrics_available": [],
   "metrics_missing": [],
   "outdated_metrics": [],
   "low_confidence_claims": [],
   "review_queue_items": [],
+  "source_family_coverage": [],
   "recommended_next_sources": [
     "un_comtrade",
     "manual_history_sources",

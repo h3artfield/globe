@@ -1,0 +1,14 @@
+{
+  "relationship_id": "RUS_TUR",
+  "countries": [
+    "RUS",
+    "TUR"
+  ],
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "events": [],
+  "coverage": {
+    "status": "pending_review",
+    "warning": "No verified relationship event source has been ingested yet."
+  }
+}

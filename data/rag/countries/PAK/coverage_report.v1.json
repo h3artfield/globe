@@ -1,6 +1,6 @@
 {
   "country_code": "PAK",
-  "coverage_score": 22,
+  "coverage_score": 21,
   "structured_data_score": 23,
   "narrative_data_score": 0,
   "freshness_score": 83,
@@ -40,7 +40,15 @@
     "foreign_policy",
     "adversary_narratives",
     "game_theory_profile",
-    "future_scenarios"
+    "future_scenarios",
+    "allies_and_partners",
+    "adversaries_and_rivals",
+    "national_event_timeline",
+    "top_national_events_20_years",
+    "news_memory",
+    "threat_perception",
+    "wikipedia_baseline",
+    "wikipedia_references"
   ],
   "metrics_available": [
     "agricultural_production_value_added_current_usd",
@@ -138,7 +146,25 @@
     "PAK-philosophy_contributions-005",
     "PAK-adversary_narratives-006",
     "PAK-game_theory_profile-007",
-    "PAK-future_scenarios-008"
+    "PAK-future_scenarios-008",
+    "PAK-allies_and_partners-900",
+    "PAK-adversaries_and_rivals-901",
+    "PAK-national_event_timeline-902",
+    "PAK-top_national_events_20_years-903",
+    "PAK-news_memory-904",
+    "PAK-threat_perception-905",
+    "PAK-allies_and_partners-900",
+    "PAK-adversaries_and_rivals-901",
+    "PAK-national_event_timeline-902",
+    "PAK-top_national_events_20_years-903",
+    "PAK-news_memory-904",
+    "PAK-threat_perception-905",
+    "PAK-allies_and_partners-900",
+    "PAK-adversaries_and_rivals-901",
+    "PAK-national_event_timeline-902",
+    "PAK-top_national_events_20_years-903",
+    "PAK-news_memory-904",
+    "PAK-threat_perception-905"
   ],
   "source_family_coverage": [
     {

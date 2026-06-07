@@ -1,6 +1,6 @@
 {
   "country_code": "CHN",
-  "generated_at": "2026-06-07T00:58:12.277Z",
+  "generated_at": "2026-06-07T01:14:39.186Z",
   "items": [
     {
       "review_id": "CHN-founding_groups-001",
@@ -131,6 +131,294 @@
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
       "created_at": "2026-06-07T00:58:12.277Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-900",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:12:45.574Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-901",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:12:45.574Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-902",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:12:45.575Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-903",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:12:45.575Z"
+    },
+    {
+      "review_id": "CHN-news_memory-904",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:12:45.575Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-905",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:12:45.575Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-900",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:13:40.323Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-901",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:13:40.324Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-902",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:13:40.324Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-903",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:13:40.324Z"
+    },
+    {
+      "review_id": "CHN-news_memory-904",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:13:40.324Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-905",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:13:40.324Z"
+    },
+    {
+      "review_id": "CHN-allies_and_partners-900",
+      "country_code": "CHN",
+      "module": "allies_and_partners",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for allies_and_partners?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:14:39.185Z"
+    },
+    {
+      "review_id": "CHN-adversaries_and_rivals-901",
+      "country_code": "CHN",
+      "module": "adversaries_and_rivals",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for adversaries_and_rivals?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:14:39.185Z"
+    },
+    {
+      "review_id": "CHN-national_event_timeline-902",
+      "country_code": "CHN",
+      "module": "national_event_timeline",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for national_event_timeline?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:14:39.185Z"
+    },
+    {
+      "review_id": "CHN-top_national_events_20_years-903",
+      "country_code": "CHN",
+      "module": "top_national_events_20_years",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for top_national_events_20_years?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:14:39.185Z"
+    },
+    {
+      "review_id": "CHN-news_memory-904",
+      "country_code": "CHN",
+      "module": "news_memory",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for news_memory?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:14:39.186Z"
+    },
+    {
+      "review_id": "CHN-threat_perception-905",
+      "country_code": "CHN",
+      "module": "threat_perception",
+      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
+      "required_questions": [
+        "Which source-backed facts are required for threat_perception?",
+        "Which claims should remain open until human review?"
+      ],
+      "suggested_sources": [
+        "manual_sources"
+      ],
+      "status": "pending",
+      "generation_status": "auto_generated_structured_data",
+      "created_at": "2026-06-07T01:14:39.186Z"
     }
   ]
 }

@@ -58,6 +58,28 @@
       "notes": "Manual, source-backed intellectual contribution inputs."
     },
     {
+      "source_id": "news_manual",
+      "name": "Manual news/event sources",
+      "type": "manual",
+      "base_url": "",
+      "license": "Source-specific license",
+      "coverage": "curated news memory and event timelines",
+      "refresh_frequency": "as_needed",
+      "priority": 2,
+      "notes": "Manual verified news source adapter."
+    },
+    {
+      "source_id": "treaties_manual",
+      "name": "Manual treaty sources",
+      "type": "manual",
+      "base_url": "",
+      "license": "Source-specific license",
+      "coverage": "treaties, alliances, basing, defense pacts",
+      "refresh_frequency": "as_needed",
+      "priority": 2,
+      "notes": "Manual treaty and alliance source adapter."
+    },
+    {
       "source_id": "un_comtrade",
       "name": "UN Comtrade",
       "type": "api",
@@ -124,6 +146,39 @@
       "notes": "Future adapter for national pride, trust, willingness to fight, immigration attitudes."
     },
     {
+      "source_id": "acled",
+      "name": "ACLED",
+      "type": "manual",
+      "base_url": "https://acleddata.com",
+      "license": "See ACLED terms",
+      "coverage": "political violence and protest events",
+      "refresh_frequency": "weekly",
+      "priority": 3,
+      "notes": "Manual import unless licensed API credentials are configured."
+    },
+    {
+      "source_id": "correlates_of_war",
+      "name": "Correlates of War",
+      "type": "manual",
+      "base_url": "https://correlatesofwar.org",
+      "license": "See COW terms",
+      "coverage": "historical wars, alliances, disputes",
+      "refresh_frequency": "periodic",
+      "priority": 3,
+      "notes": "Manual import adapter scaffold."
+    },
+    {
+      "source_id": "gdelt",
+      "name": "GDELT Project",
+      "type": "api",
+      "base_url": "https://www.gdeltproject.org",
+      "license": "See GDELT terms",
+      "coverage": "global news/event monitoring",
+      "refresh_frequency": "daily",
+      "priority": 3,
+      "notes": "World-model event/news adapter config."
+    },
+    {
       "source_id": "oecd_pisa",
       "name": "OECD PISA",
       "type": "download",
@@ -133,6 +188,39 @@
       "refresh_frequency": "triennial",
       "priority": 3,
       "notes": "Future adapter for PISA reading, math, and science."
+    },
+    {
+      "source_id": "sanctions",
+      "name": "Sanctions source registry",
+      "type": "manual",
+      "base_url": "",
+      "license": "Source-specific license",
+      "coverage": "sanctions relationships and targets",
+      "refresh_frequency": "as_needed",
+      "priority": 3,
+      "notes": "Manual import adapter scaffold."
+    },
+    {
+      "source_id": "ucdp",
+      "name": "UCDP",
+      "type": "manual",
+      "base_url": "https://ucdp.uu.se",
+      "license": "See UCDP terms",
+      "coverage": "armed conflict events and conflict metadata",
+      "refresh_frequency": "annual",
+      "priority": 3,
+      "notes": "Manual import adapter scaffold."
+    },
+    {
+      "source_id": "un_voting",
+      "name": "UN Voting Data",
+      "type": "manual",
+      "base_url": "",
+      "license": "Dataset-specific license",
+      "coverage": "UN voting alignment and diplomatic support",
+      "refresh_frequency": "annual",
+      "priority": 3,
+      "notes": "Manual import adapter scaffold."
     },
     {
       "source_id": "unctad",
@@ -155,6 +243,17 @@
       "refresh_frequency": "annual",
       "priority": 3,
       "notes": "Phase 3 stub adapter; implement before emitting UIS metrics."
+    },
+    {
+      "source_id": "wikipedia",
+      "name": "Wikipedia baseline",
+      "type": "api",
+      "base_url": "https://en.wikipedia.org",
+      "license": "CC BY-SA",
+      "coverage": "baseline country orientation and topic discovery",
+      "refresh_frequency": "as_needed",
+      "priority": 5,
+      "notes": "Wikipedia is lower-priority baseline and cannot override official data."
     }
   ]
 }

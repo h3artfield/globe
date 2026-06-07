@@ -1,0 +1,10 @@
+{
+  "source_id": "wikipedia",
+  "mode": "api",
+  "api_base_url": "https://en.wikipedia.org/api/rest_v1",
+  "manual_import_dir": "/data/manual_imports/wikipedia",
+  "raw_output_dir": "/data/raw/wikipedia",
+  "requires_api_key": false,
+  "env_key_name": "",
+  "notes": "Wikipedia baseline is lower-priority orientation/topic-discovery only and cannot override official data."
+}

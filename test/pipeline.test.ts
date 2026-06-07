@@ -12,6 +12,8 @@ import { buildCountryCoverageReport } from "@/lib/pipeline/coverage";
 import { buildCountryChunk } from "@/lib/pipeline/chunks";
 import { getMetricModule } from "@/lib/pipeline/countryModules";
 import { selectRelevantModules } from "@/lib/rag/selectRelevantModules";
+import { scoreEventImportance } from "@/lib/worldModel/eventImportance";
+import { buildEmptyRelationshipGraph } from "@/lib/worldModel/defaults";
 import { POST as askPost } from "@/app/api/ask/route";
 import { findManualImportFiles, archiveManualImportFiles } from "@/lib/sources/manualImport";
 import { buildSourceFamilyCoverage } from "@/lib/sources/sourceCoverage";
@@ -108,6 +110,24 @@ test("question module selection maps trade questions", () => {
   const selection = selectRelevantModules("How would tariffs affect exports and shipping?");
   assert.ok(selection.countryModules.includes("trade_exports_imports"));
   assert.ok(selection.relationshipModules.includes("trade_relationship"));
+});
+
+test("question module selection maps allies, enemies, and events questions", () => {
+  assert.ok(selectRelevantModules("Who are its closest allies?").countryModules.includes("allies_and_partners"));
+  assert.ok(selectRelevantModules("Who are its enemies and threat perceptions?").countryModules.includes("adversaries_and_rivals"));
+  assert.ok(selectRelevantModules("What were the top events in the past 20 years?").countryModules.includes("top_national_events_20_years"));
+});
+
+test("event importance prioritizes institutional conflict over raw media volume", () => {
+  const coupScore = scoreEventImportance({ leadershipChange: true, constitutionalChange: true, warInvolvement: true });
+  const mediaOnlyScore = scoreEventImportance({ gdeltVolume: 1000000, majorSourceFrequency: 1000 });
+  assert.ok(coupScore > mediaOnlyScore);
+});
+
+test("world relationship graph contains MVP relationship edges", () => {
+  const graph = buildEmptyRelationshipGraph();
+  assert.ok(graph.nodes.some((node) => node.country_code === "USA"));
+  assert.ok(graph.edges.some((edge) => edge.relationship_id === "CHN_USA"));
 });
 
 test("manual file import detection finds CSV files", async () => {
