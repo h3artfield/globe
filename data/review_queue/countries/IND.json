@@ -1,6 +1,6 @@
 {
   "country_code": "IND",
-  "generated_at": "2026-06-07T00:56:25.131Z",
+  "generated_at": "2026-06-07T00:58:12.299Z",
   "items": [
     {
       "review_id": "IND-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     },
     {
       "review_id": "IND-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T00:56:25.131Z"
+      "created_at": "2026-06-07T00:58:12.299Z"
     }
   ]
 }
