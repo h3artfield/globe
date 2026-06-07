@@ -72,6 +72,10 @@ function styleCountries(
         : Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.35);
 
     entity.polygon.material = new Cesium.ColorMaterialProperty(fill);
+    entity.polygon.arcType = new Cesium.ConstantProperty(Cesium.ArcType.GEODESIC);
+    entity.polygon.granularity = new Cesium.ConstantProperty(Cesium.Math.RADIANS_PER_DEGREE * 2);
+    entity.polygon.height = new Cesium.ConstantProperty(0);
+    entity.polygon.perPositionHeight = new Cesium.ConstantProperty(false);
     entity.polygon.outline = new Cesium.ConstantProperty(true);
     entity.polygon.outlineColor = new Cesium.ConstantProperty(
       isSelected ? Cesium.Color.WHITE : Cesium.Color.fromCssColorString("#94a3b8").withAlpha(0.5),
@@ -149,6 +153,7 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
         }
 
         dataSourceRef.current = dataSource;
+        styleCountries(dataSource, Cesium, new Set(), null);
         await viewer.dataSources.add(dataSource);
         await viewer.zoomTo(dataSource);
         styleCountries(dataSource, Cesium, new Set(), null);
