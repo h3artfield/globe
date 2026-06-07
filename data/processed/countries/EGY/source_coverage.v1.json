@@ -1,0 +1,63 @@
+{
+  "country_code": "EGY",
+  "generated_at": "2026-06-07T00:10:08.825Z",
+  "sources_checked": [
+    "world_bank_wdi"
+  ],
+  "metrics_available": [
+    "gdp_current_usd",
+    "gdp_per_capita_current_usd",
+    "gdp_ppp_current_international",
+    "population_total",
+    "urban_population_share",
+    "fertility_rate",
+    "life_expectancy",
+    "net_migration",
+    "exports_goods_services_current_usd",
+    "imports_goods_services_current_usd",
+    "manufacturing_value_added_current_usd",
+    "agricultural_production_value_added_current_usd",
+    "energy_production",
+    "electricity_production",
+    "container_port_throughput",
+    "air_passengers_carried",
+    "air_freight_million_ton_km",
+    "tourism_arrivals",
+    "remittances_received_current_usd",
+    "fdi_inflows_current_usd",
+    "poverty_rate_national",
+    "youth_unemployment_rate",
+    "gini_index",
+    "literacy_rate_adult",
+    "homicide_rate_per_100k",
+    "military_expenditure_current_usd",
+    "patent_applications_residents",
+    "high_technology_exports_current_usd",
+    "rd_expenditure_percent_gdp"
+  ],
+  "metrics_missing": [
+    "migration_stock",
+    "foreign_born_population_share",
+    "trade_balance_current_usd",
+    "top_export_products",
+    "top_import_products",
+    "top_trade_partners",
+    "corruption_measures",
+    "regime_type",
+    "democracy_score",
+    "civil_liberties",
+    "political_rights",
+    "military_personnel",
+    "national_pride",
+    "willingness_to_fight",
+    "trust_in_government",
+    "trust_in_military",
+    "trust_in_police",
+    "support_for_immigration",
+    "support_for_national_sovereignty"
+  ],
+  "notes": [
+    "Metrics with null value/year are placeholders preserving required metadata fields.",
+    "Add additional source adapters to reduce missing metric coverage."
+  ]
+}

@@ -9,6 +9,10 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "pipeline:ingest:world-bank": "tsx scripts/ingest/ingest_world_bank.ts",
+    "pipeline:generate": "tsx scripts/rag/build_country_modules.ts && tsx scripts/rag/build_relationship_modules.ts && tsx scripts/rag/build_country_chunks.ts && tsx scripts/rag/build_relationship_chunks.ts && tsx scripts/rag/coverage_report.ts",
+    "pipeline:validate": "tsx scripts/rag/validate_rag.ts",
+    "pipeline:mvp": "npm run pipeline:ingest:world-bank && npm run pipeline:generate && npm run pipeline:validate",
     "postinstall": "node scripts/copy-cesium-assets.mjs"
   },
   "repository": {
@@ -40,6 +44,7 @@
     "eslint-config-next": "^16.2.7",
     "postcss": "^8.5.15",
     "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   },
   "overrides": {

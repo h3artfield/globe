@@ -1,0 +1,39 @@
+{
+  "country_code": "IRN",
+  "module": "education",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "education has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "literacy_rate_adult: 88.9168161136597 percent (2023)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "literacy_rate_adult",
+      "country_code": "IRN",
+      "value": 88.9168161136597,
+      "unit": "percent",
+      "year": 2023,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/SE.ADT.LITR.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SE.ADT.LITR.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SE.ADT.LITR.ZS."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

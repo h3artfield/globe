@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relationship_module.schema.json",
+  "title": "Relationship intelligence module",
+  "type": "object",
+  "required": [
+    "relationship_id",
+    "countries",
+    "module",
+    "version",
+    "last_updated",
+    "summary",
+    "key_findings",
+    "metrics",
+    "claims",
+    "open_questions",
+    "source_ids",
+    "confidence"
+  ],
+  "properties": {
+    "relationship_id": { "type": "string", "pattern": "^[A-Z]{3}_[A-Z]{3}$" },
+    "countries": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": { "type": "string", "pattern": "^[A-Z]{3}$" }
+    },
+    "module": { "type": "string" },
+    "metrics": { "type": "array", "items": { "$ref": "metric.schema.json" } },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim_id", "text", "claim_type", "source_ids", "confidence", "last_verified", "notes"]
+      }
+    }
+  }
+}

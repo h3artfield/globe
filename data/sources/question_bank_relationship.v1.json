@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "scope": "relationship_pipeline",
+  "note": "Pipeline-facing relationship question bank seed.",
+  "categories": [
+    {
+      "module": "relationship",
+      "sample_questions": [
+        "What sourced bilateral facts are required for relationship?",
+        "Which claims need relationship-level citations for relationship?"
+      ]
+    },
+    {
+      "module": "trade_relationship",
+      "sample_questions": [
+        "What sourced bilateral facts are required for trade_relationship?",
+        "Which claims need relationship-level citations for trade_relationship?"
+      ]
+    },
+    {
+      "module": "military_relationship",
+      "sample_questions": [
+        "What sourced bilateral facts are required for military_relationship?",
+        "Which claims need relationship-level citations for military_relationship?"
+      ]
+    },
+    {
+      "module": "rivalry_narratives",
+      "sample_questions": [
+        "What sourced bilateral facts are required for rivalry_narratives?",
+        "Which claims need relationship-level citations for rivalry_narratives?"
+      ]
+    },
+    {
+      "module": "game_theory_relationship",
+      "sample_questions": [
+        "What sourced bilateral facts are required for game_theory_relationship?",
+        "Which claims need relationship-level citations for game_theory_relationship?"
+      ]
+    }
+  ]
+}

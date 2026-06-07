@@ -1,0 +1,74 @@
+{
+  "country_code": "ISR",
+  "module": "national_cohesion_by_demographic",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this module with sourced metrics, claims, and narrative analysis."
+  ],
+  "source_ids": [],
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
+  },
+  "required_demographic_cuts": [
+    "age_group",
+    "sex",
+    "education_level",
+    "income_class",
+    "urban_vs_rural",
+    "region_province",
+    "ethnicity",
+    "language_group",
+    "religion_sect",
+    "native_born_vs_foreign_born",
+    "citizen_vs_non_citizen",
+    "immigrant_generation",
+    "occupation_class",
+    "public_sector_vs_private_sector",
+    "majority_group_vs_minority_group",
+    "capital_city_vs_provinces",
+    "coastal_vs_inland",
+    "elite_vs_working_class"
+  ],
+  "measured_concepts": [
+    "national_pride",
+    "attachment_to_country",
+    "willingness_to_fight_for_country",
+    "trust_in_national_government",
+    "trust_in_military",
+    "trust_in_police",
+    "trust_in_courts",
+    "support_for_national_sovereignty",
+    "support_for_border_control",
+    "support_for_immigration",
+    "support_for_assimilation",
+    "culture_changing_too_fast",
+    "minorities_mistreated",
+    "majority_group_losing_power",
+    "religious_identity_strength",
+    "ethnic_identity_strength",
+    "regional_identity_strength",
+    "class_identity_strength",
+    "separatist_sympathy",
+    "regime_loyalty",
+    "state_loyalty",
+    "desire_to_emigrate"
+  ],
+  "demographic_metrics": [],
+  "distinctions": [
+    "regime loyalty is not the same as national loyalty",
+    "ethnic pride is not the same as national pride",
+    "religious identity is not the same as state loyalty",
+    "anti-immigration sentiment is not nationalism by itself",
+    "willingness to fight is not the same as trust in current government"
+  ]
+}

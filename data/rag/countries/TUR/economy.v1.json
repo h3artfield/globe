@@ -1,0 +1,84 @@
+{
+  "country_code": "TUR",
+  "module": "economy",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "gdp_current_usd: 1359123768774.12 current_usd (2024)",
+    "gdp_per_capita_current_usd: 15892.7157287241 current_usd (2024)",
+    "gdp_ppp_current_international: 3902987817630.99 current_international_usd (2024)",
+    "fdi_inflows_current_usd: 11698000000 current_usd (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "gdp_current_usd",
+      "country_code": "TUR",
+      "value": 1359123768774.12,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NY.GDP.MKTP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD."
+    },
+    {
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "TUR",
+      "value": 15892.7157287241,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NY.GDP.PCAP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD."
+    },
+    {
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "TUR",
+      "value": 3902987817630.99,
+      "unit": "current_international_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NY.GDP.MKTP.PP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD."
+    },
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "TUR",
+      "value": 11698000000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "BX.KLT.DINV.CD.WD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "country_scorecard.schema.json",
+  "title": "Country scorecard",
+  "type": "object",
+  "required": ["country_code", "module", "scorecard", "metrics", "source_ids", "confidence"],
+  "properties": {
+    "country_code": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "module": { "const": "scorecard" },
+    "scorecard": {
+      "type": "object",
+      "required": ["country_code", "version", "last_updated", "scores", "metrics", "methodology_notes"]
+    }
+  }
+}

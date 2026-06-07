@@ -1,0 +1,26 @@
+{
+  "relationship_id": "IRN_ISR",
+  "countries": [
+    "IRN",
+    "ISR"
+  ],
+  "coverage_score": 0,
+  "modules_complete": [],
+  "modules_partial": [],
+  "modules_missing": [
+    "relationship",
+    "trade_relationship",
+    "military_relationship",
+    "rivalry_narratives",
+    "game_theory_relationship"
+  ],
+  "metrics_available": [],
+  "metrics_missing": [],
+  "outdated_metrics": [],
+  "low_confidence_claims": [],
+  "recommended_next_sources": [
+    "un_comtrade",
+    "manual_history_sources",
+    "manual_leader_sources"
+  ]
+}

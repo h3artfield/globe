@@ -1,0 +1,69 @@
+{
+  "country_code": "ISR",
+  "module": "household_income_wealth",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "household_income_wealth has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "remittances_received_current_usd: 952300000 current_usd (2024)",
+    "youth_unemployment_rate: 6.032 percent (2025)",
+    "gini_index: 38.3 index (2022)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "remittances_received_current_usd",
+      "country_code": "ISR",
+      "value": 952300000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "BX.TRF.PWKR.CD.DT",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
+    },
+    {
+      "metric_id": "youth_unemployment_rate",
+      "country_code": "ISR",
+      "value": 6.032,
+      "unit": "percent",
+      "year": 2025,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/SL.UEM.1524.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SL.UEM.1524.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
+    },
+    {
+      "metric_id": "gini_index",
+      "country_code": "ISR",
+      "value": 38.3,
+      "unit": "index",
+      "year": 2022,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/SI.POV.GINI?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SI.POV.GINI",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

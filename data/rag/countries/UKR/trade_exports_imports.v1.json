@@ -1,0 +1,54 @@
+{
+  "country_code": "UKR",
+  "module": "trade_exports_imports",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "trade_exports_imports has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "exports_goods_services_current_usd: 56097413426.8451 current_usd (2024)",
+    "imports_goods_services_current_usd: 92209661949.5432 current_usd (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "exports_goods_services_current_usd",
+      "country_code": "UKR",
+      "value": 56097413426.8451,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/UKR/indicator/NE.EXP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NE.EXP.GNFS.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NE.EXP.GNFS.CD."
+    },
+    {
+      "metric_id": "imports_goods_services_current_usd",
+      "country_code": "UKR",
+      "value": 92209661949.5432,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/UKR/indicator/NE.IMP.GNFS.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NE.IMP.GNFS.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NE.IMP.GNFS.CD."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

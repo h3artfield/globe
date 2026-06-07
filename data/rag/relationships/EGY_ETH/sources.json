@@ -1,3 +1,9 @@
 {
-  "sources": []
+  "relationship_id": "EGY_ETH",
+  "countries": [
+    "EGY",
+    "ETH"
+  ],
+  "generated_at": "2026-06-07T00:10:11.894Z",
+  "source_ids": []
 }

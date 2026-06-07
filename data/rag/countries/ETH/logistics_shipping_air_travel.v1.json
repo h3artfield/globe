@@ -1,0 +1,69 @@
+{
+  "country_code": "ETH",
+  "module": "logistics_shipping_air_travel",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "logistics_shipping_air_travel has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "air_passengers_carried: 15273254 passengers (2023)",
+    "air_freight_million_ton_km: 4015.45864 million_ton_km (2023)",
+    "tourism_arrivals: 518000 arrivals (2020)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "air_passengers_carried",
+      "country_code": "ETH",
+      "value": 15273254,
+      "unit": "passengers",
+      "year": 2023,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/IS.AIR.PSGR?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "IS.AIR.PSGR",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for IS.AIR.PSGR."
+    },
+    {
+      "metric_id": "air_freight_million_ton_km",
+      "country_code": "ETH",
+      "value": 4015.45864,
+      "unit": "million_ton_km",
+      "year": 2023,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/IS.AIR.GOOD.MT.K1?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "IS.AIR.GOOD.MT.K1",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for IS.AIR.GOOD.MT.K1."
+    },
+    {
+      "metric_id": "tourism_arrivals",
+      "country_code": "ETH",
+      "value": 518000,
+      "unit": "arrivals",
+      "year": 2020,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ETH/indicator/ST.INT.ARVL?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "ST.INT.ARVL",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for ST.INT.ARVL."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

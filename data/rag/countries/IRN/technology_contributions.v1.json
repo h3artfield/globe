@@ -1,0 +1,69 @@
+{
+  "country_code": "IRN",
+  "module": "technology_contributions",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "technology_contributions has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "patent_applications_residents: 10210 applications (2021)",
+    "high_technology_exports_current_usd: 206223949 current_usd (2022)",
+    "rd_expenditure_percent_gdp: 0.72665 percent_gdp (2021)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "patent_applications_residents",
+      "country_code": "IRN",
+      "value": 10210,
+      "unit": "applications",
+      "year": 2021,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/IP.PAT.RESD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "IP.PAT.RESD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for IP.PAT.RESD."
+    },
+    {
+      "metric_id": "high_technology_exports_current_usd",
+      "country_code": "IRN",
+      "value": 206223949,
+      "unit": "current_usd",
+      "year": 2022,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/TX.VAL.TECH.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "TX.VAL.TECH.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for TX.VAL.TECH.CD."
+    },
+    {
+      "metric_id": "rd_expenditure_percent_gdp",
+      "country_code": "IRN",
+      "value": 0.72665,
+      "unit": "percent_gdp",
+      "year": 2021,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/GB.XPD.RSDV.GD.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "GB.XPD.RSDV.GD.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for GB.XPD.RSDV.GD.ZS."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

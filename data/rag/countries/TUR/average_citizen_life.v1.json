@@ -1,0 +1,39 @@
+{
+  "country_code": "TUR",
+  "module": "average_citizen_life",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "average_citizen_life has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "life_expectancy: 77.421 years (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "life_expectancy",
+      "country_code": "TUR",
+      "value": 77.421,
+      "unit": "years",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.DYN.LE00.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SP.DYN.LE00.IN",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SP.DYN.LE00.IN."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

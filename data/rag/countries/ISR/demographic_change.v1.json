@@ -1,0 +1,54 @@
+{
+  "country_code": "ISR",
+  "module": "demographic_change",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "demographic_change has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "fertility_rate: 2.87 births_per_woman (2024)",
+    "net_migration: 11466 people (2025)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "fertility_rate",
+      "country_code": "ISR",
+      "value": 2.87,
+      "unit": "births_per_woman",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.DYN.TFRT.IN?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SP.DYN.TFRT.IN",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SP.DYN.TFRT.IN."
+    },
+    {
+      "metric_id": "net_migration",
+      "country_code": "ISR",
+      "value": 11466,
+      "unit": "people",
+      "year": 2025,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/ISR/indicator/SM.POP.NETM?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SM.POP.NETM",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SM.POP.NETM."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

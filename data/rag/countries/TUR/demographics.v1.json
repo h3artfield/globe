@@ -1,0 +1,54 @@
+{
+  "country_code": "TUR",
+  "module": "demographics",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "demographics has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "population_total: 85518661 people (2024)",
+    "urban_population_share: 89.3443122873887 percent (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "population_total",
+      "country_code": "TUR",
+      "value": 85518661,
+      "unit": "people",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.POP.TOTL?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SP.POP.TOTL",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SP.POP.TOTL."
+    },
+    {
+      "metric_id": "urban_population_share",
+      "country_code": "TUR",
+      "value": 89.3443122873887,
+      "unit": "percent",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SP.URB.TOTL.IN.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SP.URB.TOTL.IN.ZS."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

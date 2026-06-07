@@ -1,0 +1,51 @@
+{
+  "country_code": "UKR",
+  "module": "leader_dossiers",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this module with sourced metrics, claims, and narrative analysis."
+  ],
+  "source_ids": [],
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
+  },
+  "profile_label": "behavioral profile based on public record",
+  "leaders": [],
+  "required_fields": [
+    "full_name",
+    "role",
+    "current_office",
+    "birthplace",
+    "family_background",
+    "education",
+    "career_path",
+    "military_background",
+    "intelligence_background",
+    "business_background",
+    "ideology",
+    "patronage_network",
+    "allies",
+    "rivals",
+    "scandals",
+    "life_story",
+    "ruling_style",
+    "risk_tolerance_based_on_public_behavior",
+    "negotiation_style_based_on_public_behavior",
+    "domestic_constraints",
+    "foreign_constraints",
+    "what_they_fear_losing",
+    "what_they_want_to_be_remembered_for",
+    "what_could_make_them_escalate",
+    "what_could_make_them_compromise"
+  ]
+}

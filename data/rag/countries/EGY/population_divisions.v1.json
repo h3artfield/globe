@@ -1,0 +1,44 @@
+{
+  "country_code": "EGY",
+  "module": "population_divisions",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this module with sourced metrics, claims, and narrative analysis."
+  ],
+  "source_ids": [],
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
+  },
+  "tracked_division_types": [
+    "ethnic",
+    "religious",
+    "sectarian",
+    "linguistic",
+    "regional",
+    "urban_rural",
+    "class",
+    "generational",
+    "education",
+    "gender",
+    "caste_tribal_clan",
+    "native_born_vs_immigrant",
+    "ideological",
+    "party",
+    "military_vs_civilian",
+    "capital_city_vs_province",
+    "coastal_vs_inland",
+    "resource_region_vs_tax_region",
+    "globalized_elite_vs_local_working_class"
+  ],
+  "divisions": []
+}

@@ -1,0 +1,84 @@
+{
+  "country_code": "PAK",
+  "module": "household_income_wealth",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "household_income_wealth has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "remittances_received_current_usd: 34914000000 current_usd (2024)",
+    "poverty_rate_national: 21.9 percent (2018)",
+    "youth_unemployment_rate: 9.594 percent (2025)",
+    "gini_index: 33.5 index (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "remittances_received_current_usd",
+      "country_code": "PAK",
+      "value": 34914000000,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/PAK/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "BX.TRF.PWKR.CD.DT",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
+    },
+    {
+      "metric_id": "poverty_rate_national",
+      "country_code": "PAK",
+      "value": 21.9,
+      "unit": "percent",
+      "year": 2018,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.NAHC?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SI.POV.NAHC",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SI.POV.NAHC."
+    },
+    {
+      "metric_id": "youth_unemployment_rate",
+      "country_code": "PAK",
+      "value": 9.594,
+      "unit": "percent",
+      "year": 2025,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/PAK/indicator/SL.UEM.1524.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SL.UEM.1524.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
+    },
+    {
+      "metric_id": "gini_index",
+      "country_code": "PAK",
+      "value": 33.5,
+      "unit": "index",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.GINI?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SI.POV.GINI",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

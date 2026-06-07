@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "leader_dossier.schema.json",
+  "title": "Leader dossier",
+  "type": "object",
+  "required": ["full_name", "role", "current_office", "source_ids", "behavioral_profile_based_on_public_record"],
+  "properties": {
+    "full_name": { "type": "string" },
+    "role": { "type": "string" },
+    "current_office": { "type": "string" },
+    "source_ids": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "behavioral_profile_based_on_public_record": { "type": "object" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "country_module.schema.json",
+  "title": "Country intelligence module",
+  "type": "object",
+  "required": [
+    "country_code",
+    "module",
+    "version",
+    "last_updated",
+    "summary",
+    "key_findings",
+    "metrics",
+    "claims",
+    "open_questions",
+    "source_ids",
+    "confidence"
+  ],
+  "properties": {
+    "country_code": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "module": { "type": "string" },
+    "version": { "type": "string" },
+    "last_updated": { "type": "string" },
+    "summary": { "type": "string" },
+    "key_findings": { "type": "array", "items": { "type": "string" } },
+    "metrics": { "type": "array", "items": { "$ref": "metric.schema.json" } },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["claim_id", "text", "claim_type", "source_ids", "confidence", "last_verified", "notes"]
+      }
+    },
+    "open_questions": { "type": "array", "items": { "type": "string" } },
+    "source_ids": { "type": "array", "items": { "type": "string" } },
+    "confidence": {
+      "type": "object",
+      "required": ["overall", "weak_areas"]
+    }
+  }
+}

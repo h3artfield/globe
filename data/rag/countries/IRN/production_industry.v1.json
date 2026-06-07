@@ -1,0 +1,39 @@
+{
+  "country_code": "IRN",
+  "module": "production_industry",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "production_industry has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "manufacturing_value_added_current_usd: 97858664001.8126 current_usd (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "manufacturing_value_added_current_usd",
+      "country_code": "IRN",
+      "value": 97858664001.8126,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/IRN/indicator/NV.IND.MANF.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NV.IND.MANF.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NV.IND.MANF.CD."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "national_cohesion_by_demographic.schema.json",
+  "title": "National cohesion by demographic",
+  "type": "object",
+  "required": ["country_code", "module", "required_demographic_cuts", "measured_concepts", "demographic_metrics", "distinctions"],
+  "properties": {
+    "country_code": { "type": "string", "pattern": "^[A-Z]{3}$" },
+    "module": { "const": "national_cohesion_by_demographic" },
+    "demographic_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["value", "unit", "year", "source", "sample_size", "question_wording", "calculation_method", "confidence", "notes"]
+      }
+    }
+  }
+}

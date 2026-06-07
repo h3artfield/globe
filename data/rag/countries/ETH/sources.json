@@ -1,3 +1,7 @@
 {
-  "sources": []
+  "country_code": "ETH",
+  "generated_at": "2026-06-07T00:10:11.640Z",
+  "source_ids": [
+    "world_bank_wdi"
+  ]
 }

@@ -1,0 +1,39 @@
+{
+  "country_code": "TUR",
+  "module": "military",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "military has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "military_expenditure_current_usd: 24978735534.6038 current_usd (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "military_expenditure_current_usd",
+      "country_code": "TUR",
+      "value": 24978735534.6038,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/TUR/indicator/MS.MIL.XPND.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "MS.MIL.XPND.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for MS.MIL.XPND.CD."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "relationship_id": "EGY_ETH",
+  "countries": [
+    "EGY",
+    "ETH"
+  ],
+  "module": "trade_relationship",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this relationship module with sourced bilateral data and claims."
+  ],
+  "source_ids": [],
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "scope": "country_pipeline",
+  "note": "Pipeline-facing country question bank seed. Expand externally before full dossier generation.",
+  "categories": [
+    {
+      "module": "identity_foundation",
+      "sample_questions": [
+        "What sourced facts are required for identity_foundation?",
+        "Which metrics and claims are missing for identity_foundation?"
+      ]
+    },
+    {
+      "module": "history",
+      "sample_questions": [
+        "What sourced facts are required for history?",
+        "Which metrics and claims are missing for history?"
+      ]
+    },
+    {
+      "module": "founding_groups",
+      "sample_questions": [
+        "What sourced facts are required for founding_groups?",
+        "Which metrics and claims are missing for founding_groups?"
+      ]
+    },
+    {
+      "module": "religion_history",
+      "sample_questions": [
+        "What sourced facts are required for religion_history?",
+        "Which metrics and claims are missing for religion_history?"
+      ]
+    },
+    {
+      "module": "demographics",
+      "sample_questions": [
+        "What sourced facts are required for demographics?",
+        "Which metrics and claims are missing for demographics?"
+      ]
+    },
+    {
+      "module": "demographic_change",
+      "sample_questions": [
+        "What sourced facts are required for demographic_change?",
+        "Which metrics and claims are missing for demographic_change?"
+      ]
+    },
+    {
+      "module": "cultural_assimilation",
+      "sample_questions": [
+        "What sourced facts are required for cultural_assimilation?",
+        "Which metrics and claims are missing for cultural_assimilation?"
+      ]
+    },
+    {
+      "module": "population_divisions",
+      "sample_questions": [
+        "What sourced facts are required for population_divisions?",
+        "Which metrics and claims are missing for population_divisions?"
+      ]
+    },
+    {
+      "module": "national_cohesion_by_demographic",
+      "sample_questions": [
+        "What sourced facts are required for national_cohesion_by_demographic?",
+        "Which metrics and claims are missing for national_cohesion_by_demographic?"
+      ]
+    },
+    {
+      "module": "government_current",
+      "sample_questions": [
+        "What sourced facts are required for government_current?",
+        "Which metrics and claims are missing for government_current?"
+      ]
+    },
+    {
+      "module": "leader_dossiers",
+      "sample_questions": [
+        "What sourced facts are required for leader_dossiers?",
+        "Which metrics and claims are missing for leader_dossiers?"
+      ]
+    },
+    {
+      "module": "crime_safety",
+      "sample_questions": [
+        "What sourced facts are required for crime_safety?",
+        "Which metrics and claims are missing for crime_safety?"
+      ]
+    },
+    {
+      "module": "education",
+      "sample_questions": [
+        "What sourced facts are required for education?",
+        "Which metrics and claims are missing for education?"
+      ]
+    },
+    {
+      "module": "economy",
+      "sample_questions": [
+        "What sourced facts are required for economy?",
+        "Which metrics and claims are missing for economy?"
+      ]
+    },
+    {
+      "module": "trade_exports_imports",
+      "sample_questions": [
+        "What sourced facts are required for trade_exports_imports?",
+        "Which metrics and claims are missing for trade_exports_imports?"
+      ]
+    },
+    {
+      "module": "military",
+      "sample_questions": [
+        "What sourced facts are required for military?",
+        "Which metrics and claims are missing for military?"
+      ]
+    },
+    {
+      "module": "foreign_policy",
+      "sample_questions": [
+        "What sourced facts are required for foreign_policy?",
+        "Which metrics and claims are missing for foreign_policy?"
+      ]
+    },
+    {
+      "module": "game_theory_profile",
+      "sample_questions": [
+        "What sourced facts are required for game_theory_profile?",
+        "Which metrics and claims are missing for game_theory_profile?"
+      ]
+    }
+  ]
+}

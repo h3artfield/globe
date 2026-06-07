@@ -1,0 +1,84 @@
+{
+  "country_code": "SAU",
+  "module": "economy",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "gdp_current_usd: 1239804533333.33 current_usd (2024)",
+    "gdp_per_capita_current_usd: 35121.6628687742 current_usd (2024)",
+    "gdp_ppp_current_international: 2519570644557.09 current_international_usd (2024)",
+    "fdi_inflows_current_usd: 21337562069.6656 current_usd (2024)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "gdp_current_usd",
+      "country_code": "SAU",
+      "value": 1239804533333.33,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/NY.GDP.MKTP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NY.GDP.MKTP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD."
+    },
+    {
+      "metric_id": "gdp_per_capita_current_usd",
+      "country_code": "SAU",
+      "value": 35121.6628687742,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/NY.GDP.PCAP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NY.GDP.PCAP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD."
+    },
+    {
+      "metric_id": "gdp_ppp_current_international",
+      "country_code": "SAU",
+      "value": 2519570644557.09,
+      "unit": "current_international_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "NY.GDP.MKTP.PP.CD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD."
+    },
+    {
+      "metric_id": "fdi_inflows_current_usd",
+      "country_code": "SAU",
+      "value": 21337562069.6656,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "BX.KLT.DINV.CD.WD",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

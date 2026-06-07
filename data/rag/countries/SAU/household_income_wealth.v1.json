@@ -1,0 +1,54 @@
+{
+  "country_code": "SAU",
+  "module": "household_income_wealth",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "household_income_wealth has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "remittances_received_current_usd: 338466642.8878 current_usd (2024)",
+    "youth_unemployment_rate: 10.01 percent (2025)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "remittances_received_current_usd",
+      "country_code": "SAU",
+      "value": 338466642.8878,
+      "unit": "current_usd",
+      "year": 2024,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "BX.TRF.PWKR.CD.DT",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
+    },
+    {
+      "metric_id": "youth_unemployment_rate",
+      "country_code": "SAU",
+      "value": 10.01,
+      "unit": "percent",
+      "year": 2025,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/SAU/indicator/SL.UEM.1524.ZS?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "SL.UEM.1524.ZS",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

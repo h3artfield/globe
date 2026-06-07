@@ -1,0 +1,22 @@
+{
+  "country_code": "CHN",
+  "module": "future_scenarios",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this module with sourced metrics, claims, and narrative analysis."
+  ],
+  "source_ids": [],
+  "confidence": {
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
+  }
+}

@@ -1,52 +1,26 @@
 {
   "relationship_id": "CHN_USA",
-  "countries": ["CHN", "USA"],
+  "countries": [
+    "CHN",
+    "USA"
+  ],
+  "module": "relationship",
   "version": "1.0",
-  "last_updated": "2026-06-06",
-  "sections": {
-    "historical_relationship": {
-      "summary": "Stub relationship history for China and the United States."
-    },
-    "trade_relationship": {
-      "summary": "Deep economic interdependence exists alongside decoupling and de-risking pressures."
-    },
-    "military_relationship": {
-      "summary": "Military tension is highest around Taiwan, the South China Sea, cyber, space, and regional alliances."
-    },
-    "alliance_structure": {
-      "summary": "The United States relies on treaty allies and partners; China relies more on state capacity, economic ties, and selective partnerships."
-    },
-    "conflict_points": {
-      "summary": "Taiwan, technology controls, maritime disputes, sanctions, industrial policy, and global influence."
-    },
-    "cooperation_points": {
-      "summary": "Climate, financial stability, health, trade, and crisis communication."
-    },
-    "sanctions_tariffs": {},
-    "technology_competition": {},
-    "energy_dependencies": {},
-    "food_supply_dependencies": {},
-    "ideological_conflict": {},
-    "proxy_conflicts": {},
-    "diplomatic_channels": {},
-    "red_lines": {},
-    "leverage_points": {},
-    "likely_escalation_paths": {},
-    "likely_deescalation_paths": {},
-    "game_theory_profile": {
-      "alignmentScore": 25,
-      "conflictRisk": 70,
-      "economicDependency": 75,
-      "militaryTension": 80,
-      "ideologicalDistance": 80,
-      "leverageAsymmetry": 45,
-      "escalationRisk": 65,
-      "cooperationPotential": 45
-    }
-  },
-  "source_notes": ["Stub relationship profile for application wiring; replace with sourced RAG content."],
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this relationship module with sourced bilateral data and claims."
+  ],
+  "source_ids": [],
   "confidence": {
-    "overall": "low",
-    "weak_sections": ["all"]
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
   }
 }

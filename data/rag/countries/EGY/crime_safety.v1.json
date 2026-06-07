@@ -1,0 +1,39 @@
+{
+  "country_code": "EGY",
+  "module": "crime_safety",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "summary": "crime_safety has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "key_findings": [
+    "homicide_rate_per_100k: 1.31152527182627 per_100k (2017)"
+  ],
+  "metrics": [
+    {
+      "metric_id": "homicide_rate_per_100k",
+      "country_code": "EGY",
+      "value": 1.31152527182627,
+      "unit": "per_100k",
+      "year": 2017,
+      "source_name": "world_bank_wdi",
+      "source_url": "https://api.worldbank.org/v2/country/EGY/indicator/VC.IHR.PSRC.P5?format=json&per_page=80",
+      "retrieved_at": "2026-06-07T00:10:08.825Z",
+      "calculation": "intentional_homicides / population * 100000",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5."
+    }
+  ],
+  "claims": [],
+  "open_questions": [
+    "Add sourced narrative analysis and claim-level citations for this module."
+  ],
+  "source_ids": [
+    "world_bank_wdi"
+  ],
+  "confidence": {
+    "overall": "medium",
+    "weak_areas": [
+      "narrative_claims"
+    ]
+  }
+}

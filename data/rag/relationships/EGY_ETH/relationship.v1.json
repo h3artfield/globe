@@ -1,60 +1,26 @@
 {
   "relationship_id": "EGY_ETH",
-  "countries": ["EGY", "ETH"],
+  "countries": [
+    "EGY",
+    "ETH"
+  ],
+  "module": "relationship",
   "version": "1.0",
-  "last_updated": "2026-06-06",
-  "sections": {
-    "historical_relationship": {
-      "summary": "The Nile basin relationship is shaped by downstream Egyptian dependence and upstream Ethiopian development goals."
-    },
-    "trade_relationship": {},
-    "military_relationship": {
-      "summary": "Direct war is costly and operationally difficult, but coercive signaling and proxy pressure are plausible escalation channels."
-    },
-    "alliance_structure": {},
-    "conflict_points": {
-      "summary": "GERD filling and operating rules, drought-year water allocation, sovereignty claims, and domestic political signaling."
-    },
-    "cooperation_points": {
-      "summary": "Data sharing, drought protocols, electricity trade, African Union mediation, and phased operating agreements."
-    },
-    "sanctions_tariffs": {},
-    "technology_competition": {},
-    "energy_dependencies": {
-      "summary": "Ethiopia seeks hydropower and export revenue; Egypt prioritizes predictable downstream water flows."
-    },
-    "food_supply_dependencies": {
-      "summary": "Egypt's food and agricultural security is sensitive to water availability."
-    },
-    "ideological_conflict": {},
-    "proxy_conflicts": {},
-    "diplomatic_channels": {
-      "summary": "African Union, bilateral talks, and engagement by Gulf, US, and European actors may shape mediation."
-    },
-    "red_lines": {
-      "summary": "Egypt's red line is severe water reduction; Ethiopia's red line is external control over sovereign hydropower policy."
-    },
-    "leverage_points": {},
-    "likely_escalation_paths": {
-      "summary": "Drought shock, failed talks, nationalist rhetoric, military signaling, or third-party involvement could raise risk."
-    },
-    "likely_deescalation_paths": {
-      "summary": "Binding drought protocols, shared telemetry, compensation mechanisms, and energy-water tradeoffs."
-    },
-    "game_theory_profile": {
-      "alignmentScore": 35,
-      "conflictRisk": 65,
-      "economicDependency": 25,
-      "militaryTension": 55,
-      "ideologicalDistance": 35,
-      "leverageAsymmetry": 60,
-      "escalationRisk": 60,
-      "cooperationPotential": 55
-    }
-  },
-  "source_notes": ["Stub relationship profile for Nile escalation test scenario; replace with sourced RAG content."],
+  "last_updated": "2026-06-07",
+  "summary": "",
+  "key_findings": [],
+  "metrics": [],
+  "claims": [],
+  "open_questions": [
+    "Populate this relationship module with sourced bilateral data and claims."
+  ],
+  "source_ids": [],
   "confidence": {
-    "overall": "low",
-    "weak_sections": ["all"]
+    "overall": "unknown",
+    "weak_areas": [
+      "metrics",
+      "claims",
+      "sources"
+    ]
   }
 }
