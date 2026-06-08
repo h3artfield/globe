@@ -1,7 +1,8 @@
 {
   "country_code": "RUS",
-  "generated_at": "2026-06-07T02:42:14.874Z",
+  "generated_at": "2026-06-08T04:02:55.879Z",
   "source_ids": [
+    "vdem",
     "world_bank_wdi"
   ]
 }

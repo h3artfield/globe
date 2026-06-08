@@ -6,10 +6,19 @@ import { buildReviewQueueItem, loadCountryReviewQueue } from "@/lib/pipeline/rev
 import {
   buildEmptyRelationshipGraph,
   emptyCountryWorldModule,
-  emptyRelationshipWorldModule,
   WORLD_MODEL_COUNTRY_MODULES,
   WORLD_MODEL_RELATIONSHIP_MODULES,
 } from "@/lib/worldModel/defaults";
+import { hydrateRelationshipModuleFromEvents } from "@/lib/worldModel/relationshipRagHydration";
+import {
+  loadAllProcessedEvents,
+  loadExistingNationalTimeline,
+  loadExistingRelationshipTimeline,
+  loadExistingTopEvents,
+  mergeNationalTimeline,
+  mergeRelationshipTimeline,
+  mergeTopEventsFile,
+} from "@/lib/worldModel/mergeProcessedEvents";
 import type { RagChunk, ReviewQueueItem } from "@/types/pipeline";
 
 function countryEventTimeline(countryCode: string) {
@@ -134,10 +143,22 @@ async function appendRelationshipChunks(relationshipId: string, chunks: RagChunk
 }
 
 async function main() {
+  const processedEvents = await loadAllProcessedEvents();
+
   for (const countryCode of MVP_COUNTRIES) {
     const eventDirectory = repoPath("data", "world_model", "events", "countries", countryCode);
-    await writeJsonFile(`${eventDirectory}/national_event_timeline.v1.json`, countryEventTimeline(countryCode));
-    await writeJsonFile(`${eventDirectory}/top_events_20_years.v1.json`, topEvents(countryCode));
+    const nationalTimeline = mergeNationalTimeline(
+      await loadExistingNationalTimeline(countryCode, countryEventTimeline(countryCode)),
+      countryCode,
+      processedEvents,
+    );
+    const topEventsFile = mergeTopEventsFile(
+      await loadExistingTopEvents(countryCode, topEvents(countryCode)),
+      countryCode,
+      processedEvents,
+    );
+    await writeJsonFile(`${eventDirectory}/national_event_timeline.v1.json`, nationalTimeline);
+    await writeJsonFile(`${eventDirectory}/top_events_20_years.v1.json`, topEventsFile);
     await writeJsonFile(`${eventDirectory}/yearly_event_summaries.v1.json`, yearlySummaries(countryCode));
 
     const countryDirectory = repoPath("data", "rag", "countries", countryCode);
@@ -201,13 +222,27 @@ async function main() {
   for (const pair of MVP_RELATIONSHIP_PAIRS) {
     const relationshipId = buildRelationshipId(pair[0], pair[1]);
     const eventDirectory = repoPath("data", "world_model", "events", "relationships", relationshipId);
-    await writeJsonFile(`${eventDirectory}/relationship_event_timeline.v1.json`, relationshipEvents(relationshipId));
-    await writeJsonFile(`${eventDirectory}/top_relationship_events_20_years.v1.json`, relationshipEvents(relationshipId));
+    const relationshipTimeline = mergeRelationshipTimeline(
+      await loadExistingRelationshipTimeline(relationshipId, relationshipEvents(relationshipId)),
+      relationshipId,
+      processedEvents,
+    );
+    await writeJsonFile(`${eventDirectory}/relationship_event_timeline.v1.json`, relationshipTimeline);
+    await writeJsonFile(`${eventDirectory}/top_relationship_events_20_years.v1.json`, {
+      ...relationshipEvents(relationshipId),
+      events: relationshipTimeline.events,
+      last_updated: relationshipTimeline.last_updated,
+      coverage: relationshipTimeline.coverage,
+    });
 
     const relationshipDirectory = repoPath("data", "rag", "relationships", relationshipId);
     const chunks = [];
     for (const [index, moduleName] of WORLD_MODEL_RELATIONSHIP_MODULES.entries()) {
-      const relationshipModule = emptyRelationshipWorldModule(relationshipId, moduleName);
+      const relationshipModule = hydrateRelationshipModuleFromEvents(
+        relationshipId,
+        moduleName,
+        relationshipTimeline.events,
+      );
       await writeJsonFile(`${relationshipDirectory}/${moduleName}.v1.json`, relationshipModule);
       chunks.push(buildRelationshipChunk(relationshipModule, 900 + index));
     }

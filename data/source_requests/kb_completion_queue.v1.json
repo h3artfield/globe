@@ -1,0 +1,3452 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-06-08T04:03:33.876Z",
+  "items": [
+    {
+      "queue_id": "shared-vdem_country_year",
+      "target_id": "vdem_country_year",
+      "target_type": "country",
+      "module": "government_current",
+      "source_title": "V-Dem Country-Year Dataset",
+      "source_org": "V-Dem Institute",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/vdem",
+      "expected_filename": "vdem_country_year.csv",
+      "collection_status": "imported",
+      "priority": 95,
+      "notes": "Single shared export filtered by country_text_id per MVP country.",
+      "shared_source_id": "vdem_country_year",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "government_current",
+            "media_information",
+            "population_divisions"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-un_comtrade_bilateral",
+      "target_id": "un_comtrade_bilateral",
+      "target_type": "country",
+      "module": "trade_exports_imports",
+      "source_title": "UN Comtrade Bilateral Trade Dataset",
+      "source_org": "UN Comtrade",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/un_comtrade",
+      "expected_filename": "un_comtrade_bilateral.csv",
+      "collection_status": "needed",
+      "priority": 94,
+      "notes": "One shared file; filter reporter/partner rows per country or relationship pair.",
+      "shared_source_id": "un_comtrade_bilateral",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "trade_exports_imports",
+            "economy"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-acled_events",
+      "target_id": "acled_events",
+      "target_type": "country",
+      "module": "national_event_timeline",
+      "source_title": "ACLED Event Dataset",
+      "source_org": "ACLED",
+      "source_type": "dataset",
+      "expected_folder": "data/manual_imports/acled",
+      "expected_filename": "acled_events.csv",
+      "collection_status": "needed",
+      "priority": 93,
+      "notes": "Single shared export; filter by country_codes and bilateral actors.",
+      "shared_source_id": "acled_events",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "national_event_timeline",
+            "top_national_events_20_years",
+            "news_memory",
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship_event_timeline",
+            "crisis_history",
+            "military_relationship"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-ucdp_conflict",
+      "target_id": "ucdp_conflict",
+      "target_type": "country",
+      "module": "adversaries_and_rivals",
+      "source_title": "UCDP Conflict Dataset",
+      "source_org": "Uppsala Conflict Data Program",
+      "source_type": "dataset",
+      "expected_folder": "data/manual_imports/ucdp",
+      "expected_filename": "ucdp_conflict.csv",
+      "collection_status": "imported",
+      "priority": 92,
+      "notes": "Shared conflict metadata filtered per target.",
+      "shared_source_id": "ucdp_conflict",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals",
+            "military",
+            "threat_perception"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "war_history",
+            "crisis_history",
+            "adversary_status"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-unesco_uis_education",
+      "target_id": "unesco_uis_education",
+      "target_type": "country",
+      "module": "education",
+      "source_title": "UNESCO UIS Education Indicators",
+      "source_org": "UNESCO Institute for Statistics",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/unesco_uis",
+      "expected_filename": "unesco_uis_education.csv",
+      "collection_status": "needed",
+      "priority": 88,
+      "notes": "Shared UIS export with country ISO3 filter.",
+      "shared_source_id": "unesco_uis_education",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-wipo_patents",
+      "target_id": "wipo_patents",
+      "target_type": "country",
+      "module": "technology_contributions",
+      "source_title": "WIPO IP Statistics Export",
+      "source_org": "WIPO",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/wipo",
+      "expected_filename": "wipo_patents.csv",
+      "collection_status": "needed",
+      "priority": 87,
+      "notes": "Shared patent statistics export.",
+      "shared_source_id": "wipo_patents",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "technology_contributions"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-unodc_crime",
+      "target_id": "unodc_crime",
+      "target_type": "country",
+      "module": "crime_safety",
+      "source_title": "UNODC Crime Statistics Export",
+      "source_org": "UNODC",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/unodc",
+      "expected_filename": "unodc_crime.csv",
+      "collection_status": "needed",
+      "priority": 86,
+      "notes": "Shared UNODC export filtered per country.",
+      "shared_source_id": "unodc_crime",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "crime_safety"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-world_values_survey",
+      "target_id": "world_values_survey",
+      "target_type": "country",
+      "module": "nationalism_cohesion",
+      "source_title": "World Values Survey Country Crosstabs",
+      "source_org": "World Values Survey",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/world_values_survey",
+      "expected_filename": "wvs_country_crosstabs.csv",
+      "collection_status": "needed",
+      "priority": 85,
+      "notes": "Shared WVS wave export filtered per country.",
+      "shared_source_id": "world_values_survey",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "nationalism_cohesion",
+            "national_cohesion_by_demographic"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-correlates_of_war",
+      "target_id": "correlates_of_war",
+      "target_type": "country",
+      "module": "allies_and_partners",
+      "source_title": "Correlates of War Alliance and War Data",
+      "source_org": "Correlates of War",
+      "source_type": "dataset",
+      "expected_folder": "data/manual_imports/correlates_of_war",
+      "expected_filename": "cow_alliances_wars.csv",
+      "collection_status": "imported",
+      "priority": 84,
+      "notes": "Shared COW tables for alliances and interstate wars.",
+      "shared_source_id": "correlates_of_war",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners",
+            "history"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "war_history",
+            "diplomatic_history"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-oecd_pisa",
+      "target_id": "oecd_pisa",
+      "target_type": "country",
+      "module": "education",
+      "source_title": "OECD PISA Results Export",
+      "source_org": "OECD",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/oecd_pisa",
+      "expected_filename": "oecd_pisa_scores.csv",
+      "collection_status": "needed",
+      "priority": 83,
+      "notes": "Shared PISA export for participating MVP countries.",
+      "shared_source_id": "oecd_pisa",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "education"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-unctad_trade",
+      "target_id": "unctad_trade",
+      "target_type": "country",
+      "module": "logistics_shipping_air_travel",
+      "source_title": "UNCTAD Trade and Maritime Indicators",
+      "source_org": "UNCTAD",
+      "source_type": "international_dataset",
+      "expected_folder": "data/manual_imports/unctad",
+      "expected_filename": "unctad_trade_maritime.csv",
+      "collection_status": "needed",
+      "priority": 82,
+      "notes": "Shared UNCTAD export filtered per country or pair.",
+      "shared_source_id": "unctad_trade",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "logistics_shipping_air_travel",
+            "trade_exports_imports"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "trade_relationship"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "shared-treaties_manual",
+      "target_id": "treaties_manual",
+      "target_type": "country",
+      "module": "allies_and_partners",
+      "source_title": "Manual Treaty and Alliance Registry",
+      "source_org": "Manual treaty registry",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_imports/treaties_manual",
+      "expected_filename": "treaties_alliances.csv",
+      "collection_status": "needed",
+      "priority": 81,
+      "notes": "Shared treaty registry filtered per relationship pair.",
+      "shared_source_id": "treaties_manual",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "allies_and_partners"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "alliance_status",
+            "diplomatic_history"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "CHN-stats_yearbook",
+      "target_id": "CHN",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "National Bureau of Statistics of China",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/CHN",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "EGY-stats_yearbook",
+      "target_id": "EGY",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Central Agency for Public Mobilization and Statistics (CAPMAS)",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/EGY",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "ETH-stats_yearbook",
+      "target_id": "ETH",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Ethiopian Statistical Service",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ETH",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "IND-stats_yearbook",
+      "target_id": "IND",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Ministry of Statistics and Programme Implementation (MoSPI)",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IND",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "IRN-stats_yearbook",
+      "target_id": "IRN",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Statistical Center of Iran",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IRN",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "ISR-stats_yearbook",
+      "target_id": "ISR",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Central Bureau of Statistics",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ISR",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "PAK-stats_yearbook",
+      "target_id": "PAK",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Pakistan Bureau of Statistics",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/PAK",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "RUS-stats_yearbook",
+      "target_id": "RUS",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Federal State Statistics Service (Rosstat)",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/RUS",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "SAU-stats_yearbook",
+      "target_id": "SAU",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "General Authority for Statistics (GASTAT)",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/SAU",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "shared-sanctions_manual",
+      "target_id": "sanctions_manual",
+      "target_type": "country",
+      "module": "adversaries_and_rivals",
+      "source_title": "Manual Sanctions Relationship Registry",
+      "source_org": "Manual sanctions registry",
+      "source_type": "dataset",
+      "expected_folder": "data/manual_imports/sanctions",
+      "expected_filename": "sanctions_relationships.csv",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Shared sanctions export filtered per relationship pair.",
+      "shared_source_id": "sanctions_manual",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "adversaries_and_rivals"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "adversary_status",
+            "trade_relationship"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "TUR-stats_yearbook",
+      "target_id": "TUR",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "Turkish Statistical Institute (TUIK)",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/TUR",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "UKR-stats_yearbook",
+      "target_id": "UKR",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "State Statistics Service of Ukraine",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/UKR",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "USA-stats_yearbook",
+      "target_id": "USA",
+      "target_type": "country",
+      "module": "demographics",
+      "source_title": "Official Statistical Yearbook Extract",
+      "source_org": "US Census Bureau",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/USA",
+      "expected_filename": "official_statistical_yearbook.md",
+      "collection_status": "needed",
+      "priority": 80,
+      "notes": "Government statistics agency yearbook or demographic bulletin with YAML frontmatter."
+    },
+    {
+      "queue_id": "CHN-mfa_foreign_policy",
+      "target_id": "CHN",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Ministry of Foreign Affairs of China",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/CHN",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "EGY-mfa_foreign_policy",
+      "target_id": "EGY",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Egyptian Ministry of Foreign Affairs",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/EGY",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "ETH-mfa_foreign_policy",
+      "target_id": "ETH",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Ethiopian Ministry of Foreign Affairs",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ETH",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "IND-mfa_foreign_policy",
+      "target_id": "IND",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Ministry of External Affairs of India",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IND",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "IRN-mfa_foreign_policy",
+      "target_id": "IRN",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Ministry of Foreign Affairs of Iran",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IRN",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "ISR-mfa_foreign_policy",
+      "target_id": "ISR",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Israeli Ministry of Foreign Affairs",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ISR",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "PAK-mfa_foreign_policy",
+      "target_id": "PAK",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Ministry of Foreign Affairs of Pakistan",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/PAK",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "RUS-mfa_foreign_policy",
+      "target_id": "RUS",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Russian Ministry of Foreign Affairs",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/RUS",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "SAU-mfa_foreign_policy",
+      "target_id": "SAU",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Saudi Ministry of Foreign Affairs",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/SAU",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "shared-un_voting_alignment",
+      "target_id": "un_voting_alignment",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "UN Voting Alignment Dataset",
+      "source_org": "UN Voting Data",
+      "source_type": "dataset",
+      "expected_folder": "data/manual_imports/un_voting",
+      "expected_filename": "un_voting_alignment.csv",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Shared UN voting dataset with pair-level agreement scores.",
+      "shared_source_id": "un_voting_alignment",
+      "applies_to_targets": [
+        "USA",
+        "CHN",
+        "EGY",
+        "ETH",
+        "RUS",
+        "UKR",
+        "IND",
+        "PAK",
+        "ISR",
+        "IRN",
+        "SAU",
+        "TUR",
+        "CHN_USA",
+        "EGY_ETH",
+        "RUS_UKR",
+        "IND_PAK",
+        "IRN_ISR",
+        "IRN_SAU",
+        "SAU_TUR",
+        "RUS_TUR"
+      ],
+      "target_mappings": [
+        {
+          "target_id": "USA",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "CHN",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "EGY",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "ETH",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "RUS",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "UKR",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "IND",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "PAK",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "ISR",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "IRN",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "SAU",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "TUR",
+          "target_type": "country",
+          "modules": [
+            "foreign_policy"
+          ]
+        },
+        {
+          "target_id": "CHN_USA",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "EGY_ETH",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "RUS_UKR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IND_PAK",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IRN_ISR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "IRN_SAU",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "SAU_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        },
+        {
+          "target_id": "RUS_TUR",
+          "target_type": "relationship",
+          "modules": [
+            "relationship",
+            "diplomatic_history"
+          ]
+        }
+      ]
+    },
+    {
+      "queue_id": "TUR-mfa_foreign_policy",
+      "target_id": "TUR",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Turkish Ministry of Foreign Affairs",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/TUR",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "UKR-mfa_foreign_policy",
+      "target_id": "UKR",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "Ministry of Foreign Affairs of Ukraine",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/UKR",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "USA-mfa_foreign_policy",
+      "target_id": "USA",
+      "target_type": "country",
+      "module": "foreign_policy",
+      "source_title": "Ministry of Foreign Affairs Policy Paper",
+      "source_org": "US Department of State",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/USA",
+      "expected_filename": "mfa_foreign_policy_paper.md",
+      "collection_status": "needed",
+      "priority": 79,
+      "notes": "Official foreign ministry white paper or annual foreign policy statement."
+    },
+    {
+      "queue_id": "CHN-defense_posture",
+      "target_id": "CHN",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Ministry of National Defense of China",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/CHN",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "EGY-defense_posture",
+      "target_id": "EGY",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Egyptian Ministry of Defense",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/EGY",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "ETH-defense_posture",
+      "target_id": "ETH",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Ethiopian Ministry of Defense",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ETH",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "IND-defense_posture",
+      "target_id": "IND",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Ministry of Defence of India",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IND",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "IRN-defense_posture",
+      "target_id": "IRN",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Islamic Republic of Iran Armed Forces General Staff",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IRN",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "ISR-defense_posture",
+      "target_id": "ISR",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Israeli Ministry of Defense",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ISR",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "PAK-defense_posture",
+      "target_id": "PAK",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Pakistan Ministry of Defence",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/PAK",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "RUS-defense_posture",
+      "target_id": "RUS",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Russian Ministry of Defence",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/RUS",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "SAU-defense_posture",
+      "target_id": "SAU",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Saudi Ministry of Defense",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/SAU",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "TUR-defense_posture",
+      "target_id": "TUR",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Turkish Ministry of National Defence",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/TUR",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "UKR-defense_posture",
+      "target_id": "UKR",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "Ministry of Defence of Ukraine",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/UKR",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "USA-defense_posture",
+      "target_id": "USA",
+      "target_type": "country",
+      "module": "military",
+      "source_title": "Defense Ministry Strategy or Posture Statement",
+      "source_org": "US Department of Defense",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/USA",
+      "expected_filename": "defense_strategy_statement.md",
+      "collection_status": "needed",
+      "priority": 78,
+      "notes": "Official defense ministry strategy, posture statement, or white paper."
+    },
+    {
+      "queue_id": "CHN-leader_office",
+      "target_id": "CHN",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "State Council of China",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/CHN",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "EGY-leader_office",
+      "target_id": "EGY",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Egyptian Presidency",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/EGY",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "ETH-leader_office",
+      "target_id": "ETH",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Office of the Prime Minister of Ethiopia",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ETH",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "IND-leader_office",
+      "target_id": "IND",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Prime Minister's Office of India",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IND",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "IRN-leader_office",
+      "target_id": "IRN",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Presidency of the Islamic Republic of Iran",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/IRN",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "ISR-leader_office",
+      "target_id": "ISR",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Prime Minister's Office of Israel",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/ISR",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "PAK-leader_office",
+      "target_id": "PAK",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Prime Minister's Office of Pakistan",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/PAK",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "RUS-leader_office",
+      "target_id": "RUS",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Administration of the President of Russia",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/RUS",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "SAU-leader_office",
+      "target_id": "SAU",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Royal Court of Saudi Arabia",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/SAU",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "TUR-leader_office",
+      "target_id": "TUR",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Presidency of the Republic of Turkey",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/TUR",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "UKR-leader_office",
+      "target_id": "UKR",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "Office of the President of Ukraine",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/UKR",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "USA-leader_office",
+      "target_id": "USA",
+      "target_type": "country",
+      "module": "leader_dossiers",
+      "source_title": "Current Executive Office Official Biography",
+      "source_org": "The White House",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/countries/USA",
+      "expected_filename": "current_leader_official_bio.md",
+      "collection_status": "needed",
+      "priority": 77,
+      "notes": "Official biography from executive office, parliament, or government portal."
+    },
+    {
+      "queue_id": "CHN_USA-treaty_framework",
+      "target_id": "CHN_USA",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "CHN_USA bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/CHN_USA",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "EGY_ETH-treaty_framework",
+      "target_id": "EGY_ETH",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "EGY_ETH bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/EGY_ETH",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "IND_PAK-treaty_framework",
+      "target_id": "IND_PAK",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "IND_PAK bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/IND_PAK",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "IRN_ISR-treaty_framework",
+      "target_id": "IRN_ISR",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "IRN_ISR bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/IRN_ISR",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "IRN_SAU-treaty_framework",
+      "target_id": "IRN_SAU",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "IRN_SAU bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/IRN_SAU",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "RUS_TUR-treaty_framework",
+      "target_id": "RUS_TUR",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "RUS_TUR bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/RUS_TUR",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "RUS_UKR-treaty_framework",
+      "target_id": "RUS_UKR",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "RUS_UKR bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/RUS_UKR",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "SAU_TUR-treaty_framework",
+      "target_id": "SAU_TUR",
+      "target_type": "relationship",
+      "module": "diplomatic_history",
+      "source_title": "Founding Treaty or Diplomatic Framework Text",
+      "source_org": "SAU_TUR bilateral official record",
+      "source_type": "treaty",
+      "expected_folder": "data/manual_sources/relationships/SAU_TUR",
+      "expected_filename": "founding_treaty_or_framework.md",
+      "collection_status": "needed",
+      "priority": 76,
+      "notes": "Official treaty, memorandum, or diplomatic framework between the pair."
+    },
+    {
+      "queue_id": "CHN_USA-sanctions_record",
+      "target_id": "CHN_USA",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "CHN_USA bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/CHN_USA",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "EGY_ETH-sanctions_record",
+      "target_id": "EGY_ETH",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "EGY_ETH bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/EGY_ETH",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "IND_PAK-sanctions_record",
+      "target_id": "IND_PAK",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "IND_PAK bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IND_PAK",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "IRN_ISR-sanctions_record",
+      "target_id": "IRN_ISR",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "IRN_ISR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IRN_ISR",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "IRN_SAU-sanctions_record",
+      "target_id": "IRN_SAU",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "IRN_SAU bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IRN_SAU",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "RUS_TUR-sanctions_record",
+      "target_id": "RUS_TUR",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "RUS_TUR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/RUS_TUR",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "RUS_UKR-sanctions_record",
+      "target_id": "RUS_UKR",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "RUS_UKR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/RUS_UKR",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "SAU_TUR-sanctions_record",
+      "target_id": "SAU_TUR",
+      "target_type": "relationship",
+      "module": "adversary_status",
+      "source_title": "Official Sanctions or Restrictive Measures Record",
+      "source_org": "SAU_TUR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/SAU_TUR",
+      "expected_filename": "bilateral_sanctions_record.md",
+      "collection_status": "needed",
+      "priority": 75,
+      "notes": "Official sanctions listing or government restrictive-measures notice."
+    },
+    {
+      "queue_id": "CHN_USA-trade_bilateral",
+      "target_id": "CHN_USA",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "CHN_USA bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/CHN_USA",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "EGY_ETH-trade_bilateral",
+      "target_id": "EGY_ETH",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "EGY_ETH bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/EGY_ETH",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "IND_PAK-trade_bilateral",
+      "target_id": "IND_PAK",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "IND_PAK bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IND_PAK",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "IRN_ISR-trade_bilateral",
+      "target_id": "IRN_ISR",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "IRN_ISR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IRN_ISR",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "IRN_SAU-trade_bilateral",
+      "target_id": "IRN_SAU",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "IRN_SAU bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IRN_SAU",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "RUS_TUR-trade_bilateral",
+      "target_id": "RUS_TUR",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "RUS_TUR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/RUS_TUR",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "RUS_UKR-trade_bilateral",
+      "target_id": "RUS_UKR",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "RUS_UKR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/RUS_UKR",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "SAU_TUR-trade_bilateral",
+      "target_id": "SAU_TUR",
+      "target_type": "relationship",
+      "module": "trade_relationship",
+      "source_title": "Official Bilateral Trade Statistics Release",
+      "source_org": "SAU_TUR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/SAU_TUR",
+      "expected_filename": "bilateral_trade_official_release.md",
+      "collection_status": "needed",
+      "priority": 74,
+      "notes": "Official customs or trade ministry bilateral trade release."
+    },
+    {
+      "queue_id": "CHN_USA-crisis_statement",
+      "target_id": "CHN_USA",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "CHN_USA bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/CHN_USA",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "EGY_ETH-crisis_statement",
+      "target_id": "EGY_ETH",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "EGY_ETH bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/EGY_ETH",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "IND_PAK-crisis_statement",
+      "target_id": "IND_PAK",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "IND_PAK bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IND_PAK",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "IRN_ISR-crisis_statement",
+      "target_id": "IRN_ISR",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "IRN_ISR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IRN_ISR",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "IRN_SAU-crisis_statement",
+      "target_id": "IRN_SAU",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "IRN_SAU bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/IRN_SAU",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "RUS_TUR-crisis_statement",
+      "target_id": "RUS_TUR",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "RUS_TUR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/RUS_TUR",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "RUS_UKR-crisis_statement",
+      "target_id": "RUS_UKR",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "RUS_UKR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/RUS_UKR",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    },
+    {
+      "queue_id": "SAU_TUR-crisis_statement",
+      "target_id": "SAU_TUR",
+      "target_type": "relationship",
+      "module": "crisis_history",
+      "source_title": "Official Crisis or Incident Statement",
+      "source_org": "SAU_TUR bilateral official record",
+      "source_type": "official_primary",
+      "expected_folder": "data/manual_sources/relationships/SAU_TUR",
+      "expected_filename": "bilateral_crisis_official_statement.md",
+      "collection_status": "needed",
+      "priority": 73,
+      "notes": "Official government statement on a bilateral crisis or military incident."
+    }
+  ]
+}

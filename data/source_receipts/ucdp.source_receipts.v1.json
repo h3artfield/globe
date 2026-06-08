@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "source_id": "ucdp",
+  "last_updated": "2026-06-08T03:23:19.590Z",
+  "entries": [
+    {
+      "receipt_id": "ucdp:e5bf6e3779a903f3",
+      "source_id": "ucdp",
+      "raw_file_path": "data/manual_imports_raw/ucdp/Dyadic_v25_1.csv",
+      "raw_file_sha256": "e5bf6e3779a903f3df3ec476592332ce51ccf3798174b3db4c1b06dd1dd5a7ba",
+      "raw_file_size_bytes": 596874,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/ucdp/ucdp_conflict.csv",
+          "canonical_file_sha256": "dce06f3a587ef9a81c8d51447559708aab65776eba307821547f6682df7de760",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+279b35457e22",
+          "rows_read": 3433,
+          "rows_written": 64,
+          "rows_skipped": 3369,
+          "skip_reasons": {
+            "non_mvp_country": 2597,
+            "non_mvp_relationship": 1
+          },
+          "generated_at": "2026-06-08T03:17:23.591Z"
+        },
+        {
+          "canonical_file_path": "data/manual_imports/ucdp/ucdp_conflict.csv",
+          "canonical_file_sha256": "3cf2ccfcf1fa8f51a72e165d1cd993ddcd61ccc72667b6b45c18c77d88627ddc",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+279b35457e22",
+          "rows_read": 3433,
+          "rows_written": 1113,
+          "rows_skipped": 2320,
+          "skip_reasons": {
+            "non_mvp_country": 2236,
+            "non_mvp_relationship": 83,
+            "missing_date": 1
+          },
+          "generated_at": "2026-06-08T03:23:19.589Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://ucdp.uu.se/",
+      "official_download_page": "https://ucdp.uu.se/downloads/",
+      "license_or_terms_note": "UCDP data are free for academic and research use with attribution; review UCDP citation and terms on the download page.",
+      "source_org": "Uppsala Conflict Data Program",
+      "source_title": "UCDP Conflict Dataset",
+      "notes": null
+    }
+  ]
+}

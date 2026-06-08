@@ -9,3 +9,6 @@ coverage/
 .env*.local
 
 tmp/
+
+# Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)
+data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv

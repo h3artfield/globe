@@ -1,0 +1,293 @@
+source_id,source_name,source_url,event_date,country_codes,actors,event_type,confidence,notes
+6:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1816-01-01,RUS,Russia,alliance,,end_date=1822-10-31
+8:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1827-07-06,RUS,Russia,entente,,end_date=1829-09-14
+12:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1833-03-09,RUS,Russia,defense_pact,,end_date=1839-04-19
+14:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1833-07-08,RUS|TUR,Turkey,alliance,,end_date=1841-07-13
+15:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1833-09-18,RUS,Russia,entente,,end_date=1853-07-02
+16:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1833-09-19,RUS,Russia,alliance,,end_date=1853-07-02
+15:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1833-10-15,RUS,Russia,entente,,end_date=1853-07-02
+17:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1833-10-15,RUS,Russia,defense_pact,,end_date=1848-03-21
+18:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1833-10-16,RUS,Russia,alliance,,end_date=1848-03-21
+20:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1840-07-15,RUS,Russia,defense_pact,,end_date=1840-11-27
+20:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1840-07-15,TUR,Austria-Hungary,defense_pact,,end_date=1840-11-27
+20:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1840-07-15,RUS|TUR,Russia,defense_pact,,end_date=1840-11-27
+21:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1844-05-22,RUS,Russia,entente,,end_date=1846-06-29
+28:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1854-03-12,TUR,France,alliance,,end_date=1856-03-30
+28:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1854-03-12,TUR,Turkey,entente,,end_date=1856-03-30
+31:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1854-06-14,TUR,Austria-Hungary,defense_pact,,end_date=1856-03-30
+28:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1855-03-15,TUR,Italy,alliance,,end_date=1856-03-30
+28:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1855-03-15,TUR,Turkey,entente,,end_date=1856-03-30
+39:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1859-03-03,RUS,France,entente,,end_date=1859-11-10
+39:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1859-03-03,RUS,Russia,alliance,,end_date=1859-11-10
+43:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1863-02-08,RUS,Russia,defense_pact,,end_date=1863-02-28
+60:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1873-05-06,RUS,Russia,defense_pact,,end_date=1878-07-13
+61:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1873-05-25,RUS,Russia,entente,,end_date=1878-07-13
+61:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1873-10-22,RUS,Russia,entente,,end_date=1878-07-13
+62:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1877-01-15,RUS,Austria-Hungary,neutrality_pact,,end_date=1878-03-03
+63:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1878-06-04,TUR,United Kingdom,defense_pact,,end_date=1880-11-25
+66:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1881-06-18,RUS,Russia,alliance,,end_date=1887-06-18
+71:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1887-06-18,RUS,Germany,entente,,end_date=1890-06-18
+71:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1887-06-18,RUS,Russia,alliance,,end_date=1890-06-18
+73:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1891-08-27,RUS,Russia,entente,,end_date=1893-12-27
+74:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1893-12-27,RUS,Russia,defense_pact,,end_date=1917-11-08
+81:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1904-10-15,RUS,Russia,neutrality_pact,,end_date=1908-10-06
+82:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1905-07-24,RUS,Russia,defense_pact,,end_date=1905-12-02
+85:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1908-11-30,USA,Japan,entente,,end_date=1910-07-04
+86:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1909-10-24,RUS,Russia,entente,,end_date=1917-08-11
+87:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1910-07-04,RUS,Japan,entente,,end_date=1916-07-03
+93:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1914-08-02,TUR,Germany,defense_pact,,end_date=1918-10-30
+94:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1914-08-19,TUR,Turkey,alliance,,end_date=1918-09-30
+97:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1914-10-01,RUS,Romania,neutrality_pact,,end_date=1916-08-17
+97:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1914-10-01,RUS,Russia,defense_pact,,end_date=1916-08-17
+98:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1915-04-26,RUS,Russia,alliance,,end_date=1917-11-08
+100:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1916-07-03,RUS,Japan,alliance,,end_date=1917-11-08
+101:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1916-08-17,RUS,Russia,defense_pact,,end_date=1917-11-08
+106:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1921-03-01,TUR,Afghanistan,defense_pact,,end_date=1928-05-25
+110:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1921-06-22,IRN,Afghanistan,neutrality_pact,,end_date=1937-07-08
+111:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1921-12-13,USA,Japan,entente,,end_date=1931-09-18
+121:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1925-12-17,RUS|TUR,Turkey,alliance,,end_date=1939-09-01
+123:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1926-04-24,RUS,Russia,neutrality_pact,,end_date=1933-09-15
+126:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1926-08-31,RUS,Afghanistan,alliance,,end_date=1979-12-24
+129:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1926-09-28,RUS,Lithuania,nonaggression_pact,,end_date=1939-10-10
+135:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1928-05-25,TUR,Afghanistan,nonaggression_pact,,end_date=1948-05-25
+136:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1928-05-30,TUR,Turkey,neutrality_pact,,end_date=1935-11-18
+137:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1928-08-02,ETH,Ethiopia,nonaggression_pact,,end_date=1935-10-03
+139:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1929-01-05,TUR,Turkey,neutrality_pact,,end_date=1945-01-20
+140:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1929-03-06,TUR,Turkey,neutrality_pact,,end_date=1939-12-03
+142:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1930-02-03,TUR,Turkey,neutrality_pact,,end_date=1940-06-22
+144:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1930-10-30,TUR,Turkey,neutrality_pact,,end_date=1941-04-23
+145:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1932-01-21,RUS,Finland,alliance,,end_date=1939-11-28
+146:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1932-02-05,RUS,Latvia,nonaggression_pact,,end_date=1939-10-05
+147:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1932-05-04,RUS,Estonia,nonaggression_pact,,end_date=1939-09-28
+148:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1932-07-25,RUS,Russia,alliance,,end_date=1939-09-17
+149:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1932-11-29,RUS,Russia,alliance,,end_date=1935-05-02
+150:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1933-09-02,RUS,Russia,alliance,,end_date=1941-06-22
+151:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1933-10-17,TUR,Turkey,alliance,,end_date=1944-08-31
+152:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1933-11-27,TUR,Turkey,nonaggression_pact,,end_date=1941-04-20
+154:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1934-02-09,TUR,Turkey,alliance,,end_date=1940-10-28
+156:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1934-05-20,SAU,Yemen Arab Republic,alliance,,end_date=1962-11-06
+159:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1935-05-02,RUS,Russia,alliance,,end_date=1939-09-03
+160:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1935-05-16,RUS,Russia,alliance,,end_date=1939-03-15
+161:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1936-03-12,RUS,Mongolia,defense_pact,,end_date=1991-12-25
+162:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1936-04-02,SAU,Saudi Arabia,entente,,end_date=1956-04-02
+165:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1936-12-23,USA,Uruguay,entente,,end_date=1945-03-23
+162:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1937-04-29,SAU,Yemen Arab Republic,entente,,end_date=1956-04-02
+163:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1937-05-26,EGY,United Kingdom,alliance,,end_date=1951-10-08
+163:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1937-05-26,EGY,Egypt,entente,,end_date=1951-10-08
+167:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1937-07-08,IRN,Afghanistan,alliance,,end_date=1955-02-24
+167:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1937-07-08,TUR,Afghanistan,alliance,,end_date=1955-02-24
+169:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1937-09-14,RUS,Russia,defense_pact,,end_date=1939-03-28
+169:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1937-09-14,TUR,Turkey,defense_pact,,end_date=1939-03-28
+169:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1937-09-14,EGY,Egypt,defense_pact,,end_date=1939-03-28
+169:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1937-09-14,RUS|TUR,Turkey,defense_pact,,end_date=1939-03-28
+171:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1938-07-31,TUR,Turkey,nonaggression_pact,,end_date=1940-06-18
+179:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1939-06-23,TUR,Turkey,alliance,,end_date=1939-10-19
+180:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1939-08-23,RUS,Russia,alliance,,end_date=1941-06-22
+181:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1939-09-28,RUS,Russia,defense_pact,,end_date=1940-06-16
+182:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1939-10-05,RUS,Russia,defense_pact,,end_date=1940-06-16
+183:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1939-10-10,RUS,Russia,defense_pact,,end_date=1940-06-14
+184:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1939-10-19,TUR,Turkey,defense_pact,,end_date=1940-06-22
+186:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1940-03-12,RUS,Finland,nonaggression_pact,,end_date=1941-06-25
+190:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1941-04-05,RUS,Russia,alliance,,end_date=1941-04-20
+191:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1941-04-13,RUS,Japan,neutrality_pact,,end_date=1945-04-05
+192:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1941-06-18,TUR,Turkey,nonaggression_pact,,end_date=1945-05-08
+193:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1941-07-12,RUS,Russia,defense_pact,,end_date=1955-05-07
+195:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1942-01-29,RUS,Russia,alliance,,end_date=1946-03-19
+195:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1942-01-29,IRN,Iran,alliance,,end_date=1946-03-19
+197:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1944-12-10,RUS,Russia,alliance,,end_date=1955-05-07
+198:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1945-03-06,USA,Uruguay,alliance,,end_date=1947-09-02
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1945-03-22,EGY,Yemen Arab Republic,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1945-03-22,SAU,Yemen Arab Republic,alliance,,end_date=1990-05-21
+200:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1945-04-11,RUS,Russia,defense_pact,,end_date=1949-09-28
+201:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1945-04-21,RUS,Russia,defense_pact,,end_date=1989-08-07
+160:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1945-05-10,RUS,Russia,alliance,,end_date=1989-12-10
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1947-09-02,USA,Uruguay,alliance,,
+216:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1948-02-04,RUS,Russia,alliance,,end_date=1989-12-12
+217:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1948-02-18,RUS,Russia,alliance,,end_date=1989-10-07
+219:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1948-03-18,RUS,Russia,alliance,,end_date=1989-11-10
+220:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1948-04-06,RUS,Finland,alliance,,end_date=1991-12-25
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1949-04-04,USA,Iceland,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1950-06-17,EGY,Yemen Arab Republic,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1950-06-17,SAU,Yemen Arab Republic,alliance,,end_date=1990-05-21
+231:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1951-08-30,USA,Philippines,defense_pact,,
+232:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1951-09-01,USA,New Zealand,alliance,,end_date=1986-08-12
+233:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1951-09-08,USA,United States of America,defense_pact,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1951-10-22,USA,Greece,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1951-10-22,TUR,Turkey,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1952-03-31,EGY,Jordan,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1952-03-31,SAU,Saudi Arabia,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1952-08-07,EGY,Egypt,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1952-08-07,SAU,Saudi Arabia,alliance,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1953-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1953-01-22,SAU,Saudi Arabia,alliance,,
+234:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1953-02-28,TUR,Turkey,alliance,,end_date=1954-08-08
+236:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1953-10-01,USA,United States of America,alliance,,
+236:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1953-10-01,USA,South Korea,entente,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1953-10-11,EGY,United Arab Emirates,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1953-10-11,SAU,United Arab Emirates,alliance,,
+234:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1954-08-09,TUR,Turkey,alliance,,end_date=1954-08-08
+238:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1954-09-08,USA,New Zealand,entente,,end_date=1977-06-30
+238:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1954-09-08,PAK,New Zealand,entente,,end_date=1972-11-08
+239:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1954-10-19,EGY,Egypt,entente,,end_date=1956-10-31
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1954-10-23,USA,German Federal Republic,alliance,,end_date=1990-10-02
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1954-10-23,TUR,Turkey,alliance,,end_date=1990-10-02
+240:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1954-12-02,USA,Taiwan,alliance,,end_date=1980-01-01
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-01-22,SAU,Saudi Arabia,alliance,,
+241:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-02-24,TUR,Iraq,alliance,,end_date=1959-03-24
+241:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-04-05,TUR,Turkey,alliance,,end_date=1979-10-09
+243:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-05-14,RUS,Russia,alliance,,end_date=1989-12-12
+241:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-09-23,PAK,Pakistan,alliance,,end_date=1959-03-24
+245:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-10-20,EGY,Syria,alliance,,end_date=1961-09-29
+241:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1955-11-03,IRN,Iraq,alliance,,end_date=1959-03-24
+247:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1956-04-21,EGY,Yemen Arab Republic,alliance,,end_date=1962-11-06
+247:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1956-04-21,SAU,Yemen Arab Republic,alliance,,end_date=1962-11-06
+245:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1956-10-24,EGY,Jordan,alliance,,end_date=1961-09-29
+249:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1956-10-24,ISR,Israel,neutrality_pact,,end_date=1956-11-06
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1958-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1958-01-22,SAU,Saudi Arabia,alliance,,
+252:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1958-05-12,USA,Canada,defense_pact,,
+241:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1958-07-28,USA,Iraq,alliance,,end_date=1959-03-24
+256:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1959-07-08,USA,Liberia,entente,,
+257:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1960-01-28,CHN,Myanmar,nonaggression_pact,,end_date=1967-10-06
+259:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1960-08-16,TUR,Turkey,alliance,,end_date=1974-07-20
+259:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1960-08-16,TUR,Cyprus,entente,,end_date=1974-07-20
+261:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1960-08-26,CHN,China,nonaggression_pact,,end_date=1979-12-27
+262:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1960-12-19,CHN,Cambodia,nonaggression_pact,,end_date=1970-05-05
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-06-13,EGY,Egypt,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-06-13,SAU,Saudi Arabia,alliance,,
+264:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-07-06,RUS,North Korea,alliance,,end_date=1995-09-07
+265:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-07-11,CHN,North Korea,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-08-12,EGY,Kuwait,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-08-12,SAU,Kuwait,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-09-29,EGY,Syria,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1961-09-29,SAU,Saudi Arabia,alliance,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1962-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1962-01-22,SAU,Saudi Arabia,alliance,,
+267:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1962-07-23,USA,Republic of Vietnam,neutrality_pact,,end_date=1964-07-12
+267:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1962-07-23,CHN|USA,China,neutrality_pact,,end_date=1964-07-12
+267:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1962-07-23,RUS,Republic of Vietnam,neutrality_pact,,end_date=1964-07-12
+267:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1962-07-23,CHN,Republic of Vietnam,neutrality_pact,,end_date=1964-07-12
+267:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1962-07-23,IND,Republic of Vietnam,neutrality_pact,,end_date=1964-07-12
+268:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1962-08-29,SAU,Saudi Arabia,entente,,end_date=1967-05-30
+269:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1962-11-10,EGY,Yemen Arab Republic,defense_pact,,end_date=1967-11-10
+270:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1963-11-22,ETH,Ethiopia,defense_pact,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1964-01-22,EGY,Kuwait,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1964-01-22,SAU,Kuwait,alliance,,
+272:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1964-06-12,RUS,Russia,defense_pact,,end_date=1989-11-07
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1964-09-11,EGY,Egypt,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1964-09-11,SAU,Saudi Arabia,alliance,,
+274:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1966-11-04,EGY,Syria,defense_pact,,end_date=1967-06-10
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1967-03-13,USA,Trinidad and Tobago,alliance,,
+278:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1967-05-30,EGY,Jordan,alliance,,end_date=1979-03-31
+278:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1967-06-04,EGY,Egypt,alliance,,end_date=1979-03-31
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1967-10-09,USA,Barbados,alliance,,
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1969-06-27,USA,Jamaica,alliance,,
+285:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1970-08-06,USA,Spain,entente,,end_date=1981-12-10
+286:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1970-10-13,RUS,Russia,entente,,end_date=1990-10-13
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-01-22,EGY,Oman,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-01-22,SAU,Oman,alliance,,
+287:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1971-05-19,RUS,Russia,entente,,end_date=1992-05-19
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-09-22,EGY,Yemen People's Republic,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-09-22,SAU,Yemen People's Republic,alliance,,end_date=1990-05-21
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-11-14,EGY,Qatar,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-11-14,SAU,Qatar,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-11-23,EGY,Yemen People's Republic,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1971-11-23,SAU,Yemen People's Republic,alliance,,end_date=1990-05-21
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1972-01-22,EGY,United Arab Emirates,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1972-01-22,SAU,United Arab Emirates,alliance,,
+290:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1972-03-19,IND,Bangladesh,alliance,,end_date=1997-03-19
+291:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1972-04-09,RUS,Iraq,alliance,,end_date=1990-09-12
+294:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1972-07-02,IND|PAK,Pakistan,nonaggression_pact,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1973-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1973-01-22,SAU,Saudi Arabia,alliance,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1974-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1974-01-22,SAU,Saudi Arabia,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1974-05-20,EGY,Egypt,alliance,,end_date=1979-03-31
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1974-05-20,SAU,Saudi Arabia,alliance,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1975-01-22,EGY,Egypt,alliance,,end_date=1979-03-31
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1975-01-22,SAU,Saudi Arabia,alliance,,
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1975-05-13,USA,Grenada,alliance,,
+297:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1976-07-15,EGY,Egypt,alliance,,end_date=1989-06-10
+298:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1976-10-08,RUS,Angola,entente,,end_date=1991-12-25
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1977-02-22,USA,Suriname,alliance,,
+299:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1977-03-31,RUS,Mozambique,alliance,,end_date=1991-12-25
+301:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1978-11-03,RUS,Vietnam,entente,,end_date=1991-12-25
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1979-05-22,USA,St. Lucia,alliance,,
+308:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1979-10-25,RUS,Yemen People's Republic,alliance,,end_date=1990-05-22
+309:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1979-11-15,ETH,Ethiopia,nonaggression_pact,,end_date=1989-11-07
+311:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1979-12-02,ETH,Yemen People's Republic,nonaggression_pact,,end_date=1990-05-22
+316:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1980-10-08,RUS,Syria,alliance,,end_date=1991-12-25
+317:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1981-05-13,RUS,Congo,alliance,,end_date=1991-01-01
+320:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1981-08-19,ETH,Yemen People's Republic,alliance,,end_date=1986-02-01
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1981-12-03,USA,Antigua & Barbuda,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1981-12-10,USA,Spain,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1981-12-10,TUR,Turkey,alliance,,
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1982-03-03,USA,Bahamas,alliance,,
+327:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1983-05-17,ISR,Israel,nonaggression_pact,,end_date=1984-05-17
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1984-03-12,USA,St. Kitts and Nevis,alliance,,
+333:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1988-04-14,PAK,Pakistan,nonaggression_pact,,end_date=1989-02-11
+335:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1989-03-27,SAU,Saudi Arabia,nonaggression_pact,,end_date=1990-08-02
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1989-05-22,EGY,Oman,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1989-05-22,EGY,United Arab Emirates,alliance,,
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1989-11-13,USA,Canada,alliance,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-05-22,EGY,Yemen,alliance,,
+199:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-05-22,SAU,Yemen,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-05-22,EGY,Yemen,alliance,,
+230:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-05-22,SAU,Yemen,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-10-03,USA,Germany,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-10-03,TUR,Turkey,alliance,,
+336:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-10-29,RUS,Russia,alliance,,end_date=1991-12-25
+337:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-11-09,RUS,Russia,alliance,,
+338:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1990-11-18,RUS,Russia,alliance,,end_date=1991-12-25
+210:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1991-01-08,USA,Guyana,alliance,,
+340:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1991-09-19,TUR,Turkey,neutrality_pact,,
+343:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1991-12-06,UKR,Ukraine,neutrality_pact,,
+345:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-01-20,RUS,Finland,alliance,,
+347:entente,Correlates of War,https://correlatesofwar.org/data-sets/,1992-02-06,RUS,Russia,entente,,
+348:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-06,TUR,Turkey,alliance,,
+350:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-15,RUS,Kazakhstan,defense_pact,,
+351:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-18,UKR,Ukraine,alliance,,
+352:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-22,RUS,Russia,alliance,,
+353:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-25,RUS,Kazakhstan,alliance,,
+354:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-25,RUS|TUR,Turkey,alliance,,
+355:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-05-30,RUS,Uzbekistan,alliance,,
+356:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-06-01,TUR,Turkey,alliance,,
+357:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-06-10,RUS,Kyrgyzstan,alliance,,
+358:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-06-19,RUS,Russia,alliance,,
+363:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1992-07-31,RUS,Turkmenistan,defense_pact,,end_date=2002-07-31
+364:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-08-04,RUS,Russia,alliance,,
+366:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1992-10-23,UKR,Ukraine,alliance,,
+371:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1993-05-25,RUS,Tajikistan,alliance,,
+372:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1993-06-30,UKR,Ukraine,alliance,,
+376:neutrality_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1994-02-08,UKR,Ukraine,neutrality_pact,,
+377:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1994-02-09,TUR,Turkey,defense_pact,,
+379:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1994-07-16,TUR,Turkey,alliance,,
+380:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1994-10-26,ISR,Israel,alliance,,
+349:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1995-02-10,RUS,Kazakhstan,defense_pact,,
+349:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1995-02-10,UKR,Kazakhstan,defense_pact,,
+349:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,1995-02-10,RUS|UKR,Ukraine,defense_pact,,
+384:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1995-05-23,UKR,Ukraine,alliance,,
+389:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1996-04-27,RUS,Kazakhstan,alliance,,
+389:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1996-04-27,CHN,China,alliance,,
+390:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1996-05-14,UKR,Armenia,alliance,,
+393:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1997-04-02,RUS,Belarus,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1999-03-12,USA,Czech Republic,alliance,,
+227:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,1999-03-12,TUR,Turkey,alliance,,
+397:entente,Correlates of War,https://correlatesofwar.org/data-sets/,2000-02-09,RUS,North Korea,entente,,
+368:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2000-11-14,RUS,Mongolia,nonaggression_pact,,
+399:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2000-12-12,ETH,Eritrea,nonaggression_pact,,
+400:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2000-12-31,SAU,Oman,defense_pact,,
+389:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,2001-06-15,RUS,Uzbekistan,alliance,,
+389:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,2001-06-15,CHN,China,alliance,,
+401:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,2002-04-23,RUS,Turkmenistan,alliance,,
+402:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2002-12-22,IRN,Uzbekistan,nonaggression_pact,,
+402:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2002-12-22,CHN,China,nonaggression_pact,,
+402:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2002-12-22,PAK,Pakistan,nonaggression_pact,,
+403:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2004-07-16,RUS,Georgia,nonaggression_pact,,end_date=2008-06-14
+404:nonaggression_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2005-05-16,IRN,Iran,nonaggression_pact,,
+405:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,2005-11-14,RUS,Uzbekistan,alliance,,
+406:entente,Correlates of War,https://correlatesofwar.org/data-sets/,2006-06-15,IRN,Syria,entente,,
+410:defense_pact,Correlates of War,https://correlatesofwar.org/data-sets/,2009-02-03,RUS,Belarus,defense_pact,,
+411:alliance,Correlates of War,https://correlatesofwar.org/data-sets/,2010-08-20,RUS,Russia,alliance,,
+411:entente,Correlates of War,https://correlatesofwar.org/data-sets/,2010-08-20,RUS,Armenia,entente,,

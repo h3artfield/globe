@@ -6,22 +6,121 @@
   ],
   "module": "war_history",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "7 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "1949-05-31: interstate_conflict",
+    "1949-05-31: interstate_conflict",
+    "2011-07-30: 4",
+    "2011-07-30: 4",
+    "2011-07-30: 4"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "ucdp:482:1950",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1951",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1952",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1953",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:11973:2020",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2020",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11973:2023",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2023",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11973:2024",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2024",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "482:1950",
+    "ucdp",
+    "482:1951",
+    "482:1952",
+    "482:1953",
+    "11973:2020",
+    "11973:2023",
+    "11973:2024"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

@@ -1,10 +1,3083 @@
 {
   "country_code": "IRN",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "correlates_of_war:110:neutrality_pact",
+      "event_date": "1921-06-22",
+      "year": 1921,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1937-07-08",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "110:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1937-07-08"
+    },
+    {
+      "event_id": "correlates_of_war:195:alliance",
+      "event_date": "1942-01-29",
+      "year": 1942,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1946-03-19",
+      "actors": [
+        "Iran"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "195:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1946-03-19"
+    },
+    {
+      "event_id": "ucdp:206",
+      "event_date": "1945-11-19",
+      "year": 1945,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "4",
+      "actors": [
+        "Government of Iran",
+        "Republic of Azerbaijan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "206",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:205",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "205",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:406:1966",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1966",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1967",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1967",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1968",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1968",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1979",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1980",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1981",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1981",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1982",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1982",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1983",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1983",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1984",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1985",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1985",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1986",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1987",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1988",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1990",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1990",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1993",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1993",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:1996",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:1996",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:2016",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:406:2018",
+      "event_date": "1946-05-31",
+      "year": 1946,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "KDPI"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:698:1973",
+      "event_date": "1968-10-31",
+      "year": 1968,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Oman; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Oman",
+        "PFLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "698:1973",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Oman; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:698:1974",
+      "event_date": "1968-10-31",
+      "year": 1968,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Oman; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Oman",
+        "PFLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "698:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Oman; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:698:1975",
+      "event_date": "1968-10-31",
+      "year": 1968,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Oman; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Oman",
+        "PFLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "698:1975",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Oman; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:707:1974",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1980",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1981",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1981",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1982",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1982",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1983",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1983",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1984",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1985",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1985",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1986",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1987",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:707:1988",
+      "event_date": "1972-04-11",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "707:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Iraq; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:753:1979",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1980",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1981",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1981",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1982",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1982",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1986",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1987",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1988",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1991",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1993",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1993",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1997",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1997",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:1999",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:1999",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:2000",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:753:2001",
+      "event_date": "1972-08-13",
+      "year": 1972,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "MEK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "753:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:339",
+      "event_date": "1979-05-30",
+      "year": 1979,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Iran",
+        "APCO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "339",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:756:1979",
+      "event_date": "1979-05-30",
+      "year": 1979,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "APCO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "756:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:756:1980",
+      "event_date": "1979-05-30",
+      "year": 1979,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "APCO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "756:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:736:2001",
+      "event_date": "1996-10-11",
+      "year": 1996,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "UIFSA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "736:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:338",
+      "event_date": "2003-12-31",
+      "year": 2003,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Iran",
+        "Jondullah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "338",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:755:2006",
+      "event_date": "2003-12-31",
+      "year": 2003,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jondullah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "755:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:755:2007",
+      "event_date": "2003-12-31",
+      "year": 2003,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jondullah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "755:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:755:2008",
+      "event_date": "2003-12-31",
+      "year": 2003,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jondullah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "755:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:755:2009",
+      "event_date": "2003-12-31",
+      "year": 2003,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jondullah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "755:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:755:2010",
+      "event_date": "2003-12-31",
+      "year": 2003,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jondullah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "755:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:404:nonaggression_pact",
+      "event_date": "2005-05-16",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Iran"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "404:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:754:2005",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2006",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2007",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2008",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2009",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2011",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2018",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2020",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:754:2021",
+      "event_date": "2005-07-26",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "PJAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "754:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:406:entente",
+      "event_date": "2006-06-15",
+      "year": 2006,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "Syria"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:11973:2020",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2021",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2022",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2023",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2024",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12556:2019",
+      "event_date": "2014-10-08",
+      "year": 2014,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jaish al-Adl"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12556:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12556:2023",
+      "event_date": "2014-10-08",
+      "year": 2014,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jaish al-Adl"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12556:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12556:2024",
+      "event_date": "2014-10-08",
+      "year": 2014,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "Jaish al-Adl"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12556:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14268",
+      "event_date": "2016-08-15",
+      "year": 2016,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Iran",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14268",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:14895:2017",
+      "event_date": "2016-08-15",
+      "year": 2016,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Iran",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14895:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:15259:2020",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2021",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2022",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2023",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2020",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2021",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2022",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2023",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15633:2018",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2019",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2020",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2021",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2022",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2023",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2024",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified national event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review before production use."
   }
 }

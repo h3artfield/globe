@@ -1,0 +1,2 @@
+source_id,source_name,source_url,event_date,country_codes,actors,event_type,confidence,notes
+EXAMPLE-UCDP-001,UCDP,https://ucdp.uu.se/,2023-06-01,RUS|UKR,Government forces|Armed group,State-based conflict,high,EXAMPLE_ONLY_NOT_REAL_DATA

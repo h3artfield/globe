@@ -2,10 +2,10 @@
   "country_code": "ISR",
   "module": "crime_safety",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "crime_safety has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "homicide_rate_per_100k is 1.62581066709758 per_100k for ISR (2022)."
+    "homicide_rate_per_100k: 1.62581066709758 per_100k (2022)"
   ],
   "metrics": [
     {
@@ -24,24 +24,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for VC.IHR.PSRC.P5."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "ISR-crime_safety-metric-001",
-      "text": "homicide_rate_per_100k is 1.62581066709758 per_100k for ISR (2022).",
-      "claim_type": "metric",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/VC.IHR.PSRC.P5?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:homicide_rate_per_100k:VC.IHR.PSRC.P5; metric_id=homicide_rate_per_100k"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -52,8 +38,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }

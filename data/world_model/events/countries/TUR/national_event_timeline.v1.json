@@ -1,10 +1,4489 @@
 {
   "country_code": "TUR",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "correlates_of_war:14:alliance",
+      "event_date": "1833-07-08",
+      "year": 1833,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1841-07-13",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1841-07-13"
+    },
+    {
+      "event_id": "correlates_of_war:20:defense_pact",
+      "event_date": "1840-07-15",
+      "year": 1840,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1840-11-27",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "20:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1840-11-27"
+    },
+    {
+      "event_id": "correlates_of_war:31:defense_pact",
+      "event_date": "1854-06-14",
+      "year": 1854,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1856-03-30",
+      "actors": [
+        "Austria-Hungary"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "31:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1856-03-30"
+    },
+    {
+      "event_id": "correlates_of_war:28:alliance",
+      "event_date": "1855-03-15",
+      "year": 1855,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1856-03-30",
+      "actors": [
+        "Italy"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "28:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1856-03-30"
+    },
+    {
+      "event_id": "correlates_of_war:28:entente",
+      "event_date": "1855-03-15",
+      "year": 1855,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1856-03-30",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "28:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1856-03-30"
+    },
+    {
+      "event_id": "correlates_of_war:63:defense_pact",
+      "event_date": "1878-06-04",
+      "year": 1878,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1880-11-25",
+      "actors": [
+        "United Kingdom"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "63:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1880-11-25"
+    },
+    {
+      "event_id": "correlates_of_war:93:defense_pact",
+      "event_date": "1914-08-02",
+      "year": 1914,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1918-10-30",
+      "actors": [
+        "Germany"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "93:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1918-10-30"
+    },
+    {
+      "event_id": "correlates_of_war:94:alliance",
+      "event_date": "1914-08-19",
+      "year": 1914,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1918-09-30",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "94:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1918-09-30"
+    },
+    {
+      "event_id": "correlates_of_war:106:defense_pact",
+      "event_date": "1921-03-01",
+      "year": 1921,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1928-05-25",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "106:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1928-05-25"
+    },
+    {
+      "event_id": "correlates_of_war:121:alliance",
+      "event_date": "1925-12-17",
+      "year": 1925,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-09-01",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "121:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-09-01"
+    },
+    {
+      "event_id": "correlates_of_war:135:nonaggression_pact",
+      "event_date": "1928-05-25",
+      "year": 1928,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1948-05-25",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "135:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1948-05-25"
+    },
+    {
+      "event_id": "correlates_of_war:136:neutrality_pact",
+      "event_date": "1928-05-30",
+      "year": 1928,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1935-11-18",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "136:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1935-11-18"
+    },
+    {
+      "event_id": "correlates_of_war:139:neutrality_pact",
+      "event_date": "1929-01-05",
+      "year": 1929,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1945-01-20",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "139:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1945-01-20"
+    },
+    {
+      "event_id": "correlates_of_war:140:neutrality_pact",
+      "event_date": "1929-03-06",
+      "year": 1929,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1939-12-03",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "140:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-12-03"
+    },
+    {
+      "event_id": "correlates_of_war:142:neutrality_pact",
+      "event_date": "1930-02-03",
+      "year": 1930,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1940-06-22",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "142:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-22"
+    },
+    {
+      "event_id": "correlates_of_war:144:neutrality_pact",
+      "event_date": "1930-10-30",
+      "year": 1930,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1941-04-23",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "144:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-04-23"
+    },
+    {
+      "event_id": "correlates_of_war:151:alliance",
+      "event_date": "1933-10-17",
+      "year": 1933,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1944-08-31",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "151:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1944-08-31"
+    },
+    {
+      "event_id": "correlates_of_war:152:nonaggression_pact",
+      "event_date": "1933-11-27",
+      "year": 1933,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1941-04-20",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "152:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-04-20"
+    },
+    {
+      "event_id": "correlates_of_war:154:alliance",
+      "event_date": "1934-02-09",
+      "year": 1934,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1940-10-28",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "154:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-10-28"
+    },
+    {
+      "event_id": "correlates_of_war:167:alliance",
+      "event_date": "1937-07-08",
+      "year": 1937,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1955-02-24",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "167:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1955-02-24"
+    },
+    {
+      "event_id": "correlates_of_war:169:defense_pact",
+      "event_date": "1937-09-14",
+      "year": 1937,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1939-03-28",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "169:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-03-28"
+    },
+    {
+      "event_id": "correlates_of_war:171:nonaggression_pact",
+      "event_date": "1938-07-31",
+      "year": 1938,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1940-06-18",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "171:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-18"
+    },
+    {
+      "event_id": "correlates_of_war:179:alliance",
+      "event_date": "1939-06-23",
+      "year": 1939,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-10-19",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "179:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-10-19"
+    },
+    {
+      "event_id": "correlates_of_war:184:defense_pact",
+      "event_date": "1939-10-19",
+      "year": 1939,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1940-06-22",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "184:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-22"
+    },
+    {
+      "event_id": "correlates_of_war:192:nonaggression_pact",
+      "event_date": "1941-06-18",
+      "year": 1941,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1945-05-08",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "192:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1945-05-08"
+    },
+    {
+      "event_id": "ucdp:482:1950",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1951",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1952",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1953",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "correlates_of_war:234:alliance",
+      "event_date": "1954-08-09",
+      "year": 1954,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1954-08-08",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "234:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1954-08-08"
+    },
+    {
+      "event_id": "correlates_of_war:259:alliance",
+      "event_date": "1960-08-16",
+      "year": 1960,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1974-07-20",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "259:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1974-07-20"
+    },
+    {
+      "event_id": "correlates_of_war:259:entente",
+      "event_date": "1960-08-16",
+      "year": 1960,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1974-07-20",
+      "actors": [
+        "Cyprus"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "259:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1974-07-20"
+    },
+    {
+      "event_id": "ucdp:706:1974",
+      "event_date": "1974-06-20",
+      "year": 1974,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Cyprus, Turkey; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Cyprus",
+        "Government of Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "706:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Cyprus, Turkey; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:726:2008",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:726:2009",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:726:2010",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:726:2011",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:726:2013",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:354",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "354",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:781:1984",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1985",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1985",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1986",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1987",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1988",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1989",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1989",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1990",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1990",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1991",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1992",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1992",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1993",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1993",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1994",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1994",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1995",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1995",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1996",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1996",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1997",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1997",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1998",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1998",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:1999",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:1999",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2000",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2001",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2002",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2003",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2003",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2004",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2005",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2006",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2007",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2008",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2009",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2010",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2011",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2012",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2013",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2015",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2016",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2017",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2018",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2019",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2020",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2021",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2022",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2023",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:781:2024",
+      "event_date": "1983-05-01",
+      "year": 1983,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "PKK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "781:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:383",
+      "event_date": "1987-12-31",
+      "year": 1987,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Turkey",
+        "MKP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "383",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:822:1991",
+      "event_date": "1987-12-31",
+      "year": 1987,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "DHKP-C"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "822:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:822:1992",
+      "event_date": "1987-12-31",
+      "year": 1987,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "DHKP-C"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "822:1992",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:822:1993",
+      "event_date": "1987-12-31",
+      "year": 1987,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "DHKP-C"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "822:1993",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:823:2005",
+      "event_date": "1987-12-31",
+      "year": 1987,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "MKP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "823:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16900:2000",
+      "event_date": "1990-05-31",
+      "year": 1990,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "TKP-ML"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16900:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:799:1991",
+      "event_date": "1990-08-02",
+      "year": 1990,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "SAU",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "SAU_TUR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iraq",
+        "Government of Kuwait"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "799:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "correlates_of_war:340:neutrality_pact",
+      "event_date": "1991-09-19",
+      "year": 1991,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "neutrality_pact",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "340:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:833:2020",
+      "event_date": "1991-12-29",
+      "year": 1991,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Azerbaijan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Azerbaijan",
+        "Republic of Artsakh"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "833:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Azerbaijan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "correlates_of_war:348:alliance",
+      "event_date": "1992-05-06",
+      "year": 1992,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "348:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:354:alliance",
+      "event_date": "1992-05-25",
+      "year": 1992,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "354:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:356:alliance",
+      "event_date": "1992-06-01",
+      "year": 1992,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "356:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:377:defense_pact",
+      "event_date": "1994-02-09",
+      "year": 1994,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "377:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:379:alliance",
+      "event_date": "1994-07-16",
+      "year": 1994,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "379:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:735:2006",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2007",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2008",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2009",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2010",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2011",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2012",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2013",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2014",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "correlates_of_war:227:alliance",
+      "event_date": "1999-03-12",
+      "year": 1999,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "227:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:878:2002",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:10516:2016",
+      "event_date": "2005-04-30",
+      "year": 2005,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "TAK"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "10516:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12575:2015",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2016",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2020",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2021",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2022",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2023",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2024",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11985:2015",
+      "event_date": "2012-01-17",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "CMA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11985:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2015",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2016",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14059:2020",
+      "event_date": "2014-11-01",
+      "year": 2014,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Libya; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Libya",
+        "Forces of the House of Representatives"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14059:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Libya; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12391:2015",
+      "event_date": "2015-02-10",
+      "year": 2015,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "FPRC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12391:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:13902",
+      "event_date": "2015-07-23",
+      "year": 2015,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Turkey",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "13902",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:14701:2015",
+      "event_date": "2015-07-23",
+      "year": 2015,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14701:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14701:2016",
+      "event_date": "2015-07-23",
+      "year": 2015,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14701:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14701:2017",
+      "event_date": "2015-07-23",
+      "year": 2015,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14701:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16139:2023",
+      "event_date": "2015-11-10",
+      "year": 2015,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "MPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16139:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15065:2016",
+      "event_date": "2016-07-16",
+      "year": 2016,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Turkey",
+        "Yurtta Sulh Konseyi"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15065:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Turkey; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:15259:2018",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2019",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2021",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2022",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2023",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2018",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2019",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2021",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2022",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2023",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2022",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2023",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2024",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified national event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review before production use."
   }
 }

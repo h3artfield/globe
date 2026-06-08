@@ -1,10 +1,4709 @@
 {
   "country_code": "PAK",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "ucdp:422:1948",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1948",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1964",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1964",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1965",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1965",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1971",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1971",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1984",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1987",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1989",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1989",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1990",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1990",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1991",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1992",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1992",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1994",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1994",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1996",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1996",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1997",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1997",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1998",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1998",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:1999",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:1999",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2000",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2001",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2002",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2003",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2003",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2013",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2014",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2015",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2016",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2017",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2018",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2019",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:422:2020",
+      "event_date": "1948-12-31",
+      "year": 1948,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of India",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "422:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "correlates_of_war:238:entente",
+      "event_date": "1954-09-08",
+      "year": 1954,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1972-11-08",
+      "actors": [
+        "New Zealand"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "238:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1972-11-08"
+    },
+    {
+      "event_id": "ucdp:312",
+      "event_date": "1971-03-26",
+      "year": 1971,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Pakistan",
+        "Mukti Bahini"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "312",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:673:1971",
+      "event_date": "1971-03-26",
+      "year": 1971,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Mukti Bahini"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "673:1971",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:294:nonaggression_pact",
+      "event_date": "1972-07-02",
+      "year": 1972,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "294:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:708:1974",
+      "event_date": "1973-05-18",
+      "year": 1973,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLF"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "708:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:708:1975",
+      "event_date": "1973-05-18",
+      "year": 1973,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLF"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "708:1975",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:708:1976",
+      "event_date": "1973-05-18",
+      "year": 1973,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLF"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "708:1976",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:708:1977",
+      "event_date": "1973-05-18",
+      "year": 1973,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLF"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "708:1977",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:708:2012",
+      "event_date": "1973-05-18",
+      "year": 1973,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLF"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "708:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:708:2015",
+      "event_date": "1973-05-18",
+      "year": 1973,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLF"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "708:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:726:2008",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:726:2009",
+      "event_date": "1980-03-31",
+      "year": 1980,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Hizb-i Islami-yi Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "726:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "correlates_of_war:333:nonaggression_pact",
+      "event_date": "1988-04-14",
+      "year": 1988,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1989-02-11",
+      "actors": [
+        "Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "333:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-02-11"
+    },
+    {
+      "event_id": "ucdp:855:1990",
+      "event_date": "1990-02-11",
+      "year": 1990,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "MQM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "855:1990",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:855:1994",
+      "event_date": "1990-02-11",
+      "year": 1990,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "MQM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "855:1994",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:855:1995",
+      "event_date": "1990-02-11",
+      "year": 1990,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "MQM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "855:1995",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:855:1996",
+      "event_date": "1990-02-11",
+      "year": 1990,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "MQM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "855:1996",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:799:1991",
+      "event_date": "1990-08-02",
+      "year": 1990,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "SAU",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "SAU_TUR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iraq",
+        "Government of Kuwait"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "799:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:735:2006",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2007",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2008",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2009",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2010",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2011",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2012",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2013",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:735:2014",
+      "event_date": "1995-02-18",
+      "year": 1995,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Afghanistan",
+        "Taleban"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "735:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2002",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2004",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2005",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2006",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2007",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "correlates_of_war:402:nonaggression_pact",
+      "event_date": "2002-12-22",
+      "year": 2002,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "402:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:709:2004",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2006",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2007",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2008",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2009",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2011",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2012",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2013",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2014",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2015",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:709:2016",
+      "event_date": "2004-06-25",
+      "year": 2004,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "709:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12291:2024",
+      "event_date": "2005-01-03",
+      "year": 2005,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Afghanistan, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Afghanistan",
+        "Government of Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12291:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Afghanistan, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:710:2006",
+      "event_date": "2006-01-12",
+      "year": 2006,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Baloch Ittehad"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "710:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:404",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "404",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:857:2007",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2008",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2009",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2010",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2011",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2012",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2013",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2014",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2015",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:857:2016",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:857:2017",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:857:2018",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:857:2019",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2020",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2021",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2022",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2023",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:857:2024",
+      "event_date": "2007-07-04",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "857:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:325",
+      "event_date": "2007-08-25",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Pakistan",
+        "BRA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "325",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:711:2008",
+      "event_date": "2007-08-25",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "711:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:711:2009",
+      "event_date": "2007-08-25",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "711:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:711:2012",
+      "event_date": "2007-08-25",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "711:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:711:2014",
+      "event_date": "2007-08-25",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "711:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:711:2015",
+      "event_date": "2007-08-25",
+      "year": 2007,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "711:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11336:2009",
+      "event_date": "2008-10-22",
+      "year": 2008,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Lashkar-e-Islam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11336:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11336:2010",
+      "event_date": "2008-10-22",
+      "year": 2008,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Lashkar-e-Islam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11336:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11336:2012",
+      "event_date": "2008-10-22",
+      "year": 2008,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Lashkar-e-Islam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11336:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11336:2013",
+      "event_date": "2008-10-22",
+      "year": 2008,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Lashkar-e-Islam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11336:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11336:2014",
+      "event_date": "2008-10-22",
+      "year": 2008,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Lashkar-e-Islam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11336:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11497:2012",
+      "event_date": "2012-06-02",
+      "year": 2012,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TTP - TA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11497:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:11521:2016",
+      "event_date": "2012-10-08",
+      "year": 2012,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "UBA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11521:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12380:2014",
+      "event_date": "2013-04-14",
+      "year": 2013,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "anti-Balaka"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12380:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:10961:2014",
+      "event_date": "2013-05-12",
+      "year": 2013,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IMU"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "10961:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14227:2014",
+      "event_date": "2014-03-03",
+      "year": 2014,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "Jamaat-ul-Ahrar"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14227:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12391:2015",
+      "event_date": "2015-02-10",
+      "year": 2015,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "FPRC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12391:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16139:2023",
+      "event_date": "2015-11-10",
+      "year": 2015,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "MPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16139:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:13936",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "13936",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:14319:2016",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14319:2017",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14319:2018",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14319:2019",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14319:2021",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14319:2022",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:14319:2023",
+      "event_date": "2016-02-12",
+      "year": 2016,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14319:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:15259:2018",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2019",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2020",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2021",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2022",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2023",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2018",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2019",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2020",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2021",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2022",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2023",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16177:2019",
+      "event_date": "2019-02-17",
+      "year": 2019,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRAS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16177:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16177:2020",
+      "event_date": "2019-02-17",
+      "year": 2019,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRAS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16177:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16177:2021",
+      "event_date": "2019-02-17",
+      "year": 2019,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRAS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16177:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16177:2022",
+      "event_date": "2019-02-17",
+      "year": 2019,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRAS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16177:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16177:2023",
+      "event_date": "2019-02-17",
+      "year": 2019,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRAS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16177:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16177:2024",
+      "event_date": "2019-02-17",
+      "year": 2019,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "BRAS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16177:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:16562:2022",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2023",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2024",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:17628:2023",
+      "event_date": "2023-02-27",
+      "year": 2023,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "TJP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "17628:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12287:2023",
+      "event_date": "2023-05-16",
+      "year": 2023,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "HGB"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12287:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:12287:2024",
+      "event_date": "2023-05-16",
+      "year": 2023,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Pakistan",
+        "HGB"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12287:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Pakistan; intensity_level=1(minor_conflict); type_of_conflict=3"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified national event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review before production use."
   }
 }

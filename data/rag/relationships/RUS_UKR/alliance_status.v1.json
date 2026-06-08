@@ -6,22 +6,39 @@
   ],
   "module": "alliance_status",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "1 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "1995-02-10: defense_pact"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "correlates_of_war:349:defense_pact",
+      "text": "1995-02-10: defense_pact",
+      "claim_type": "fact",
+      "source_ids": [
+        "349:defense_pact",
+        "correlates_of_war"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1995-02-10",
+      "notes": ""
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "349:defense_pact",
+    "correlates_of_war"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

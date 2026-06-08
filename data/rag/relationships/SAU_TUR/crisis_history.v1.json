@@ -6,22 +6,39 @@
   ],
   "module": "crisis_history",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "1 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "1990-08-02: interstate_conflict"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "ucdp:799:1991",
+      "text": "1990-08-02: interstate_conflict — location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "799:1991",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1990-08-02",
+      "notes": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "799:1991",
+    "ucdp"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

@@ -5,10 +5,1158 @@
     "USA"
   ],
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "ucdp:482:1950",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1951",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1952",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1953",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:462:1954",
+      "event_date": "1949-10-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "462:1954",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:462:1958",
+      "event_date": "1949-10-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "462:1958",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:12575:2013",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2014",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2015",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2016",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2017",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11985:2015",
+      "event_date": "2012-01-17",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "CMA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11985:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2013",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2015",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2016",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12571:2013",
+      "event_date": "2013-01-12",
+      "year": 2013,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "MUJAO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12571:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12578:2013",
+      "event_date": "2013-02-19",
+      "year": 2013,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Signed-in-Blood Battalion"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12578:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12582:2014",
+      "event_date": "2013-10-07",
+      "year": 2013,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "al-Murabitun"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12582:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2017",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2018",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2019",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2020",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2021",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2022",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2023",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2017",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2018",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2019",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2020",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2021",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2022",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2023",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified relationship event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review bilateral coverage."
   }
 }

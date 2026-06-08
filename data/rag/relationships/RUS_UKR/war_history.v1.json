@@ -6,22 +6,121 @@
   ],
   "module": "war_history",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "7 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "2014-03-18: interstate_conflict",
+    "2014-04-08: 4",
+    "2014-05-04: 4",
+    "2014-09-16: 4",
+    "2014-09-16: 4"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "ucdp:14117:2022",
+      "text": "2014-03-18: interstate_conflict — location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "14117:2022",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-03-18",
+      "notes": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:14117:2023",
+      "text": "2014-03-18: interstate_conflict — location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "14117:2023",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-03-18",
+      "notes": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:14117:2024",
+      "text": "2014-03-18: interstate_conflict — location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "14117:2024",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-03-18",
+      "notes": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:14124:2014",
+      "text": "2014-04-08: 4 — location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "14124:2014",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-04-08",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:14184:2014",
+      "text": "2014-05-04: 4 — location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "14184:2014",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-05-04",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:14210:2014",
+      "text": "2014-09-16: 4 — location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "14210:2014",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-09-16",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:14210:2015",
+      "text": "2014-09-16: 4 — location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "14210:2015",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2014-09-16",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "14117:2022",
+    "ucdp",
+    "14117:2023",
+    "14117:2024",
+    "14124:2014",
+    "14184:2014",
+    "14210:2014",
+    "14210:2015"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

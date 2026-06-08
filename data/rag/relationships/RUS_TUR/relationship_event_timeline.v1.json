@@ -6,22 +6,239 @@
   ],
   "module": "relationship_event_timeline",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "16 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "2011-07-30: 4",
+    "2011-07-30: 4",
+    "2011-07-30: 4",
+    "2020-12-15: 4",
+    "2020-12-15: 4"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "correlates_of_war:14:alliance",
+      "text": "1833-07-08: alliance — end_date=1841-07-13",
+      "claim_type": "fact",
+      "source_ids": [
+        "14:alliance",
+        "correlates_of_war"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1833-07-08",
+      "notes": "end_date=1841-07-13"
+    },
+    {
+      "claim_id": "correlates_of_war:20:defense_pact",
+      "text": "1840-07-15: defense_pact — end_date=1840-11-27",
+      "claim_type": "fact",
+      "source_ids": [
+        "20:defense_pact",
+        "correlates_of_war"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1840-07-15",
+      "notes": "end_date=1840-11-27"
+    },
+    {
+      "claim_id": "correlates_of_war:121:alliance",
+      "text": "1925-12-17: alliance — end_date=1939-09-01",
+      "claim_type": "fact",
+      "source_ids": [
+        "121:alliance",
+        "correlates_of_war"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1925-12-17",
+      "notes": "end_date=1939-09-01"
+    },
+    {
+      "claim_id": "correlates_of_war:169:defense_pact",
+      "text": "1937-09-14: defense_pact — end_date=1939-03-28",
+      "claim_type": "fact",
+      "source_ids": [
+        "169:defense_pact",
+        "correlates_of_war"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1937-09-14",
+      "notes": "end_date=1939-03-28"
+    },
+    {
+      "claim_id": "ucdp:482:1950",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1951",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1952",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1953",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "correlates_of_war:354:alliance",
+      "text": "1992-05-25: alliance",
+      "claim_type": "fact",
+      "source_ids": [
+        "354:alliance",
+        "correlates_of_war"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1992-05-25",
+      "notes": ""
+    },
+    {
+      "claim_id": "ucdp:11973:2020",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2020",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11973:2021",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2021",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11973:2022",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2022",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11973:2023",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2023",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11973:2024",
+      "text": "2011-07-30: 4 — location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11973:2024",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2011-07-30",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:16562:2022",
+      "text": "2020-12-15: 4 — location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "16562:2022",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2020-12-15",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:16562:2024",
+      "text": "2020-12-15: 4 — location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "16562:2024",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2020-12-15",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "14:alliance",
+    "correlates_of_war",
+    "20:defense_pact",
+    "121:alliance",
+    "169:defense_pact",
+    "482:1950",
+    "ucdp",
+    "482:1951",
+    "482:1952",
+    "482:1953",
+    "354:alliance",
+    "11973:2020",
+    "11973:2021",
+    "11973:2022",
+    "11973:2023",
+    "11973:2024",
+    "16562:2022",
+    "16562:2024"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

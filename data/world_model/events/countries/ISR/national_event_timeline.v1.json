@@ -1,10 +1,4980 @@
 {
   "country_code": "ISR",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "ucdp:207",
+      "event_date": "1939-03-31",
+      "year": 1939,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "1",
+      "event_category": "domestic",
+      "headline": "1",
+      "summary": "1",
+      "actors": [
+        "Government of United Kingdom",
+        "IZL [Etzel]"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "207",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:408:1946",
+      "event_date": "1939-03-31",
+      "year": 1939,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "intrastate_conflict",
+      "event_category": "security",
+      "headline": "intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=1",
+      "actors": [
+        "Government of United Kingdom",
+        "IZL [Etzel]"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "408:1946",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=1"
+    },
+    {
+      "event_id": "ucdp:470:1949",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1949",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1950",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1951",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1951",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1952",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1952",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1953",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1953",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1954",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1954",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1955",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1955",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1956",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1956",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1957",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1957",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1958",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1958",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1959",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1959",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1960",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1960",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1961",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1961",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1962",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1962",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1963",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1963",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:470:1964",
+      "event_date": "1948-05-15",
+      "year": 1948,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Palestinian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "470:1964",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:249:neutrality_pact",
+      "event_date": "1956-10-24",
+      "year": 1956,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1956-11-06",
+      "actors": [
+        "Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "249:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1956-11-06"
+    },
+    {
+      "event_id": "ucdp:472:1965",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1965",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1966",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1966",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1967",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1967",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1968",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1968",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1969",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1969",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1970",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1970",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1971",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1971",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1972",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1972",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1973",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1973",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1974",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1975",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1975",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1976",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1976",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1977",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1977",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1978",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1978",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1979",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1980",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1981",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1981",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1982",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Israel; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1982",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:472:1983",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1983",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1984",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1985",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1985",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1986",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1987",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:472:1988",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PLO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "472:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:1990",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:1990",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:1991",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:1992",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:1992",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2000",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2001",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2002",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2005",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2006",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2007",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2022",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2023",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:476:2024",
+      "event_date": "1965-02-28",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Fatah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "476:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1965",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1965",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1966",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1966",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1967",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1967",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1968",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1968",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1969",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1969",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1970",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1970",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1971",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1971",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1972",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1972",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:471:1973",
+      "event_date": "1965-12-31",
+      "year": 1965,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Non PLO groups"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "471:1973",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:648:1967",
+      "event_date": "1967-06-05",
+      "year": 1967,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Israel, Jordan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Israel",
+        "Government of Jordan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "648:1967",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel, Jordan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:649:1967",
+      "event_date": "1967-06-05",
+      "year": 1967,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Israel, Syria; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Israel",
+        "Government of Syria"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "649:1967",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel, Syria; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:649:1973",
+      "event_date": "1967-06-05",
+      "year": 1967,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Israel, Syria; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Israel",
+        "Government of Syria"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "649:1973",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel, Syria; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:475:1989",
+      "event_date": "1973-07-31",
+      "year": 1973,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PFLP-GC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "475:1989",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1974",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1975",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1975",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1976",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1976",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1977",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1977",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1978",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1978",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1979",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1980",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1981",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1981",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1982",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1982",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:473:1983",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1983",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1984",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1985",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1985",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1986",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1987",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:473:1988",
+      "event_date": "1974-12-31",
+      "year": 1974,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Rejectionist Front"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "473:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:327:nonaggression_pact",
+      "event_date": "1983-05-17",
+      "year": 1983,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1984-05-17",
+      "actors": [
+        "Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "327:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1984-05-17"
+    },
+    {
+      "event_id": "ucdp:426",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "426",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:891:1990",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1990",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1991",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1992",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1992",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1993",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1993",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1994",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1994",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1995",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1995",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1996",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1996",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1997",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1997",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1998",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1998",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:1999",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:1999",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:2000",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:2006",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:2023",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:891:2024",
+      "event_date": "1986-09-30",
+      "year": 1986,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hezbollah"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "891:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:1995",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:1995",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2001",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2002",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2003",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2003",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2004",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2005",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2006",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2007",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2008",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2009",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2010",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2010",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2011",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2012",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2014",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2019",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2021",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2022",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2023",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:478:2024",
+      "event_date": "1987-08-31",
+      "year": 1987,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PIJ"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "478:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:474:1989",
+      "event_date": "1989-02-05",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PFLP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "474:1989",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:474:2001",
+      "event_date": "1989-02-05",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PFLP"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "474:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:1993",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:1993",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:1994",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:1994",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2001",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2002",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2003",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2003",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2004",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2005",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2006",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2007",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2008",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2008",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2009",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2009",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2011",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2011",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2012",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2012",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2014",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2018",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2021",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:477:2023",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Israel; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:477:2024",
+      "event_date": "1989-05-03",
+      "year": 1989,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Israel; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Israel",
+        "Hamas"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "477:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "correlates_of_war:380:alliance",
+      "event_date": "1994-10-26",
+      "year": 1994,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "380:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:479:1996",
+      "event_date": "1995-01-02",
+      "year": 1995,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PNA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "479:1996",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:479:2000",
+      "event_date": "1995-01-02",
+      "year": 1995,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PNA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "479:2000",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:479:2001",
+      "event_date": "1995-01-02",
+      "year": 1995,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PNA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "479:2001",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:479:2002",
+      "event_date": "1995-01-02",
+      "year": 1995,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PNA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "479:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:480:2002",
+      "event_date": "2000-10-30",
+      "year": 2000,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "AMB"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "480:2002",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:480:2003",
+      "event_date": "2000-10-30",
+      "year": 2000,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "AMB"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "480:2003",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:480:2004",
+      "event_date": "2000-10-30",
+      "year": 2000,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "AMB"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "480:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:234",
+      "event_date": "2001-08-19",
+      "year": 2001,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Israel",
+        "PRC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "234",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:481:2006",
+      "event_date": "2001-08-19",
+      "year": 2001,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Israel",
+        "PRC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "481:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Israel; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:15633:2018",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2019",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2020",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2021",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2022",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2023",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:15633:2024",
+      "event_date": "2017-03-19",
+      "year": 2017,
+      "country_codes": [
+        "IRN",
+        "ISR",
+        "USA"
+      ],
+      "relationship_id": "IRN_ISR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of Iran",
+        "Government of Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15633:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iran, Israel; intensity_level=1(minor_conflict); type_of_conflict=2"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified national event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review before production use."
   }
 }

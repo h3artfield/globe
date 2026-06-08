@@ -1,0 +1,2 @@
+country_code,year,metric_id,value,unit,source_url,source_name,raw_record_id,calculation,notes
+USA,2023,electoral_democracy_index,0.85,index,https://www.v-dem.net/,V-Dem Institute,EXAMPLE-001,,EXAMPLE_ONLY_NOT_REAL_DATA

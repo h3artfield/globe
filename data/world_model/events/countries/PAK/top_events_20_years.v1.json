@@ -7,15 +7,22 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
       "year": 2007,
-      "domestic_events": [],
+      "domestic_events": [
+        "3",
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -23,7 +30,9 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -55,15 +64,21 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
       "year": 2013,
-      "domestic_events": [],
+      "domestic_events": [
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -71,12 +86,16 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
       "year": 2015,
-      "domestic_events": [],
+      "domestic_events": [
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
       "security_events": [],
@@ -84,15 +103,21 @@
     },
     {
       "year": 2016,
-      "domestic_events": [],
+      "domestic_events": [
+        "3"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
       "year": 2017,
-      "domestic_events": [],
+      "domestic_events": [
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
       "security_events": [],
@@ -111,12 +136,16 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
       "year": 2020,
-      "domestic_events": [],
+      "domestic_events": [
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
       "security_events": [],
@@ -143,7 +172,9 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -172,7 +203,7 @@
     }
   ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "Top events are not generated until verified event/news data is available."
+    "status": "partial",
+    "warning": "Top events populated from processed manual event imports."
   }
 }

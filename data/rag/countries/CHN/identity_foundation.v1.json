@@ -2,7 +2,7 @@
   "country_code": "CHN",
   "module": "identity_foundation",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "",
   "key_findings": [],
   "metrics": [],
@@ -14,9 +14,9 @@
   "confidence": {
     "overall": "unknown",
     "weak_areas": [
-      "sources",
-      "claims"
+      "metrics",
+      "claims",
+      "sources"
     ]
-  },
-  "review_status": "human_review_pending"
+  }
 }

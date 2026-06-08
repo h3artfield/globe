@@ -1,6 +1,6 @@
 {
   "country_code": "ISR",
-  "generated_at": "2026-06-07T02:42:16.163Z",
+  "generated_at": "2026-06-08T04:02:58.459Z",
   "items": [
     {
       "review_id": "ISR-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.897Z"
+      "created_at": "2026-06-08T04:02:56.278Z"
     },
     {
       "review_id": "ISR-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.175Z"
+      "created_at": "2026-06-08T04:02:58.456Z"
     },
     {
       "review_id": "ISR-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.175Z"
+      "created_at": "2026-06-08T04:02:58.456Z"
     },
     {
       "review_id": "ISR-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.175Z"
+      "created_at": "2026-06-08T04:02:58.457Z"
     },
     {
       "review_id": "ISR-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.175Z"
+      "created_at": "2026-06-08T04:02:58.457Z"
     },
     {
       "review_id": "ISR-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.175Z"
+      "created_at": "2026-06-08T04:02:58.458Z"
     },
     {
       "review_id": "ISR-threat_perception-905",
@@ -354,537 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.175Z"
-    },
-    {
-      "review_id": "ISR-allies_and_partners-900",
-      "country_code": "ISR",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.686Z"
-    },
-    {
-      "review_id": "ISR-adversaries_and_rivals-901",
-      "country_code": "ISR",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.686Z"
-    },
-    {
-      "review_id": "ISR-national_event_timeline-902",
-      "country_code": "ISR",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.686Z"
-    },
-    {
-      "review_id": "ISR-top_national_events_20_years-903",
-      "country_code": "ISR",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.686Z"
-    },
-    {
-      "review_id": "ISR-news_memory-904",
-      "country_code": "ISR",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.686Z"
-    },
-    {
-      "review_id": "ISR-threat_perception-905",
-      "country_code": "ISR",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.686Z"
-    },
-    {
-      "review_id": "ISR-identity_foundation-029",
-      "country_code": "ISR",
-      "module": "identity_foundation",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for identity_foundation?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.146Z"
-    },
-    {
-      "review_id": "ISR-history-030",
-      "country_code": "ISR",
-      "module": "history",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for history?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.146Z"
-    },
-    {
-      "review_id": "ISR-founding_groups-031",
-      "country_code": "ISR",
-      "module": "founding_groups",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for founding_groups?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.147Z"
-    },
-    {
-      "review_id": "ISR-religion_history-032",
-      "country_code": "ISR",
-      "module": "religion_history",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for religion_history?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_religion_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.147Z"
-    },
-    {
-      "review_id": "ISR-cultural_assimilation-033",
-      "country_code": "ISR",
-      "module": "cultural_assimilation",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for cultural_assimilation?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.148Z"
-    },
-    {
-      "review_id": "ISR-population_divisions-034",
-      "country_code": "ISR",
-      "module": "population_divisions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for population_divisions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.149Z"
-    },
-    {
-      "review_id": "ISR-nationalism_cohesion-035",
-      "country_code": "ISR",
-      "module": "nationalism_cohesion",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for nationalism_cohesion?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.149Z"
-    },
-    {
-      "review_id": "ISR-national_cohesion_by_demographic-036",
-      "country_code": "ISR",
-      "module": "national_cohesion_by_demographic",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_cohesion_by_demographic?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.149Z"
-    },
-    {
-      "review_id": "ISR-government_current-037",
-      "country_code": "ISR",
-      "module": "government_current",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for government_current?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.150Z"
-    },
-    {
-      "review_id": "ISR-ruling_class-038",
-      "country_code": "ISR",
-      "module": "ruling_class",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for ruling_class?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.150Z"
-    },
-    {
-      "review_id": "ISR-leader_dossiers-039",
-      "country_code": "ISR",
-      "module": "leader_dossiers",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for leader_dossiers?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_leader_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.151Z"
-    },
-    {
-      "review_id": "ISR-math_contributions-040",
-      "country_code": "ISR",
-      "module": "math_contributions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for math_contributions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_philosophy_math_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.155Z"
-    },
-    {
-      "review_id": "ISR-philosophy_contributions-041",
-      "country_code": "ISR",
-      "module": "philosophy_contributions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for philosophy_contributions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_philosophy_math_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.155Z"
-    },
-    {
-      "review_id": "ISR-intelligence_security-042",
-      "country_code": "ISR",
-      "module": "intelligence_security",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for intelligence_security?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.156Z"
-    },
-    {
-      "review_id": "ISR-media_information-043",
-      "country_code": "ISR",
-      "module": "media_information",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for media_information?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.156Z"
-    },
-    {
-      "review_id": "ISR-foreign_policy-044",
-      "country_code": "ISR",
-      "module": "foreign_policy",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for foreign_policy?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.156Z"
-    },
-    {
-      "review_id": "ISR-adversary_narratives-045",
-      "country_code": "ISR",
-      "module": "adversary_narratives",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversary_narratives?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.157Z"
-    },
-    {
-      "review_id": "ISR-game_theory_profile-046",
-      "country_code": "ISR",
-      "module": "game_theory_profile",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for game_theory_profile?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_leader_sources",
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.158Z"
-    },
-    {
-      "review_id": "ISR-future_scenarios-047",
-      "country_code": "ISR",
-      "module": "future_scenarios",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for future_scenarios?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources",
-        "manual_leader_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.158Z"
-    },
-    {
-      "review_id": "ISR-allies_and_partners-048",
-      "country_code": "ISR",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.159Z"
-    },
-    {
-      "review_id": "ISR-adversaries_and_rivals-049",
-      "country_code": "ISR",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.159Z"
-    },
-    {
-      "review_id": "ISR-national_event_timeline-050",
-      "country_code": "ISR",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.160Z"
-    },
-    {
-      "review_id": "ISR-top_national_events_20_years-051",
-      "country_code": "ISR",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.160Z"
-    },
-    {
-      "review_id": "ISR-news_memory-052",
-      "country_code": "ISR",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.161Z"
-    },
-    {
-      "review_id": "ISR-threat_perception-053",
-      "country_code": "ISR",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.161Z"
-    },
-    {
-      "review_id": "ISR-wikipedia_baseline-054",
-      "country_code": "ISR",
-      "module": "wikipedia_baseline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for wikipedia_baseline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.162Z"
-    },
-    {
-      "review_id": "ISR-wikipedia_references-055",
-      "country_code": "ISR",
-      "module": "wikipedia_references",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for wikipedia_references?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:16.162Z"
+      "created_at": "2026-06-08T04:02:58.458Z"
     }
   ]
 }

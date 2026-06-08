@@ -95,7 +95,9 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "interstate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -172,7 +174,7 @@
     }
   ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "Top events are not generated until verified event/news data is available."
+    "status": "partial",
+    "warning": "Top events populated from processed manual event imports."
   }
 }

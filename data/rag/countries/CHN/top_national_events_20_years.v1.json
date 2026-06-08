@@ -2,7 +2,7 @@
   "country_code": "CHN",
   "module": "top_national_events_20_years",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "",
   "key_findings": [],
   "metrics": [],
@@ -16,8 +16,8 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
+      "events",
       "claims"
     ]
-  },
-  "review_status": "human_review_pending"
+  }
 }

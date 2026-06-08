@@ -2,11 +2,11 @@
   "country_code": "SAU",
   "module": "household_income_wealth",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "household_income_wealth has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "remittances_received_current_usd is 338466642.8878 current_usd for SAU (2024).",
-    "youth_unemployment_rate is 10.01 percent for SAU (2025)."
+    "remittances_received_current_usd: 338466642.8878 current_usd (2024)",
+    "youth_unemployment_rate: 10.01 percent (2025)"
   ],
   "metrics": [
     {
@@ -25,8 +25,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
     },
     {
       "metric_id": "youth_unemployment_rate",
@@ -44,36 +43,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "fresh",
-      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "SAU-household_income_wealth-metric-001",
-      "text": "remittances_received_current_usd is 338466642.8878 current_usd for SAU (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/SAU/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=SAU:remittances_received_current_usd:BX.TRF.PWKR.CD.DT; metric_id=remittances_received_current_usd"
-    },
-    {
-      "claim_id": "SAU-household_income_wealth-metric-002",
-      "text": "youth_unemployment_rate is 10.01 percent for SAU (2025).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/SAU/indicator/SL.UEM.1524.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=SAU:youth_unemployment_rate:SL.UEM.1524.ZS; metric_id=youth_unemployment_rate"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -84,8 +57,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }

@@ -2,7 +2,7 @@
   "country_code": "TUR",
   "module": "adversaries_and_rivals",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "",
   "key_findings": [],
   "metrics": [],
@@ -16,6 +16,7 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
+      "events",
       "claims"
     ]
   },
@@ -28,6 +29,5 @@
   "border_dispute_opponents": [],
   "public_opinion_adversaries": [],
   "regime_narrative_enemies": [],
-  "top_adversaries_ranked": [],
-  "review_status": "human_review_pending"
+  "top_adversaries_ranked": []
 }

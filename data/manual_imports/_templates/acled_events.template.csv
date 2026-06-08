@@ -1,0 +1,2 @@
+source_id,source_name,source_url,event_date,country_codes,actors,event_type,confidence,notes
+EXAMPLE-ACLED-001,ACLED,https://acleddata.com/,2024-01-15,USA|CHN,State actors|Protesters,Protests,0.8,EXAMPLE_ONLY_NOT_REAL_DATA

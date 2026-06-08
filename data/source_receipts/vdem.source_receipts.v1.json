@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "source_id": "vdem",
+  "last_updated": "2026-06-08T02:58:19.638Z",
+  "entries": [
+    {
+      "receipt_id": "vdem:d65f32bacb7b358c",
+      "source_id": "vdem",
+      "raw_file_path": "data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv",
+      "raw_file_sha256": "d65f32bacb7b358c58ca9c908424444170058fc283acb625f3a6bce74faa1994",
+      "raw_file_size_bytes": 406351380,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/vdem/vdem_country_year.csv",
+          "canonical_file_sha256": "cfbc4d06c772ed380e1568b856367b3aecedfc83f170693435b233d877ee9ca3",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+279b35457e22",
+          "rows_read": 28092,
+          "rows_written": 24281,
+          "rows_skipped": 40979,
+          "skip_reasons": {
+            "non_mvp_country": 25769,
+            "empty_value": 15210
+          },
+          "generated_at": "2026-06-08T02:58:19.637Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://www.v-dem.net/",
+      "official_download_page": "https://www.v-dem.net/data/the-v-dem-dataset/",
+      "license_or_terms_note": "V-Dem datasets are distributed for research use with attribution; review current terms on the V-Dem website before redistribution.",
+      "source_org": "V-Dem Institute",
+      "source_title": "V-Dem Country-Year Dataset",
+      "notes": null
+    }
+  ]
+}

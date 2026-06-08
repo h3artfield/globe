@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "source_id": "correlates_of_war",
+  "last_updated": "2026-06-08T04:02:09.483Z",
+  "entries": [
+    {
+      "receipt_id": "correlates_of_war:4071a00009b820c7",
+      "source_id": "correlates_of_war",
+      "raw_file_path": "data/manual_imports_raw/correlates_of_war/alliance_v4.1_by_directed.csv",
+      "raw_file_sha256": "4071a00009b820c769dda0298f5fb86c7ab59fdabb10beff7d78814858e6f04c",
+      "raw_file_size_bytes": 436481,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/correlates_of_war/cow_alliances_wars.csv",
+          "canonical_file_sha256": "fed8f606fae71de31ab51c724232d4e21c145dcb4b73980757ec2764fb552678",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+279b35457e22",
+          "rows_read": 7808,
+          "rows_written": 292,
+          "rows_skipped": 7516,
+          "skip_reasons": {
+            "unmapped_country_code": 5996,
+            "missing_required_field": 561,
+            "non_mvp_relationship": 124
+          },
+          "generated_at": "2026-06-08T04:02:09.483Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://correlatesofwar.org/",
+      "official_download_page": "https://correlatesofwar.org/data-sets/",
+      "license_or_terms_note": "COW datasets are academic research datasets with citation requirements; review COW terms on the data-sets page.",
+      "source_org": "Correlates of War Project",
+      "source_title": "Correlates of War Alliance and War Data",
+      "notes": null
+    },
+    {
+      "receipt_id": "correlates_of_war:aa2eb5244a0cb0b5",
+      "source_id": "correlates_of_war",
+      "raw_file_path": "data/manual_imports_raw/correlates_of_war/directed_dyadic_war.csv",
+      "raw_file_sha256": "aa2eb5244a0cb0b579867e50eb02e4297fb29250e67120fb132e3c0618dceda0",
+      "raw_file_size_bytes": 112038,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/correlates_of_war/cow_alliances_wars.csv",
+          "canonical_file_sha256": "fed8f606fae71de31ab51c724232d4e21c145dcb4b73980757ec2764fb552678",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+279b35457e22",
+          "rows_read": 7808,
+          "rows_written": 292,
+          "rows_skipped": 7516,
+          "skip_reasons": {
+            "unmapped_country_code": 5996,
+            "missing_required_field": 561,
+            "non_mvp_relationship": 124
+          },
+          "generated_at": "2026-06-08T04:02:09.483Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://correlatesofwar.org/",
+      "official_download_page": "https://correlatesofwar.org/data-sets/",
+      "license_or_terms_note": "COW datasets are academic research datasets with citation requirements; review COW terms on the data-sets page.",
+      "source_org": "Correlates of War Project",
+      "source_title": "Correlates of War Alliance and War Data",
+      "notes": null
+    }
+  ]
+}

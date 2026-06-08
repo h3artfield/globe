@@ -1,0 +1,2 @@
+country_code,year,metric_id,value,unit,source_url,source_name,raw_record_id,calculation,notes
+USA,2023,patent_applications_resident,300000,applications,https://www3.wipo.int/,WIPO,EXAMPLE-001,,EXAMPLE_ONLY_NOT_REAL_DATA

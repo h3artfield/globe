@@ -1,10 +1,2187 @@
 {
   "country_code": "CHN",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "ucdp:202",
+      "event_date": "1946-12-31",
+      "year": 1946,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of China",
+        "PLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "202",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:403:1946",
+      "event_date": "1946-12-31",
+      "year": 1946,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "PLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "403:1946",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:403:1947",
+      "event_date": "1946-12-31",
+      "year": 1946,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "PLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "403:1947",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:403:1948",
+      "event_date": "1946-12-31",
+      "year": 1946,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "PLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "403:1948",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:403:1949",
+      "event_date": "1946-12-31",
+      "year": 1946,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "PLA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "403:1949",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:217",
+      "event_date": "1947-02-28",
+      "year": 1947,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of China",
+        "Taiwanese insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "217",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:421:1947",
+      "event_date": "1947-02-28",
+      "year": 1947,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "Taiwanese insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "421:1947",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:482:1950",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1951",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1952",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1953",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:462:1949",
+      "event_date": "1949-10-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "462:1949",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:462:1950",
+      "event_date": "1949-10-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Taiwan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "462:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Taiwan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:462:1954",
+      "event_date": "1949-10-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "462:1954",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:462:1958",
+      "event_date": "1949-10-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "462:1958",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:236",
+      "event_date": "1950-10-07",
+      "year": 1950,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of China",
+        "Tibet"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "236",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:483:1950",
+      "event_date": "1950-10-07",
+      "year": 1950,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "Tibet"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "483:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:483:1956",
+      "event_date": "1950-10-07",
+      "year": 1950,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "Tibet"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "483:1956",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "ucdp:483:1959",
+      "event_date": "1950-10-07",
+      "year": 1950,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=China; intensity_level=2(war); type_of_conflict=3",
+      "actors": [
+        "Government of China",
+        "Tibet"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "483:1959",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China; intensity_level=2(war); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:257:nonaggression_pact",
+      "event_date": "1960-01-28",
+      "year": 1960,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1967-10-06",
+      "actors": [
+        "Myanmar"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "257:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1967-10-06"
+    },
+    {
+      "event_id": "correlates_of_war:261:nonaggression_pact",
+      "event_date": "1960-08-26",
+      "year": 1960,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1979-12-27",
+      "actors": [
+        "China"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "261:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1979-12-27"
+    },
+    {
+      "event_id": "correlates_of_war:262:nonaggression_pact",
+      "event_date": "1960-12-19",
+      "year": 1960,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1970-05-05",
+      "actors": [
+        "Cambodia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "262:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1970-05-05"
+    },
+    {
+      "event_id": "correlates_of_war:265:alliance",
+      "event_date": "1961-07-11",
+      "year": 1961,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "North Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "265:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:651:1969",
+      "event_date": "1969-02-28",
+      "year": 1969,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Myanmar (Burma); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Myanmar (Burma)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "651:1969",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Myanmar (Burma); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1974",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1974",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1978",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1978",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1979",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1980",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1980",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1981",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1981",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1983",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1983",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1984",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1984",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1986",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1986",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1987",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1987",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:737:1988",
+      "event_date": "1974-01-19",
+      "year": 1974,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2",
+      "actors": [
+        "Government of China",
+        "Government of Vietnam (North Vietnam)"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "737:1988",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=China, Vietnam (North Vietnam); intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "event_id": "correlates_of_war:389:alliance",
+      "event_date": "2001-06-15",
+      "year": 2001,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "China"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "389:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:12575:2013",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2014",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2015",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2016",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12575:2017",
+      "event_date": "2009-06-10",
+      "year": 2009,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "AQIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12575:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11985:2015",
+      "event_date": "2012-01-17",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "CMA"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11985:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2013",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2015",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11986:2016",
+      "event_date": "2012-01-20",
+      "year": 2012,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Ansar Dine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11986:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12571:2013",
+      "event_date": "2013-01-12",
+      "year": 2013,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "MUJAO"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12571:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12578:2013",
+      "event_date": "2013-02-19",
+      "year": 2013,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "Signed-in-Blood Battalion"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12578:2013",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:12582:2014",
+      "event_date": "2013-10-07",
+      "year": 2013,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "al-Murabitun"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12582:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16139:2023",
+      "event_date": "2015-11-10",
+      "year": 2015,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "MPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16139:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2017",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2018",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2019",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2020",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2021",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2022",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15259:2023",
+      "event_date": "2017-02-04",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "IS"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15259:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2017",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2018",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2019",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2020",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2021",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "ETH",
+        "IRN",
+        "PAK",
+        "TUR",
+        "UKR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2022",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15108:2023",
+      "event_date": "2017-03-05",
+      "year": 2017,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "IRN",
+        "PAK",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Mali",
+        "JNIM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15108:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2023",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2024",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified national event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review before production use."
   }
 }

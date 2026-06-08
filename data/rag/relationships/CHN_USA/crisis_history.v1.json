@@ -6,22 +6,446 @@
   ],
   "module": "crisis_history",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "32 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "2017-03-05: 4",
+    "2017-03-05: 4",
+    "2017-03-05: 4",
+    "2017-03-05: 4",
+    "2017-03-05: 4"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "ucdp:482:1950",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1951",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1952",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1953",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:462:1954",
+      "text": "1949-10-31: interstate_conflict — location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "462:1954",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-10-31",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:462:1958",
+      "text": "1949-10-31: interstate_conflict — location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "462:1958",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-10-31",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:12575:2013",
+      "text": "2009-06-10: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12575:2013",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2009-06-10",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12575:2014",
+      "text": "2009-06-10: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12575:2014",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2009-06-10",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12575:2015",
+      "text": "2009-06-10: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12575:2015",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2009-06-10",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12575:2016",
+      "text": "2009-06-10: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12575:2016",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2009-06-10",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12575:2017",
+      "text": "2009-06-10: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12575:2017",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2009-06-10",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11985:2015",
+      "text": "2012-01-17: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11985:2015",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2012-01-17",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11986:2013",
+      "text": "2012-01-20: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11986:2013",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2012-01-20",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11986:2015",
+      "text": "2012-01-20: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11986:2015",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2012-01-20",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:11986:2016",
+      "text": "2012-01-20: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "11986:2016",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2012-01-20",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12571:2013",
+      "text": "2013-01-12: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12571:2013",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2013-01-12",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12578:2013",
+      "text": "2013-02-19: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12578:2013",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2013-02-19",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:12582:2014",
+      "text": "2013-10-07: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "12582:2014",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2013-10-07",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2017",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2017",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2018",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2018",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2019",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2019",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2020",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2020",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2021",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2021",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2022",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2022",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15259:2023",
+      "text": "2017-02-04: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15259:2023",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-02-04",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2017",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2017",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2018",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2018",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2019",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2019",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2020",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2020",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2021",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2021",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2022",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "claim_id": "ucdp:15108:2023",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2023",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "482:1950",
+    "ucdp",
+    "482:1951",
+    "482:1952",
+    "482:1953",
+    "462:1954",
+    "462:1958",
+    "12575:2013",
+    "12575:2014",
+    "12575:2015",
+    "12575:2016",
+    "12575:2017",
+    "11985:2015",
+    "11986:2013",
+    "11986:2015",
+    "11986:2016",
+    "12571:2013",
+    "12578:2013",
+    "12582:2014",
+    "15259:2017",
+    "15259:2018",
+    "15259:2019",
+    "15259:2020",
+    "15259:2021",
+    "15259:2022",
+    "15259:2023",
+    "15108:2017",
+    "15108:2018",
+    "15108:2019",
+    "15108:2020",
+    "15108:2021",
+    "15108:2022",
+    "15108:2023"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

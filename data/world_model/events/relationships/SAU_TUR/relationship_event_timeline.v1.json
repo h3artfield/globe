@@ -5,10 +5,47 @@
     "TUR"
   ],
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "ucdp:799:1991",
+      "event_date": "1990-08-02",
+      "year": 1990,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "SAU",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "SAU_TUR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iraq",
+        "Government of Kuwait"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "799:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified relationship event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review bilateral coverage."
   }
 }

@@ -1,0 +1,183 @@
+import type { ManualRecord } from "@/lib/sources/tabularParser";
+import { transformAcled } from "./acledTransform";
+import { transformCorrelatesOfWar } from "./cowTransform";
+import { transformUcdp } from "./ucdpTransform";
+import { createStubTransformStats, STUB_TRANSFORM_MESSAGE } from "./stubTransform";
+import type { CanonicalEventRow, CanonicalMetricRow, TransformStats } from "./types";
+import { EVENT_CANONICAL_HEADERS, METRIC_CANONICAL_HEADERS } from "./types";
+import { transformVdem } from "./vdemTransform";
+
+export type Batch1SourceKind = "metric" | "event";
+
+export type Batch1SourceConfig = {
+  sourceId: string;
+  rawFolder: string;
+  canonicalFolder: string;
+  canonicalFilename: string;
+  kind: Batch1SourceKind;
+  implemented: boolean;
+};
+
+export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
+  {
+    sourceId: "vdem",
+    rawFolder: "vdem",
+    canonicalFolder: "vdem",
+    canonicalFilename: "vdem_country_year.csv",
+    kind: "metric",
+    implemented: true,
+  },
+  {
+    sourceId: "un_comtrade",
+    rawFolder: "un_comtrade",
+    canonicalFolder: "un_comtrade",
+    canonicalFilename: "un_comtrade_bilateral.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "unodc",
+    rawFolder: "unodc",
+    canonicalFolder: "unodc",
+    canonicalFilename: "unodc_crime.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "unesco_uis",
+    rawFolder: "unesco_uis",
+    canonicalFolder: "unesco_uis",
+    canonicalFilename: "unesco_uis_education.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "wipo",
+    rawFolder: "wipo",
+    canonicalFolder: "wipo",
+    canonicalFilename: "wipo_patents.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "world_values_survey",
+    rawFolder: "world_values_survey",
+    canonicalFolder: "world_values_survey",
+    canonicalFilename: "wvs_country_crosstabs.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "oecd_pisa",
+    rawFolder: "oecd_pisa",
+    canonicalFolder: "oecd_pisa",
+    canonicalFilename: "oecd_pisa_scores.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "unctad",
+    rawFolder: "unctad",
+    canonicalFolder: "unctad",
+    canonicalFilename: "unctad_trade_maritime.csv",
+    kind: "metric",
+    implemented: false,
+  },
+  {
+    sourceId: "acled",
+    rawFolder: "acled",
+    canonicalFolder: "acled",
+    canonicalFilename: "acled_events.csv",
+    kind: "event",
+    implemented: true,
+  },
+  {
+    sourceId: "ucdp",
+    rawFolder: "ucdp",
+    canonicalFolder: "ucdp",
+    canonicalFilename: "ucdp_conflict.csv",
+    kind: "event",
+    implemented: true,
+  },
+  {
+    sourceId: "correlates_of_war",
+    rawFolder: "correlates_of_war",
+    canonicalFolder: "correlates_of_war",
+    canonicalFilename: "cow_alliances_wars.csv",
+    kind: "event",
+    implemented: true,
+  },
+];
+
+export type TransformOutput =
+  | { kind: "metric"; rows: CanonicalMetricRow[]; headers: readonly string[] }
+  | { kind: "event"; rows: CanonicalEventRow[]; headers: readonly string[] };
+
+export function runSourceTransform(
+  config: Batch1SourceConfig,
+  records: ManualRecord[],
+  rawFilesRead: string[],
+  outputPath: string,
+): { output: TransformOutput | null; stats: TransformStats } {
+  if (!config.implemented) {
+    return {
+      output: null,
+      stats: createStubTransformStats(config.sourceId, outputPath, rawFilesRead, records.length),
+    };
+  }
+
+  if (config.sourceId === "vdem") {
+    const result = transformVdem(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "metric",
+        rows: result.rows,
+        headers: METRIC_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "acled") {
+    const result = transformAcled(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "event",
+        rows: result.rows,
+        headers: EVENT_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "ucdp") {
+    const result = transformUcdp(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "event",
+        rows: result.rows,
+        headers: EVENT_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "correlates_of_war") {
+    const result = transformCorrelatesOfWar(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "event",
+        rows: result.rows,
+        headers: EVENT_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  return {
+    output: null,
+    stats: createStubTransformStats(config.sourceId, outputPath, rawFilesRead, records.length),
+  };
+}
+
+export { STUB_TRANSFORM_MESSAGE };

@@ -1,10 +1,719 @@
 {
   "country_code": "SAU",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "correlates_of_war:156:alliance",
+      "event_date": "1934-05-20",
+      "year": 1934,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1962-11-06",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "156:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1962-11-06"
+    },
+    {
+      "event_id": "correlates_of_war:162:entente",
+      "event_date": "1937-04-29",
+      "year": 1937,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1956-04-02",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "162:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1956-04-02"
+    },
+    {
+      "event_id": "correlates_of_war:247:alliance",
+      "event_date": "1956-04-21",
+      "year": 1956,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1962-11-06",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "247:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1962-11-06"
+    },
+    {
+      "event_id": "correlates_of_war:268:entente",
+      "event_date": "1962-08-29",
+      "year": 1962,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1967-05-30",
+      "actors": [
+        "Saudi Arabia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "268:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1967-05-30"
+    },
+    {
+      "event_id": "ucdp:340",
+      "event_date": "1979-11-20",
+      "year": 1979,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "3",
+      "event_category": "domestic",
+      "headline": "3",
+      "summary": "3",
+      "actors": [
+        "Government of Saudi Arabia",
+        "JSM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "340",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:757:1979",
+      "event_date": "1979-11-20",
+      "year": 1979,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "internationalized_intrastate_conflict",
+      "event_category": "security",
+      "headline": "internationalized_intrastate_conflict",
+      "summary": "location=Saudi Arabia; intensity_level=1(minor_conflict); type_of_conflict=3",
+      "actors": [
+        "Government of Saudi Arabia",
+        "JSM"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "757:1979",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Saudi Arabia; intensity_level=1(minor_conflict); type_of_conflict=3"
+    },
+    {
+      "event_id": "correlates_of_war:335:nonaggression_pact",
+      "event_date": "1989-03-27",
+      "year": 1989,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1990-08-02",
+      "actors": [
+        "Saudi Arabia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "335:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1990-08-02"
+    },
+    {
+      "event_id": "correlates_of_war:199:alliance",
+      "event_date": "1990-05-22",
+      "year": 1990,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Yemen"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "199:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:230:alliance",
+      "event_date": "1990-05-22",
+      "year": 1990,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Yemen"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "230:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:799:1991",
+      "event_date": "1990-08-02",
+      "year": 1990,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "SAU",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "SAU_TUR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Iraq",
+        "Government of Kuwait"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "799:1991",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Iraq, Kuwait; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:878:2004",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2004",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2005",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2005",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2006",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2006",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:878:2007",
+      "event_date": "2000-10-12",
+      "year": 2000,
+      "country_codes": [
+        "PAK",
+        "SAU",
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of United States of America",
+        "al-Qaida"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "878:2007",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=United States of America; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "correlates_of_war:400:defense_pact",
+      "event_date": "2000-12-31",
+      "year": 2000,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Oman"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "400:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:14595:2018",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14595:2019",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14595:2020",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14595:2021",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14595:2022",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14595:2023",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14595:2024",
+      "event_date": "2015-03-07",
+      "year": 2015,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Yemen (North Yemen); intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Yemen (North Yemen)",
+        "Forces of the Presidential Leadership Council"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14595:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Yemen (North Yemen); intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified national event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review before production use."
   }
 }

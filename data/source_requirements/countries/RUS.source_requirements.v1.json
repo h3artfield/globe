@@ -1,0 +1,622 @@
+{
+  "target_id": "RUS",
+  "target_type": "country",
+  "last_updated": "2026-06-08",
+  "country_topics": [
+    "sanctions exposure",
+    "energy exports",
+    "military posture",
+    "authoritarian governance",
+    "Eurasian integration"
+  ],
+  "modules": [
+    {
+      "module": "identity_foundation",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "founding_groups",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "religion_history",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "history",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "demographics",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "demographic_change",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "cultural_assimilation",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "population_divisions",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "nationalism_cohesion",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "national_cohesion_by_demographic",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "government_current",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "ruling_class",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "leader_dossiers",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "current_office_sources_under_12_months",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "crime_safety",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "education",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "economy",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "trade_exports_imports",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "production_industry",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "logistics_shipping_air_travel",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "household_income_wealth",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "technology_contributions",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "math_contributions",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "philosophy_contributions",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "military",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "intelligence_security",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "media_information",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "foreign_policy",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "allies_and_partners",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "adversaries_and_rivals",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "threat_perception",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "average_citizen_life",
+      "minimum_sources": 2,
+      "required_source_types": [
+        "international_dataset"
+      ],
+      "required_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 1,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "auto_generated_from_structured_data",
+      "completion_threshold": 0.65
+    },
+    {
+      "module": "top_national_events_20_years",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "news_memory",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "game_theory_profile",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "future_scenarios",
+      "minimum_sources": 4,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 5,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    }
+  ]
+}

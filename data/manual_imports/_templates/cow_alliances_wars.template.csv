@@ -1,0 +1,2 @@
+source_id,source_name,source_url,event_date,country_codes,actors,event_type,confidence,notes
+EXAMPLE-COW-001,Correlates of War,https://correlatesofwar.org/,2015-03-10,IND|PAK,India|Pakistan,Interstate war,medium,EXAMPLE_ONLY_NOT_REAL_DATA

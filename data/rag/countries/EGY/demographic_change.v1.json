@@ -2,11 +2,11 @@
   "country_code": "EGY",
   "module": "demographic_change",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "demographic_change has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "fertility_rate is 2.735 births_per_woman for EGY (2024).",
-    "net_migration is -57305 people for EGY (2025)."
+    "fertility_rate: 2.735 births_per_woman (2024)",
+    "net_migration: -57305 people (2025)"
   ],
   "metrics": [
     {
@@ -25,8 +25,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for SP.DYN.TFRT.IN.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SP.DYN.TFRT.IN."
     },
     {
       "metric_id": "net_migration",
@@ -44,36 +43,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "fresh",
-      "notes": "Latest non-null World Bank observation for SM.POP.NETM.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SM.POP.NETM."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "EGY-demographic_change-metric-001",
-      "text": "fertility_rate is 2.735 births_per_woman for EGY (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/EGY/indicator/SP.DYN.TFRT.IN?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=EGY:fertility_rate:SP.DYN.TFRT.IN; metric_id=fertility_rate"
-    },
-    {
-      "claim_id": "EGY-demographic_change-metric-002",
-      "text": "net_migration is -57305 people for EGY (2025).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/EGY/indicator/SM.POP.NETM?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=EGY:net_migration:SM.POP.NETM; metric_id=net_migration"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -84,8 +57,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }

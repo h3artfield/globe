@@ -2,7 +2,7 @@
   "country_code": "IND",
   "module": "leader_dossiers",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "",
   "key_findings": [],
   "metrics": [],
@@ -14,8 +14,9 @@
   "confidence": {
     "overall": "unknown",
     "weak_areas": [
-      "sources",
-      "claims"
+      "metrics",
+      "claims",
+      "sources"
     ]
   },
   "profile_label": "behavioral profile based on public record",
@@ -46,6 +47,5 @@
     "what_they_want_to_be_remembered_for",
     "what_could_make_them_escalate",
     "what_could_make_them_compromise"
-  ],
-  "review_status": "human_review_pending"
+  ]
 }

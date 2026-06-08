@@ -2,11 +2,11 @@
   "country_code": "RUS",
   "module": "demographics",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "demographics has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "population_total is 143533851 people for RUS (2024).",
-    "urban_population_share is 75.1119136177067 percent for RUS (2024)."
+    "population_total: 143533851 people (2024)",
+    "urban_population_share: 75.1119136177067 percent (2024)"
   ],
   "metrics": [
     {
@@ -25,8 +25,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for SP.POP.TOTL.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SP.POP.TOTL."
     },
     {
       "metric_id": "urban_population_share",
@@ -44,36 +43,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for SP.URB.TOTL.IN.ZS.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SP.URB.TOTL.IN.ZS."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "RUS-demographics-metric-001",
-      "text": "population_total is 143533851 people for RUS (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SP.POP.TOTL?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:population_total:SP.POP.TOTL; metric_id=population_total"
-    },
-    {
-      "claim_id": "RUS-demographics-metric-002",
-      "text": "urban_population_share is 75.1119136177067 percent for RUS (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:urban_population_share:SP.URB.TOTL.IN.ZS; metric_id=urban_population_share"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -84,8 +57,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }

@@ -6,22 +6,121 @@
   ],
   "module": "war_history",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "7 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "1949-05-31: interstate_conflict",
+    "1949-05-31: interstate_conflict",
+    "1949-10-31: interstate_conflict",
+    "1949-10-31: interstate_conflict",
+    "2017-03-05: 4"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "ucdp:482:1950",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1951",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1952",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:482:1953",
+      "text": "1949-05-31: interstate_conflict — location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-05-31",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:462:1954",
+      "text": "1949-10-31: interstate_conflict — location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "462:1954",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-10-31",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:462:1958",
+      "text": "1949-10-31: interstate_conflict — location=China, Taiwan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "462:1958",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1949-10-31",
+      "notes": "location=China, Taiwan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:15108:2022",
+      "text": "2017-03-05: 4 — location=Mali; intensity_level=2(war); type_of_conflict=4",
+      "claim_type": "fact",
+      "source_ids": [
+        "15108:2022",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "2017-03-05",
+      "notes": "location=Mali; intensity_level=2(war); type_of_conflict=4"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "482:1950",
+    "ucdp",
+    "482:1951",
+    "482:1952",
+    "482:1953",
+    "462:1954",
+    "462:1958",
+    "15108:2022"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

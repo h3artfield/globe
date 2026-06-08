@@ -6,22 +6,381 @@
   ],
   "module": "war_history",
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "summary": "",
-  "key_findings": [],
-  "metrics": [],
-  "claims": [],
-  "open_questions": [
-    "Relationship world-model data is pending verified event/alliance/adversary sources."
+  "last_updated": "2026-06-08",
+  "summary": "27 bilateral event(s) merged from processed conflict/event imports.",
+  "key_findings": [
+    "1948-12-31: interstate_conflict",
+    "1948-12-31: interstate_conflict",
+    "1948-12-31: interstate_conflict",
+    "1948-12-31: interstate_conflict",
+    "1948-12-31: interstate_conflict"
   ],
-  "source_ids": [],
+  "metrics": [],
+  "claims": [
+    {
+      "claim_id": "ucdp:422:1948",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1948",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1964",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1964",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1965",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1965",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1971",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=2(war); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1971",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1984",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1984",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1987",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1987",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1989",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1989",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1990",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1990",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1991",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1991",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1992",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1992",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1994",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1994",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1996",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1996",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1997",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1997",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1998",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1998",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:1999",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:1999",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2000",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2000",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2001",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2001",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2002",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2002",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2003",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2003",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2013",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2013",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2014",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2014",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2015",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2015",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2016",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2016",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2017",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2017",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2018",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2018",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2019",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2019",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    },
+    {
+      "claim_id": "ucdp:422:2020",
+      "text": "1948-12-31: interstate_conflict — location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2",
+      "claim_type": "fact",
+      "source_ids": [
+        "422:2020",
+        "ucdp"
+      ],
+      "confidence": "unknown",
+      "last_verified": "1948-12-31",
+      "notes": "location=India, Pakistan; intensity_level=1(minor_conflict); type_of_conflict=2"
+    }
+  ],
+  "open_questions": [
+    "Review UCDP/COW/manual event claims before production use."
+  ],
+  "source_ids": [
+    "422:1948",
+    "ucdp",
+    "422:1964",
+    "422:1965",
+    "422:1971",
+    "422:1984",
+    "422:1987",
+    "422:1989",
+    "422:1990",
+    "422:1991",
+    "422:1992",
+    "422:1994",
+    "422:1996",
+    "422:1997",
+    "422:1998",
+    "422:1999",
+    "422:2000",
+    "422:2001",
+    "422:2002",
+    "422:2003",
+    "422:2013",
+    "422:2014",
+    "422:2015",
+    "422:2016",
+    "422:2017",
+    "422:2018",
+    "422:2019",
+    "422:2020"
+  ],
   "generation_status": "auto_generated_structured_data",
   "confidence": {
-    "overall": "unknown",
+    "overall": "low",
     "weak_areas": [
-      "sources",
-      "events",
-      "claims"
+      "review_status",
+      "provenance"
     ]
   }
 }

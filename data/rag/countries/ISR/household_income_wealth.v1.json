@@ -2,12 +2,12 @@
   "country_code": "ISR",
   "module": "household_income_wealth",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "household_income_wealth has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "gini_index is 38.3 index for ISR (2022).",
-    "remittances_received_current_usd is 952300000 current_usd for ISR (2024).",
-    "youth_unemployment_rate is 6.032 percent for ISR (2025)."
+    "gini_index: 38.3 index (2022)",
+    "remittances_received_current_usd: 952300000 current_usd (2024)",
+    "youth_unemployment_rate: 6.032 percent (2025)"
   ],
   "metrics": [
     {
@@ -26,8 +26,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for SI.POV.GINI.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI."
     },
     {
       "metric_id": "remittances_received_current_usd",
@@ -45,8 +44,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
     },
     {
       "metric_id": "youth_unemployment_rate",
@@ -64,48 +62,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "fresh",
-      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "ISR-household_income_wealth-metric-001",
-      "text": "gini_index is 38.3 index for ISR (2022).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/SI.POV.GINI?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:gini_index:SI.POV.GINI; metric_id=gini_index"
-    },
-    {
-      "claim_id": "ISR-household_income_wealth-metric-002",
-      "text": "remittances_received_current_usd is 952300000 current_usd for ISR (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:remittances_received_current_usd:BX.TRF.PWKR.CD.DT; metric_id=remittances_received_current_usd"
-    },
-    {
-      "claim_id": "ISR-household_income_wealth-metric-003",
-      "text": "youth_unemployment_rate is 6.032 percent for ISR (2025).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/ISR/indicator/SL.UEM.1524.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=ISR:youth_unemployment_rate:SL.UEM.1524.ZS; metric_id=youth_unemployment_rate"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -116,8 +76,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }

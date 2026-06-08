@@ -4,25 +4,26 @@
     "RUS",
     "UKR"
   ],
-  "coverage_score": 0,
+  "coverage_score": 45,
   "structured_data_score": 0,
-  "narrative_data_score": 0,
+  "narrative_data_score": 45,
   "freshness_score": null,
   "provenance_score": null,
   "modules_complete": [],
-  "modules_partial": [],
+  "modules_partial": [
+    "relationship_event_timeline",
+    "alliance_status",
+    "crisis_history",
+    "war_history",
+    "diplomatic_history"
+  ],
   "modules_missing": [
     "relationship",
     "trade_relationship",
     "military_relationship",
     "rivalry_narratives",
     "game_theory_relationship",
-    "relationship_event_timeline",
-    "alliance_status",
-    "adversary_status",
-    "crisis_history",
-    "war_history",
-    "diplomatic_history"
+    "adversary_status"
   ],
   "metrics_available": [],
   "metrics_missing": [],

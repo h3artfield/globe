@@ -2,7 +2,7 @@
   "country_code": "UKR",
   "module": "allies_and_partners",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "",
   "key_findings": [],
   "metrics": [],
@@ -16,6 +16,7 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
+      "events",
       "claims"
     ]
   },
@@ -27,6 +28,5 @@
   "intelligence_partners": [],
   "diplomatic_supporters": [],
   "trade_dependency_partners": [],
-  "top_allies_ranked": [],
-  "review_status": "human_review_pending"
+  "top_allies_ranked": []
 }

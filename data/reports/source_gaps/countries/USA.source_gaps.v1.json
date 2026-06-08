@@ -53,8 +53,8 @@
     },
     {
       "module": "history",
-      "readiness": 0.41,
-      "sources_available": 1,
+      "readiness": 0.25,
+      "sources_available": 0,
       "sources_required": 4,
       "missing_source_types": [
         "official_primary",
@@ -62,6 +62,7 @@
         "think_tank"
       ],
       "missing_claim_types": [
+        "fact",
         "interpretation",
         "strategic_inference"
       ],

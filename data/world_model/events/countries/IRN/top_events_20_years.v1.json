@@ -4,7 +4,9 @@
   "years": [
     {
       "year": 2006,
-      "domestic_events": [],
+      "domestic_events": [
+        "entente"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
       "security_events": [],
@@ -44,7 +46,9 @@
     },
     {
       "year": 2011,
-      "domestic_events": [],
+      "domestic_events": [
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
       "security_events": [],
@@ -71,7 +75,9 @@
       "domestic_events": [],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -84,18 +90,26 @@
     },
     {
       "year": 2016,
-      "domestic_events": [],
+      "domestic_events": [
+        "3"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "internationalized_intrastate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
       "year": 2017,
-      "domestic_events": [],
+      "domestic_events": [
+        "4"
+      ],
       "foreign_policy_events": [],
       "economic_events": [],
-      "security_events": [],
+      "security_events": [
+        "interstate_conflict"
+      ],
       "cultural_social_events": []
     },
     {
@@ -172,7 +186,7 @@
     }
   ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "Top events are not generated until verified event/news data is available."
+    "status": "partial",
+    "warning": "Top events populated from processed manual event imports."
   }
 }

@@ -2,13 +2,13 @@
   "country_code": "RUS",
   "module": "economy",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "economy has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "fdi_inflows_current_usd is -9350250000 current_usd for RUS (2024).",
-    "gdp_current_usd is 2173835806671.66 current_usd for RUS (2024).",
-    "gdp_per_capita_current_usd is 14889.0185546875 current_usd for RUS (2024).",
-    "gdp_ppp_current_international is 6921249292202.15 current_international_usd for RUS (2024)."
+    "fdi_inflows_current_usd: -9350250000 current_usd (2024)",
+    "gdp_current_usd: 2173835806671.66 current_usd (2024)",
+    "gdp_per_capita_current_usd: 14889.0185546875 current_usd (2024)",
+    "gdp_ppp_current_international: 6921249292202.15 current_international_usd (2024)"
   ],
   "metrics": [
     {
@@ -27,8 +27,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for BX.KLT.DINV.CD.WD."
     },
     {
       "metric_id": "gdp_current_usd",
@@ -46,8 +45,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.CD."
     },
     {
       "metric_id": "gdp_per_capita_current_usd",
@@ -65,8 +63,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for NY.GDP.PCAP.CD."
     },
     {
       "metric_id": "gdp_ppp_current_international",
@@ -84,60 +81,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for NY.GDP.MKTP.PP.CD."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "RUS-economy-metric-001",
-      "text": "fdi_inflows_current_usd is -9350250000 current_usd for RUS (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/BX.KLT.DINV.CD.WD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:fdi_inflows_current_usd:BX.KLT.DINV.CD.WD; metric_id=fdi_inflows_current_usd"
-    },
-    {
-      "claim_id": "RUS-economy-metric-002",
-      "text": "gdp_current_usd is 2173835806671.66 current_usd for RUS (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.MKTP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gdp_current_usd:NY.GDP.MKTP.CD; metric_id=gdp_current_usd"
-    },
-    {
-      "claim_id": "RUS-economy-metric-003",
-      "text": "gdp_per_capita_current_usd is 14889.0185546875 current_usd for RUS (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.PCAP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gdp_per_capita_current_usd:NY.GDP.PCAP.CD; metric_id=gdp_per_capita_current_usd"
-    },
-    {
-      "claim_id": "RUS-economy-metric-004",
-      "text": "gdp_ppp_current_international is 6921249292202.15 current_international_usd for RUS (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/RUS/indicator/NY.GDP.MKTP.PP.CD?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=RUS:gdp_ppp_current_international:NY.GDP.MKTP.PP.CD; metric_id=gdp_ppp_current_international"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -148,8 +95,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }

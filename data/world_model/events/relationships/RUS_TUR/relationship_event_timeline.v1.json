@@ -5,10 +5,556 @@
     "TUR"
   ],
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "correlates_of_war:14:alliance",
+      "event_date": "1833-07-08",
+      "year": 1833,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1841-07-13",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1841-07-13"
+    },
+    {
+      "event_id": "correlates_of_war:20:defense_pact",
+      "event_date": "1840-07-15",
+      "year": 1840,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1840-11-27",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "20:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1840-11-27"
+    },
+    {
+      "event_id": "correlates_of_war:121:alliance",
+      "event_date": "1925-12-17",
+      "year": 1925,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-09-01",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "121:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-09-01"
+    },
+    {
+      "event_id": "correlates_of_war:169:defense_pact",
+      "event_date": "1937-09-14",
+      "year": 1937,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1939-03-28",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "169:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-03-28"
+    },
+    {
+      "event_id": "ucdp:482:1950",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1950",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1951",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1951",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1952",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1952",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:482:1953",
+      "event_date": "1949-05-31",
+      "year": 1949,
+      "country_codes": [
+        "CHN",
+        "ETH",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "CHN_USA",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of North Korea",
+        "Government of South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "482:1953",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=North Korea, South Korea; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "correlates_of_war:354:alliance",
+      "event_date": "1992-05-25",
+      "year": 1992,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "354:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:11973:2020",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2021",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2022",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2023",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:11973:2024",
+      "event_date": "2011-07-30",
+      "year": 2011,
+      "country_codes": [
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Syria; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Syria",
+        "Syrian insurgents"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "11973:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Syria; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2022",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR",
+        "USA"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:16562:2024",
+      "event_date": "2020-12-15",
+      "year": 2020,
+      "country_codes": [
+        "CHN",
+        "EGY",
+        "PAK",
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Central African Republic",
+        "CPC"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16562:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Central African Republic; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified relationship event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review bilateral coverage."
   }
 }

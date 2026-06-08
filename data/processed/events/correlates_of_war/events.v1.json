@@ -1,0 +1,5842 @@
+{
+  "source_id": "correlates_of_war",
+  "version": "1.0",
+  "generated_at": "2026-06-08T04:02:40.831Z",
+  "events": [
+    {
+      "event_id": "correlates_of_war:6:alliance",
+      "event_date": "1816-01-01",
+      "year": 1816,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1822-10-31",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "6:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1822-10-31"
+    },
+    {
+      "event_id": "correlates_of_war:8:entente",
+      "event_date": "1827-07-06",
+      "year": 1827,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1829-09-14",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "8:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1829-09-14"
+    },
+    {
+      "event_id": "correlates_of_war:12:defense_pact",
+      "event_date": "1833-03-09",
+      "year": 1833,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1839-04-19",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "12:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1839-04-19"
+    },
+    {
+      "event_id": "correlates_of_war:14:alliance",
+      "event_date": "1833-07-08",
+      "year": 1833,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1841-07-13",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1841-07-13"
+    },
+    {
+      "event_id": "correlates_of_war:16:alliance",
+      "event_date": "1833-09-19",
+      "year": 1833,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1853-07-02",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "16:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1853-07-02"
+    },
+    {
+      "event_id": "correlates_of_war:15:entente",
+      "event_date": "1833-10-15",
+      "year": 1833,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1853-07-02",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1853-07-02"
+    },
+    {
+      "event_id": "correlates_of_war:17:defense_pact",
+      "event_date": "1833-10-15",
+      "year": 1833,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1848-03-21",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "17:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1848-03-21"
+    },
+    {
+      "event_id": "correlates_of_war:18:alliance",
+      "event_date": "1833-10-16",
+      "year": 1833,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1848-03-21",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "18:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1848-03-21"
+    },
+    {
+      "event_id": "correlates_of_war:20:defense_pact",
+      "event_date": "1840-07-15",
+      "year": 1840,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1840-11-27",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "20:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1840-11-27"
+    },
+    {
+      "event_id": "correlates_of_war:21:entente",
+      "event_date": "1844-05-22",
+      "year": 1844,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1846-06-29",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "21:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1846-06-29"
+    },
+    {
+      "event_id": "correlates_of_war:31:defense_pact",
+      "event_date": "1854-06-14",
+      "year": 1854,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1856-03-30",
+      "actors": [
+        "Austria-Hungary"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "31:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1856-03-30"
+    },
+    {
+      "event_id": "correlates_of_war:28:alliance",
+      "event_date": "1855-03-15",
+      "year": 1855,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1856-03-30",
+      "actors": [
+        "Italy"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "28:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1856-03-30"
+    },
+    {
+      "event_id": "correlates_of_war:28:entente",
+      "event_date": "1855-03-15",
+      "year": 1855,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1856-03-30",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "28:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1856-03-30"
+    },
+    {
+      "event_id": "correlates_of_war:39:entente",
+      "event_date": "1859-03-03",
+      "year": 1859,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1859-11-10",
+      "actors": [
+        "France"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "39:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1859-11-10"
+    },
+    {
+      "event_id": "correlates_of_war:39:alliance",
+      "event_date": "1859-03-03",
+      "year": 1859,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1859-11-10",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "39:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1859-11-10"
+    },
+    {
+      "event_id": "correlates_of_war:43:defense_pact",
+      "event_date": "1863-02-08",
+      "year": 1863,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1863-02-28",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "43:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1863-02-28"
+    },
+    {
+      "event_id": "correlates_of_war:60:defense_pact",
+      "event_date": "1873-05-06",
+      "year": 1873,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1878-07-13",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "60:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1878-07-13"
+    },
+    {
+      "event_id": "correlates_of_war:61:entente",
+      "event_date": "1873-10-22",
+      "year": 1873,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1878-07-13",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "61:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1878-07-13"
+    },
+    {
+      "event_id": "correlates_of_war:62:neutrality_pact",
+      "event_date": "1877-01-15",
+      "year": 1877,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1878-03-03",
+      "actors": [
+        "Austria-Hungary"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "62:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1878-03-03"
+    },
+    {
+      "event_id": "correlates_of_war:63:defense_pact",
+      "event_date": "1878-06-04",
+      "year": 1878,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1880-11-25",
+      "actors": [
+        "United Kingdom"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "63:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1880-11-25"
+    },
+    {
+      "event_id": "correlates_of_war:66:alliance",
+      "event_date": "1881-06-18",
+      "year": 1881,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1887-06-18",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "66:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1887-06-18"
+    },
+    {
+      "event_id": "correlates_of_war:71:entente",
+      "event_date": "1887-06-18",
+      "year": 1887,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1890-06-18",
+      "actors": [
+        "Germany"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "71:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1890-06-18"
+    },
+    {
+      "event_id": "correlates_of_war:71:alliance",
+      "event_date": "1887-06-18",
+      "year": 1887,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1890-06-18",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "71:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1890-06-18"
+    },
+    {
+      "event_id": "correlates_of_war:73:entente",
+      "event_date": "1891-08-27",
+      "year": 1891,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1893-12-27",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "73:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1893-12-27"
+    },
+    {
+      "event_id": "correlates_of_war:74:defense_pact",
+      "event_date": "1893-12-27",
+      "year": 1893,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1917-11-08",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "74:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1917-11-08"
+    },
+    {
+      "event_id": "correlates_of_war:81:neutrality_pact",
+      "event_date": "1904-10-15",
+      "year": 1904,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1908-10-06",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "81:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1908-10-06"
+    },
+    {
+      "event_id": "correlates_of_war:82:defense_pact",
+      "event_date": "1905-07-24",
+      "year": 1905,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1905-12-02",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "82:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1905-12-02"
+    },
+    {
+      "event_id": "correlates_of_war:85:entente",
+      "event_date": "1908-11-30",
+      "year": 1908,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1910-07-04",
+      "actors": [
+        "Japan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "85:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1910-07-04"
+    },
+    {
+      "event_id": "correlates_of_war:86:entente",
+      "event_date": "1909-10-24",
+      "year": 1909,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1917-08-11",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "86:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1917-08-11"
+    },
+    {
+      "event_id": "correlates_of_war:87:entente",
+      "event_date": "1910-07-04",
+      "year": 1910,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1916-07-03",
+      "actors": [
+        "Japan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "87:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1916-07-03"
+    },
+    {
+      "event_id": "correlates_of_war:93:defense_pact",
+      "event_date": "1914-08-02",
+      "year": 1914,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1918-10-30",
+      "actors": [
+        "Germany"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "93:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1918-10-30"
+    },
+    {
+      "event_id": "correlates_of_war:94:alliance",
+      "event_date": "1914-08-19",
+      "year": 1914,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1918-09-30",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "94:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1918-09-30"
+    },
+    {
+      "event_id": "correlates_of_war:97:neutrality_pact",
+      "event_date": "1914-10-01",
+      "year": 1914,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1916-08-17",
+      "actors": [
+        "Romania"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "97:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1916-08-17"
+    },
+    {
+      "event_id": "correlates_of_war:97:defense_pact",
+      "event_date": "1914-10-01",
+      "year": 1914,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1916-08-17",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "97:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1916-08-17"
+    },
+    {
+      "event_id": "correlates_of_war:98:alliance",
+      "event_date": "1915-04-26",
+      "year": 1915,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1917-11-08",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "98:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1917-11-08"
+    },
+    {
+      "event_id": "correlates_of_war:100:alliance",
+      "event_date": "1916-07-03",
+      "year": 1916,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1917-11-08",
+      "actors": [
+        "Japan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "100:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1917-11-08"
+    },
+    {
+      "event_id": "correlates_of_war:101:defense_pact",
+      "event_date": "1916-08-17",
+      "year": 1916,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1917-11-08",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "101:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1917-11-08"
+    },
+    {
+      "event_id": "correlates_of_war:106:defense_pact",
+      "event_date": "1921-03-01",
+      "year": 1921,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1928-05-25",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "106:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1928-05-25"
+    },
+    {
+      "event_id": "correlates_of_war:110:neutrality_pact",
+      "event_date": "1921-06-22",
+      "year": 1921,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1937-07-08",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "110:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1937-07-08"
+    },
+    {
+      "event_id": "correlates_of_war:111:entente",
+      "event_date": "1921-12-13",
+      "year": 1921,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1931-09-18",
+      "actors": [
+        "Japan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "111:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1931-09-18"
+    },
+    {
+      "event_id": "correlates_of_war:121:alliance",
+      "event_date": "1925-12-17",
+      "year": 1925,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-09-01",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "121:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-09-01"
+    },
+    {
+      "event_id": "correlates_of_war:123:neutrality_pact",
+      "event_date": "1926-04-24",
+      "year": 1926,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1933-09-15",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "123:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1933-09-15"
+    },
+    {
+      "event_id": "correlates_of_war:126:alliance",
+      "event_date": "1926-08-31",
+      "year": 1926,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1979-12-24",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "126:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1979-12-24"
+    },
+    {
+      "event_id": "correlates_of_war:129:nonaggression_pact",
+      "event_date": "1926-09-28",
+      "year": 1926,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1939-10-10",
+      "actors": [
+        "Lithuania"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "129:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-10-10"
+    },
+    {
+      "event_id": "correlates_of_war:135:nonaggression_pact",
+      "event_date": "1928-05-25",
+      "year": 1928,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1948-05-25",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "135:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1948-05-25"
+    },
+    {
+      "event_id": "correlates_of_war:136:neutrality_pact",
+      "event_date": "1928-05-30",
+      "year": 1928,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1935-11-18",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "136:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1935-11-18"
+    },
+    {
+      "event_id": "correlates_of_war:137:nonaggression_pact",
+      "event_date": "1928-08-02",
+      "year": 1928,
+      "country_codes": [
+        "ETH"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1935-10-03",
+      "actors": [
+        "Ethiopia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "137:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1935-10-03"
+    },
+    {
+      "event_id": "correlates_of_war:139:neutrality_pact",
+      "event_date": "1929-01-05",
+      "year": 1929,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1945-01-20",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "139:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1945-01-20"
+    },
+    {
+      "event_id": "correlates_of_war:140:neutrality_pact",
+      "event_date": "1929-03-06",
+      "year": 1929,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1939-12-03",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "140:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-12-03"
+    },
+    {
+      "event_id": "correlates_of_war:142:neutrality_pact",
+      "event_date": "1930-02-03",
+      "year": 1930,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1940-06-22",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "142:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-22"
+    },
+    {
+      "event_id": "correlates_of_war:144:neutrality_pact",
+      "event_date": "1930-10-30",
+      "year": 1930,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1941-04-23",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "144:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-04-23"
+    },
+    {
+      "event_id": "correlates_of_war:145:alliance",
+      "event_date": "1932-01-21",
+      "year": 1932,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-11-28",
+      "actors": [
+        "Finland"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "145:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-11-28"
+    },
+    {
+      "event_id": "correlates_of_war:146:nonaggression_pact",
+      "event_date": "1932-02-05",
+      "year": 1932,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1939-10-05",
+      "actors": [
+        "Latvia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "146:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-10-05"
+    },
+    {
+      "event_id": "correlates_of_war:147:nonaggression_pact",
+      "event_date": "1932-05-04",
+      "year": 1932,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1939-09-28",
+      "actors": [
+        "Estonia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "147:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-09-28"
+    },
+    {
+      "event_id": "correlates_of_war:148:alliance",
+      "event_date": "1932-07-25",
+      "year": 1932,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-09-17",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "148:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-09-17"
+    },
+    {
+      "event_id": "correlates_of_war:149:alliance",
+      "event_date": "1932-11-29",
+      "year": 1932,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1935-05-02",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "149:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1935-05-02"
+    },
+    {
+      "event_id": "correlates_of_war:150:alliance",
+      "event_date": "1933-09-02",
+      "year": 1933,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1941-06-22",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "150:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-06-22"
+    },
+    {
+      "event_id": "correlates_of_war:151:alliance",
+      "event_date": "1933-10-17",
+      "year": 1933,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1944-08-31",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "151:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1944-08-31"
+    },
+    {
+      "event_id": "correlates_of_war:152:nonaggression_pact",
+      "event_date": "1933-11-27",
+      "year": 1933,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1941-04-20",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "152:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-04-20"
+    },
+    {
+      "event_id": "correlates_of_war:154:alliance",
+      "event_date": "1934-02-09",
+      "year": 1934,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1940-10-28",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "154:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-10-28"
+    },
+    {
+      "event_id": "correlates_of_war:156:alliance",
+      "event_date": "1934-05-20",
+      "year": 1934,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1962-11-06",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "156:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1962-11-06"
+    },
+    {
+      "event_id": "correlates_of_war:159:alliance",
+      "event_date": "1935-05-02",
+      "year": 1935,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-09-03",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "159:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-09-03"
+    },
+    {
+      "event_id": "correlates_of_war:161:defense_pact",
+      "event_date": "1936-03-12",
+      "year": 1936,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Mongolia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "161:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:165:entente",
+      "event_date": "1936-12-23",
+      "year": 1936,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1945-03-23",
+      "actors": [
+        "Uruguay"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "165:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1945-03-23"
+    },
+    {
+      "event_id": "correlates_of_war:162:entente",
+      "event_date": "1937-04-29",
+      "year": 1937,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1956-04-02",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "162:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1956-04-02"
+    },
+    {
+      "event_id": "correlates_of_war:163:alliance",
+      "event_date": "1937-05-26",
+      "year": 1937,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1951-10-08",
+      "actors": [
+        "United Kingdom"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "163:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1951-10-08"
+    },
+    {
+      "event_id": "correlates_of_war:163:entente",
+      "event_date": "1937-05-26",
+      "year": 1937,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1951-10-08",
+      "actors": [
+        "Egypt"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "163:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1951-10-08"
+    },
+    {
+      "event_id": "correlates_of_war:167:alliance",
+      "event_date": "1937-07-08",
+      "year": 1937,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1955-02-24",
+      "actors": [
+        "Afghanistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "167:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1955-02-24"
+    },
+    {
+      "event_id": "correlates_of_war:169:defense_pact",
+      "event_date": "1937-09-14",
+      "year": 1937,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1939-03-28",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "169:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-03-28"
+    },
+    {
+      "event_id": "correlates_of_war:171:nonaggression_pact",
+      "event_date": "1938-07-31",
+      "year": 1938,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1940-06-18",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "171:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-18"
+    },
+    {
+      "event_id": "correlates_of_war:179:alliance",
+      "event_date": "1939-06-23",
+      "year": 1939,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1939-10-19",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "179:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1939-10-19"
+    },
+    {
+      "event_id": "correlates_of_war:180:alliance",
+      "event_date": "1939-08-23",
+      "year": 1939,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1941-06-22",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "180:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-06-22"
+    },
+    {
+      "event_id": "correlates_of_war:181:defense_pact",
+      "event_date": "1939-09-28",
+      "year": 1939,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1940-06-16",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "181:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-16"
+    },
+    {
+      "event_id": "correlates_of_war:182:defense_pact",
+      "event_date": "1939-10-05",
+      "year": 1939,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1940-06-16",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "182:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-16"
+    },
+    {
+      "event_id": "correlates_of_war:183:defense_pact",
+      "event_date": "1939-10-10",
+      "year": 1939,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1940-06-14",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "183:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-14"
+    },
+    {
+      "event_id": "correlates_of_war:184:defense_pact",
+      "event_date": "1939-10-19",
+      "year": 1939,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1940-06-22",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "184:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1940-06-22"
+    },
+    {
+      "event_id": "correlates_of_war:186:nonaggression_pact",
+      "event_date": "1940-03-12",
+      "year": 1940,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1941-06-25",
+      "actors": [
+        "Finland"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "186:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-06-25"
+    },
+    {
+      "event_id": "correlates_of_war:190:alliance",
+      "event_date": "1941-04-05",
+      "year": 1941,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1941-04-20",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "190:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1941-04-20"
+    },
+    {
+      "event_id": "correlates_of_war:191:neutrality_pact",
+      "event_date": "1941-04-13",
+      "year": 1941,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1945-04-05",
+      "actors": [
+        "Japan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "191:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1945-04-05"
+    },
+    {
+      "event_id": "correlates_of_war:192:nonaggression_pact",
+      "event_date": "1941-06-18",
+      "year": 1941,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1945-05-08",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "192:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1945-05-08"
+    },
+    {
+      "event_id": "correlates_of_war:193:defense_pact",
+      "event_date": "1941-07-12",
+      "year": 1941,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1955-05-07",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "193:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1955-05-07"
+    },
+    {
+      "event_id": "correlates_of_war:195:alliance",
+      "event_date": "1942-01-29",
+      "year": 1942,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1946-03-19",
+      "actors": [
+        "Iran"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "195:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1946-03-19"
+    },
+    {
+      "event_id": "correlates_of_war:197:alliance",
+      "event_date": "1944-12-10",
+      "year": 1944,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1955-05-07",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "197:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1955-05-07"
+    },
+    {
+      "event_id": "correlates_of_war:198:alliance",
+      "event_date": "1945-03-06",
+      "year": 1945,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1947-09-02",
+      "actors": [
+        "Uruguay"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "198:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1947-09-02"
+    },
+    {
+      "event_id": "correlates_of_war:200:defense_pact",
+      "event_date": "1945-04-11",
+      "year": 1945,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1949-09-28",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "200:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1949-09-28"
+    },
+    {
+      "event_id": "correlates_of_war:201:defense_pact",
+      "event_date": "1945-04-21",
+      "year": 1945,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1989-08-07",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "201:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-08-07"
+    },
+    {
+      "event_id": "correlates_of_war:160:alliance",
+      "event_date": "1945-05-10",
+      "year": 1945,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1989-12-10",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "160:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-12-10"
+    },
+    {
+      "event_id": "correlates_of_war:216:alliance",
+      "event_date": "1948-02-04",
+      "year": 1948,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1989-12-12",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "216:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-12-12"
+    },
+    {
+      "event_id": "correlates_of_war:217:alliance",
+      "event_date": "1948-02-18",
+      "year": 1948,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1989-10-07",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "217:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-10-07"
+    },
+    {
+      "event_id": "correlates_of_war:219:alliance",
+      "event_date": "1948-03-18",
+      "year": 1948,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1989-11-10",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "219:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-11-10"
+    },
+    {
+      "event_id": "correlates_of_war:220:alliance",
+      "event_date": "1948-04-06",
+      "year": 1948,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Finland"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "220:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:231:defense_pact",
+      "event_date": "1951-08-30",
+      "year": 1951,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Philippines"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "231:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:232:alliance",
+      "event_date": "1951-09-01",
+      "year": 1951,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1986-08-12",
+      "actors": [
+        "New Zealand"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "232:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1986-08-12"
+    },
+    {
+      "event_id": "correlates_of_war:233:defense_pact",
+      "event_date": "1951-09-08",
+      "year": 1951,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "United States of America"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "233:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:236:alliance",
+      "event_date": "1953-10-01",
+      "year": 1953,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "United States of America"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "236:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:236:entente",
+      "event_date": "1953-10-01",
+      "year": 1953,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "South Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "236:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:234:alliance",
+      "event_date": "1954-08-09",
+      "year": 1954,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1954-08-08",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "234:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1954-08-08"
+    },
+    {
+      "event_id": "correlates_of_war:238:entente",
+      "event_date": "1954-09-08",
+      "year": 1954,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1972-11-08",
+      "actors": [
+        "New Zealand"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "238:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1972-11-08"
+    },
+    {
+      "event_id": "correlates_of_war:239:entente",
+      "event_date": "1954-10-19",
+      "year": 1954,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1956-10-31",
+      "actors": [
+        "Egypt"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "239:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1956-10-31"
+    },
+    {
+      "event_id": "correlates_of_war:240:alliance",
+      "event_date": "1954-12-02",
+      "year": 1954,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1980-01-01",
+      "actors": [
+        "Taiwan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "240:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1980-01-01"
+    },
+    {
+      "event_id": "correlates_of_war:243:alliance",
+      "event_date": "1955-05-14",
+      "year": 1955,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1989-12-12",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "243:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-12-12"
+    },
+    {
+      "event_id": "correlates_of_war:247:alliance",
+      "event_date": "1956-04-21",
+      "year": 1956,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1962-11-06",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "247:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1962-11-06"
+    },
+    {
+      "event_id": "correlates_of_war:245:alliance",
+      "event_date": "1956-10-24",
+      "year": 1956,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1961-09-29",
+      "actors": [
+        "Jordan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "245:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1961-09-29"
+    },
+    {
+      "event_id": "correlates_of_war:249:neutrality_pact",
+      "event_date": "1956-10-24",
+      "year": 1956,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1956-11-06",
+      "actors": [
+        "Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "249:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1956-11-06"
+    },
+    {
+      "event_id": "correlates_of_war:252:defense_pact",
+      "event_date": "1958-05-12",
+      "year": 1958,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Canada"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "252:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:241:alliance",
+      "event_date": "1958-07-28",
+      "year": 1958,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1959-03-24",
+      "actors": [
+        "Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "241:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1959-03-24"
+    },
+    {
+      "event_id": "correlates_of_war:256:entente",
+      "event_date": "1959-07-08",
+      "year": 1959,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "Liberia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "256:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:257:nonaggression_pact",
+      "event_date": "1960-01-28",
+      "year": 1960,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1967-10-06",
+      "actors": [
+        "Myanmar"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "257:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1967-10-06"
+    },
+    {
+      "event_id": "correlates_of_war:259:alliance",
+      "event_date": "1960-08-16",
+      "year": 1960,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1974-07-20",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "259:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1974-07-20"
+    },
+    {
+      "event_id": "correlates_of_war:259:entente",
+      "event_date": "1960-08-16",
+      "year": 1960,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1974-07-20",
+      "actors": [
+        "Cyprus"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "259:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1974-07-20"
+    },
+    {
+      "event_id": "correlates_of_war:261:nonaggression_pact",
+      "event_date": "1960-08-26",
+      "year": 1960,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1979-12-27",
+      "actors": [
+        "China"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "261:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1979-12-27"
+    },
+    {
+      "event_id": "correlates_of_war:262:nonaggression_pact",
+      "event_date": "1960-12-19",
+      "year": 1960,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1970-05-05",
+      "actors": [
+        "Cambodia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "262:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1970-05-05"
+    },
+    {
+      "event_id": "correlates_of_war:264:alliance",
+      "event_date": "1961-07-06",
+      "year": 1961,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1995-09-07",
+      "actors": [
+        "North Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "264:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1995-09-07"
+    },
+    {
+      "event_id": "correlates_of_war:265:alliance",
+      "event_date": "1961-07-11",
+      "year": 1961,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "North Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "265:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:267:neutrality_pact",
+      "event_date": "1962-07-23",
+      "year": 1962,
+      "country_codes": [
+        "IND"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "end_date=1964-07-12",
+      "actors": [
+        "Republic of Vietnam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "267:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1964-07-12"
+    },
+    {
+      "event_id": "correlates_of_war:268:entente",
+      "event_date": "1962-08-29",
+      "year": 1962,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1967-05-30",
+      "actors": [
+        "Saudi Arabia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "268:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1967-05-30"
+    },
+    {
+      "event_id": "correlates_of_war:269:defense_pact",
+      "event_date": "1962-11-10",
+      "year": 1962,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1967-11-10",
+      "actors": [
+        "Yemen Arab Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "269:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1967-11-10"
+    },
+    {
+      "event_id": "correlates_of_war:270:defense_pact",
+      "event_date": "1963-11-22",
+      "year": 1963,
+      "country_codes": [
+        "ETH"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Ethiopia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "270:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:272:defense_pact",
+      "event_date": "1964-06-12",
+      "year": 1964,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1989-11-07",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "272:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-11-07"
+    },
+    {
+      "event_id": "correlates_of_war:274:defense_pact",
+      "event_date": "1966-11-04",
+      "year": 1966,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=1967-06-10",
+      "actors": [
+        "Syria"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "274:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1967-06-10"
+    },
+    {
+      "event_id": "correlates_of_war:278:alliance",
+      "event_date": "1967-06-04",
+      "year": 1967,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1979-03-31",
+      "actors": [
+        "Egypt"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "278:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1979-03-31"
+    },
+    {
+      "event_id": "correlates_of_war:285:entente",
+      "event_date": "1970-08-06",
+      "year": 1970,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1981-12-10",
+      "actors": [
+        "Spain"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "285:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1981-12-10"
+    },
+    {
+      "event_id": "correlates_of_war:286:entente",
+      "event_date": "1970-10-13",
+      "year": 1970,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1990-10-13",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "286:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1990-10-13"
+    },
+    {
+      "event_id": "correlates_of_war:287:entente",
+      "event_date": "1971-05-19",
+      "year": 1971,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1992-05-19",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "287:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1992-05-19"
+    },
+    {
+      "event_id": "correlates_of_war:290:alliance",
+      "event_date": "1972-03-19",
+      "year": 1972,
+      "country_codes": [
+        "IND"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1997-03-19",
+      "actors": [
+        "Bangladesh"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "290:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1997-03-19"
+    },
+    {
+      "event_id": "correlates_of_war:291:alliance",
+      "event_date": "1972-04-09",
+      "year": 1972,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1990-09-12",
+      "actors": [
+        "Iraq"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "291:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1990-09-12"
+    },
+    {
+      "event_id": "correlates_of_war:294:nonaggression_pact",
+      "event_date": "1972-07-02",
+      "year": 1972,
+      "country_codes": [
+        "IND",
+        "PAK"
+      ],
+      "relationship_id": "IND_PAK",
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "294:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:297:alliance",
+      "event_date": "1976-07-15",
+      "year": 1976,
+      "country_codes": [
+        "EGY"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1989-06-10",
+      "actors": [
+        "Egypt"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "297:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-06-10"
+    },
+    {
+      "event_id": "correlates_of_war:298:entente",
+      "event_date": "1976-10-08",
+      "year": 1976,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Angola"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "298:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:299:alliance",
+      "event_date": "1977-03-31",
+      "year": 1977,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Mozambique"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "299:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:301:entente",
+      "event_date": "1978-11-03",
+      "year": 1978,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Vietnam"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "301:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:308:alliance",
+      "event_date": "1979-10-25",
+      "year": 1979,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1990-05-22",
+      "actors": [
+        "Yemen People's Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "308:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1990-05-22"
+    },
+    {
+      "event_id": "correlates_of_war:309:nonaggression_pact",
+      "event_date": "1979-11-15",
+      "year": 1979,
+      "country_codes": [
+        "ETH"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1989-11-07",
+      "actors": [
+        "Ethiopia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "309:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-11-07"
+    },
+    {
+      "event_id": "correlates_of_war:311:nonaggression_pact",
+      "event_date": "1979-12-02",
+      "year": 1979,
+      "country_codes": [
+        "ETH"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1990-05-22",
+      "actors": [
+        "Yemen People's Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "311:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1990-05-22"
+    },
+    {
+      "event_id": "correlates_of_war:316:alliance",
+      "event_date": "1980-10-08",
+      "year": 1980,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Syria"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "316:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:317:alliance",
+      "event_date": "1981-05-13",
+      "year": 1981,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1991-01-01",
+      "actors": [
+        "Congo"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "317:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-01-01"
+    },
+    {
+      "event_id": "correlates_of_war:320:alliance",
+      "event_date": "1981-08-19",
+      "year": 1981,
+      "country_codes": [
+        "ETH"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1986-02-01",
+      "actors": [
+        "Yemen People's Republic"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "320:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1986-02-01"
+    },
+    {
+      "event_id": "correlates_of_war:327:nonaggression_pact",
+      "event_date": "1983-05-17",
+      "year": 1983,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1984-05-17",
+      "actors": [
+        "Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "327:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1984-05-17"
+    },
+    {
+      "event_id": "correlates_of_war:333:nonaggression_pact",
+      "event_date": "1988-04-14",
+      "year": 1988,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1989-02-11",
+      "actors": [
+        "Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "333:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1989-02-11"
+    },
+    {
+      "event_id": "correlates_of_war:335:nonaggression_pact",
+      "event_date": "1989-03-27",
+      "year": 1989,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=1990-08-02",
+      "actors": [
+        "Saudi Arabia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "335:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1990-08-02"
+    },
+    {
+      "event_id": "correlates_of_war:199:alliance",
+      "event_date": "1990-05-22",
+      "year": 1990,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Yemen"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "199:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:230:alliance",
+      "event_date": "1990-05-22",
+      "year": 1990,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Yemen"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "230:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:336:alliance",
+      "event_date": "1990-10-29",
+      "year": 1990,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "336:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:337:alliance",
+      "event_date": "1990-11-09",
+      "year": 1990,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "337:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:338:alliance",
+      "event_date": "1990-11-18",
+      "year": 1990,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "end_date=1991-12-25",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "338:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=1991-12-25"
+    },
+    {
+      "event_id": "correlates_of_war:210:alliance",
+      "event_date": "1991-01-08",
+      "year": 1991,
+      "country_codes": [
+        "USA"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Guyana"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "210:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:340:neutrality_pact",
+      "event_date": "1991-09-19",
+      "year": 1991,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "neutrality_pact",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "340:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:343:neutrality_pact",
+      "event_date": "1991-12-06",
+      "year": 1991,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "neutrality_pact",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "343:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:345:alliance",
+      "event_date": "1992-01-20",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Finland"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "345:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:347:entente",
+      "event_date": "1992-02-06",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "347:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:348:alliance",
+      "event_date": "1992-05-06",
+      "year": 1992,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "348:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:350:defense_pact",
+      "event_date": "1992-05-15",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Kazakhstan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "350:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:351:alliance",
+      "event_date": "1992-05-18",
+      "year": 1992,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "351:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:352:alliance",
+      "event_date": "1992-05-22",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "352:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:353:alliance",
+      "event_date": "1992-05-25",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Kazakhstan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "353:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:354:alliance",
+      "event_date": "1992-05-25",
+      "year": 1992,
+      "country_codes": [
+        "RUS",
+        "TUR"
+      ],
+      "relationship_id": "RUS_TUR",
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "354:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:355:alliance",
+      "event_date": "1992-05-30",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Uzbekistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "355:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:356:alliance",
+      "event_date": "1992-06-01",
+      "year": 1992,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "356:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:357:alliance",
+      "event_date": "1992-06-10",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Kyrgyzstan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "357:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:358:alliance",
+      "event_date": "1992-06-19",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "358:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:363:defense_pact",
+      "event_date": "1992-07-31",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "end_date=2002-07-31",
+      "actors": [
+        "Turkmenistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "363:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=2002-07-31"
+    },
+    {
+      "event_id": "correlates_of_war:364:alliance",
+      "event_date": "1992-08-04",
+      "year": 1992,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "364:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:366:alliance",
+      "event_date": "1992-10-23",
+      "year": 1992,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "366:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:371:alliance",
+      "event_date": "1993-05-25",
+      "year": 1993,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Tajikistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "371:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:372:alliance",
+      "event_date": "1993-06-30",
+      "year": 1993,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "372:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:376:neutrality_pact",
+      "event_date": "1994-02-08",
+      "year": 1994,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "neutrality_pact",
+      "event_category": "domestic",
+      "headline": "neutrality_pact",
+      "summary": "neutrality_pact",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "376:neutrality_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:377:defense_pact",
+      "event_date": "1994-02-09",
+      "year": 1994,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "377:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:379:alliance",
+      "event_date": "1994-07-16",
+      "year": 1994,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "379:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:380:alliance",
+      "event_date": "1994-10-26",
+      "year": 1994,
+      "country_codes": [
+        "ISR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Israel"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "380:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:349:defense_pact",
+      "event_date": "1995-02-10",
+      "year": 1995,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "349:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:384:alliance",
+      "event_date": "1995-05-23",
+      "year": 1995,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "384:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:390:alliance",
+      "event_date": "1996-05-14",
+      "year": 1996,
+      "country_codes": [
+        "UKR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Armenia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "390:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:393:alliance",
+      "event_date": "1997-04-02",
+      "year": 1997,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Belarus"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "393:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:227:alliance",
+      "event_date": "1999-03-12",
+      "year": 1999,
+      "country_codes": [
+        "TUR"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkey"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "227:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:397:entente",
+      "event_date": "2000-02-09",
+      "year": 2000,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "North Korea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "397:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:368:nonaggression_pact",
+      "event_date": "2000-11-14",
+      "year": 2000,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Mongolia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "368:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:399:nonaggression_pact",
+      "event_date": "2000-12-12",
+      "year": 2000,
+      "country_codes": [
+        "ETH"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Eritrea"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "399:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:400:defense_pact",
+      "event_date": "2000-12-31",
+      "year": 2000,
+      "country_codes": [
+        "SAU"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Oman"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "400:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:389:alliance",
+      "event_date": "2001-06-15",
+      "year": 2001,
+      "country_codes": [
+        "CHN"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "China"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "389:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:401:alliance",
+      "event_date": "2002-04-23",
+      "year": 2002,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Turkmenistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "401:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:402:nonaggression_pact",
+      "event_date": "2002-12-22",
+      "year": 2002,
+      "country_codes": [
+        "PAK"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Pakistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "402:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:403:nonaggression_pact",
+      "event_date": "2004-07-16",
+      "year": 2004,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "end_date=2008-06-14",
+      "actors": [
+        "Georgia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "403:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "end_date=2008-06-14"
+    },
+    {
+      "event_id": "correlates_of_war:404:nonaggression_pact",
+      "event_date": "2005-05-16",
+      "year": 2005,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "nonaggression_pact",
+      "event_category": "domestic",
+      "headline": "nonaggression_pact",
+      "summary": "nonaggression_pact",
+      "actors": [
+        "Iran"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "404:nonaggression_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:405:alliance",
+      "event_date": "2005-11-14",
+      "year": 2005,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Uzbekistan"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "405:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:406:entente",
+      "event_date": "2006-06-15",
+      "year": 2006,
+      "country_codes": [
+        "IRN"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "Syria"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "406:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:410:defense_pact",
+      "event_date": "2009-02-03",
+      "year": 2009,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Belarus"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "410:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:411:alliance",
+      "event_date": "2010-08-20",
+      "year": 2010,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "alliance",
+      "event_category": "domestic",
+      "headline": "alliance",
+      "summary": "alliance",
+      "actors": [
+        "Russia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "411:alliance",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "correlates_of_war:411:entente",
+      "event_date": "2010-08-20",
+      "year": 2010,
+      "country_codes": [
+        "RUS"
+      ],
+      "relationship_id": null,
+      "event_type": "entente",
+      "event_category": "domestic",
+      "headline": "entente",
+      "summary": "entente",
+      "actors": [
+        "Armenia"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "411:entente",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+country_code,year,metric_id,value,unit,source_url,source_name,raw_record_id,calculation,notes
+USA,2023,liner_shipping_connectivity_index,75.0,index,https://unctadstat.unctad.org/,UNCTAD,EXAMPLE-001,,EXAMPLE_ONLY_NOT_REAL_DATA

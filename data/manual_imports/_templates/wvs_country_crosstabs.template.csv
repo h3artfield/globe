@@ -1,0 +1,2 @@
+country_code,year,metric_id,value,unit,source_url,source_name,raw_record_id,calculation,notes,sample_size,question_wording,response_mapping,demographic_cut,demographic_group
+USA,2022,national_pride_score,3.5,score,https://www.worldvaluessurvey.org/,World Values Survey,EXAMPLE-001,,EXAMPLE_ONLY_NOT_REAL_DATA,1200,How proud are you to be a citizen?,1=not proud to 4=very proud,,

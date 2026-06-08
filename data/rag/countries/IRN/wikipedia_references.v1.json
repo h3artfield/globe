@@ -2,7 +2,7 @@
   "country_code": "IRN",
   "module": "wikipedia_references",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "",
   "key_findings": [],
   "metrics": [],
@@ -18,6 +18,7 @@
     "overall": "unknown",
     "weak_areas": [
       "sources",
+      "events",
       "claims"
     ]
   },
@@ -26,6 +27,5 @@
   "revision_id": null,
   "retrieved_at": null,
   "cited_external_references": [],
-  "important_linked_pages": [],
-  "review_status": "human_review_pending"
+  "important_linked_pages": []
 }

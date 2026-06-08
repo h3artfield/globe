@@ -5,10 +5,769 @@
     "UKR"
   ],
   "version": "1.0",
-  "last_updated": "2026-06-07",
-  "events": [],
+  "last_updated": "2026-06-08",
+  "events": [
+    {
+      "event_id": "correlates_of_war:349:defense_pact",
+      "event_date": "1995-02-10",
+      "year": 1995,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "defense_pact",
+      "event_category": "domestic",
+      "headline": "defense_pact",
+      "summary": "defense_pact",
+      "actors": [
+        "Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "349:defense_pact",
+        "correlates_of_war"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": ""
+    },
+    {
+      "event_id": "ucdp:14117:2022",
+      "event_date": "2014-03-18",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Russia (Soviet Union)",
+        "Government of Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14117:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:14117:2023",
+      "event_date": "2014-03-18",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Russia (Soviet Union)",
+        "Government of Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14117:2023",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:14117:2024",
+      "event_date": "2014-03-18",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "interstate_conflict",
+      "event_category": "security",
+      "headline": "interstate_conflict",
+      "summary": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2",
+      "actors": [
+        "Government of Russia (Soviet Union)",
+        "Government of Ukraine"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14117:2024",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Russia (Soviet Union), Ukraine; intensity_level=2(war); type_of_conflict=2"
+    },
+    {
+      "event_id": "ucdp:14124:2014",
+      "event_date": "2014-04-08",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14124:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14184:2014",
+      "event_date": "2014-05-04",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14184:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2015",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2016",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2017",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2018",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2019",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2020",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2021",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15100:2022",
+      "event_date": "2014-08-09",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "DPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15100:2022",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14210:2014",
+      "event_date": "2014-09-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "United Armed Forces of Novorossiya"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14210:2014",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:14210:2015",
+      "event_date": "2014-09-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=2(war); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "United Armed Forces of Novorossiya"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "14210:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=2(war); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2015",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2015",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2016",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2016",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2017",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2017",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2018",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2018",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2019",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2019",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2020",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2020",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    },
+    {
+      "event_id": "ucdp:15101:2021",
+      "event_date": "2014-11-16",
+      "year": 2014,
+      "country_codes": [
+        "RUS",
+        "UKR"
+      ],
+      "relationship_id": "RUS_UKR",
+      "event_type": "4",
+      "event_category": "domestic",
+      "headline": "4",
+      "summary": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4",
+      "actors": [
+        "Government of Ukraine",
+        "LPR"
+      ],
+      "locations": [],
+      "importance_score": null,
+      "domestic_impact_score": null,
+      "international_impact_score": null,
+      "economic_impact_score": null,
+      "security_impact_score": null,
+      "regime_impact_score": null,
+      "long_term_importance": "medium",
+      "source_ids": [
+        "15101:2021",
+        "ucdp"
+      ],
+      "claim_type": "fact",
+      "confidence": "unknown",
+      "notes": "location=Ukraine; intensity_level=1(minor_conflict); type_of_conflict=4"
+    }
+  ],
   "coverage": {
-    "status": "pending_review",
-    "warning": "No verified relationship event source has been ingested yet."
+    "status": "partial",
+    "warning": "Merged from processed manual event imports; review bilateral coverage."
   }
 }

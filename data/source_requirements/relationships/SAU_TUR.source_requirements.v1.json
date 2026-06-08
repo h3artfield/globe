@@ -1,0 +1,242 @@
+{
+  "target_id": "SAU_TUR",
+  "target_type": "relationship",
+  "last_updated": "2026-06-08",
+  "coverage_topics": [
+    "Qatar blockade positions",
+    "defense cooperation MOUs",
+    "OPEC+ coordination",
+    "Khashoggi-era diplomacy",
+    "regional power balancing"
+  ],
+  "modules": [
+    {
+      "module": "relationship",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "trade_relationship",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 2,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "military_relationship",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "rivalry_narratives",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "game_theory_relationship",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "relationship_event_timeline",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "alliance_status",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "adversary_status",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "crisis_history",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "war_history",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "diplomatic_history",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    },
+    {
+      "module": "top_relationship_events_20_years",
+      "minimum_sources": 3,
+      "required_source_types": [
+        "official_primary",
+        "major_news",
+        "academic"
+      ],
+      "required_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "freshness_requirement": "latest_reasonable_available",
+      "minimum_claim_count": 4,
+      "minimum_metric_count": 0,
+      "required_review_status_level": "human_reviewed",
+      "completion_threshold": 0.75
+    }
+  ]
+}

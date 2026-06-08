@@ -1,6 +1,6 @@
 {
   "country_code": "USA",
-  "generated_at": "2026-06-07T02:42:17.038Z",
+  "generated_at": "2026-06-08T04:02:58.356Z",
   "items": [
     {
       "review_id": "USA-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:14.855Z"
+      "created_at": "2026-06-08T04:02:55.927Z"
     },
     {
       "review_id": "USA-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.157Z"
+      "created_at": "2026-06-08T04:02:58.353Z"
     },
     {
       "review_id": "USA-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.157Z"
+      "created_at": "2026-06-08T04:02:58.353Z"
     },
     {
       "review_id": "USA-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.157Z"
+      "created_at": "2026-06-08T04:02:58.354Z"
     },
     {
       "review_id": "USA-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.157Z"
+      "created_at": "2026-06-08T04:02:58.354Z"
     },
     {
       "review_id": "USA-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.157Z"
+      "created_at": "2026-06-08T04:02:58.355Z"
     },
     {
       "review_id": "USA-threat_perception-905",
@@ -354,1003 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.158Z"
-    },
-    {
-      "review_id": "USA-allies_and_partners-900",
-      "country_code": "USA",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.667Z"
-    },
-    {
-      "review_id": "USA-adversaries_and_rivals-901",
-      "country_code": "USA",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.668Z"
-    },
-    {
-      "review_id": "USA-national_event_timeline-902",
-      "country_code": "USA",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.668Z"
-    },
-    {
-      "review_id": "USA-top_national_events_20_years-903",
-      "country_code": "USA",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.668Z"
-    },
-    {
-      "review_id": "USA-news_memory-904",
-      "country_code": "USA",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.668Z"
-    },
-    {
-      "review_id": "USA-threat_perception-905",
-      "country_code": "USA",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.668Z"
-    },
-    {
-      "review_id": "USA-identity_foundation-029",
-      "country_code": "USA",
-      "module": "identity_foundation",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for identity_foundation?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.949Z"
-    },
-    {
-      "review_id": "USA-history-030",
-      "country_code": "USA",
-      "module": "history",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for history?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.950Z"
-    },
-    {
-      "review_id": "USA-founding_groups-031",
-      "country_code": "USA",
-      "module": "founding_groups",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for founding_groups?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.951Z"
-    },
-    {
-      "review_id": "USA-religion_history-032",
-      "country_code": "USA",
-      "module": "religion_history",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for religion_history?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_religion_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.952Z"
-    },
-    {
-      "review_id": "USA-cultural_assimilation-033",
-      "country_code": "USA",
-      "module": "cultural_assimilation",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for cultural_assimilation?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.954Z"
-    },
-    {
-      "review_id": "USA-population_divisions-034",
-      "country_code": "USA",
-      "module": "population_divisions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for population_divisions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.955Z"
-    },
-    {
-      "review_id": "USA-nationalism_cohesion-035",
-      "country_code": "USA",
-      "module": "nationalism_cohesion",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for nationalism_cohesion?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.955Z"
-    },
-    {
-      "review_id": "USA-national_cohesion_by_demographic-036",
-      "country_code": "USA",
-      "module": "national_cohesion_by_demographic",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_cohesion_by_demographic?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.956Z"
-    },
-    {
-      "review_id": "USA-government_current-037",
-      "country_code": "USA",
-      "module": "government_current",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for government_current?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.956Z"
-    },
-    {
-      "review_id": "USA-ruling_class-038",
-      "country_code": "USA",
-      "module": "ruling_class",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for ruling_class?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.957Z"
-    },
-    {
-      "review_id": "USA-leader_dossiers-039",
-      "country_code": "USA",
-      "module": "leader_dossiers",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for leader_dossiers?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_leader_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.957Z"
-    },
-    {
-      "review_id": "USA-education-040",
-      "country_code": "USA",
-      "module": "education",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for education?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.958Z"
-    },
-    {
-      "review_id": "USA-math_contributions-041",
-      "country_code": "USA",
-      "module": "math_contributions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for math_contributions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_philosophy_math_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.963Z"
-    },
-    {
-      "review_id": "USA-philosophy_contributions-042",
-      "country_code": "USA",
-      "module": "philosophy_contributions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for philosophy_contributions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_philosophy_math_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.963Z"
-    },
-    {
-      "review_id": "USA-intelligence_security-043",
-      "country_code": "USA",
-      "module": "intelligence_security",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for intelligence_security?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.964Z"
-    },
-    {
-      "review_id": "USA-media_information-044",
-      "country_code": "USA",
-      "module": "media_information",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for media_information?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.964Z"
-    },
-    {
-      "review_id": "USA-foreign_policy-045",
-      "country_code": "USA",
-      "module": "foreign_policy",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for foreign_policy?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.965Z"
-    },
-    {
-      "review_id": "USA-adversary_narratives-046",
-      "country_code": "USA",
-      "module": "adversary_narratives",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversary_narratives?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.965Z"
-    },
-    {
-      "review_id": "USA-game_theory_profile-047",
-      "country_code": "USA",
-      "module": "game_theory_profile",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for game_theory_profile?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_leader_sources",
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.966Z"
-    },
-    {
-      "review_id": "USA-future_scenarios-048",
-      "country_code": "USA",
-      "module": "future_scenarios",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for future_scenarios?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources",
-        "manual_leader_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.966Z"
-    },
-    {
-      "review_id": "USA-allies_and_partners-049",
-      "country_code": "USA",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.967Z"
-    },
-    {
-      "review_id": "USA-adversaries_and_rivals-050",
-      "country_code": "USA",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.967Z"
-    },
-    {
-      "review_id": "USA-national_event_timeline-051",
-      "country_code": "USA",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.968Z"
-    },
-    {
-      "review_id": "USA-top_national_events_20_years-052",
-      "country_code": "USA",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.968Z"
-    },
-    {
-      "review_id": "USA-news_memory-053",
-      "country_code": "USA",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.969Z"
-    },
-    {
-      "review_id": "USA-threat_perception-054",
-      "country_code": "USA",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.969Z"
-    },
-    {
-      "review_id": "USA-wikipedia_baseline-055",
-      "country_code": "USA",
-      "module": "wikipedia_baseline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for wikipedia_baseline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.970Z"
-    },
-    {
-      "review_id": "USA-wikipedia_references-056",
-      "country_code": "USA",
-      "module": "wikipedia_references",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for wikipedia_references?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:15.970Z"
-    },
-    {
-      "review_id": "USA-identity_foundation-057",
-      "country_code": "USA",
-      "module": "identity_foundation",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for identity_foundation?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.016Z"
-    },
-    {
-      "review_id": "USA-history-058",
-      "country_code": "USA",
-      "module": "history",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for history?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.016Z"
-    },
-    {
-      "review_id": "USA-founding_groups-059",
-      "country_code": "USA",
-      "module": "founding_groups",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for founding_groups?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.017Z"
-    },
-    {
-      "review_id": "USA-religion_history-060",
-      "country_code": "USA",
-      "module": "religion_history",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for religion_history?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_religion_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.019Z"
-    },
-    {
-      "review_id": "USA-cultural_assimilation-061",
-      "country_code": "USA",
-      "module": "cultural_assimilation",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for cultural_assimilation?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.021Z"
-    },
-    {
-      "review_id": "USA-population_divisions-062",
-      "country_code": "USA",
-      "module": "population_divisions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for population_divisions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.022Z"
-    },
-    {
-      "review_id": "USA-nationalism_cohesion-063",
-      "country_code": "USA",
-      "module": "nationalism_cohesion",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for nationalism_cohesion?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.022Z"
-    },
-    {
-      "review_id": "USA-national_cohesion_by_demographic-064",
-      "country_code": "USA",
-      "module": "national_cohesion_by_demographic",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_cohesion_by_demographic?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.023Z"
-    },
-    {
-      "review_id": "USA-government_current-065",
-      "country_code": "USA",
-      "module": "government_current",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for government_current?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.023Z"
-    },
-    {
-      "review_id": "USA-ruling_class-066",
-      "country_code": "USA",
-      "module": "ruling_class",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for ruling_class?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.024Z"
-    },
-    {
-      "review_id": "USA-leader_dossiers-067",
-      "country_code": "USA",
-      "module": "leader_dossiers",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for leader_dossiers?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_leader_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.024Z"
-    },
-    {
-      "review_id": "USA-education-068",
-      "country_code": "USA",
-      "module": "education",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for education?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.025Z"
-    },
-    {
-      "review_id": "USA-math_contributions-069",
-      "country_code": "USA",
-      "module": "math_contributions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for math_contributions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_philosophy_math_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.028Z"
-    },
-    {
-      "review_id": "USA-philosophy_contributions-070",
-      "country_code": "USA",
-      "module": "philosophy_contributions",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for philosophy_contributions?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_philosophy_math_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.029Z"
-    },
-    {
-      "review_id": "USA-intelligence_security-071",
-      "country_code": "USA",
-      "module": "intelligence_security",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for intelligence_security?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.030Z"
-    },
-    {
-      "review_id": "USA-media_information-072",
-      "country_code": "USA",
-      "module": "media_information",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for media_information?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.031Z"
-    },
-    {
-      "review_id": "USA-foreign_policy-073",
-      "country_code": "USA",
-      "module": "foreign_policy",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for foreign_policy?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.031Z"
-    },
-    {
-      "review_id": "USA-adversary_narratives-074",
-      "country_code": "USA",
-      "module": "adversary_narratives",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversary_narratives?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.032Z"
-    },
-    {
-      "review_id": "USA-game_theory_profile-075",
-      "country_code": "USA",
-      "module": "game_theory_profile",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for game_theory_profile?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_leader_sources",
-        "manual_history_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.033Z"
-    },
-    {
-      "review_id": "USA-future_scenarios-076",
-      "country_code": "USA",
-      "module": "future_scenarios",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for future_scenarios?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_history_sources",
-        "manual_leader_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.033Z"
-    },
-    {
-      "review_id": "USA-allies_and_partners-077",
-      "country_code": "USA",
-      "module": "allies_and_partners",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for allies_and_partners?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.033Z"
-    },
-    {
-      "review_id": "USA-adversaries_and_rivals-078",
-      "country_code": "USA",
-      "module": "adversaries_and_rivals",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for adversaries_and_rivals?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.034Z"
-    },
-    {
-      "review_id": "USA-national_event_timeline-079",
-      "country_code": "USA",
-      "module": "national_event_timeline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for national_event_timeline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.034Z"
-    },
-    {
-      "review_id": "USA-top_national_events_20_years-080",
-      "country_code": "USA",
-      "module": "top_national_events_20_years",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for top_national_events_20_years?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.035Z"
-    },
-    {
-      "review_id": "USA-news_memory-081",
-      "country_code": "USA",
-      "module": "news_memory",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for news_memory?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.035Z"
-    },
-    {
-      "review_id": "USA-threat_perception-082",
-      "country_code": "USA",
-      "module": "threat_perception",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for threat_perception?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.036Z"
-    },
-    {
-      "review_id": "USA-wikipedia_baseline-083",
-      "country_code": "USA",
-      "module": "wikipedia_baseline",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for wikipedia_baseline?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.036Z"
-    },
-    {
-      "review_id": "USA-wikipedia_references-084",
-      "country_code": "USA",
-      "module": "wikipedia_references",
-      "reason": "Structured data is insufficient. Requires source-backed narrative research.",
-      "required_questions": [
-        "Which source-backed facts are required for wikipedia_references?",
-        "Which claims should remain open until human review?"
-      ],
-      "suggested_sources": [
-        "manual_sources"
-      ],
-      "status": "pending",
-      "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-07T02:42:17.036Z"
+      "created_at": "2026-06-08T04:02:58.355Z"
     }
   ]
 }

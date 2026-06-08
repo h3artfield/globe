@@ -1,0 +1,2 @@
+country_code,year,metric_id,value,unit,source_url,source_name,raw_record_id,calculation,notes
+USA,2022,literacy_rate,99.0,percent,https://api.uis.unesco.org/,UNESCO UIS,EXAMPLE-001,,EXAMPLE_ONLY_NOT_REAL_DATA

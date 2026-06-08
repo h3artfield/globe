@@ -2,13 +2,13 @@
   "country_code": "PAK",
   "module": "household_income_wealth",
   "version": "1.0",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "summary": "household_income_wealth has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
-    "gini_index is 33.5 index for PAK (2024).",
-    "poverty_rate_national is 21.9 percent for PAK (2018).",
-    "remittances_received_current_usd is 34914000000 current_usd for PAK (2024).",
-    "youth_unemployment_rate is 9.594 percent for PAK (2025)."
+    "gini_index: 33.5 index (2024)",
+    "poverty_rate_national: 21.9 percent (2018)",
+    "remittances_received_current_usd: 34914000000 current_usd (2024)",
+    "youth_unemployment_rate: 9.594 percent (2025)"
   ],
   "metrics": [
     {
@@ -27,8 +27,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for SI.POV.GINI.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SI.POV.GINI."
     },
     {
       "metric_id": "poverty_rate_national",
@@ -46,8 +45,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
-      "notes": "Latest non-null World Bank observation for SI.POV.NAHC.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SI.POV.NAHC."
     },
     {
       "metric_id": "remittances_received_current_usd",
@@ -65,8 +63,7 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "acceptable",
-      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for BX.TRF.PWKR.CD.DT."
     },
     {
       "metric_id": "youth_unemployment_rate",
@@ -84,60 +81,10 @@
       "confidence": "medium",
       "freshness_requirement": "latest_available_year",
       "freshness_status": "fresh",
-      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS.",
-      "review_status": "auto_generated_from_structured_data"
+      "notes": "Latest non-null World Bank observation for SL.UEM.1524.ZS."
     }
   ],
-  "claims": [
-    {
-      "claim_id": "PAK-household_income_wealth-metric-001",
-      "text": "gini_index is 33.5 index for PAK (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.GINI?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:gini_index:SI.POV.GINI; metric_id=gini_index"
-    },
-    {
-      "claim_id": "PAK-household_income_wealth-metric-002",
-      "text": "poverty_rate_national is 21.9 percent for PAK (2018).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/SI.POV.NAHC?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:poverty_rate_national:SI.POV.NAHC; metric_id=poverty_rate_national"
-    },
-    {
-      "claim_id": "PAK-household_income_wealth-metric-003",
-      "text": "remittances_received_current_usd is 34914000000 current_usd for PAK (2024).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/BX.TRF.PWKR.CD.DT?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:remittances_received_current_usd:BX.TRF.PWKR.CD.DT; metric_id=remittances_received_current_usd"
-    },
-    {
-      "claim_id": "PAK-household_income_wealth-metric-004",
-      "text": "youth_unemployment_rate is 9.594 percent for PAK (2025).",
-      "claim_type": "fact",
-      "source_ids": [
-        "world_bank_wdi"
-      ],
-      "confidence": "medium",
-      "review_status": "auto_generated_from_structured_data",
-      "last_verified": "2026-06-07",
-      "notes": "source_url=https://api.worldbank.org/v2/country/PAK/indicator/SL.UEM.1524.ZS?format=json&per_page=80; raw_file_path=/data/raw/world_bank/2026-06-07/world_bank_wdi.raw.json; raw_record_id=PAK:youth_unemployment_rate:SL.UEM.1524.ZS; metric_id=youth_unemployment_rate"
-    }
-  ],
+  "claims": [],
   "open_questions": [
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
@@ -148,8 +95,7 @@
   "confidence": {
     "overall": "medium",
     "weak_areas": [
-      "narrative_context"
+      "narrative_claims"
     ]
-  },
-  "review_status": "auto_generated_from_structured_data"
+  }
 }
