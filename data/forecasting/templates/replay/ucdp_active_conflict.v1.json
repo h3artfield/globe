@@ -1,0 +1,22 @@
+{
+  "template_id": "ucdp_active_conflict",
+  "version": "1.0",
+  "mode": "historical_replay",
+  "title": "UCDP active conflict presence",
+  "description": "Forecast whether an active UCDP conflict involving the target country will exist during a post-as_of observation window.",
+  "target_type": "country",
+  "allowed_targets": ["UKR", "RUS", "ETH", "SAU", "IRN", "ISR"],
+  "default_as_of_year": 2021,
+  "resolution_year": 2023,
+  "question_template": "As of {as_of_year}, will {target} have at least one active UCDP conflict recorded between {as_of_year}-01-01 and {resolution_year}-12-31?",
+  "resolution_spec": {
+    "kind": "event_exists",
+    "source_id": "ucdp",
+    "event_type": "active_conflict",
+    "window_start": "{as_of_year}-01-01",
+    "window_end": "{resolution_year}-12-31"
+  },
+  "allowed_evidence_sources": ["processed_metric", "world_model_event", "canonical_event_row"],
+  "allowed_source_ids": ["ucdp"],
+  "limitations": "Evidence and resolution use UCDP conflict events with event_date <= as_of_date for retrieval and holdout events in the resolution window for scoring. Event typing in processed data is coarse; resolution builder must map UCDP rows consistently (Phase 2)."
+}

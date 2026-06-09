@@ -1,0 +1,23 @@
+{
+  "template_id": "wvs_social_trust_direction",
+  "version": "1.0",
+  "mode": "historical_replay",
+  "title": "WVS social trust score direction",
+  "description": "Forecast whether a country's World Values Survey social trust score will be higher at a later survey year than at the as_of survey year.",
+  "target_type": "country",
+  "allowed_targets": ["USA", "CHN", "IND"],
+  "default_as_of_year": 2010,
+  "resolution_year": 2017,
+  "question_template": "As of {as_of_year}, will {target}'s WVS social trust score (most people can be trusted) be higher in {resolution_year} than in {as_of_year}?",
+  "resolution_spec": {
+    "kind": "metric_compare_years",
+    "metric_id": "social_trust_score",
+    "source_id": "world_values_survey",
+    "baseline_year_from_as_of": true,
+    "resolution_year": 2017,
+    "comparator": "gt"
+  },
+  "allowed_evidence_sources": ["processed_metric"],
+  "allowed_source_ids": ["world_values_survey"],
+  "limitations": "WVS is wave-based, not annual. Metric rows use survey year (e.g. wave 7 ≈ 2017 for USA). Only use when year mapping is explicit in processed metrics notes (wvs_wave). Sparse cross-country coverage; do not treat as annual time series."
+}

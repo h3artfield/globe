@@ -66,6 +66,9 @@ export default async function AboutPage() {
               <Link className="text-cyan-300 hover:text-cyan-100" href="/">
                 Globe
               </Link>
+              <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast">
+                Forecast Lab
+              </Link>
               <Link className="text-cyan-300 hover:text-cyan-100" href="/review">
                 Review
               </Link>

@@ -181,6 +181,9 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-start gap-2 text-sm text-slate-400 sm:items-end">
               <nav className="flex flex-wrap gap-3">
+                <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast">
+                  Forecast Lab
+                </Link>
                 <Link className="text-cyan-300 hover:text-cyan-100" href="/about">
                   About &amp; Status
                 </Link>

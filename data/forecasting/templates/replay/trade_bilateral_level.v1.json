@@ -1,0 +1,25 @@
+{
+  "template_id": "trade_bilateral_level",
+  "version": "1.0",
+  "mode": "historical_replay",
+  "title": "Bilateral trade level comparison",
+  "description": "Forecast whether total bilateral trade (imports plus exports, current USD) between two countries will be higher in a later year than at the as_of baseline year.",
+  "target_type": "relationship",
+  "allowed_targets": ["CHN_USA"],
+  "default_as_of_year": 2020,
+  "resolution_year": 2024,
+  "question_template": "As of {as_of_year}, will {target} bilateral trade (imports plus exports, USD) be higher in {resolution_year} than in {as_of_year}?",
+  "resolution_spec": {
+    "kind": "metric_compare_years",
+    "metric_id": "imports_total_usd",
+    "source_id": "un_comtrade",
+    "baseline_year_from_as_of": true,
+    "resolution_year": 2024,
+    "comparator": "gt",
+    "relationship_id": "CHN_USA",
+    "aggregate": "sum_imports_exports"
+  },
+  "allowed_evidence_sources": ["processed_metric"],
+  "allowed_source_ids": ["un_comtrade"],
+  "limitations": "Resolution sums UN Comtrade import and export rows for the reporter/partner pair from processed country metrics. MVP relationship coverage is limited; start with CHN_USA where bilateral rows exist."
+}

@@ -1,0 +1,23 @@
+{
+  "template_id": "unodc_homicide_rate_direction",
+  "version": "1.0",
+  "mode": "historical_replay",
+  "title": "UNODC homicide rate direction",
+  "description": "Forecast whether a country's UNODC intentional homicide rate (per 100k) will be higher in a later year than at the as_of year.",
+  "target_type": "country",
+  "allowed_targets": ["USA", "CHN", "IND", "RUS", "SAU", "TUR"],
+  "default_as_of_year": 2010,
+  "resolution_year": 2020,
+  "question_template": "As of {as_of_year}, will {target}'s UNODC homicide rate (per 100k) be higher in {resolution_year} than in {as_of_year}?",
+  "resolution_spec": {
+    "kind": "metric_compare_years",
+    "metric_id": "homicide_rate_per_100k",
+    "source_id": "unodc",
+    "baseline_year_from_as_of": true,
+    "resolution_year": 2020,
+    "comparator": "gt"
+  },
+  "allowed_evidence_sources": ["processed_metric"],
+  "allowed_source_ids": ["unodc"],
+  "limitations": "UNODC coverage is sparse and years vary by country. Resolution requires both baseline and holdout year rows to exist; missing years void the forecast. Not all MVP countries have recent homicide rate rows."
+}

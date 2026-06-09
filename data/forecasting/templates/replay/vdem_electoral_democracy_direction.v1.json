@@ -1,0 +1,23 @@
+{
+  "template_id": "vdem_electoral_democracy_direction",
+  "version": "1.0",
+  "mode": "historical_replay",
+  "title": "V-Dem electoral democracy index direction",
+  "description": "Forecast whether a country's V-Dem electoral democracy index will be higher at a later year than at the as_of year.",
+  "target_type": "country",
+  "allowed_targets": ["USA", "CHN", "IND", "TUR", "EGY", "ETH"],
+  "default_as_of_year": 2010,
+  "resolution_year": 2023,
+  "question_template": "As of {as_of_year}, will {target}'s V-Dem electoral democracy index be higher in {resolution_year} than in {as_of_year}?",
+  "resolution_spec": {
+    "kind": "metric_compare_years",
+    "metric_id": "electoral_democracy_index",
+    "source_id": "vdem",
+    "baseline_year_from_as_of": true,
+    "resolution_year": 2023,
+    "comparator": "gt"
+  },
+  "allowed_evidence_sources": ["processed_metric"],
+  "allowed_source_ids": ["vdem"],
+  "limitations": "Uses structured V-Dem rows from data/processed/countries/{target}/metrics.v1.json. Validate metric year fields before high-stakes replay; some transformed rows may include long historical series."
+}
