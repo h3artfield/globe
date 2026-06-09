@@ -29,6 +29,9 @@ export async function loadReplaySession(sessionId: string): Promise<ReplaySessio
   return readJsonFile<ReplaySession>(filePath).then((session) => ({
     ...session,
     locked_at: session.locked_at ?? null,
+    scorecard_id: session.scorecard_id ?? null,
+    judge_audit_id: session.judge_audit_id ?? null,
+    postmortem_id: session.postmortem_id ?? null,
     user_forecast: {
       ...session.user_forecast,
       confidence:

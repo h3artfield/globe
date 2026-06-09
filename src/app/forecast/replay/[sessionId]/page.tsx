@@ -3,8 +3,12 @@ import { notFound } from "next/navigation";
 import { ForecastNav } from "@/components/ForecastNav";
 import { ReplaySessionEvidenceResolution } from "@/components/ReplaySessionEvidenceResolution";
 import { ReplaySessionForecastForm } from "@/components/ReplaySessionForecastForm";
+import { ReplaySessionScoring } from "@/components/ReplaySessionScoring";
 import { getReplayEvidenceSnapshot } from "@/lib/forecasting/buildReplayEvidenceSnapshot";
+import { getReplayPostmortem } from "@/lib/forecasting/generateReplayPostmortem";
 import { getReplayResolution } from "@/lib/forecasting/resolveReplaySession";
+import { getReplayJudgeAudit } from "@/lib/forecasting/runReplayJudge";
+import { getReplayScorecard } from "@/lib/forecasting/scoreReplaySession";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 type SessionPageProps = {
@@ -28,9 +32,12 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
     notFound();
   }
 
-  const [snapshot, resolution] = await Promise.all([
+  const [snapshot, resolution, scorecard, audit, postmortem] = await Promise.all([
     getReplayEvidenceSnapshot(sessionId),
     getReplayResolution(sessionId),
+    getReplayScorecard(sessionId),
+    getReplayJudgeAudit(sessionId),
+    getReplayPostmortem(sessionId),
   ]);
 
   return (
@@ -87,6 +94,13 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
           session={session}
           initialSnapshot={snapshot}
           initialResolution={resolution}
+        />
+
+        <ReplaySessionScoring
+          session={session}
+          initialScorecard={scorecard}
+          initialAudit={audit}
+          initialPostmortem={postmortem}
         />
 
         <section className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 shadow-xl backdrop-blur">

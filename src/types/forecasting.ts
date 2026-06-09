@@ -178,6 +178,9 @@ export type ReplaySession = {
   user_forecast: ReplayUserForecast;
   evidence_snapshot_id: string | null;
   resolution_id: string | null;
+  scorecard_id: string | null;
+  judge_audit_id: string | null;
+  postmortem_id: string | null;
   audit_trail: ReplaySessionAuditEntry[];
 };
 
@@ -248,4 +251,56 @@ export type ReplayResolution = {
   source_paths: string[];
   confidence: ReplayForecastConfidence;
   limitations: string;
+};
+
+export type ReplayScorecard = {
+  scorecard_id: string;
+  session_id: string;
+  template_id: string;
+  created_at: string;
+  forecast_probability: number;
+  outcome: ReplayResolutionOutcome;
+  brier_score: number | null;
+  direction_correct: boolean | null;
+  confidence: ReplayForecastConfidence | null;
+  scoring_notes: string;
+  limitations: string;
+  source_paths: string[];
+};
+
+export type ReplayJudgeCheckStatus = "pass" | "warning" | "fail";
+
+export type ReplayJudgeCheck = {
+  name: string;
+  status: ReplayJudgeCheckStatus;
+  message: string;
+};
+
+export type ReplayJudgeAudit = {
+  judge_audit_id: string;
+  session_id: string;
+  created_at: string;
+  checks: ReplayJudgeCheck[];
+  leakage_check: ReplayJudgeCheck;
+  source_check: ReplayJudgeCheck;
+  resolution_check: ReplayJudgeCheck;
+  scoring_check: ReplayJudgeCheck;
+  warnings: string[];
+  errors: string[];
+  overall_status: "pass" | "warning" | "fail";
+};
+
+export type ReplayPostmortem = {
+  postmortem_id: string;
+  session_id: string;
+  created_at: string;
+  question_text: string;
+  forecast_summary: string;
+  resolution_summary: string;
+  score_summary: string;
+  what_went_right: string[];
+  what_went_wrong: string[];
+  missed_signals: string[];
+  source_limitations: string[];
+  next_time_rules: string[];
 };

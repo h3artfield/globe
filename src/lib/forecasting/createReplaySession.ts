@@ -61,6 +61,9 @@ export async function createReplaySessionFromTemplate(
     },
     evidence_snapshot_id: null,
     resolution_id: null,
+    scorecard_id: null,
+    judge_audit_id: null,
+    postmortem_id: null,
     audit_trail: [
       {
         at: createdAt,
