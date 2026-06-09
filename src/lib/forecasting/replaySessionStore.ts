@@ -32,6 +32,16 @@ export async function loadReplaySession(sessionId: string): Promise<ReplaySessio
     scorecard_id: session.scorecard_id ?? null,
     judge_audit_id: session.judge_audit_id ?? null,
     postmortem_id: session.postmortem_id ?? null,
+    agent_id: session.agent_id ?? null,
+    agent_name: session.agent_name ?? null,
+    agent_type: session.agent_type ?? null,
+    forecast_rationale: session.forecast_rationale ?? session.user_forecast?.rationale ?? "",
+    key_signals: session.key_signals ?? [],
+    assumptions: session.assumptions ?? [],
+    uncertainty_notes: session.uncertainty_notes ?? "",
+    requested_sources: session.requested_sources ?? [],
+    source_request_ids: session.source_request_ids ?? [],
+    postmortem_rule_ids: session.postmortem_rule_ids ?? [],
     user_forecast: {
       ...session.user_forecast,
       confidence:

@@ -1,5 +1,6 @@
 import type { CreateReplaySessionRequest, ReplaySession } from "@/types/forecasting";
 import { formatReplayQuestion } from "@/lib/forecasting/formatReplayQuestion";
+import { loadForecastAgent } from "@/lib/forecasting/forecastAgentStore";
 import { loadReplayTemplate } from "@/lib/forecasting/loadReplayTemplates";
 import { materializeResolutionSpec } from "@/lib/forecasting/materializeResolutionSpec";
 import { createSessionId } from "@/lib/forecasting/replaySessionStore";
@@ -35,6 +36,18 @@ export async function createReplaySessionFromTemplate(
   const createdAt = new Date().toISOString();
   const sessionId = createSessionId();
 
+  let agentId: string | null = input.agent_id?.trim() ?? null;
+  let agentName: string | null = null;
+  let agentType: ReplaySession["agent_type"] = null;
+  if (agentId) {
+    const agent = await loadForecastAgent(agentId);
+    if (!agent) {
+      throw new ReplaySessionValidationError(`Agent not found: ${agentId}`);
+    }
+    agentName = agent.name;
+    agentType = agent.type;
+  }
+
   return {
     session_id: sessionId,
     template_id: template.template_id,
@@ -59,6 +72,16 @@ export async function createReplaySessionFromTemplate(
       confidence: null,
       rationale: "",
     },
+    agent_id: agentId,
+    agent_name: agentName,
+    agent_type: agentType,
+    forecast_rationale: "",
+    key_signals: [],
+    assumptions: [],
+    uncertainty_notes: "",
+    requested_sources: [],
+    source_request_ids: [],
+    postmortem_rule_ids: [],
     evidence_snapshot_id: null,
     resolution_id: null,
     scorecard_id: null,

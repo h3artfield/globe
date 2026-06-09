@@ -17,6 +17,10 @@ data/forecasting/resolutions/**/resolution.v1.json
 data/forecasting/scorecards/**/scorecard.v1.json
 data/forecasting/audits/**/judge_audit.v1.json
 data/forecasting/postmortems/**/postmortem.v1.json
+data/forecasting/agents/**/profile.v1.json
+data/forecasting/agents/**/next_time_rules.v1.jsonl
+data/forecasting/source_requests/**/request.v1.json
+data/forecasting/judges/rules.v1.jsonl
 
 # Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)
 data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ForecastNav } from "@/components/ForecastNav";
+import { ReplaySessionAgentPanel } from "@/components/ReplaySessionAgentPanel";
 import { ReplaySessionEvidenceResolution } from "@/components/ReplaySessionEvidenceResolution";
 import { ReplaySessionForecastForm } from "@/components/ReplaySessionForecastForm";
 import { ReplaySessionScoring } from "@/components/ReplaySessionScoring";
@@ -9,6 +10,7 @@ import { getReplayPostmortem } from "@/lib/forecasting/generateReplayPostmortem"
 import { getReplayResolution } from "@/lib/forecasting/resolveReplaySession";
 import { getReplayJudgeAudit } from "@/lib/forecasting/runReplayJudge";
 import { getReplayScorecard } from "@/lib/forecasting/scoreReplaySession";
+import { listSessionSourceRequests } from "@/lib/forecasting/sessionSourceRequests";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 type SessionPageProps = {
@@ -32,12 +34,13 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
     notFound();
   }
 
-  const [snapshot, resolution, scorecard, audit, postmortem] = await Promise.all([
+  const [snapshot, resolution, scorecard, audit, postmortem, sourceRequests] = await Promise.all([
     getReplayEvidenceSnapshot(sessionId),
     getReplayResolution(sessionId),
     getReplayScorecard(sessionId),
     getReplayJudgeAudit(sessionId),
     getReplayPostmortem(sessionId),
+    listSessionSourceRequests(sessionId),
   ]);
 
   return (
@@ -89,6 +92,8 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
         </section>
 
         <ReplaySessionForecastForm session={session} />
+
+        <ReplaySessionAgentPanel session={session} initialSourceRequests={sourceRequests} />
 
         <ReplaySessionEvidenceResolution
           session={session}

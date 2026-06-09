@@ -11,6 +11,8 @@ import {
   createPostmortemId,
   saveReplayPostmortem,
 } from "@/lib/forecasting/replayPostmortemStore";
+import { extractPostmortemRules } from "@/lib/forecasting/extractPostmortemRules";
+import { loadForecastAgent, saveForecastAgent } from "@/lib/forecasting/forecastAgentStore";
 import { loadReplayScorecard } from "@/lib/forecasting/replayScorecardStore";
 import { loadReplaySession, saveReplaySession } from "@/lib/forecasting/replaySessionStore";
 import { ReplaySessionValidationError } from "@/lib/forecasting/replaySessionValidation";
@@ -166,10 +168,29 @@ export async function generateReplayPostmortem(sessionId: string): Promise<Repla
 
   await saveReplayPostmortem(postmortem);
 
+  const extractedRules = await extractPostmortemRules(session, postmortem);
+  const ruleIds = extractedRules.map((rule) => rule.rule_id);
+
+  if (session.agent_id) {
+    const agent = await loadForecastAgent(session.agent_id);
+    if (agent) {
+      await saveForecastAgent({
+        ...agent,
+        next_time_rules: [
+          ...new Set([...agent.next_time_rules, ...extractedRules.map((rule) => rule.rule_text)]),
+        ],
+      });
+    }
+  }
+
   const updated = appendAudit(
-    { ...session, postmortem_id: postmortem.postmortem_id },
+    {
+      ...session,
+      postmortem_id: postmortem.postmortem_id,
+      postmortem_rule_ids: [...new Set([...session.postmortem_rule_ids, ...ruleIds])],
+    },
     "postmortem_generated",
-    postmortem.postmortem_id,
+    `${postmortem.postmortem_id}; rules=${ruleIds.length}`,
   );
   await saveReplaySession(updated);
 

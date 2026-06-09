@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { ReplayTemplate } from "@/types/forecasting";
 
 type ReplaySessionStarterProps = {
@@ -13,6 +13,17 @@ export function ReplaySessionStarter({ templates }: ReplaySessionStarterProps) {
   const [templateId, setTemplateId] = useState(templates[0]?.template_id ?? "");
   const [target, setTarget] = useState(templates[0]?.allowed_targets[0] ?? "");
   const [year, setYear] = useState(templates[0]?.default_as_of_year ?? 2020);
+  const [agentId, setAgentId] = useState("");
+  const [agents, setAgents] = useState<Array<{ agent_id: string; name: string }>>([]);
+
+  useEffect(() => {
+    void fetch("/api/forecast/agents")
+      .then((response) => response.json())
+      .then((payload: { agents: Array<{ agent_id: string; name: string }> }) => {
+        setAgents(payload.agents ?? []);
+      })
+      .catch(() => setAgents([]));
+  }, []);
   const [error, setError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -49,6 +60,7 @@ export function ReplaySessionStarter({ templates }: ReplaySessionStarterProps) {
           template_id: templateId,
           target,
           year,
+          ...(agentId ? { agent_id: agentId } : {}),
         }),
       });
 
@@ -96,8 +108,23 @@ export function ReplaySessionStarter({ templates }: ReplaySessionStarterProps) {
           </select>
         </label>
 
+        <label className="block text-sm text-slate-300 sm:col-span-2">
+          Agent (optional)
+          <select
+            className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-white"
+            onChange={(event) => setAgentId(event.target.value)}
+            value={agentId}
+          >
+            <option value="">No agent</option>
+            {agents.map((agent) => (
+              <option key={agent.agent_id} value={agent.agent_id}>
+                {agent.name}
+              </option>
+            ))}
+          </select>
+        </label>
+
         <label className="block text-sm text-slate-300">
-          Target
           <select
             className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-white"
             onChange={(event) => setTarget(event.target.value)}

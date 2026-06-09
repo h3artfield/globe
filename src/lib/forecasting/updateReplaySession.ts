@@ -36,6 +36,13 @@ export async function updateReplaySessionDraft(
 
   assertSessionEditable(session.status);
 
+  const nextRationale =
+    input.forecast_rationale !== undefined
+      ? input.forecast_rationale
+      : input.rationale !== undefined
+        ? input.rationale
+        : session.user_forecast.rationale;
+
   const nextForecast = {
     probability:
       input.probability !== undefined
@@ -45,13 +52,24 @@ export async function updateReplaySessionDraft(
       input.confidence !== undefined
         ? validateConfidence(input.confidence)
         : session.user_forecast.confidence,
-    rationale: input.rationale !== undefined ? input.rationale : session.user_forecast.rationale,
+    rationale: nextRationale,
   };
 
   const updated = appendAudit(
     {
       ...session,
       user_forecast: nextForecast,
+      forecast_rationale: nextRationale,
+      key_signals: input.key_signals !== undefined ? input.key_signals : session.key_signals,
+      assumptions: input.assumptions !== undefined ? input.assumptions : session.assumptions,
+      uncertainty_notes:
+        input.uncertainty_notes !== undefined
+          ? input.uncertainty_notes
+          : session.uncertainty_notes,
+      requested_sources:
+        input.requested_sources !== undefined
+          ? input.requested_sources
+          : session.requested_sources,
     },
     "draft_saved",
     `probability=${nextForecast.probability ?? "null"}; confidence=${nextForecast.confidence ?? "null"}`,
