@@ -146,3 +146,45 @@ export type ReplayTemplateListResponse = {
   templates: ReplayTemplate[];
   count: number;
 };
+
+export type ReplaySessionStatus = "draft" | "locked" | "resolved";
+
+export type ReplaySessionAuditEntry = {
+  at: string;
+  action: string;
+  details?: string;
+};
+
+export type ReplayUserForecast = {
+  probability: number | null;
+  confidence: number | null;
+  rationale: string;
+};
+
+export type ReplaySession = {
+  session_id: string;
+  template_id: string;
+  created_at: string;
+  target: ForecastTarget;
+  forecast_year: number;
+  resolution_year: number;
+  question_text: string;
+  resolution_spec: ResolutionSpec;
+  allowed_source_ids: string[];
+  status: ReplaySessionStatus;
+  user_forecast: ReplayUserForecast;
+  evidence_snapshot_id: string | null;
+  resolution_id: string | null;
+  audit_trail: ReplaySessionAuditEntry[];
+};
+
+export type CreateReplaySessionRequest = {
+  template_id: string;
+  target: string;
+  year: number;
+};
+
+export type ReplaySessionListResponse = {
+  sessions: ReplaySession[];
+  count: number;
+};

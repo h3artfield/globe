@@ -10,6 +10,9 @@ coverage/
 
 tmp/
 
+# Local forecast replay sessions (runtime; keep folder scaffold only)
+data/forecasting/sessions/**/session.v1.json
+
 # Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)
 data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv
 data/manual_imports_raw/world_values_survey/wvs_wave7_crossnational.csv
