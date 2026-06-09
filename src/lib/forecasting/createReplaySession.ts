@@ -3,13 +3,9 @@ import { formatReplayQuestion } from "@/lib/forecasting/formatReplayQuestion";
 import { loadReplayTemplate } from "@/lib/forecasting/loadReplayTemplates";
 import { materializeResolutionSpec } from "@/lib/forecasting/materializeResolutionSpec";
 import { createSessionId } from "@/lib/forecasting/replaySessionStore";
+import { ReplaySessionValidationError } from "@/lib/forecasting/replaySessionValidation";
 
-export class ReplaySessionValidationError extends Error {
-  constructor(message: string) {
-    super(message);
-    this.name = "ReplaySessionValidationError";
-  }
-}
+export { ReplaySessionValidationError };
 
 export async function createReplaySessionFromTemplate(
   input: CreateReplaySessionRequest,
@@ -43,6 +39,7 @@ export async function createReplaySessionFromTemplate(
     session_id: sessionId,
     template_id: template.template_id,
     created_at: createdAt,
+    locked_at: null,
     target: {
       target_type: template.target_type,
       target_id: targetId,

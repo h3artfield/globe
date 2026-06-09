@@ -31,6 +31,9 @@ export function ReplaySessionList({ sessions }: ReplaySessionListProps) {
                 <p className="font-medium text-slate-100">{session.template_id}</p>
                 <p className="text-slate-400">
                   {session.target.target_id} · as_of {session.forecast_year} → {session.resolution_year}
+                  {session.user_forecast.probability !== null
+                    ? ` · p=${session.user_forecast.probability}%`
+                    : ""}
                 </p>
               </div>
               <span className="rounded-full border border-slate-700 px-2 py-0.5 text-xs text-slate-400">

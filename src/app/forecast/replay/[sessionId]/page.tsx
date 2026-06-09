@@ -1,11 +1,22 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ForecastNav } from "@/components/ForecastNav";
+import { ReplaySessionForecastForm } from "@/components/ReplaySessionForecastForm";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 type SessionPageProps = {
   params: Promise<{ sessionId: string }>;
 };
+
+function statusBadgeClass(status: string): string {
+  if (status === "locked") {
+    return "border-cyan-700 text-cyan-200";
+  }
+  if (status === "resolved") {
+    return "border-emerald-700 text-emerald-200";
+  }
+  return "border-slate-700 text-slate-300";
+}
 
 export default async function ReplaySessionPage({ params }: SessionPageProps) {
   const { sessionId } = await params;
@@ -23,9 +34,17 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
               <p className="text-xs uppercase tracking-[0.3em] text-cyan-300">Replay session</p>
               <h1 className="mt-2 text-2xl font-bold tracking-tight md:text-3xl">{session.template_id}</h1>
               <p className="mt-2 text-sm text-slate-400">
-                <code>{session.session_id}</code> · {session.status} · created{" "}
+                <code>{session.session_id}</code> · created{" "}
                 {new Date(session.created_at).toLocaleString()}
+                {session.locked_at
+                  ? ` · locked ${new Date(session.locked_at).toLocaleString()}`
+                  : ""}
               </p>
+              <span
+                className={`mt-2 inline-block rounded-full border px-2 py-0.5 text-xs ${statusBadgeClass(session.status)}`}
+              >
+                {session.status}
+              </span>
             </div>
             <ForecastNav />
           </div>
@@ -54,47 +73,7 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
           </dl>
         </section>
 
-        <section className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 shadow-xl backdrop-blur">
-          <h2 className="text-lg font-semibold text-white">
-            Your forecast{" "}
-            <span className="text-sm font-normal text-slate-500">(placeholder — Phase 3)</span>
-          </h2>
-          <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            <label className="block text-sm text-slate-300">
-              Probability (0–1)
-              <input
-                className="mt-1 w-full cursor-not-allowed rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-500"
-                disabled
-                readOnly
-                type="text"
-                value={session.user_forecast.probability ?? "—"}
-              />
-            </label>
-            <label className="block text-sm text-slate-300">
-              Confidence (0–1)
-              <input
-                className="mt-1 w-full cursor-not-allowed rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-500"
-                disabled
-                readOnly
-                type="text"
-                value={session.user_forecast.confidence ?? "—"}
-              />
-            </label>
-            <label className="block text-sm text-slate-300 sm:col-span-2">
-              Rationale
-              <textarea
-                className="mt-1 w-full cursor-not-allowed rounded-lg border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-500"
-                disabled
-                readOnly
-                rows={3}
-                value={session.user_forecast.rationale || "Not entered yet"}
-              />
-            </label>
-          </div>
-          <p className="mt-3 text-xs text-slate-500">
-            Evidence retrieval, submission, and scoring arrive in later phases.
-          </p>
-        </section>
+        <ReplaySessionForecastForm session={session} />
 
         <section className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 shadow-xl backdrop-blur">
           <h2 className="text-lg font-semibold text-white">Resolution spec (copied from template)</h2>

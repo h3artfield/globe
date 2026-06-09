@@ -155,9 +155,11 @@ export type ReplaySessionAuditEntry = {
   details?: string;
 };
 
+export type ReplayForecastConfidence = "low" | "medium" | "high";
+
 export type ReplayUserForecast = {
   probability: number | null;
-  confidence: number | null;
+  confidence: ReplayForecastConfidence | null;
   rationale: string;
 };
 
@@ -165,6 +167,7 @@ export type ReplaySession = {
   session_id: string;
   template_id: string;
   created_at: string;
+  locked_at: string | null;
   target: ForecastTarget;
   forecast_year: number;
   resolution_year: number;
@@ -176,6 +179,12 @@ export type ReplaySession = {
   evidence_snapshot_id: string | null;
   resolution_id: string | null;
   audit_trail: ReplaySessionAuditEntry[];
+};
+
+export type UpdateReplaySessionDraftRequest = {
+  probability?: number | null;
+  confidence?: ReplayForecastConfidence | null;
+  rationale?: string;
 };
 
 export type CreateReplaySessionRequest = {

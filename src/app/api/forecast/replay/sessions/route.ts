@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { ReplaySessionValidationError } from "@/lib/forecasting/createReplaySession";
+import { ReplaySessionValidationError } from "@/lib/forecasting/replaySessionValidation";
 import { createReplaySession, listReplaySessions } from "@/lib/forecasting/replaySessionStore";
 import type { CreateReplaySessionRequest, ReplaySessionListResponse } from "@/types/forecasting";
 

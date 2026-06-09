@@ -26,7 +26,19 @@ export async function loadReplaySession(sessionId: string): Promise<ReplaySessio
   if (!(await pathExists(filePath))) {
     return null;
   }
-  return readJsonFile<ReplaySession>(filePath);
+  return readJsonFile<ReplaySession>(filePath).then((session) => ({
+    ...session,
+    locked_at: session.locked_at ?? null,
+    user_forecast: {
+      ...session.user_forecast,
+      confidence:
+        session.user_forecast.confidence === "low" ||
+        session.user_forecast.confidence === "medium" ||
+        session.user_forecast.confidence === "high"
+          ? session.user_forecast.confidence
+          : null,
+    },
+  }));
 }
 
 export async function listReplaySessions(): Promise<ReplaySession[]> {
