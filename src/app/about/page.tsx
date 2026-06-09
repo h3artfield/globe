@@ -3,9 +3,9 @@ import Link from "next/link";
 import { loadKbStatusSnapshot } from "@/lib/kb/loadKbStatusSnapshot";
 
 export const metadata: Metadata = {
-  title: "About & KB Status | 3D Country RAG Globe",
+  title: "About & Status | 3D Country RAG Globe",
   description:
-    "What this local geopolitical RAG globe does today, what data is loaded, and what remains incomplete.",
+    "What this local geopolitical RAG globe does today, what data is loaded, current limitations, and the forecasting sandbox direction.",
 };
 
 function formatReadiness(score: number): string {
@@ -54,11 +54,12 @@ export default async function AboutPage() {
                 MVP / partial coverage
               </p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight md:text-4xl">
-                About &amp; Knowledge Base Status
+                About &amp; Status
               </h1>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
-                Local file-based geopolitical country and relationship RAG globe. Runtime data lives
-                under <code>data/</code> as JSON, JSONL, and Markdown. There is no external database.
+                Local file-based geopolitical country and relationship RAG globe — becoming an
+                evidence-based forecasting sandbox. Runtime data lives under <code>data/</code> as
+                JSON, JSONL, and Markdown. There is no external database.
               </p>
             </div>
             <nav className="flex shrink-0 flex-wrap gap-3 text-sm">
@@ -76,7 +77,7 @@ export default async function AboutPage() {
           </p>
         </header>
 
-        <Section title="What this app is">
+        <Section title="What this app is today">
           <p>
             A local Next.js app with a 3D globe for selecting MVP countries and asking strategic
             questions grounded in on-disk RAG artifacts. Answers are retrieved from structured country
@@ -87,6 +88,12 @@ export default async function AboutPage() {
             The pilot tracks {snapshot.summary.countriesTracked} MVP countries and{" "}
             {snapshot.summary.relationshipsTracked} bilateral relationships. Select countries on the
             globe to inspect RAG file presence and ask questions within current coverage limits.
+          </p>
+          <p>
+            <strong className="font-medium text-slate-100">USA</strong> and{" "}
+            <strong className="font-medium text-slate-100">CHN</strong> are the strongest country
+            targets today. Relationship readiness remains lower across the board because treaties,
+            sanctions, UN voting alignment, and ACLED-style event timelines are still incomplete.
           </p>
         </Section>
 
@@ -117,7 +124,7 @@ export default async function AboutPage() {
           </p>
         </Section>
 
-        <Section title="Current imported data sources">
+        <Section title="Current knowledge base sources">
           <p>
             Batch 1 shared structured sources: {snapshot.batch1.importedCount} of{" "}
             {snapshot.batch1.totalCount} imported into canonical{" "}
@@ -170,7 +177,7 @@ export default async function AboutPage() {
           ) : null}
         </Section>
 
-        <Section title="What it can answer today">
+        <Section title="What the software can currently answer">
           <p>Stronger today on country-level and metric-backed questions, including:</p>
           <ul className="list-disc space-y-1 pl-5">
             <li>Country-level metrics and scorecard-style comparisons</li>
@@ -266,6 +273,93 @@ export default async function AboutPage() {
           </div>
         </Section>
 
+        <Section title="Forecasting game direction">
+          <p>
+            The app is becoming a <strong className="font-medium text-slate-100">probabilistic
+            forecasting sandbox</strong> — a forecast replay game, not a prophecy engine. The player
+            runs a geopolitical forecasting agency whose job is to build, test, and improve a
+            forecasting machine: gather evidence, submit calibrated probabilities, compare to resolved
+            outcomes, and learn from postmortems.
+          </p>
+          <p>
+            This app <strong className="font-medium text-amber-200">does not predict the future</strong>.
+            It scores forecast quality against known or eventual outcomes in a local training
+            environment.
+          </p>
+          <p className="rounded-lg border border-slate-700 bg-slate-900/50 px-3 py-2 text-xs text-slate-400">
+            Planning docs (not yet implemented in the UI):{" "}
+            <code>docs/FORECASTING_GAME_DESIGN.md</code>,{" "}
+            <code>docs/FORECASTING_TECHNICAL_PLAN.md</code>
+          </p>
+          <p className="text-amber-100">
+            Forecast Lab gameplay is not implemented yet. The globe and Ask flow remain the current
+            product surface.
+          </p>
+        </Section>
+
+        <Section title="Historical Replay Mode (planned first game mode)">
+          <p>
+            The first playable mode will be <strong className="font-medium text-slate-100">Historical
+            Replay</strong>: choose a country or bilateral relationship, set an{" "}
+            <code>as_of_year</code> / <code>as_of_date</code> cutoff, gather only evidence that existed
+            before that date, and submit a probabilistic forecast about an outcome already known in
+            later historical data. The system reveals the hidden outcome immediately and scores the
+            forecast.
+          </p>
+          <p>Example replay question:</p>
+          <blockquote className="border-l-2 border-cyan-700 pl-3 text-slate-400 italic">
+            As of 2020, will China–USA bilateral trade be higher in 2024 than in 2020?
+          </blockquote>
+          <p>
+            Allowed evidence at first: structured metrics and dated events from{" "}
+            <code>data/processed/</code> and <code>data/world_model/events/</code> (V-Dem, Comtrade,
+            UCDP, COW, etc.) filtered to the cutoff. Resolution uses holdout data the player cannot
+            see until submission.
+          </p>
+          <p>
+            Later modes (not in first slice): Live Mode for real future forecasts, and Short-Cycle
+            Operational Mode for hours/days/weeks resolution — eventually with a GDELT/news-organizer
+            pipeline. Neither is built yet.
+          </p>
+        </Section>
+
+        <Section title="No-leak rule (replay)">
+          <p>
+            Historical Replay must never accidentally use future knowledge. Every submitted forecast
+            will run a leakage audit recording:
+          </p>
+          <ul className="list-disc space-y-1 pl-5">
+            <li>
+              <code>newest_evidence_date_used</code>
+            </li>
+            <li>
+              <code>evidence_count</code>
+            </li>
+            <li>
+              <code>rejected_future_evidence_count</code>
+            </li>
+            <li>
+              <code>leakage_status</code>: <code>passed</code> | <code>failed</code>
+            </li>
+          </ul>
+          <p>Replay retrieval rules (planned):</p>
+          <ul className="list-disc space-y-1 pl-5">
+            <li>Structured metrics: include only rows where <code>year &lt;= as_of_year</code></li>
+            <li>World-model events: include only where <code>event_date &lt;= as_of_date</code></li>
+            <li>
+              Do <strong className="font-medium text-amber-200">not</strong> use future news, RAG
+              prose summaries, Wikipedia summaries, top-events summaries, news_memory, or unconstrained
+              chunk/embedding retrieval until each artifact carries a safe provenance date and passes
+              cutoff filtering
+            </li>
+          </ul>
+          <p>
+            Forecasts will be scored with the <strong className="font-medium text-slate-100">Brier
+            score</strong> first (<code>(p - outcome)²</code>). Calibration curves and agent ELO come
+            later.
+          </p>
+        </Section>
+
         <Section title="Local architecture">
           <ul className="list-disc space-y-1 pl-5">
             <li>Next.js app under <code>src/app/</code> with API routes for ask, RAG status, and pilots</li>
@@ -275,10 +369,14 @@ export default async function AboutPage() {
             </li>
             <li>Pipeline scripts under <code>scripts/kb/</code> and <code>scripts/pipeline/</code></li>
             <li>Embeddings and retrieval over local vector files — no cloud KB at runtime</li>
+            <li>
+              Forecasting artifacts (planned) under <code>data/forecasting/</code> — templates,
+              sessions, resolutions, audits, scorecards — all file-based, no external database
+            </li>
           </ul>
         </Section>
 
-        <Section title="How to rebuild the KB locally">
+        <Section title="Rebuild / status commands">
           <p>Run from the repository root:</p>
           <CommandList
             commands={[
@@ -296,8 +394,9 @@ export default async function AboutPage() {
           </p>
         </Section>
 
-        <Section title="Next collection priorities">
-          <p>Focus areas that unlock the biggest readiness gaps:</p>
+        <Section title="Next priorities">
+          <p className="font-medium text-slate-100">Knowledge base collection</p>
+          <p className="text-slate-400">Focus areas that unlock the biggest readiness gaps:</p>
           <ol className="list-decimal space-y-2 pl-5">
             {snapshot.nextCollectionPriorities.map((entry) => (
               <li key={entry.queueId}>
@@ -314,6 +413,29 @@ export default async function AboutPage() {
                 .join("; ")}
             </p>
           ) : null}
+          <p className="mt-4 font-medium text-slate-100">Forecasting sandbox implementation</p>
+          <ol className="list-decimal space-y-2 pl-5">
+            <li>
+              <span className="font-medium text-slate-100">Phase 0</span>
+              <span className="text-slate-400"> — planning docs (done)</span>
+            </li>
+            <li>
+              <span className="font-medium text-slate-100">Phase 1</span>
+              <span className="text-slate-400"> — static replay templates and /forecast/replay shell</span>
+            </li>
+            <li>
+              <span className="font-medium text-slate-100">Phase 2</span>
+              <span className="text-slate-400"> — cutoff-safe structured evidence retrieval + leakage audit</span>
+            </li>
+            <li>
+              <span className="font-medium text-slate-100">Phase 3</span>
+              <span className="text-slate-400"> — forecast submission, resolution reveal, Brier scoring</span>
+            </li>
+            <li>
+              <span className="font-medium text-slate-100">Phase 4+</span>
+              <span className="text-slate-400"> — postmortems, scorecards, GDELT organizer, agent ELO (later)</span>
+            </li>
+          </ol>
         </Section>
       </div>
     </main>

@@ -7,6 +7,14 @@ export default async function ReviewDashboard() {
   return (
     <main className="min-h-screen bg-slate-950 p-6 text-white">
       <div className="mx-auto max-w-6xl">
+        <nav className="mb-4 flex flex-wrap gap-3 text-sm">
+          <Link className="text-cyan-300 hover:text-cyan-100" href="/">
+            Globe
+          </Link>
+          <Link className="text-cyan-300 hover:text-cyan-100" href="/about">
+            About &amp; Status
+          </Link>
+        </nav>
         <h1 className="text-3xl font-bold">Review Dashboard</h1>
         <p className="mt-2 text-slate-400">Pending narrative modules, source requests, and draft status.</p>
         <div className="mt-6 overflow-hidden rounded-xl border border-slate-800">
