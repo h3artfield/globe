@@ -2,8 +2,8 @@ import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import { execSync } from "node:child_process";
 import path from "node:path";
+import { hasArchivedRawCopy, listRawImportFiles } from "@/lib/kb/batch1Transform/rawFiles";
 import { BATCH1_TRANSFORM_SOURCES } from "@/lib/kb/batch1Transform/registry";
-import { listRawImportFiles } from "@/lib/kb/batch1Transform/rawFiles";
 import type { TransformStats } from "@/lib/kb/batch1Transform/types";
 import { pathExists, readJsonFile, repoPath, writeJsonFile } from "@/lib/pipeline/io";
 import type {
@@ -212,15 +212,27 @@ export async function appendTransformReceipt(input: {
     }
   }
 
-  receipt.entries = receipt.entries.map((entry) => {
-    if (!rawRelativePaths.has(entry.raw_file_path)) {
-      return entry;
-    }
-    return {
-      ...entry,
-      transforms: [...entry.transforms, transform],
-    };
-  });
+  const activeRawPaths = new Set(
+    (await listRawImportFiles(
+      BATCH1_TRANSFORM_SOURCES.find((config) => config.sourceId === input.sourceId)?.rawFolder ??
+        input.sourceId,
+    )).map((filePath) => toRepoRelativePath(filePath)),
+  );
+
+  receipt.entries = receipt.entries
+    .filter((entry) => activeRawPaths.has(entry.raw_file_path))
+    .map((entry) => {
+      if (!rawRelativePaths.has(entry.raw_file_path)) {
+        return entry;
+      }
+      const withoutCanonical = entry.transforms.filter(
+        (existing) => existing.canonical_file_path !== relativeCanonical,
+      );
+      return {
+        ...entry,
+        transforms: [...withoutCanonical, transform],
+      };
+    });
   receipt.last_updated = new Date().toISOString();
 
   await saveSourceReceipt(receipt);
@@ -291,31 +303,47 @@ export async function auditSourceReceipts(): Promise<{
       }
     }
 
+    const activeRawPathSet = new Set(rawFiles.map((filePath) => toRepoRelativePath(filePath)));
+    const latestCanonicalTransforms = new Map<string, TransformReceipt>();
+
     for (const entry of receipt?.entries ?? []) {
       const missing = entryMissingMetadata(entry);
       if (missing.length > 0) {
         missingMetadata.push({ sourceId, receiptId: entry.receipt_id, fields: missing });
       }
 
-      const rawAbsolute = repoPath(...entry.raw_file_path.split("/"));
-      if (await pathExists(rawAbsolute)) {
-        const { sha256 } = await hashFile(rawAbsolute);
-        if (sha256 !== entry.raw_file_sha256) {
-          sha256Mismatches.push({ sourceId, filePath: entry.raw_file_path, kind: "raw" });
+      const rawFileName = path.basename(entry.raw_file_path);
+      const rawFolder = path.posix.dirname(entry.raw_file_path).split("/").pop() ?? "";
+      const rawArchived = await hasArchivedRawCopy(rawFolder, rawFileName);
+
+      if (activeRawPathSet.has(entry.raw_file_path) && !rawArchived) {
+        const rawAbsolute = repoPath(...entry.raw_file_path.split("/"));
+        if (await pathExists(rawAbsolute)) {
+          const { sha256 } = await hashFile(rawAbsolute);
+          if (sha256 !== entry.raw_file_sha256) {
+            sha256Mismatches.push({ sourceId, filePath: entry.raw_file_path, kind: "raw" });
+          }
         }
       }
 
       for (const transform of entry.transforms) {
-        const canonicalAbsolute = repoPath(...transform.canonical_file_path.split("/"));
-        if (await pathExists(canonicalAbsolute)) {
-          const { sha256 } = await hashFile(canonicalAbsolute);
-          if (sha256 !== transform.canonical_file_sha256) {
-            sha256Mismatches.push({
-              sourceId,
-              filePath: transform.canonical_file_path,
-              kind: "canonical",
-            });
-          }
+        const existing = latestCanonicalTransforms.get(transform.canonical_file_path);
+        if (!existing || transform.generated_at > existing.generated_at) {
+          latestCanonicalTransforms.set(transform.canonical_file_path, transform);
+        }
+      }
+    }
+
+    for (const transform of latestCanonicalTransforms.values()) {
+      const canonicalAbsolute = repoPath(...transform.canonical_file_path.split("/"));
+      if (await pathExists(canonicalAbsolute)) {
+        const { sha256 } = await hashFile(canonicalAbsolute);
+        if (sha256 !== transform.canonical_file_sha256) {
+          sha256Mismatches.push({
+            sourceId,
+            filePath: transform.canonical_file_path,
+            kind: "canonical",
+          });
         }
       }
     }

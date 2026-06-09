@@ -2,7 +2,7 @@
   "country_code": "ETH",
   "module": "logistics_shipping_air_travel",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "logistics_shipping_air_travel has 3 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "air_freight_million_ton_km: 4015.45864 million_ton_km (2023)",

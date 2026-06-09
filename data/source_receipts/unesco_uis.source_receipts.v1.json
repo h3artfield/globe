@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "source_id": "unesco_uis",
+  "last_updated": "2026-06-08T23:29:52.143Z",
+  "entries": [
+    {
+      "receipt_id": "unesco_uis:05024894872030bf",
+      "source_id": "unesco_uis",
+      "raw_file_path": "data/manual_imports_raw/unesco_uis/data.csv",
+      "raw_file_sha256": "05024894872030bfee6adb34fd9ea796175004fb34fe75de8f1ac3b576645562",
+      "raw_file_size_bytes": 389023,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unesco_uis/unesco_uis_education.csv",
+          "canonical_file_sha256": "0128ca2b0d8f774696cbb25535d492df64820819d6adbc4bdb084e8766f515c9",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 5814,
+          "rows_written": 88,
+          "rows_skipped": 5726,
+          "skip_reasons": {
+            "non_mvp_country": 5726
+          },
+          "generated_at": "2026-06-08T23:29:52.141Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uis.unesco.org/",
+      "official_download_page": "http://data.uis.unesco.org/",
+      "license_or_terms_note": "UNESCO UIS data terms apply; attribute UNESCO UIS. Confirm current bulk-export registration requirements on the UIS portal.",
+      "source_org": "UNESCO Institute for Statistics",
+      "source_title": "UNESCO UIS Education Indicators",
+      "notes": null
+    },
+    {
+      "receipt_id": "unesco_uis:87cd2987ef79d2b7",
+      "source_id": "unesco_uis",
+      "raw_file_path": "data/manual_imports_raw/unesco_uis/disaggregations.csv",
+      "raw_file_sha256": "87cd2987ef79d2b7231f24ad48bc27ad02271a68db42b1bcc041ab34e3c92d8f",
+      "raw_file_size_bytes": 75,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unesco_uis/unesco_uis_education.csv",
+          "canonical_file_sha256": "0128ca2b0d8f774696cbb25535d492df64820819d6adbc4bdb084e8766f515c9",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 5814,
+          "rows_written": 88,
+          "rows_skipped": 5726,
+          "skip_reasons": {
+            "non_mvp_country": 5726
+          },
+          "generated_at": "2026-06-08T23:29:52.141Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uis.unesco.org/",
+      "official_download_page": "http://data.uis.unesco.org/",
+      "license_or_terms_note": "UNESCO UIS data terms apply; attribute UNESCO UIS. Confirm current bulk-export registration requirements on the UIS portal.",
+      "source_org": "UNESCO Institute for Statistics",
+      "source_title": "UNESCO UIS Education Indicators",
+      "notes": null
+    },
+    {
+      "receipt_id": "unesco_uis:5e23ef6526e3f917",
+      "source_id": "unesco_uis",
+      "raw_file_path": "data/manual_imports_raw/unesco_uis/footnotes.csv",
+      "raw_file_sha256": "5e23ef6526e3f917f24370c80143b30ffddf657e8a67223e0894c4234636bb7a",
+      "raw_file_size_bytes": 265563,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unesco_uis/unesco_uis_education.csv",
+          "canonical_file_sha256": "0128ca2b0d8f774696cbb25535d492df64820819d6adbc4bdb084e8766f515c9",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 5814,
+          "rows_written": 88,
+          "rows_skipped": 5726,
+          "skip_reasons": {
+            "non_mvp_country": 5726
+          },
+          "generated_at": "2026-06-08T23:29:52.141Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uis.unesco.org/",
+      "official_download_page": "http://data.uis.unesco.org/",
+      "license_or_terms_note": "UNESCO UIS data terms apply; attribute UNESCO UIS. Confirm current bulk-export registration requirements on the UIS portal.",
+      "source_org": "UNESCO Institute for Statistics",
+      "source_title": "UNESCO UIS Education Indicators",
+      "notes": null
+    },
+    {
+      "receipt_id": "unesco_uis:49577f6cf1c6bc68",
+      "source_id": "unesco_uis",
+      "raw_file_path": "data/manual_imports_raw/unesco_uis/glossary-terms.csv",
+      "raw_file_sha256": "49577f6cf1c6bc68bcfdae63472b9813eb1a8eb575c7b6304f74b15a24298f2a",
+      "raw_file_size_bytes": 3084,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unesco_uis/unesco_uis_education.csv",
+          "canonical_file_sha256": "0128ca2b0d8f774696cbb25535d492df64820819d6adbc4bdb084e8766f515c9",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 5814,
+          "rows_written": 88,
+          "rows_skipped": 5726,
+          "skip_reasons": {
+            "non_mvp_country": 5726
+          },
+          "generated_at": "2026-06-08T23:29:52.141Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uis.unesco.org/",
+      "official_download_page": "http://data.uis.unesco.org/",
+      "license_or_terms_note": "UNESCO UIS data terms apply; attribute UNESCO UIS. Confirm current bulk-export registration requirements on the UIS portal.",
+      "source_org": "UNESCO Institute for Statistics",
+      "source_title": "UNESCO UIS Education Indicators",
+      "notes": null
+    },
+    {
+      "receipt_id": "unesco_uis:309ec2ba99fc9c6f",
+      "source_id": "unesco_uis",
+      "raw_file_path": "data/manual_imports_raw/unesco_uis/indicators.csv",
+      "raw_file_sha256": "309ec2ba99fc9c6f39ffd44c3d77f8558221e44965b502bdcd328320131b43d3",
+      "raw_file_size_bytes": 392,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unesco_uis/unesco_uis_education.csv",
+          "canonical_file_sha256": "0128ca2b0d8f774696cbb25535d492df64820819d6adbc4bdb084e8766f515c9",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 5814,
+          "rows_written": 88,
+          "rows_skipped": 5726,
+          "skip_reasons": {
+            "non_mvp_country": 5726
+          },
+          "generated_at": "2026-06-08T23:29:52.141Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uis.unesco.org/",
+      "official_download_page": "http://data.uis.unesco.org/",
+      "license_or_terms_note": "UNESCO UIS data terms apply; attribute UNESCO UIS. Confirm current bulk-export registration requirements on the UIS portal.",
+      "source_org": "UNESCO Institute for Statistics",
+      "source_title": "UNESCO UIS Education Indicators",
+      "notes": null
+    }
+  ]
+}

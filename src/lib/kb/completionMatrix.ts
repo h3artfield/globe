@@ -1,5 +1,6 @@
 import type { ModuleSourceRequirement, SourceGapReport } from "@/types/pilot";
 import type {
+  AcquisitionSlot,
   CountrySourceRequirementsFile,
   KbCompletionMatrix,
   KbModuleMatrixEntry,
@@ -11,6 +12,7 @@ import { buildRelationshipId } from "@/lib/globe/countryIdMap";
 import { MVP_COUNTRIES, MVP_RELATIONSHIP_PAIRS } from "@/lib/pipeline/constants";
 import { pathExists, readJsonFile, repoPath } from "@/lib/pipeline/io";
 import { bestSlotForModule } from "./acquisitionCatalog";
+import { countryHasProcessedSource, resolveSourceIngestId } from "./collectionEvidence";
 import {
   buildAllInventories,
   deriveModuleStatus,
@@ -86,17 +88,46 @@ function targetReadinessScore(
   return gapBased;
 }
 
-function missingFilesForModule(
+async function sharedSourceFileSatisfied(
   inventory: TargetInventory,
-  slotPath: { expected_folder: string; expected_filename: string } | null,
-): string[] {
+  slot: Pick<AcquisitionSlot, "expected_folder" | "expected_filename" | "shared_source_id">,
+): Promise<boolean> {
+  if (await pathExists(repoPath(slot.expected_folder, slot.expected_filename))) {
+    return true;
+  }
+
+  const sourceIngestId = resolveSourceIngestId({
+    expected_folder: slot.expected_folder,
+    shared_source_id: slot.shared_source_id ?? "",
+  });
+  if (!sourceIngestId) {
+    return false;
+  }
+
+  if (inventory.target_type === "country") {
+    return countryHasProcessedSource(inventory.target_id, sourceIngestId);
+  }
+
+  return inventory.manualImportFiles.some((file) =>
+    file.replace(/\\/g, "/").includes(slot.expected_filename),
+  );
+}
+
+async function missingFilesForModule(
+  inventory: TargetInventory,
+  slot: AcquisitionSlot | null,
+): Promise<string[]> {
   const missing: string[] = [];
-  if (slotPath) {
-    const expected = `${slotPath.expected_folder}/${slotPath.expected_filename}`.replace(/\\/g, "/");
-    const exists =
-      inventory.manualSourceFiles.some((file) => file.replace(/\\/g, "/").endsWith(expected.split("/").slice(-1)[0] ?? "")) ||
-      inventory.manualImportFiles.some((file) => file.replace(/\\/g, "/").includes(slotPath.expected_filename)) ||
-      inventory.processedFiles.length > 0;
+  if (slot) {
+    const expected = `${slot.expected_folder}/${slot.expected_filename}`.replace(/\\/g, "/");
+    const exists = slot.shared_source_id
+      ? await sharedSourceFileSatisfied(inventory, slot)
+      : inventory.manualSourceFiles.some((file) =>
+          file.replace(/\\/g, "/").endsWith(expected.split("/").slice(-1)[0] ?? ""),
+        ) ||
+        inventory.manualImportFiles.some((file) =>
+          file.replace(/\\/g, "/").includes(slot.expected_filename),
+        );
     if (!exists) missing.push(expected);
   }
   if (inventory.manualSourceFiles.length === 0 && inventory.target_type === "country") {
@@ -162,10 +193,7 @@ async function buildTargetMatrix(
       status,
       required_source_categories: requirement?.required_source_types ?? [],
       existing_source_files: existing,
-      missing_source_files: missingFilesForModule(
-        inventory,
-        slot ? { expected_folder: slot.expected_folder, expected_filename: slot.expected_filename } : null,
-      ),
+      missing_source_files: await missingFilesForModule(inventory, slot),
       readiness_score: Number(moduleReadinessFromGap(moduleName, gapReport, status).toFixed(2)),
       next_best_source: slot
         ? {

@@ -25,9 +25,11 @@ Official exports should **not** be hand-edited into template shape. Use the tran
 
 **Rule:** Raw official exports go to `data/manual_imports_raw/{source}/`. Transform creates canonical files and receipts. Before ingest, run `npm run kb:receipts`, then validate the canonical file.
 
-**Implemented transformers:** `vdem`, `acled`, `ucdp`, `correlates_of_war`
+**Implemented transformers:** `vdem`, `acled`, `ucdp`, `correlates_of_war`, `un_comtrade`, `unodc`, `unesco_uis`, `wipo`, `unctad`, `world_values_survey`, `oecd_pisa`
 
-**Placeholder transformers** (fail with clear message): `un_comtrade`, `unodc`, `unesco_uis`, `wipo`, `world_values_survey`, `oecd_pisa`, `unctad` — use template format manually until mapping is implemented.
+**Collection blocked (transformer ready, no export yet):** `acled` — ACLED export access blocked by current account level; retry when access changes.
+
+**Placeholder transformers:** none (Batch 1 transform layer complete).
 
 Partial transform:
 
@@ -133,6 +135,8 @@ After each dataset: raw staging → transform → validate → ingest → run po
 
 **Country filter:** events in any MVP country; prefer 2006–present.  
 **Relationship filter:** events with both countries in a pair (`country_codes` or actors). Feeds all 8 relationship event timelines.
+
+**Status:** transformer **implemented**; collection **blocked** — export access not available at current account level. Queue override documents retry when access changes.
 
 **Post-ingest:** includes `npm run world-model:build`.
 

@@ -2,7 +2,7 @@
   "country_code": "IND",
   "module": "average_citizen_life",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "average_citizen_life has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "life_expectancy: 72.235 years (2024)"

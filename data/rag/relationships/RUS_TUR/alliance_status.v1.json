@@ -6,7 +6,7 @@
   ],
   "module": "alliance_status",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "5 bilateral event(s) merged from processed conflict/event imports.",
   "key_findings": [
     "1833-07-08: alliance",

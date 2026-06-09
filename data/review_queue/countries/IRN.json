@@ -1,6 +1,6 @@
 {
   "country_code": "IRN",
-  "generated_at": "2026-06-08T04:02:58.469Z",
+  "generated_at": "2026-06-09T02:18:06.805Z",
   "items": [
     {
       "review_id": "IRN-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.318Z"
+      "created_at": "2026-06-09T02:18:04.787Z"
     },
     {
       "review_id": "IRN-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.465Z"
+      "created_at": "2026-06-09T02:18:06.801Z"
     },
     {
       "review_id": "IRN-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.465Z"
+      "created_at": "2026-06-09T02:18:06.802Z"
     },
     {
       "review_id": "IRN-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.466Z"
+      "created_at": "2026-06-09T02:18:06.802Z"
     },
     {
       "review_id": "IRN-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.467Z"
+      "created_at": "2026-06-09T02:18:06.803Z"
     },
     {
       "review_id": "IRN-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.467Z"
+      "created_at": "2026-06-09T02:18:06.803Z"
     },
     {
       "review_id": "IRN-threat_perception-905",
@@ -354,7 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.468Z"
+      "created_at": "2026-06-09T02:18:06.804Z"
     }
   ]
 }

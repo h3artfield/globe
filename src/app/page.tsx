@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { AnswerPanel } from "@/components/AnswerPanel";
 import { AskPanel } from "@/components/AskPanel";
@@ -178,8 +179,20 @@ export default function Home() {
                 in country and relationship JSON files under <code>/data/rag</code>.
               </p>
             </div>
-            <div className="text-sm text-slate-400">
-              {isLoadingCountries ? <LoadingState label="Loading countries" /> : `${countries.length} countries loaded`}
+            <div className="flex flex-col items-start gap-2 text-sm text-slate-400 sm:items-end">
+              <nav className="flex flex-wrap gap-3">
+                <Link className="text-cyan-300 hover:text-cyan-100" href="/about">
+                  About &amp; KB Status
+                </Link>
+                <Link className="text-cyan-300 hover:text-cyan-100" href="/review">
+                  Review
+                </Link>
+              </nav>
+              {isLoadingCountries ? (
+                <LoadingState label="Loading countries" />
+              ) : (
+                `${countries.length} countries loaded`
+              )}
             </div>
           </div>
         </header>

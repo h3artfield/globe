@@ -1,0 +1,13 @@
+country_code,year,metric_id,value,unit,source_url,source_name,raw_record_id,calculation,notes
+ISR,2022,pisa_math_score,457.9,score,https://www.oecd.org/pisa/,OECD PISA,1f62f91d3cf79444,oecd_published_mean,Table I.2.4;pisa_subject=mathematics
+ISR,2022,pisa_reading_score,473.83,score,https://www.oecd.org/pisa/,OECD PISA,234bc36d1196fe24,oecd_published_mean,Table I.2.5;pisa_subject=reading
+ISR,2022,pisa_science_score,464.75,score,https://www.oecd.org/pisa/,OECD PISA,fdb0660860e7ab4e,oecd_published_mean,Table I.2.6;pisa_subject=science
+SAU,2022,pisa_math_score,388.78,score,https://www.oecd.org/pisa/,OECD PISA,fc907a29c4b02502,oecd_published_mean,Table I.2.4;pisa_subject=mathematics
+SAU,2022,pisa_reading_score,382.55,score,https://www.oecd.org/pisa/,OECD PISA,c3d890f59cc185c7,oecd_published_mean,Table I.2.5;pisa_subject=reading
+SAU,2022,pisa_science_score,390.39,score,https://www.oecd.org/pisa/,OECD PISA,7baa235f49d9e25a,oecd_published_mean,Table I.2.6;pisa_subject=science
+TUR,2022,pisa_math_score,453.15,score,https://www.oecd.org/pisa/,OECD PISA,8de0ab5272209df2,oecd_published_mean,Table I.2.4;pisa_subject=mathematics
+TUR,2022,pisa_reading_score,456.08,score,https://www.oecd.org/pisa/,OECD PISA,0cf6452ae8d52548,oecd_published_mean,Table I.2.5;pisa_subject=reading
+TUR,2022,pisa_science_score,475.94,score,https://www.oecd.org/pisa/,OECD PISA,bc4b8362669c354c,oecd_published_mean,Table I.2.6;pisa_subject=science
+USA,2022,pisa_math_score,464.89,score,https://www.oecd.org/pisa/,OECD PISA,1a6a1760c1e3456c,oecd_published_mean,Table I.2.4;pisa_subject=mathematics
+USA,2022,pisa_reading_score,503.94,score,https://www.oecd.org/pisa/,OECD PISA,0ed8844cb2384d87,oecd_published_mean,Table I.2.5;pisa_subject=reading
+USA,2022,pisa_science_score,499.41,score,https://www.oecd.org/pisa/,OECD PISA,6f5aa7e8e51b8eba,oecd_published_mean,Table I.2.6;pisa_subject=science

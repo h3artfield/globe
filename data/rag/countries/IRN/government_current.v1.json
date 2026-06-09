@@ -2,7 +2,7 @@
   "country_code": "IRN",
   "module": "government_current",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "government_current has 1545 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "civil_liberties_index: 0.14 index (1837)",

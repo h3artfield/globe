@@ -1,8 +1,15 @@
 {
   "country_code": "IRN",
-  "generated_at": "2026-06-08T04:02:55.879Z",
+  "generated_at": "2026-06-09T02:18:04.322Z",
   "source_ids": [
     "vdem",
-    "world_bank_wdi"
+    "world_bank_wdi",
+    "world_values_survey",
+    "un_comtrade",
+    "unodc",
+    "unctad",
+    "unesco_uis",
+    "wipo",
+    "derived_from_un_comtrade"
   ]
 }

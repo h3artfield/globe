@@ -1,0 +1,147 @@
+{
+  "version": "1.0",
+  "source_id": "un_comtrade",
+  "last_updated": "2026-06-08T22:46:52.596Z",
+  "entries": [
+    {
+      "receipt_id": "un_comtrade:b354dc12df231b1c",
+      "source_id": "un_comtrade",
+      "raw_file_path": "data/manual_imports_raw/un_comtrade/un_comtrade_mvp_pairs_2020.csv",
+      "raw_file_sha256": "b354dc12df231b1c89655e4317acfd5b1f2330f7c2db85d7f4d01b56a89c7137",
+      "raw_file_size_bytes": 83289,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/un_comtrade/un_comtrade_bilateral.csv",
+          "canonical_file_sha256": "9a0a8ebed556e761bba1bd823cb3baa88e77c2e0858e9a1d620b037b376cefa4",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 1136,
+          "rows_written": 1697,
+          "rows_skipped": 0,
+          "skip_reasons": {},
+          "generated_at": "2026-06-08T22:46:52.594Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uncomtrade.org/",
+      "official_download_page": "https://comtradeplus.un.org/",
+      "license_or_terms_note": "UN Comtrade terms of use apply; registration is typically required for bulk downloads. Attribute UN Comtrade as source.",
+      "source_org": "UN Comtrade",
+      "source_title": "UN Comtrade Bilateral Trade Dataset",
+      "notes": null
+    },
+    {
+      "receipt_id": "un_comtrade:f3a4e99ea1fbec78",
+      "source_id": "un_comtrade",
+      "raw_file_path": "data/manual_imports_raw/un_comtrade/un_comtrade_mvp_pairs_2021.csv",
+      "raw_file_sha256": "f3a4e99ea1fbec78a74175daaab34e5d4da092ba4163a162a6a5e0f5cbd8b8d3",
+      "raw_file_size_bytes": 83550,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/un_comtrade/un_comtrade_bilateral.csv",
+          "canonical_file_sha256": "9a0a8ebed556e761bba1bd823cb3baa88e77c2e0858e9a1d620b037b376cefa4",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 1136,
+          "rows_written": 1697,
+          "rows_skipped": 0,
+          "skip_reasons": {},
+          "generated_at": "2026-06-08T22:46:52.594Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uncomtrade.org/",
+      "official_download_page": "https://comtradeplus.un.org/",
+      "license_or_terms_note": "UN Comtrade terms of use apply; registration is typically required for bulk downloads. Attribute UN Comtrade as source.",
+      "source_org": "UN Comtrade",
+      "source_title": "UN Comtrade Bilateral Trade Dataset",
+      "notes": null
+    },
+    {
+      "receipt_id": "un_comtrade:d057a3759e063009",
+      "source_id": "un_comtrade",
+      "raw_file_path": "data/manual_imports_raw/un_comtrade/un_comtrade_mvp_pairs_2022.csv",
+      "raw_file_sha256": "d057a3759e06300913c775d8b3dee854ea486ef15555809138078a6232db8037",
+      "raw_file_size_bytes": 76058,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/un_comtrade/un_comtrade_bilateral.csv",
+          "canonical_file_sha256": "9a0a8ebed556e761bba1bd823cb3baa88e77c2e0858e9a1d620b037b376cefa4",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 1136,
+          "rows_written": 1697,
+          "rows_skipped": 0,
+          "skip_reasons": {},
+          "generated_at": "2026-06-08T22:46:52.594Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uncomtrade.org/",
+      "official_download_page": "https://comtradeplus.un.org/",
+      "license_or_terms_note": "UN Comtrade terms of use apply; registration is typically required for bulk downloads. Attribute UN Comtrade as source.",
+      "source_org": "UN Comtrade",
+      "source_title": "UN Comtrade Bilateral Trade Dataset",
+      "notes": null
+    },
+    {
+      "receipt_id": "un_comtrade:253cc22d8715ae4c",
+      "source_id": "un_comtrade",
+      "raw_file_path": "data/manual_imports_raw/un_comtrade/un_comtrade_mvp_pairs_2023.csv",
+      "raw_file_sha256": "253cc22d8715ae4c134d9f689643b0d9acb456e8d31ece020f8404dd2a8cf89b",
+      "raw_file_size_bytes": 70378,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/un_comtrade/un_comtrade_bilateral.csv",
+          "canonical_file_sha256": "9a0a8ebed556e761bba1bd823cb3baa88e77c2e0858e9a1d620b037b376cefa4",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 1136,
+          "rows_written": 1697,
+          "rows_skipped": 0,
+          "skip_reasons": {},
+          "generated_at": "2026-06-08T22:46:52.594Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uncomtrade.org/",
+      "official_download_page": "https://comtradeplus.un.org/",
+      "license_or_terms_note": "UN Comtrade terms of use apply; registration is typically required for bulk downloads. Attribute UN Comtrade as source.",
+      "source_org": "UN Comtrade",
+      "source_title": "UN Comtrade Bilateral Trade Dataset",
+      "notes": null
+    },
+    {
+      "receipt_id": "un_comtrade:d0d9b7adb8af5e01",
+      "source_id": "un_comtrade",
+      "raw_file_path": "data/manual_imports_raw/un_comtrade/un_comtrade_mvp_pairs_2024.csv",
+      "raw_file_sha256": "d0d9b7adb8af5e01e43a01ff05d4ad2e28e53a3159374cddabd3931bf3b008d3",
+      "raw_file_size_bytes": 62504,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/un_comtrade/un_comtrade_bilateral.csv",
+          "canonical_file_sha256": "9a0a8ebed556e761bba1bd823cb3baa88e77c2e0858e9a1d620b037b376cefa4",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 1136,
+          "rows_written": 1697,
+          "rows_skipped": 0,
+          "skip_reasons": {},
+          "generated_at": "2026-06-08T22:46:52.594Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://uncomtrade.org/",
+      "official_download_page": "https://comtradeplus.un.org/",
+      "license_or_terms_note": "UN Comtrade terms of use apply; registration is typically required for bulk downloads. Attribute UN Comtrade as source.",
+      "source_org": "UN Comtrade",
+      "source_title": "UN Comtrade Bilateral Trade Dataset",
+      "notes": null
+    }
+  ]
+}

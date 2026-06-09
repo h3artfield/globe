@@ -1,0 +1,18 @@
+{
+  "target_id": "IRN",
+  "target_type": "country",
+  "overall_source_readiness": 0,
+  "modules": [
+    {
+      "module": "source_requirements",
+      "readiness": 0,
+      "sources_available": 0,
+      "sources_required": 1,
+      "missing_source_types": [
+        "source_requirements"
+      ],
+      "missing_claim_types": [],
+      "recommendation": "Create source requirements and source pack for IRN."
+    }
+  ]
+}

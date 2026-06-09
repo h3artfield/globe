@@ -1,7 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Cartesian2, CustomDataSource, Entity, ScreenSpaceEventHandler, Viewer } from "cesium";
+import type {
+  Cartesian2,
+  CustomDataSource,
+  Entity,
+  PolygonHierarchy,
+  ScreenSpaceEventHandler,
+  Viewer,
+} from "cesium";
 import type { CountryGeoJsonFeature, CountrySummary } from "@/types/country";
 import {
   getCountryFeatureIso3,
@@ -150,6 +157,47 @@ function getFeatureRings(feature: CountryGeoJsonFeature): Array<Array<[number, n
   return rings;
 }
 
+type PolygonPart = {
+  outer: Array<[number, number]>;
+  holes: Array<Array<[number, number]>>;
+};
+
+function addPolygonPart(rings: unknown, parts: PolygonPart[]) {
+  if (!Array.isArray(rings) || rings.length === 0 || !isLinearRing(rings[0])) {
+    return;
+  }
+
+  parts.push({
+    outer: rings[0],
+    holes: rings.slice(1).filter(isLinearRing),
+  });
+}
+
+function getFeaturePolygonParts(feature: CountryGeoJsonFeature): PolygonPart[] {
+  const parts: PolygonPart[] = [];
+  const { geometry } = feature;
+
+  if (geometry.type === "Polygon") {
+    addPolygonPart(geometry.coordinates, parts);
+  } else if (geometry.type === "MultiPolygon") {
+    for (const polygon of geometry.coordinates) {
+      addPolygonPart(polygon, parts);
+    }
+  } else if (geometry.type === "GeometryCollection") {
+    for (const child of geometry.geometries) {
+      if (child.type === "Polygon") {
+        addPolygonPart(child.coordinates, parts);
+      } else if (child.type === "MultiPolygon") {
+        for (const polygon of child.coordinates) {
+          addPolygonPart(polygon, parts);
+        }
+      }
+    }
+  }
+
+  return parts;
+}
+
 function ringToDegreesArray(ring: Array<[number, number]>): number[] {
   const closedRing = [...ring];
   const first = closedRing[0];
@@ -228,22 +276,39 @@ function styleCountries(
     return;
   }
 
+  const goldFill = Cesium.Color.fromCssColorString("#d4af37");
+  const goldOutline = Cesium.Color.fromCssColorString("#fbbf24");
+
   for (const entity of dataSource.entities.values) {
-    if (!entity.point && !entity.polyline) {
+    if (!entity.point && !entity.polyline && !entity.polygon) {
       continue;
     }
 
     const country = getEntityCountry(entity, Cesium);
     const isSelected = country ? selectedCodes.has(country.code) : false;
     const isHovered = country ? hoveredCode === country.code : false;
-    const fill = isSelected
-      ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.75)
+    const markerFill = isSelected
+      ? goldOutline.withAlpha(0.9)
       : isHovered
-        ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.55)
+        ? goldOutline.withAlpha(0.75)
         : Cesium.Color.fromCssColorString("#2563eb").withAlpha(0.35);
 
+    if (entity.polygon) {
+      entity.polygon.material = new Cesium.ColorMaterialProperty(
+        isSelected
+          ? goldFill.withAlpha(0.42)
+          : isHovered
+            ? goldFill.withAlpha(0.24)
+            : goldFill.withAlpha(0),
+      );
+      entity.polygon.outline = new Cesium.ConstantProperty(isSelected || isHovered);
+      entity.polygon.outlineColor = new Cesium.ConstantProperty(
+        isSelected ? goldOutline.withAlpha(0.95) : goldOutline.withAlpha(0.7),
+      );
+      entity.polygon.outlineWidth = new Cesium.ConstantProperty(isSelected ? 2 : 1.5);
+    }
     if (entity.point) {
-      entity.point.color = new Cesium.ConstantProperty(fill);
+      entity.point.color = new Cesium.ConstantProperty(markerFill);
       entity.point.pixelSize = new Cesium.ConstantProperty(isSelected ? 8 : isHovered ? 7 : 4);
       entity.point.outlineColor = new Cesium.ConstantProperty(
         isSelected ? Cesium.Color.WHITE : Cesium.Color.fromCssColorString("#0f172a"),
@@ -253,9 +318,9 @@ function styleCountries(
     if (entity.polyline) {
       entity.polyline.material = new Cesium.ColorMaterialProperty(
         isSelected
-          ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.95)
+          ? goldOutline.withAlpha(0.95)
           : isHovered
-            ? Cesium.Color.fromCssColorString("#f59e0b").withAlpha(0.95)
+            ? goldOutline.withAlpha(0.85)
             : Cesium.Color.fromCssColorString("#38bdf8").withAlpha(0.65),
       );
       entity.polyline.width = new Cesium.ConstantProperty(isSelected ? 3 : isHovered ? 2.5 : 1.25);
@@ -370,6 +435,40 @@ export function Globe({ selectedCountries, onToggleCountry, onHoverCountry }: Gl
                 width: 1.25,
                 material: Cesium.Color.fromCssColorString("#38bdf8").withAlpha(0.65),
                 clampToGround: false,
+              },
+            });
+          });
+
+          getFeaturePolygonParts(feature).forEach((part, partIndex) => {
+            const outerDegrees = ringToDegreesArray(part.outer);
+            if (outerDegrees.length < 4) {
+              return;
+            }
+
+            const holeHierarchies = part.holes
+              .map((hole) => {
+                const holeDegrees = ringToDegreesArray(hole);
+                return holeDegrees.length >= 4
+                  ? new Cesium.PolygonHierarchy(Cesium.Cartesian3.fromDegreesArray(holeDegrees))
+                  : null;
+              })
+              .filter((hole): hole is PolygonHierarchy => hole !== null);
+
+            dataSource.entities.add({
+              id: `${code}-fill-${partIndex}`,
+              name,
+              properties: new Cesium.PropertyBag({
+                iso3: code,
+                name,
+              }),
+              polygon: {
+                hierarchy: new Cesium.PolygonHierarchy(
+                  Cesium.Cartesian3.fromDegreesArray(outerDegrees),
+                  holeHierarchies,
+                ),
+                material: Cesium.Color.fromCssColorString("#d4af37").withAlpha(0),
+                outline: false,
+                perPositionHeight: false,
               },
             });
           });

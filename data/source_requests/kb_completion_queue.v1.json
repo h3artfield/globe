@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-08T04:03:33.876Z",
+  "generated_at": "2026-06-09T02:41:56.083Z",
   "items": [
     {
       "queue_id": "shared-vdem_country_year",
@@ -151,7 +151,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/un_comtrade",
       "expected_filename": "un_comtrade_bilateral.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 94,
       "notes": "One shared file; filter reporter/partner rows per country or relationship pair.",
       "shared_source_id": "un_comtrade_bilateral",
@@ -344,7 +344,7 @@
       "expected_filename": "acled_events.csv",
       "collection_status": "needed",
       "priority": 93,
-      "notes": "Single shared export; filter by country_codes and bilateral actors.",
+      "notes": "ACLED export access blocked by current account level; transformer exists; retry when access changes.",
       "shared_source_id": "acled_events",
       "applies_to_targets": [
         "USA",
@@ -561,7 +561,8 @@
             "military_relationship"
           ]
         }
-      ]
+      ],
+      "rejected_reason": "ACLED export access blocked by current account level; transformer exists; retry when access changes."
     },
     {
       "queue_id": "shared-ucdp_conflict",
@@ -792,7 +793,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/unesco_uis",
       "expected_filename": "unesco_uis_education.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 88,
       "notes": "Shared UIS export with country ISO3 filter.",
       "shared_source_id": "unesco_uis_education",
@@ -907,7 +908,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/wipo",
       "expected_filename": "wipo_patents.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 87,
       "notes": "Shared patent statistics export.",
       "shared_source_id": "wipo_patents",
@@ -1022,7 +1023,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/unodc",
       "expected_filename": "unodc_crime.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 86,
       "notes": "Shared UNODC export filtered per country.",
       "shared_source_id": "unodc_crime",
@@ -1137,7 +1138,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/world_values_survey",
       "expected_filename": "wvs_country_crosstabs.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 85,
       "notes": "Shared WVS wave export filtered per country.",
       "shared_source_id": "world_values_survey",
@@ -1471,7 +1472,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/oecd_pisa",
       "expected_filename": "oecd_pisa_scores.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 83,
       "notes": "Shared PISA export for participating MVP countries.",
       "shared_source_id": "oecd_pisa",
@@ -1586,7 +1587,7 @@
       "source_type": "international_dataset",
       "expected_folder": "data/manual_imports/unctad",
       "expected_filename": "unctad_trade_maritime.csv",
-      "collection_status": "needed",
+      "collection_status": "imported",
       "priority": 82,
       "notes": "Shared UNCTAD export filtered per country or pair.",
       "shared_source_id": "unctad_trade",

@@ -1,0 +1,521 @@
+{
+  "target_id": "CHN",
+  "target_type": "country",
+  "overall_source_readiness": 0.37,
+  "modules": [
+    {
+      "module": "identity_foundation",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "founding_groups",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "religion_history",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "history",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "demographics",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "demographic_change",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "cultural_assimilation",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "population_divisions",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "nationalism_cohesion",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "national_cohesion_by_demographic",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "government_current",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "ruling_class",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "leader_dossiers",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add current official biographies, congressional/executive records, and major profile sources."
+    },
+    {
+      "module": "crime_safety",
+      "readiness": 0.5,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "education",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "economy",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "trade_exports_imports",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "production_industry",
+      "readiness": 0.5,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "logistics_shipping_air_travel",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "household_income_wealth",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "technology_contributions",
+      "readiness": 0.63,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "math_contributions",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "philosophy_contributions",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "military",
+      "readiness": 0.5,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "intelligence_security",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "media_information",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 2,
+      "missing_source_types": [
+        "international_dataset"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: international_dataset."
+    },
+    {
+      "module": "foreign_policy",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "allies_and_partners",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add treaty texts, defense agreements, basing records, UN voting, and diplomatic statements."
+    },
+    {
+      "module": "adversaries_and_rivals",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources."
+    },
+    {
+      "module": "threat_perception",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add sanctions records, defense strategy documents, official threat statements, and public opinion sources."
+    },
+    {
+      "module": "average_citizen_life",
+      "readiness": 0.5,
+      "sources_available": 1,
+      "sources_required": 2,
+      "missing_source_types": [],
+      "missing_claim_types": [
+        "fact",
+        "metric"
+      ],
+      "recommendation": "Add missing source types: source-backed evidence."
+    },
+    {
+      "module": "top_national_events_20_years",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add verified event timelines from official statements, major news timelines, and institutional reports."
+    },
+    {
+      "module": "news_memory",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add verified event timelines from official statements, major news timelines, and institutional reports."
+    },
+    {
+      "module": "game_theory_profile",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    },
+    {
+      "module": "future_scenarios",
+      "readiness": 0.25,
+      "sources_available": 0,
+      "sources_required": 4,
+      "missing_source_types": [
+        "official_primary",
+        "major_news",
+        "think_tank"
+      ],
+      "missing_claim_types": [
+        "fact",
+        "interpretation",
+        "strategic_inference"
+      ],
+      "recommendation": "Add missing source types: official_primary, major_news, think_tank."
+    }
+  ]
+}

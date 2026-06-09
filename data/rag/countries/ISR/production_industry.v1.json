@@ -2,7 +2,7 @@
   "country_code": "ISR",
   "module": "production_industry",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "production_industry has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "manufacturing_value_added_current_usd: 60139111896.6285 current_usd (2024)"

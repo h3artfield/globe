@@ -31,7 +31,7 @@ async function listFilesRecursive(root: string, skipReadme = true): Promise<stri
       results.push(fullPath);
     }
   }
-  if (await pathExists(root)) await walk(root);
+  await walk(root);
   return results.sort();
 }
 

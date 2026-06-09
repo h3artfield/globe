@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "source_id": "wipo",
+  "last_updated": "2026-06-09T00:18:31.628Z",
+  "entries": [
+    {
+      "receipt_id": "wipo:a47d744996f895d6",
+      "source_id": "wipo",
+      "raw_file_path": "data/manual_imports_raw/wipo/wipo_patent_family_by_origin.csv",
+      "raw_file_sha256": "a47d744996f895d6a2fe737d0e381916af02f461d7fde144f00ae5e4f414aae6",
+      "raw_file_size_bytes": 3920,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/wipo/wipo_patents.csv",
+          "canonical_file_sha256": "a96ae0235438f4656fedb23d2fc69507a167e8c06bcb847753806bba92479070",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 474,
+          "rows_written": 474,
+          "rows_skipped": 0,
+          "skip_reasons": {},
+          "generated_at": "2026-06-09T00:18:31.627Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://www.wipo.int/",
+      "official_download_page": "https://www.wipo.int/ipstats/en/",
+      "license_or_terms_note": "WIPO statistics terms apply; attribute WIPO. Review WIPO terms for any commercial reuse restrictions.",
+      "source_org": "WIPO",
+      "source_title": "WIPO IP Statistics Export",
+      "notes": null
+    }
+  ]
+}

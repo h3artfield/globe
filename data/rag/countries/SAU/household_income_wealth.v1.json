@@ -2,7 +2,7 @@
   "country_code": "SAU",
   "module": "household_income_wealth",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "household_income_wealth has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "remittances_received_current_usd: 338466642.8878 current_usd (2024)",

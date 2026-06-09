@@ -1,22 +1,40 @@
-import { readdir } from "node:fs/promises";
+import { access, readdir } from "node:fs/promises";
 import path from "node:path";
 import { repoPath } from "@/lib/pipeline/io";
 import { parseManualFile, type ManualRecord } from "@/lib/sources/tabularParser";
 
-const IMPORT_EXTENSIONS = new Set([".csv", ".json", ".jsonl"]);
+const IMPORT_EXTENSIONS = new Set([".csv", ".json", ".jsonl", ".xlsx"]);
+
+export async function hasArchivedRawCopy(sourceFolder: string, fileName: string): Promise<boolean> {
+  const archivePath = repoPath("data", "manual_imports_raw", "_archive", sourceFolder, fileName);
+  try {
+    await access(archivePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 export async function listRawImportFiles(sourceFolder: string): Promise<string[]> {
   const directory = repoPath("data", "manual_imports_raw", sourceFolder);
   const entries = await readdir(directory, { withFileTypes: true }).catch(() => []);
-  return entries
-    .filter(
-      (entry) =>
-        entry.isFile() &&
-        IMPORT_EXTENSIONS.has(path.extname(entry.name).toLowerCase()) &&
-        !entry.name.toLowerCase().includes("readme"),
-    )
-    .map((entry) => path.join(directory, entry.name))
-    .sort();
+  const files: string[] = [];
+
+  for (const entry of entries) {
+    if (
+      !entry.isFile() ||
+      !IMPORT_EXTENSIONS.has(path.extname(entry.name).toLowerCase()) ||
+      entry.name.toLowerCase().includes("readme")
+    ) {
+      continue;
+    }
+    if (await hasArchivedRawCopy(sourceFolder, entry.name)) {
+      continue;
+    }
+    files.push(path.join(directory, entry.name));
+  }
+
+  return files.sort();
 }
 
 export async function readRawRecords(files: string[]): Promise<{ records: ManualRecord[]; filesRead: string[] }> {

@@ -2,7 +2,7 @@
   "country_code": "USA",
   "module": "government_current",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "government_current has 2037 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "civil_liberties_index: 0.603 index (1789)",

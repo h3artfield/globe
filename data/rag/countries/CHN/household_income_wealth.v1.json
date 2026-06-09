@@ -2,7 +2,7 @@
   "country_code": "CHN",
   "module": "household_income_wealth",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "household_income_wealth has 4 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "gini_index: 36 index (2022)",

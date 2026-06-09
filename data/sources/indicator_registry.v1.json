@@ -1299,6 +1299,18 @@
       "required": false
     },
     {
+      "metric_id": "social_trust_score",
+      "label": "Social trust score",
+      "module": "nationalism_cohesion",
+      "preferred_sources": [
+        "world_values_survey"
+      ],
+      "unit": "score",
+      "freshness_requirement": "static_or_historical",
+      "formula": "social_trust_score",
+      "required": false
+    },
+    {
       "metric_id": "attachment_to_country_score",
       "label": "Attachment to country score",
       "module": "nationalism_cohesion",
@@ -1344,6 +1356,18 @@
       "unit": "score",
       "freshness_requirement": "static_or_historical",
       "formula": "desire_to_emigrate",
+      "required": false
+    },
+    {
+      "metric_id": "patent_families_by_origin",
+      "label": "Patent families by origin",
+      "module": "technology_contributions",
+      "preferred_sources": [
+        "wipo"
+      ],
+      "unit": "families",
+      "freshness_requirement": "latest_available_year",
+      "formula": "patent_families_by_origin",
       "required": false
     },
     {

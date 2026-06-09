@@ -1,8 +1,14 @@
 {
   "country_code": "ISR",
-  "generated_at": "2026-06-08T04:02:55.879Z",
+  "generated_at": "2026-06-09T02:18:04.322Z",
   "source_ids": [
     "vdem",
-    "world_bank_wdi"
+    "world_bank_wdi",
+    "un_comtrade",
+    "unodc",
+    "unctad",
+    "wipo",
+    "oecd_pisa",
+    "derived_from_un_comtrade"
   ]
 }

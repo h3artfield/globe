@@ -6,7 +6,7 @@
   ],
   "module": "relationship_event_timeline",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "16 bilateral event(s) merged from processed conflict/event imports.",
   "key_findings": [
     "2011-07-30: 4",

@@ -1,6 +1,6 @@
 {
   "country_code": "USA",
-  "generated_at": "2026-06-08T04:02:58.356Z",
+  "generated_at": "2026-06-09T02:18:06.704Z",
   "items": [
     {
       "review_id": "USA-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:55.927Z"
+      "created_at": "2026-06-09T02:18:04.377Z"
     },
     {
       "review_id": "USA-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.353Z"
+      "created_at": "2026-06-09T02:18:06.699Z"
     },
     {
       "review_id": "USA-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.353Z"
+      "created_at": "2026-06-09T02:18:06.700Z"
     },
     {
       "review_id": "USA-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.354Z"
+      "created_at": "2026-06-09T02:18:06.701Z"
     },
     {
       "review_id": "USA-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.354Z"
+      "created_at": "2026-06-09T02:18:06.701Z"
     },
     {
       "review_id": "USA-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.355Z"
+      "created_at": "2026-06-09T02:18:06.702Z"
     },
     {
       "review_id": "USA-threat_perception-905",
@@ -354,7 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.355Z"
+      "created_at": "2026-06-09T02:18:06.703Z"
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "version": "1.0",
   "source_id": "correlates_of_war",
-  "last_updated": "2026-06-08T04:02:09.483Z",
+  "last_updated": "2026-06-08T22:50:47.300Z",
   "entries": [
     {
-      "receipt_id": "correlates_of_war:4071a00009b820c7",
+      "receipt_id": "correlates_of_war:495b383ad28b7841",
       "source_id": "correlates_of_war",
       "raw_file_path": "data/manual_imports_raw/correlates_of_war/alliance_v4.1_by_directed.csv",
-      "raw_file_sha256": "4071a00009b820c769dda0298f5fb86c7ab59fdabb10beff7d78814858e6f04c",
-      "raw_file_size_bytes": 436481,
+      "raw_file_sha256": "495b383ad28b78416175149bac994cd9f47a4ac32464620117fc4674778c3746",
+      "raw_file_size_bytes": 442926,
       "transforms": [
         {
           "canonical_file_path": "data/manual_imports/correlates_of_war/cow_alliances_wars.csv",
           "canonical_file_sha256": "fed8f606fae71de31ab51c724232d4e21c145dcb4b73980757ec2764fb552678",
           "transform_script": "scripts/kb/transform_batch1_raw.ts",
-          "transform_version": "1.0+279b35457e22",
+          "transform_version": "1.0+bfc7d8d61d52",
           "rows_read": 7808,
           "rows_written": 292,
           "rows_skipped": 7516,
@@ -23,7 +23,7 @@
             "missing_required_field": 561,
             "non_mvp_relationship": 124
           },
-          "generated_at": "2026-06-08T04:02:09.483Z"
+          "generated_at": "2026-06-08T22:50:47.299Z"
         }
       ],
       "collected_at": null,
@@ -46,7 +46,7 @@
           "canonical_file_path": "data/manual_imports/correlates_of_war/cow_alliances_wars.csv",
           "canonical_file_sha256": "fed8f606fae71de31ab51c724232d4e21c145dcb4b73980757ec2764fb552678",
           "transform_script": "scripts/kb/transform_batch1_raw.ts",
-          "transform_version": "1.0+279b35457e22",
+          "transform_version": "1.0+bfc7d8d61d52",
           "rows_read": 7808,
           "rows_written": 292,
           "rows_skipped": 7516,
@@ -55,7 +55,7 @@
             "missing_required_field": 561,
             "non_mvp_relationship": 124
           },
-          "generated_at": "2026-06-08T04:02:09.483Z"
+          "generated_at": "2026-06-08T22:50:47.299Z"
         }
       ],
       "collected_at": null,

@@ -2,7 +2,7 @@
   "country_code": "PAK",
   "module": "media_information",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "media_information has 79 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "media_freedom_index: 0.507 index (1947)",

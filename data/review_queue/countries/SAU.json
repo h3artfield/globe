@@ -1,6 +1,6 @@
 {
   "country_code": "SAU",
-  "generated_at": "2026-06-08T04:02:58.478Z",
+  "generated_at": "2026-06-09T02:18:06.814Z",
   "items": [
     {
       "review_id": "SAU-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.378Z"
+      "created_at": "2026-06-09T02:18:04.851Z"
     },
     {
       "review_id": "SAU-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.475Z"
+      "created_at": "2026-06-09T02:18:06.811Z"
     },
     {
       "review_id": "SAU-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.476Z"
+      "created_at": "2026-06-09T02:18:06.811Z"
     },
     {
       "review_id": "SAU-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.476Z"
+      "created_at": "2026-06-09T02:18:06.812Z"
     },
     {
       "review_id": "SAU-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.477Z"
+      "created_at": "2026-06-09T02:18:06.812Z"
     },
     {
       "review_id": "SAU-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.477Z"
+      "created_at": "2026-06-09T02:18:06.813Z"
     },
     {
       "review_id": "SAU-threat_perception-905",
@@ -354,7 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.478Z"
+      "created_at": "2026-06-09T02:18:06.813Z"
     }
   ]
 }

@@ -86,6 +86,7 @@ export const SOURCE_METRIC_DEFINITIONS: Record<string, SourceMetricDefinition[]>
     { metric_id: "trust_military_score", label: "Trust military score", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: true },
     { metric_id: "trust_police_score", label: "Trust police score", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: true },
     { metric_id: "trust_courts_score", label: "Trust courts score", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: false },
+    { metric_id: "social_trust_score", label: "Social trust score", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: false },
     { metric_id: "attachment_to_country_score", label: "Attachment to country score", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: false },
     { metric_id: "religious_identity_strength", label: "Religious identity strength", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: false },
     { metric_id: "support_for_immigration", label: "Support for immigration", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: false },
@@ -93,6 +94,7 @@ export const SOURCE_METRIC_DEFINITIONS: Record<string, SourceMetricDefinition[]>
     { metric_id: "desire_to_emigrate", label: "Desire to emigrate", module: "nationalism_cohesion", unit: "score", freshness_requirement: "static_or_historical", required: false },
   ],
   wipo: [
+    { metric_id: "patent_families_by_origin", label: "Patent families by origin", module: "technology_contributions", unit: "families", freshness_requirement: LATEST, required: false },
     { metric_id: "patent_applications_resident", label: "Patent applications resident", module: "technology_contributions", unit: "applications", freshness_requirement: LATEST, required: true },
     { metric_id: "patent_applications_nonresident", label: "Patent applications nonresident", module: "technology_contributions", unit: "applications", freshness_requirement: LATEST, required: false },
     { metric_id: "pct_applications", label: "PCT applications", module: "technology_contributions", unit: "applications", freshness_requirement: LATEST, required: true },

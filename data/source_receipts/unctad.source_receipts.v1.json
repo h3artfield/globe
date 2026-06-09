@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "source_id": "unctad",
+  "last_updated": "2026-06-09T01:19:11.439Z",
+  "entries": [
+    {
+      "receipt_id": "unctad:e7c0b4fbb3433332",
+      "source_id": "unctad",
+      "raw_file_path": "data/manual_imports_raw/unctad/unctad_lsci.csv",
+      "raw_file_sha256": "e7c0b4fbb34333326addeb49449d4741428d24ae22de8bb1662333c2c5018c60",
+      "raw_file_size_bytes": 1064023,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unctad/unctad_trade_maritime.csv",
+          "canonical_file_sha256": "b67daf58a319701298b882dcd7ead62f1f4744d125e0189c2b82a1c689ac8897",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 84731,
+          "rows_written": 470,
+          "rows_skipped": 83605,
+          "skip_reasons": {
+            "non_mvp_country": 19364,
+            "unmapped_metric_column": 64240,
+            "empty_value": 1
+          },
+          "generated_at": "2026-06-09T01:19:11.437Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://unctad.org/",
+      "official_download_page": "https://unctadstat.unctad.org/",
+      "license_or_terms_note": "UNCTAD data terms apply; attribute UNCTAD. Confirm indicator definitions on UNCTADstat before export.",
+      "source_org": "UNCTAD",
+      "source_title": "UNCTAD Trade and Maritime Indicators",
+      "notes": null
+    },
+    {
+      "receipt_id": "unctad:5cdf7f61ff4365e0",
+      "source_id": "unctad",
+      "raw_file_path": "data/manual_imports_raw/unctad/unctad_trade_openness.csv",
+      "raw_file_sha256": "5cdf7f61ff4365e07ff5d884e7746e5ba585feb9d1c508216fa2f10e177f1fd1",
+      "raw_file_size_bytes": 7538175,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unctad/unctad_trade_maritime.csv",
+          "canonical_file_sha256": "b67daf58a319701298b882dcd7ead62f1f4744d125e0189c2b82a1c689ac8897",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 84731,
+          "rows_written": 470,
+          "rows_skipped": 83605,
+          "skip_reasons": {
+            "non_mvp_country": 19364,
+            "unmapped_metric_column": 64240,
+            "empty_value": 1
+          },
+          "generated_at": "2026-06-09T01:19:11.437Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://unctad.org/",
+      "official_download_page": "https://unctadstat.unctad.org/",
+      "license_or_terms_note": "UNCTAD data terms apply; attribute UNCTAD. Confirm indicator definitions on UNCTADstat before export.",
+      "source_org": "UNCTAD",
+      "source_title": "UNCTAD Trade and Maritime Indicators",
+      "notes": null
+    }
+  ]
+}

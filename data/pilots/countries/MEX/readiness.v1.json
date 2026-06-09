@@ -1,0 +1,13 @@
+{
+  "target_id": "MEX",
+  "pilot_ready": false,
+  "overall_score": 0,
+  "failed_gates": [
+    "source_requirements_source_coverage",
+    "retrieval_embeddings_missing",
+    "overall_source_readiness"
+  ],
+  "next_actions": [
+    "Create source requirements and source pack for MEX."
+  ]
+}

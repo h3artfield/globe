@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "source_id": "unodc",
+  "last_updated": "2026-06-08T23:04:50.436Z",
+  "entries": [
+    {
+      "receipt_id": "unodc:b14af858823f232a",
+      "source_id": "unodc",
+      "raw_file_path": "data/manual_imports_raw/unodc/data_cts_intentional_homicide.csv",
+      "raw_file_sha256": "b14af858823f232a9532ff07f1cbd28855f8170ffa5410634d3a51ee8a5b4ba8",
+      "raw_file_size_bytes": 20240469,
+      "transforms": [
+        {
+          "canonical_file_path": "data/manual_imports/unodc/unodc_crime.csv",
+          "canonical_file_sha256": "535ad245a5aa5bcf76f0b2eccecda4e0ab00b1472849a1e3ea9d29f449129ec6",
+          "transform_script": "scripts/kb/transform_batch1_raw.ts",
+          "transform_version": "1.0+bfc7d8d61d52",
+          "rows_read": 121796,
+          "rows_written": 521,
+          "rows_skipped": 121275,
+          "skip_reasons": {
+            "non_mvp_country": 116905,
+            "unmapped_metric_column": 4370
+          },
+          "generated_at": "2026-06-08T23:04:50.435Z"
+        }
+      ],
+      "collected_at": null,
+      "collected_by": null,
+      "official_homepage": "https://www.unodc.org/",
+      "official_download_page": "https://www.unodc.org/unodc/en/data-and-analysis/statistics.html",
+      "license_or_terms_note": "UNODC data terms apply; attribute UNODC. Some tables may have sparse coverage for specific MVP countries.",
+      "source_org": "UNODC",
+      "source_title": "UNODC Crime Statistics Export",
+      "notes": null
+    }
+  ]
+}

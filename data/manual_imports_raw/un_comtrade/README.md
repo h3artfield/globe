@@ -2,6 +2,9 @@
 
 Drop the official UN Comtrade / Comtrade Plus export here.
 
-Transform: **not implemented yet** — placeholder stub will fail until mapping is added.
+Transform: `npm run kb:transform-batch1 -- --source un_comtrade`
 
-Workaround: manually shape data to `data/manual_imports/_templates/un_comtrade_bilateral.template.csv` and place in `data/manual_imports/un_comtrade/`.
+Output: `data/manual_imports/un_comtrade/un_comtrade_bilateral.csv`
+
+Archived raw files live under `data/manual_imports_raw/_archive/un_comtrade/`.
+If a copy exists there, the active staging copy is ignored by the transform.

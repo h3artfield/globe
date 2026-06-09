@@ -1,5 +1,11 @@
 {
   "version": "1.0",
-  "last_updated": "2026-06-08T02:12:00.000Z",
-  "overrides": {}
+  "last_updated": "2026-06-09T02:30:00.000Z",
+  "overrides": {
+    "shared-acled_events": {
+      "collection_status": "needed",
+      "notes": "ACLED export access blocked by current account level; transformer exists; retry when access changes.",
+      "rejected_reason": "ACLED export access blocked by current account level; transformer exists; retry when access changes."
+    }
+  }
 }

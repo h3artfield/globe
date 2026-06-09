@@ -2,7 +2,7 @@
   "country_code": "EGY",
   "module": "demographics",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "demographics has 2 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "population_total: 116538258 people (2024)",

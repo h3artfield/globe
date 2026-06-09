@@ -1,0 +1,12 @@
+{
+  "target_id": "IND",
+  "pilot_ready": false,
+  "overall_score": 0,
+  "failed_gates": [
+    "source_requirements_source_coverage",
+    "overall_source_readiness"
+  ],
+  "next_actions": [
+    "Create source requirements and source pack for IND."
+  ]
+}

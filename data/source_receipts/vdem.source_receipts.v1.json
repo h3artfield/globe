@@ -1,18 +1,18 @@
 {
   "version": "1.0",
   "source_id": "vdem",
-  "last_updated": "2026-06-08T02:58:19.638Z",
+  "last_updated": "2026-06-08T23:15:00.000Z",
   "entries": [
     {
-      "receipt_id": "vdem:d65f32bacb7b358c",
+      "receipt_id": "vdem:8481c2add6ff807a",
       "source_id": "vdem",
       "raw_file_path": "data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv",
-      "raw_file_sha256": "d65f32bacb7b358c58ca9c908424444170058fc283acb625f3a6bce74faa1994",
-      "raw_file_size_bytes": 406351380,
+      "raw_file_sha256": "8481c2add6ff807ac9587384a889ea30832314f7fef2288347a989654004db60",
+      "raw_file_size_bytes": 406379473,
       "transforms": [
         {
           "canonical_file_path": "data/manual_imports/vdem/vdem_country_year.csv",
-          "canonical_file_sha256": "cfbc4d06c772ed380e1568b856367b3aecedfc83f170693435b233d877ee9ca3",
+          "canonical_file_sha256": "360dd9c9b6db240e65d7015001ba167f3d9d8ed1fc30af3a5bf1a0dba1986ba5",
           "transform_script": "scripts/kb/transform_batch1_raw.ts",
           "transform_version": "1.0+279b35457e22",
           "rows_read": 28092,

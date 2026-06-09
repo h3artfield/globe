@@ -1,0 +1,2 @@
+indicatorId,name,theme,lastDataUpdate,lastDataUpdateDescription,dataAvailability.totalRecordCount,dataAvailability.timeLine.min,dataAvailability.timeLine.max,dataAvailability.geoUnits.types,disaggregations,glossaryTerms
+LR.AG15T99,"Adult literacy rate, population 15+ years, both sexes (%)",EDUCATION,02/09/2026,February 2026 Data Release,9818,1970,2024,"REGIONAL, NATIONAL",AgeRange:15+,2245

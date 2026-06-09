@@ -19,6 +19,7 @@ const ISO2_TO_ISO3: Record<string, string> = {
 const COUNTRY_NAME_TO_ISO3: Record<string, string> = {
   "UNITED STATES": "USA",
   "UNITED STATES OF AMERICA": "USA",
+  "USA, PUERTO RICO AND US VIRGIN ISLANDS": "USA",
   CHINA: "CHN",
   EGYPT: "EGY",
   ETHIOPIA: "ETH",

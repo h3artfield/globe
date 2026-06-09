@@ -8,7 +8,10 @@ import {
 } from "@/lib/kb/batch1Transform/registry";
 import { recordsToCsv } from "@/lib/kb/batch1Transform/csvWriter";
 import { listRawImportFiles, readRawRecords } from "@/lib/kb/batch1Transform/rawFiles";
-import type { TransformStats } from "@/lib/kb/batch1Transform/types";
+import { readWipoRawRecords } from "@/lib/kb/batch1Transform/wipoTransform";
+import { transformPisaFromRawFiles } from "@/lib/kb/batch1Transform/pisaTransform";
+import { transformWvsFromRawFiles, WVS_CANONICAL_HEADERS } from "@/lib/kb/batch1Transform/wvsTransform";
+import { METRIC_CANONICAL_HEADERS, type TransformStats } from "@/lib/kb/batch1Transform/types";
 import { appendTransformReceipt, upsertRawReceiptEntries } from "@/lib/kb/sourceReceipts";
 import { repoPath } from "@/lib/pipeline/io";
 
@@ -65,7 +68,70 @@ async function transformSource(config: (typeof BATCH1_TRANSFORM_SOURCES)[number]
 
   await upsertRawReceiptEntries(config.sourceId, rawFiles);
 
-  const { records, filesRead } = await readRawRecords(rawFiles);
+  const observationFiles =
+    config.rawObservationFiles && config.rawObservationFiles.length > 0
+      ? rawFiles.filter((filePath) => config.rawObservationFiles!.includes(path.basename(filePath)))
+      : rawFiles;
+
+  if (config.sourceId === "oecd_pisa") {
+    const { rows, stats } = await transformPisaFromRawFiles(observationFiles, outputPath);
+    if (rows.length === 0) {
+      return {
+        ...stats,
+        error: "Transform produced zero canonical rows from raw input.",
+      };
+    }
+
+    await mkdir(path.dirname(outputPath), { recursive: true });
+    await writeFile(
+      outputPath,
+      recordsToCsv(
+        METRIC_CANONICAL_HEADERS,
+        rows as Array<Record<string, string>>,
+      ),
+      "utf8",
+    );
+
+    await appendTransformReceipt({
+      sourceId: config.sourceId,
+      rawFilePaths: rawFiles,
+      canonicalFilePath: outputPath,
+      stats,
+    });
+
+    return stats;
+  }
+
+  if (config.sourceId === "world_values_survey") {
+    const { rows, stats } = await transformWvsFromRawFiles(observationFiles, outputPath);
+    if (rows.length === 0) {
+      return {
+        ...stats,
+        error: "Transform produced zero canonical rows from raw input.",
+      };
+    }
+
+    await mkdir(path.dirname(outputPath), { recursive: true });
+    await writeFile(
+      outputPath,
+      recordsToCsv(WVS_CANONICAL_HEADERS, rows as Array<Record<string, string>>),
+      "utf8",
+    );
+
+    await appendTransformReceipt({
+      sourceId: config.sourceId,
+      rawFilePaths: rawFiles,
+      canonicalFilePath: outputPath,
+      stats,
+    });
+
+    return stats;
+  }
+
+  const { records, filesRead } =
+    config.sourceId === "wipo"
+      ? await readWipoRawRecords(observationFiles)
+      : await readRawRecords(observationFiles);
   const { output, stats } = runSourceTransform(config, records, filesRead, outputPath);
 
   if (!config.implemented || !output) {

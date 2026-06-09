@@ -1,6 +1,6 @@
 {
   "country_code": "TUR",
-  "generated_at": "2026-06-08T04:02:58.489Z",
+  "generated_at": "2026-06-09T02:18:06.825Z",
   "items": [
     {
       "review_id": "TUR-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.431Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.432Z"
+      "created_at": "2026-06-09T02:18:04.899Z"
     },
     {
       "review_id": "TUR-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.485Z"
+      "created_at": "2026-06-09T02:18:06.821Z"
     },
     {
       "review_id": "TUR-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.485Z"
+      "created_at": "2026-06-09T02:18:06.822Z"
     },
     {
       "review_id": "TUR-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.486Z"
+      "created_at": "2026-06-09T02:18:06.822Z"
     },
     {
       "review_id": "TUR-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.486Z"
+      "created_at": "2026-06-09T02:18:06.823Z"
     },
     {
       "review_id": "TUR-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.487Z"
+      "created_at": "2026-06-09T02:18:06.823Z"
     },
     {
       "review_id": "TUR-threat_perception-905",
@@ -354,7 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.488Z"
+      "created_at": "2026-06-09T02:18:06.824Z"
     }
   ]
 }

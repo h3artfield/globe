@@ -1,13 +1,13 @@
 {
   "scope_id": "USA",
-  "structured_metrics_coverage": 21,
-  "narrative_module_coverage": 30,
+  "structured_metrics_coverage": 30,
+  "narrative_module_coverage": 0,
   "event_timeline_coverage": 0,
   "relationship_coverage": 0,
   "citation_quality": 100,
   "review_quality": 20,
   "retrieval_quality": 80,
-  "overall_pilot_readiness": 42,
+  "overall_pilot_readiness": 38,
   "notes": [
     "Completion depends on source-backed claims, reviewed claims, fresh metrics, event coverage, relationship coverage, and golden evals."
   ]

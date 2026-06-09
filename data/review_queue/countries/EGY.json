@@ -1,6 +1,6 @@
 {
   "country_code": "EGY",
-  "generated_at": "2026-06-08T04:02:58.377Z",
+  "generated_at": "2026-06-09T02:18:06.727Z",
   "items": [
     {
       "review_id": "EGY-founding_groups-001",
@@ -16,7 +16,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-religion_history-002",
@@ -32,7 +32,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-leader_dossiers-003",
@@ -48,7 +48,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-math_contributions-004",
@@ -64,7 +64,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-philosophy_contributions-005",
@@ -80,7 +80,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-adversary_narratives-006",
@@ -96,7 +96,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-game_theory_profile-007",
@@ -113,7 +113,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-future_scenarios-008",
@@ -130,7 +130,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-allies_and_partners-009",
@@ -146,7 +146,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-adversaries_and_rivals-010",
@@ -162,7 +162,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-national_event_timeline-011",
@@ -178,7 +178,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-top_national_events_20_years-012",
@@ -194,7 +194,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-news_memory-013",
@@ -210,7 +210,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-threat_perception-014",
@@ -226,7 +226,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-wikipedia_baseline-015",
@@ -242,7 +242,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-wikipedia_references-016",
@@ -258,7 +258,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:56.037Z"
+      "created_at": "2026-06-09T02:18:04.486Z"
     },
     {
       "review_id": "EGY-allies_and_partners-900",
@@ -274,7 +274,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.374Z"
+      "created_at": "2026-06-09T02:18:06.724Z"
     },
     {
       "review_id": "EGY-adversaries_and_rivals-901",
@@ -290,7 +290,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.374Z"
+      "created_at": "2026-06-09T02:18:06.724Z"
     },
     {
       "review_id": "EGY-national_event_timeline-902",
@@ -306,7 +306,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.375Z"
+      "created_at": "2026-06-09T02:18:06.725Z"
     },
     {
       "review_id": "EGY-top_national_events_20_years-903",
@@ -322,7 +322,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.375Z"
+      "created_at": "2026-06-09T02:18:06.725Z"
     },
     {
       "review_id": "EGY-news_memory-904",
@@ -338,7 +338,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.376Z"
+      "created_at": "2026-06-09T02:18:06.726Z"
     },
     {
       "review_id": "EGY-threat_perception-905",
@@ -354,7 +354,7 @@
       ],
       "status": "pending",
       "generation_status": "auto_generated_structured_data",
-      "created_at": "2026-06-08T04:02:58.376Z"
+      "created_at": "2026-06-09T02:18:06.726Z"
     }
   ]
 }

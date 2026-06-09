@@ -2,8 +2,8 @@
   "country_code": "UKR",
   "module": "education",
   "version": "1.0",
-  "last_updated": "2026-06-08",
-  "summary": "education has 37 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
+  "last_updated": "2026-06-09",
+  "summary": "education has 38 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "academic_freedom_index: 0.851 index (1990)",
     "academic_freedom_index: 0.851 index (1991)",
@@ -41,7 +41,8 @@
     "academic_freedom_index: 0.64 index (2023)",
     "academic_freedom_index: 0.578 index (2024)",
     "academic_freedom_index: 0.617 index (2025)",
-    "literacy_rate_adult: 99.4300003051758 percent (2001)"
+    "literacy_rate_adult: 99.4300003051758 percent (2001)",
+    "literacy_rate: 99.43000030517578 percent (2001)"
   ],
   "metrics": [
     {
@@ -889,6 +890,29 @@
       "freshness_requirement": "latest_available_year",
       "freshness_status": "stale",
       "notes": "Latest non-null World Bank observation for SE.ADT.LITR.ZS."
+    },
+    {
+      "metric_id": "literacy_rate",
+      "country_code": "UKR",
+      "value": 99.43000030517578,
+      "unit": "percent",
+      "year": 2001,
+      "source_id": "unesco_uis",
+      "source_name": "UNESCO UIS",
+      "source_url": "https://databrowser.uis.unesco.org/",
+      "retrieved_at": "2026-06-08T23:30:08.228Z",
+      "raw_file_path": "/../../../../data/raw/unesco_uis/2026-06-08/unesco_uis_education.csv",
+      "raw_record_id": "668dce5fe8a701eb",
+      "calculation": "literacy_rate",
+      "confidence": "medium",
+      "freshness_requirement": "latest_available_year",
+      "freshness_status": "stale",
+      "notes": "uis_indicator=Adult literacy rate, population 15+ years, both sexes (%)",
+      "sample_size": null,
+      "question_wording": null,
+      "response_mapping": null,
+      "demographic_cut": null,
+      "demographic_group": null
     }
   ],
   "claims": [],
@@ -896,6 +920,7 @@
     "Add sourced narrative analysis and claim-level citations for this module."
   ],
   "source_ids": [
+    "unesco_uis",
     "vdem",
     "world_bank_wdi"
   ],

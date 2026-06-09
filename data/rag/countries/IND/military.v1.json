@@ -2,7 +2,7 @@
   "country_code": "IND",
   "module": "military",
   "version": "1.0",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-09",
   "summary": "military has 1 structured metric(s) with source metadata. Narrative claims are intentionally empty until sourced research is added.",
   "key_findings": [
     "military_expenditure_current_usd: 86125976248.5524 current_usd (2024)"

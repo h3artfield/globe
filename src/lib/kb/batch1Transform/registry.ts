@@ -5,7 +5,12 @@ import { transformUcdp } from "./ucdpTransform";
 import { createStubTransformStats, STUB_TRANSFORM_MESSAGE } from "./stubTransform";
 import type { CanonicalEventRow, CanonicalMetricRow, TransformStats } from "./types";
 import { EVENT_CANONICAL_HEADERS, METRIC_CANONICAL_HEADERS } from "./types";
+import { transformUnComtrade } from "./unComtradeTransform";
+import { transformUnescoUis } from "./unescoUisTransform";
+import { transformUnctad } from "./unctadTransform";
+import { transformUnodc } from "./unodcTransform";
 import { transformVdem } from "./vdemTransform";
+import { transformWipo } from "./wipoTransform";
 
 export type Batch1SourceKind = "metric" | "event";
 
@@ -16,6 +21,7 @@ export type Batch1SourceConfig = {
   canonicalFilename: string;
   kind: Batch1SourceKind;
   implemented: boolean;
+  rawObservationFiles?: string[];
 };
 
 export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
@@ -33,7 +39,7 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "un_comtrade",
     canonicalFilename: "un_comtrade_bilateral.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
   },
   {
     sourceId: "unodc",
@@ -41,7 +47,7 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "unodc",
     canonicalFilename: "unodc_crime.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
   },
   {
     sourceId: "unesco_uis",
@@ -49,7 +55,8 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "unesco_uis",
     canonicalFilename: "unesco_uis_education.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
+    rawObservationFiles: ["data.csv"],
   },
   {
     sourceId: "wipo",
@@ -57,7 +64,8 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "wipo",
     canonicalFilename: "wipo_patents.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
+    rawObservationFiles: ["wipo_patent_family_by_origin.csv"],
   },
   {
     sourceId: "world_values_survey",
@@ -65,7 +73,8 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "world_values_survey",
     canonicalFilename: "wvs_country_crosstabs.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
+    rawObservationFiles: ["wvs_wave7_crossnational.csv"],
   },
   {
     sourceId: "oecd_pisa",
@@ -73,7 +82,8 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "oecd_pisa",
     canonicalFilename: "oecd_pisa_scores.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
+    rawObservationFiles: ["pisa_math.xlsx", "pisa_reading.xlsx", "pisa_science.xlsx"],
   },
   {
     sourceId: "unctad",
@@ -81,7 +91,8 @@ export const BATCH1_TRANSFORM_SOURCES: Batch1SourceConfig[] = [
     canonicalFolder: "unctad",
     canonicalFilename: "unctad_trade_maritime.csv",
     kind: "metric",
-    implemented: false,
+    implemented: true,
+    rawObservationFiles: ["unctad_lsci.csv", "unctad_trade_openness.csv"],
   },
   {
     sourceId: "acled",
@@ -123,6 +134,66 @@ export function runSourceTransform(
     return {
       output: null,
       stats: createStubTransformStats(config.sourceId, outputPath, rawFilesRead, records.length),
+    };
+  }
+
+  if (config.sourceId === "un_comtrade") {
+    const result = transformUnComtrade(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "metric",
+        rows: result.rows,
+        headers: METRIC_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "unodc") {
+    const result = transformUnodc(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "metric",
+        rows: result.rows,
+        headers: METRIC_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "unesco_uis") {
+    const result = transformUnescoUis(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "metric",
+        rows: result.rows,
+        headers: METRIC_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "wipo") {
+    const result = transformWipo(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "metric",
+        rows: result.rows,
+        headers: METRIC_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
+    };
+  }
+
+  if (config.sourceId === "unctad") {
+    const result = transformUnctad(records, rawFilesRead, outputPath);
+    return {
+      output: {
+        kind: "metric",
+        rows: result.rows,
+        headers: METRIC_CANONICAL_HEADERS,
+      },
+      stats: result.stats,
     };
   }
 
