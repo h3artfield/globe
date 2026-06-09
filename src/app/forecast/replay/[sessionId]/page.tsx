@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ForecastNav } from "@/components/ForecastNav";
+import { ReplaySessionEvidenceResolution } from "@/components/ReplaySessionEvidenceResolution";
 import { ReplaySessionForecastForm } from "@/components/ReplaySessionForecastForm";
+import { getReplayEvidenceSnapshot } from "@/lib/forecasting/buildReplayEvidenceSnapshot";
+import { getReplayResolution } from "@/lib/forecasting/resolveReplaySession";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 type SessionPageProps = {
@@ -24,6 +27,11 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
   if (!session) {
     notFound();
   }
+
+  const [snapshot, resolution] = await Promise.all([
+    getReplayEvidenceSnapshot(sessionId),
+    getReplayResolution(sessionId),
+  ]);
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,#1e3a8a_0,#020617_40%,#000_100%)] p-4 text-white md:p-6">
@@ -74,6 +82,12 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
         </section>
 
         <ReplaySessionForecastForm session={session} />
+
+        <ReplaySessionEvidenceResolution
+          session={session}
+          initialSnapshot={snapshot}
+          initialResolution={resolution}
+        />
 
         <section className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 shadow-xl backdrop-blur">
           <h2 className="text-lg font-semibold text-white">Resolution spec (copied from template)</h2>

@@ -197,3 +197,55 @@ export type ReplaySessionListResponse = {
   sessions: ReplaySession[];
   count: number;
 };
+
+export type ReplayEvidenceIncludedRecord = {
+  record_id: string;
+  source_id: string;
+  label: string;
+  year: number | null;
+  date: string | null;
+  value_summary: string;
+};
+
+export type ReplayEvidenceSnapshot = {
+  evidence_snapshot_id: string;
+  session_id: string;
+  template_id: string;
+  created_at: string;
+  as_of_year: number;
+  allowed_source_ids: string[];
+  included_records: ReplayEvidenceIncludedRecord[];
+  missing_sources: string[];
+  excluded_future_records_count: number;
+  summary: string;
+  limitations: string;
+  source_paths: string[];
+  confidence: ReplayForecastConfidence;
+};
+
+export type ReplayResolutionOutcome = "yes" | "no" | "missing_evidence" | "void";
+
+export type ReplayResolutionSourceRecord = {
+  record_id: string;
+  source_id: string;
+  label: string;
+  year: number | null;
+  date: string | null;
+  value_summary: string;
+};
+
+export type ReplayResolution = {
+  resolution_id: string;
+  session_id: string;
+  template_id: string;
+  created_at: string;
+  resolution_year: number;
+  outcome: ReplayResolutionOutcome;
+  resolved_value: number | boolean | null;
+  prior_value: number | boolean | null;
+  comparison_value: number | boolean | null;
+  source_records: ReplayResolutionSourceRecord[];
+  source_paths: string[];
+  confidence: ReplayForecastConfidence;
+  limitations: string;
+};
