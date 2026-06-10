@@ -58,6 +58,7 @@
     "forecast:e2e-smoke": "node scripts/forecasting/forecast-full-e2e-smoke.mjs",
     "forecast:polymarket-smoke": "node scripts/forecasting/forecast-polymarket-smoke.mjs",
     "forecast:gdelt-smoke": "node scripts/forecasting/forecast-gdelt-smoke.mjs",
+    "forecast:evidence-assessment-smoke": "node scripts/forecasting/forecast-evidence-assessment-smoke.mjs",
     "kb:validate-imports": "node scripts/kb/forward_validate_imports.mjs",
     "kb:validate-events": "node scripts/kb/forward_validate_events.mjs",
     "kb:transform-batch1": "node scripts/kb/forward_transform_batch1.mjs",

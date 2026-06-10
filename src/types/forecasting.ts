@@ -871,3 +871,53 @@ export type GdeltNewsIngestRequest = {
   use_mock?: boolean;
   limit?: number;
 };
+
+export type QuestionDomain =
+  | "geopolitics"
+  | "elections"
+  | "economy_trade"
+  | "crime"
+  | "finance"
+  | "politics"
+  | "general";
+
+export type EvidenceRecommendation = "forecast_now" | "request_more_sources" | "human_review";
+
+export type SourceGap = {
+  gap_id: string;
+  question_domain: QuestionDomain;
+  missing_source_id: string;
+  reason: string;
+  priority: ForecastSourceRequestPriority;
+};
+
+export type SessionEvidenceAssessmentScores = {
+  relevance: number;
+  recency: number;
+  source_diversity: number;
+  source_quality: number;
+  metric_coverage: number;
+  news_coverage: number;
+  market_signal_strength: number;
+  overall_evidence_score: number;
+};
+
+export type SessionEvidenceAssessment = {
+  assessment_id: string;
+  session_id: string;
+  created_at: string;
+  question_domain: QuestionDomain;
+  scores: SessionEvidenceAssessmentScores;
+  confidence_ceiling: ReplayForecastConfidence;
+  recommendation: EvidenceRecommendation;
+  source_mix: Record<string, number>;
+  missing_sources: string[];
+  source_gaps: SourceGap[];
+  warnings: string[];
+};
+
+export type PlanSourceRequestsResult = {
+  created: ForecastSourceRequest[];
+  reused: ForecastSourceRequest[];
+  skipped: SourceGap[];
+};

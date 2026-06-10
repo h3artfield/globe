@@ -4,6 +4,7 @@ import { ForecastNav } from "@/components/ForecastNav";
 import { ReplaySessionAgentPanel } from "@/components/ReplaySessionAgentPanel";
 import { ReplaySessionAgentRunPanel } from "@/components/ReplaySessionAgentRunPanel";
 import { ReplaySessionNewsEvidence } from "@/components/ReplaySessionNewsEvidence";
+import { ReplaySessionEvidenceQuality } from "@/components/ReplaySessionEvidenceQuality";
 import { ReplaySessionEvidenceResolution } from "@/components/ReplaySessionEvidenceResolution";
 import { ReplaySessionForecastForm } from "@/components/ReplaySessionForecastForm";
 import { ReplaySessionScoring } from "@/components/ReplaySessionScoring";
@@ -13,6 +14,7 @@ import { getReplayResolution } from "@/lib/forecasting/resolveReplaySession";
 import { getReplayJudgeAudit } from "@/lib/forecasting/runReplayJudge";
 import { getReplayScorecard } from "@/lib/forecasting/scoreReplaySession";
 import { listSessionSourceRequests } from "@/lib/forecasting/sessionSourceRequests";
+import { loadSessionEvidenceAssessment } from "@/lib/forecasting/evidence/evidenceAssessmentStore";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 type SessionPageProps = {
@@ -36,13 +38,15 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
     notFound();
   }
 
-  const [snapshot, resolution, scorecard, audit, postmortem, sourceRequests] = await Promise.all([
+  const [snapshot, resolution, scorecard, audit, postmortem, sourceRequests, evidenceAssessment] =
+    await Promise.all([
     getReplayEvidenceSnapshot(sessionId),
     getReplayResolution(sessionId),
     getReplayScorecard(sessionId),
     getReplayJudgeAudit(sessionId),
     getReplayPostmortem(sessionId),
     listSessionSourceRequests(sessionId),
+    loadSessionEvidenceAssessment(sessionId),
   ]);
 
   return (
@@ -100,6 +104,8 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
         <ReplaySessionAgentPanel session={session} initialSourceRequests={sourceRequests} />
 
         <ReplaySessionNewsEvidence session={session} initialSnapshot={snapshot} />
+
+        <ReplaySessionEvidenceQuality session={session} initialAssessment={evidenceAssessment} />
 
         <ReplaySessionEvidenceResolution
           session={session}

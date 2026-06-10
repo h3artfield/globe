@@ -13,6 +13,7 @@ tmp/
 # Local forecast replay sessions (runtime; keep folder scaffold only)
 data/forecasting/sessions/**/session.v1.json
 data/forecasting/evidence_snapshots/**/snapshot.v1.json
+data/forecasting/evidence_assessments/**/assessment.v1.json
 data/forecasting/resolutions/**/resolution.v1.json
 data/forecasting/scorecards/**/scorecard.v1.json
 data/forecasting/audits/**/judge_audit.v1.json

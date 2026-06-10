@@ -4,10 +4,13 @@ import type {
   ReplayEvidenceSnapshot,
   ReplayForecastConfidence,
   ReplaySession,
+  SessionEvidenceAssessment,
 } from "@/types/forecasting";
 import { createAgentRunId, saveAgentRun } from "@/lib/forecasting/agentRunStore";
 import { resolveAgentStrategy } from "@/lib/forecasting/agentStrategyStore";
 import { getReplayEvidenceSnapshot } from "@/lib/forecasting/buildReplayEvidenceSnapshot";
+import { assessSessionEvidenceFromInputs } from "@/lib/forecasting/evidence/assessSessionEvidence";
+import { decideStrategyFromAssessment } from "@/lib/forecasting/evidence/strategyEvidenceDecision";
 import { loadForecastAgent } from "@/lib/forecasting/forecastAgentStore";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 import { ReplaySessionValidationError } from "@/lib/forecasting/replaySessionValidation";
@@ -54,43 +57,44 @@ function evidenceScore(
   session: ReplaySession,
   snapshot: ReplayEvidenceSnapshot | null,
   strategy: ForecastAgentStrategy,
+  assessment: SessionEvidenceAssessment,
 ): {
   recordCount: number;
   missingSources: string[];
   needsSources: boolean;
   warnings: string[];
+  decisionSummary: string;
 } {
   const recordCount = snapshot?.included_records.length ?? 0;
   const missingSources =
-    snapshot && snapshot.missing_sources.length > 0
-      ? snapshot.missing_sources
+    assessment.missing_sources.length > 0
+      ? assessment.missing_sources
       : recordCount === 0
         ? [...session.allowed_source_ids]
         : [];
-  const warnings: string[] = [];
-  if (snapshot?.limitations) {
-    warnings.push(snapshot.limitations.slice(0, 240));
-  }
+  const warnings = [...assessment.warnings];
   if (snapshot?.excluded_future_records_count) {
     warnings.push(
       `${snapshot.excluded_future_records_count} future record(s) excluded at snapshot cutoff ${session.forecast_year}.`,
     );
   }
 
-  const lowRecords = recordCount < strategy.evidence_threshold;
-  const hasMissing = missingSources.length > 0;
-  const needsSources =
-    (lowRecords && strategy.risk_style !== "aggressive") ||
-    (hasMissing && strategy.source_gap_sensitivity >= 0.5) ||
-    (hasMissing && lowRecords && strategy.source_gap_sensitivity >= 0.2);
+  const decision = decideStrategyFromAssessment(assessment, strategy);
 
-  return { recordCount, missingSources, needsSources, warnings };
+  return {
+    recordCount,
+    missingSources,
+    needsSources: decision.needsSources,
+    warnings,
+    decisionSummary: decision.summary,
+  };
 }
 
 function draftForecastFromEvidence(
   session: ReplaySession,
   snapshot: ReplayEvidenceSnapshot | null,
   strategy: ForecastAgentStrategy,
+  assessment: SessionEvidenceAssessment,
 ): {
   probability: number;
   confidence: ReplayForecastConfidence;
@@ -100,6 +104,7 @@ function draftForecastFromEvidence(
   uncertainty_notes: string;
   recommended_action: ForecastAgentRun["recommended_action"];
 } {
+  const decision = decideStrategyFromAssessment(assessment, strategy);
   const spec = session.resolution_spec;
   let probability = 50;
   const keySignals: string[] = [];
@@ -155,24 +160,41 @@ function draftForecastFromEvidence(
   }
 
   probability -= Math.round(strategy.uncertainty_penalty * 100 * (snapshot ? 0 : 1));
+  if (decision.markHighUncertainty) {
+    uncertaintyNotes.push(
+      `Evidence assessment overall=${Math.round(assessment.scores.overall_evidence_score * 100)}% (${assessment.recommendation}); confidence ceiling=${assessment.confidence_ceiling}.`,
+    );
+    if (strategy.risk_style !== "aggressive") {
+      probability = 50 + Math.sign(probability - 50) * Math.min(Math.abs(probability - 50), 8);
+    }
+  }
   if ((snapshot?.included_records.length ?? 0) < strategy.evidence_threshold) {
     uncertaintyNotes.push(
       `Evidence count ${snapshot?.included_records.length ?? 0} is below strategy threshold ${strategy.evidence_threshold}.`,
     );
-    probability = strategy.risk_style === "aggressive" ? probability : 50;
+    if (strategy.risk_style !== "aggressive") {
+      probability = 50;
+    }
   }
 
-  const confidence =
-    (snapshot?.included_records.length ?? 0) >= strategy.evidence_threshold
-      ? snapshot?.confidence ?? "medium"
-      : strategy.risk_style === "aggressive"
-        ? "low"
-        : "low";
+  let confidence: ReplayForecastConfidence = decision.confidenceCeiling;
+  if ((snapshot?.included_records.length ?? 0) >= strategy.evidence_threshold) {
+    confidence =
+      snapshot?.confidence === "high" && decision.confidenceCeiling === "high"
+        ? "high"
+        : decision.confidenceCeiling === "high"
+          ? "medium"
+          : decision.confidenceCeiling;
+  } else if (strategy.risk_style === "aggressive") {
+    confidence = decision.confidenceCeiling === "high" ? "medium" : "low";
+  } else {
+    confidence = "low";
+  }
 
   const rationale = [
-    `Strategy ${strategy.name} reviewed ${snapshot?.included_records.length ?? 0} evidence record(s) for: ${session.question_text}`,
+    `Strategy ${strategy.name} reviewed ${snapshot?.included_records.length ?? 0} evidence record(s) (overall evidence ${Math.round(assessment.scores.overall_evidence_score * 100)}%).`,
     keySignals[0] ?? "No strong directional signal detected in available evidence.",
-    uncertaintyNotes[0] ?? "Uncertainty remains due to sparse or incomplete local coverage.",
+    uncertaintyNotes[0] ?? decision.summary,
   ].join(" ");
 
   return {
@@ -182,8 +204,7 @@ function draftForecastFromEvidence(
     key_signals: keySignals,
     assumptions,
     uncertainty_notes: uncertaintyNotes.join(" "),
-    recommended_action:
-      confidence === "low" && strategy.risk_style === "cautious" ? "human_review" : "lock",
+    recommended_action: "human_review",
   };
 }
 
@@ -218,21 +239,29 @@ export async function runForecastAgent(
   }
 
   const snapshot = await getReplayEvidenceSnapshot(sessionId);
-  const evaluation = evidenceScore(session, snapshot, strategy);
+  const assessment = assessSessionEvidenceFromInputs(session, snapshot);
+  const evaluation = evidenceScore(session, snapshot, strategy, assessment);
   const existingRequests = await listSourceRequestsForSession(sessionId);
   const sourceRequestIdsCreated: string[] = [];
   const sourceRequestIdsReused: string[] = [];
 
   if (evaluation.needsSources) {
-    const missing = evaluation.missingSources.length
-      ? evaluation.missingSources
-      : session.allowed_source_ids;
+    const missing =
+      assessment.source_gaps.length > 0
+        ? [...new Set(assessment.source_gaps.map((gap) => gap.missing_source_id))]
+        : evaluation.missingSources.length
+          ? evaluation.missingSources
+          : session.allowed_source_ids;
     const requestType = "dataset_refresh" as const;
     for (const sourceId of missing) {
+      const gap = assessment.source_gaps.find((item) => item.missing_source_id === sourceId);
       const input = {
-        request_type: requestType,
+        request_type:
+          sourceId === "gdelt_news_events" ? ("api_fetch" as const) : requestType,
         requested_source_id: sourceId,
-        reason: `Agent strategy ${strategy.strategy_id} detected insufficient local evidence before forecast lock.`,
+        reason:
+          gap?.reason ??
+          `Agent strategy ${strategy.strategy_id} detected insufficient evidence (assessment=${assessment.recommendation}).`,
         priority: strategy.risk_style === "cautious" ? ("high" as const) : ("medium" as const),
       };
       const criteria = buildAgentSourceRequestCriteria(
@@ -264,7 +293,7 @@ export async function runForecastAgent(
       source_request_ids_reused: sourceRequestIdsReused,
       probability: null,
       confidence: null,
-      rationale: `Evidence insufficient (${evaluation.recordCount} records; threshold ${strategy.evidence_threshold}). Linked ${linkedCount} source request(s) (${sourceRequestIdsCreated.length} created, ${sourceRequestIdsReused.length} reused).`,
+      rationale: `Evidence insufficient (overall ${Math.round(assessment.scores.overall_evidence_score * 100)}%; recommendation=${assessment.recommendation}). Linked ${linkedCount} source request(s) (${sourceRequestIdsCreated.length} created, ${sourceRequestIdsReused.length} reused). ${evaluation.decisionSummary}`,
       key_signals: evaluation.warnings,
       assumptions: ["Agent will not lock until evidence gaps are addressed."],
       uncertainty_notes: "Forecast withheld pending source fulfillment and evidence regeneration.",
@@ -276,7 +305,7 @@ export async function runForecastAgent(
     return run;
   }
 
-  const draft = draftForecastFromEvidence(session, snapshot, strategy);
+  const draft = draftForecastFromEvidence(session, snapshot, strategy, assessment);
   const run: ForecastAgentRun = {
     agent_run_id: createAgentRunId(),
     session_id: sessionId,

@@ -38,6 +38,29 @@ export function findReusableAgentSourceRequest(
   );
 }
 
+export type SessionSourceRequestMatchCriteria = {
+  session_id: string;
+  requested_source_id: string;
+  request_type: ForecastSourceRequestType;
+  cutoff_year: number;
+};
+
+export function findReusableSessionSourceRequest(
+  existing: ForecastSourceRequest[],
+  criteria: SessionSourceRequestMatchCriteria,
+): ForecastSourceRequest | null {
+  return (
+    existing.find(
+      (request) =>
+        request.session_id === criteria.session_id &&
+        request.requested_source_id === criteria.requested_source_id &&
+        request.request_type === criteria.request_type &&
+        request.cutoff_year === criteria.cutoff_year &&
+        (request.status === "open" || request.status === "fulfilled"),
+    ) ?? null
+  );
+}
+
 export function buildAgentSourceRequestCriteria(
   sessionId: string,
   agentId: string,
