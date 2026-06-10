@@ -119,6 +119,8 @@ export async function createSourceRequest(
     fulfillment_notes: "",
     linked_evidence_snapshot_id: null,
     too_late_for_forecast: session.status !== "draft",
+    fulfillment_id: null,
+    usable_for_original_forecast: null,
   };
 
   await saveSourceRequest(request);

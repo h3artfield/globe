@@ -221,6 +221,61 @@ export type ForecastSourceRequest = {
   fulfillment_notes: string;
   linked_evidence_snapshot_id: string | null;
   too_late_for_forecast: boolean;
+  fulfillment_id: string | null;
+  usable_for_original_forecast: boolean | null;
+};
+
+export type SourceFulfillmentType =
+  | "human_file"
+  | "local_adapter"
+  | "api_adapter"
+  | "note_only";
+
+export type SourceFulfillmentRecord = {
+  record_id: string;
+  source_id: string;
+  label: string;
+  year: number | null;
+  date: string | null;
+  value_summary: string;
+};
+
+export type SourceFulfillmentArtifact = {
+  fulfillment_id: string;
+  source_request_id: string;
+  session_id: string;
+  agent_id: string | null;
+  created_at: string;
+  fulfilled_by: string;
+  fulfillment_type: SourceFulfillmentType;
+  source_id: string;
+  local_paths: string[];
+  records_found: number;
+  records_usable: SourceFulfillmentRecord[];
+  records_rejected: number;
+  rejected_future_records_count: number;
+  cutoff_year: number;
+  summary: string;
+  limitations: string;
+  confidence: ReplayForecastConfidence;
+  safe_for_evidence_snapshot: boolean;
+  usable_for_original_forecast: boolean;
+};
+
+export type FulfillSourceRequestBody = {
+  fulfilled_by?: string;
+  fulfillment_notes?: string;
+  fulfillment_type?: SourceFulfillmentType;
+  adapter_id?: string;
+  source_id?: string;
+  local_paths?: string[];
+  local_path?: string;
+  cutoff_year?: number;
+  safe_for_evidence_snapshot?: boolean;
+  summary?: string;
+  limitations?: string;
+  confidence?: ReplayForecastConfidence;
+  note_text?: string;
 };
 
 export type CreateSourceRequestInput = {

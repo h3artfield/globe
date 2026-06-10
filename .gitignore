@@ -22,6 +22,7 @@ data/forecasting/agents/**/next_time_rules.v1.jsonl
 data/forecasting/source_requests/**/request.v1.json
 data/forecasting/judges/rules.v1.jsonl
 data/forecasting/comparisons/**/comparison.v1.json
+data/forecasting/source_fulfillments/**/fulfillment.v1.json
 
 # Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)
 data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv

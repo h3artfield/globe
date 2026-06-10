@@ -10,6 +10,7 @@ import {
   resolveAdapterSourceId,
 } from "@/lib/forecasting/replay/sourceAdapters/registry";
 import { mergeConfidence } from "@/lib/forecasting/replay/sourceAdapters/types";
+import { loadUsableFulfillmentEvidenceForSession } from "@/lib/forecasting/fulfillSourceRequestWithArtifact";
 
 function assertSnapshotAllowed(status: ReplaySession["status"]): void {
   if (status !== "draft" && status !== "locked") {
@@ -72,6 +73,21 @@ export async function buildReplayEvidenceSnapshot(
     if (result.missing_reason) {
       missingSources.push(sourceId);
     }
+  }
+
+  const fulfillmentEvidence = await loadUsableFulfillmentEvidenceForSession(
+    sessionId,
+    session.forecast_year,
+  );
+  includedRecords.push(...fulfillmentEvidence.included_records);
+  excludedFutureCount += fulfillmentEvidence.excluded_future_records_count;
+  for (const fulfillmentPath of fulfillmentEvidence.source_paths) {
+    sourcePaths.add(fulfillmentPath);
+  }
+  if (fulfillmentEvidence.included_records.length > 0) {
+    limitations.push(
+      `Included ${fulfillmentEvidence.included_records.length} record(s) from fulfilled source requests.`,
+    );
   }
 
   const confidence = mergeConfidence(confidences.length > 0 ? confidences : ["low"]);

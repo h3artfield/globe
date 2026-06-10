@@ -6,7 +6,9 @@ import type {
   CreateSourceRequestInput,
   ForecastSourceRequest,
   ForecastSourceRequestType,
+  ReplayEvidenceSnapshot,
   ReplaySession,
+  SourceFulfillmentArtifact,
 } from "@/types/forecasting";
 
 type ReplaySessionAgentPanelProps = {
@@ -47,6 +49,12 @@ export function ReplaySessionAgentPanel({
   const [message, setMessage] = useState<string | null>(null);
   const [isSaving, setIsSaving] = useState(false);
   const [isRequesting, setIsRequesting] = useState(false);
+  const [fulfillmentArtifacts, setFulfillmentArtifacts] = useState<
+    Record<string, SourceFulfillmentArtifact>
+  >({});
+  const [fulfillmentPaths, setFulfillmentPaths] = useState<Record<string, string>>({});
+  const [fulfillmentNotes, setFulfillmentNotes] = useState<Record<string, string>>({});
+  const [snapshotRecordCount, setSnapshotRecordCount] = useState<number | null>(null);
 
   async function saveAgentFields() {
     setIsSaving(true);
@@ -114,33 +122,119 @@ export function ReplaySessionAgentPanel({
     }
   }
 
-  async function fulfillRequest(sourceRequestId: string) {
+  async function fulfillRequest(
+    sourceRequestId: string,
+    mode: "path" | "note" | "adapter",
+    request: ForecastSourceRequest,
+  ) {
     setError(null);
     setMessage(null);
     try {
+      if (mode === "adapter") {
+        const adapterId = request.suggested_api_adapter;
+        if (!adapterId) {
+          throw new Error("No suggested adapter for this request.");
+        }
+        const response = await fetch(
+          `/api/forecast/source-requests/${sourceRequestId}/run-adapter`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              adapter_id: adapterId,
+              safe_for_evidence_snapshot: true,
+              fulfilled_by: "local_operator",
+            }),
+          },
+        );
+        const payload = (await response.json()) as {
+          request: ForecastSourceRequest;
+          artifact: SourceFulfillmentArtifact;
+          error?: string;
+        };
+        if (!response.ok) {
+          throw new Error(payload.error ?? "Adapter fulfillment failed");
+        }
+        setSourceRequests((current) =>
+          current.map((item) =>
+            item.source_request_id === sourceRequestId ? payload.request : item,
+          ),
+        );
+        setFulfillmentArtifacts((current) => ({
+          ...current,
+          [sourceRequestId]: payload.artifact,
+        }));
+        if (payload.artifact.usable_for_original_forecast) {
+          await regenerateEvidenceSnapshot();
+        }
+        setMessage("Source request fulfilled via local adapter.");
+        router.refresh();
+        return;
+      }
+
+      const localPath =
+        fulfillmentPaths[sourceRequestId] ??
+        `data/processed/countries/${session.target.target_id}/metrics.v1.json`;
+      const note =
+        fulfillmentNotes[sourceRequestId] ?? "Marked fulfilled via session page.";
+      const body =
+        mode === "path"
+          ? {
+              local_path: localPath,
+              fulfillment_type: "human_file",
+              fulfillment_notes: `Fulfilled with ${localPath}`,
+              safe_for_evidence_snapshot: true,
+            }
+          : {
+              note_text: note,
+              fulfillment_type: "note_only",
+              fulfillment_notes: note,
+              safe_for_evidence_snapshot: true,
+            };
+
       const response = await fetch(`/api/forecast/source-requests/${sourceRequestId}/fulfill`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          fulfilled_by: "local_operator",
-          fulfillment_notes: "Marked fulfilled via Forecast Lab UI.",
-          suggested_local_path: `data/processed/countries/${session.target.target_id}/metrics.v1.json`,
-        }),
+        body: JSON.stringify(body),
       });
-      const payload = (await response.json()) as ForecastSourceRequest & { error?: string };
+      const payload = (await response.json()) as {
+        request: ForecastSourceRequest;
+        artifact: SourceFulfillmentArtifact;
+        error?: string;
+      };
       if (!response.ok) {
         throw new Error(payload.error ?? "Fulfillment failed");
       }
       setSourceRequests((current) =>
         current.map((item) =>
-          item.source_request_id === sourceRequestId ? payload : item,
+          item.source_request_id === sourceRequestId ? payload.request : item,
         ),
       );
-      setMessage("Source request marked fulfilled.");
+      setFulfillmentArtifacts((current) => ({
+        ...current,
+        [sourceRequestId]: payload.artifact,
+      }));
+      if (payload.artifact.usable_for_original_forecast) {
+        await regenerateEvidenceSnapshot();
+      }
+      setMessage("Source request fulfilled.");
       router.refresh();
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "Fulfillment failed");
     }
+  }
+
+  async function regenerateEvidenceSnapshot() {
+    const response = await fetch(
+      `/api/forecast/replay/sessions/${session.session_id}/evidence-snapshot`,
+      { method: "POST" },
+    );
+    const payload = (await response.json()) as ReplayEvidenceSnapshot & { error?: string };
+    if (!response.ok) {
+      throw new Error(payload.error ?? "Evidence snapshot regeneration failed");
+    }
+    setSnapshotRecordCount(payload.included_records.length);
+    setMessage(`Evidence snapshot regenerated (${payload.included_records.length} records).`);
   }
 
   return (
@@ -295,19 +389,79 @@ export function ReplaySessionAgentPanel({
                     <span className="text-slate-400">{request.status}</span>
                     {request.too_late_for_forecast ? (
                       <span className="ml-2 text-amber-300">too late for forecast</span>
+                    ) : request.usable_for_original_forecast ? (
+                      <span className="ml-2 text-emerald-300">usable for original forecast</span>
                     ) : null}
                   </span>
                   {request.status === "open" ? (
-                    <button
-                      type="button"
-                      className="rounded border border-emerald-700 px-2 py-0.5 text-xs text-emerald-200"
-                      onClick={() => fulfillRequest(request.source_request_id)}
-                    >
-                      Mark fulfilled
-                    </button>
+                    <div className="flex flex-wrap gap-1">
+                      <button
+                        type="button"
+                        className="rounded border border-emerald-700 px-2 py-0.5 text-xs text-emerald-200"
+                        onClick={() => fulfillRequest(request.source_request_id, "path", request)}
+                      >
+                        Fulfill path
+                      </button>
+                      <button
+                        type="button"
+                        className="rounded border border-cyan-700 px-2 py-0.5 text-xs text-cyan-200"
+                        onClick={() => fulfillRequest(request.source_request_id, "note", request)}
+                      >
+                        Fulfill note
+                      </button>
+                      {request.suggested_api_adapter ? (
+                        <button
+                          type="button"
+                          className="rounded border border-violet-700 px-2 py-0.5 text-xs text-violet-200"
+                          onClick={() =>
+                            fulfillRequest(request.source_request_id, "adapter", request)
+                          }
+                        >
+                          Run adapter
+                        </button>
+                      ) : null}
+                    </div>
                   ) : null}
                 </div>
                 <p className="mt-1 text-slate-400">{request.reason}</p>
+                {request.status === "open" ? (
+                  <div className="mt-2 grid gap-2 sm:grid-cols-2">
+                    <input
+                      className="rounded border border-slate-700 bg-slate-950 px-2 py-1 text-xs"
+                      onChange={(event) =>
+                        setFulfillmentPaths((current) => ({
+                          ...current,
+                          [request.source_request_id]: event.target.value,
+                        }))
+                      }
+                      placeholder={`data/processed/countries/${session.target.target_id}/metrics.v1.json`}
+                      value={
+                        fulfillmentPaths[request.source_request_id] ??
+                        request.suggested_local_path ??
+                        ""
+                      }
+                    />
+                    <input
+                      className="rounded border border-slate-700 bg-slate-950 px-2 py-1 text-xs"
+                      onChange={(event) =>
+                        setFulfillmentNotes((current) => ({
+                          ...current,
+                          [request.source_request_id]: event.target.value,
+                        }))
+                      }
+                      placeholder="Fulfillment note"
+                      value={fulfillmentNotes[request.source_request_id] ?? ""}
+                    />
+                  </div>
+                ) : null}
+                {fulfillmentArtifacts[request.source_request_id] ? (
+                  <p className="mt-1 text-xs text-cyan-300">
+                    artifact:{" "}
+                    {fulfillmentArtifacts[request.source_request_id]!.records_usable.length} usable
+                    · future rejected=
+                    {fulfillmentArtifacts[request.source_request_id]!.rejected_future_records_count}
+                  </p>
+                ) : null}
                 {request.fulfillment_notes ? (
                   <p className="mt-1 text-xs text-slate-500">{request.fulfillment_notes}</p>
                 ) : null}
@@ -315,6 +469,23 @@ export function ReplaySessionAgentPanel({
             ))
           )}
         </ul>
+
+        <button
+          type="button"
+          className="mt-3 rounded-lg border border-cyan-700 px-3 py-1.5 text-xs text-cyan-100 hover:bg-cyan-950/50"
+          onClick={() => {
+            void regenerateEvidenceSnapshot().catch((caught) => {
+              setError(caught instanceof Error ? caught.message : "Regeneration failed");
+            });
+          }}
+        >
+          Regenerate evidence snapshot
+        </button>
+        {snapshotRecordCount !== null ? (
+          <p className="mt-2 text-xs text-cyan-300">
+            Latest snapshot includes {snapshotRecordCount} record(s).
+          </p>
+        ) : null}
       </section>
 
       {error ? <p className="text-sm text-rose-300">{error}</p> : null}
