@@ -1,6 +1,8 @@
 import type {
   DashboardAgentRow,
+  DashboardEmptyState,
   DashboardQuestionRow,
+  DashboardQuestionWorkflow,
   DashboardSessionBucket,
   DashboardSessionRow,
   ForecastDashboardResponse,
@@ -8,26 +10,22 @@ import type {
   ReplaySession,
 } from "@/types/forecasting";
 import { listRecentAgentRuns } from "@/lib/forecasting/agentRunStore";
+import { getDashboardFetchModes } from "@/lib/forecasting/dashboardFetchModes";
+import { buildQuestionWorkflow } from "@/lib/forecasting/dashboardWorkflow";
 import { loadSessionEvidenceAssessment } from "@/lib/forecasting/evidence/evidenceAssessmentStore";
 import { listForecastAgents } from "@/lib/forecasting/forecastAgentStore";
 import { buildLeaderboard } from "@/lib/forecasting/buildLeaderboard";
+import { getReplayEvidenceSnapshot } from "@/lib/forecasting/buildReplayEvidenceSnapshot";
 import { listFilteredSourceRequests } from "@/lib/forecasting/listFilteredSourceRequests";
 import {
   listRecentMarketRefreshes,
   loadLatestMarketRefresh,
 } from "@/lib/forecasting/polymarket/marketRefreshStore";
 import { queryPolymarketQuestions } from "@/lib/forecasting/polymarket/questionStore";
+import { loadReplayScorecard } from "@/lib/forecasting/replayScorecardStore";
 import { listReplaySessions } from "@/lib/forecasting/replaySessionStore";
 import { listAgentRunsForSession } from "@/lib/forecasting/agentRunStore";
 import { listSourceRequestsForSession } from "@/lib/forecasting/sourceRequestStore";
-
-const EMPTY_BUCKETS: Record<DashboardSessionBucket, DashboardSessionRow[]> = {
-  draft: [],
-  locked: [],
-  resolved: [],
-  needs_sources: [],
-  human_review: [],
-};
 
 function sessionLastUpdated(session: ReplaySession): string {
   const audit = session.audit_trail.at(-1);
@@ -56,9 +54,63 @@ function classifySessionBucket(
   return "draft";
 }
 
+function buildEmptyStates(input: {
+  questionCount: number;
+  activeSessionCount: number;
+  openRequestCount: number;
+  agentRunCount: number;
+  refreshCount: number;
+}): DashboardEmptyState[] {
+  const states: DashboardEmptyState[] = [];
+  if (input.questionCount === 0) {
+    states.push({
+      id: "no_questions",
+      message: "No Polymarket questions imported yet.",
+      next_action: "Click Ingest Mock Polymarket Questions to load the local fixture queue.",
+    });
+  }
+  if (input.activeSessionCount === 0) {
+    states.push({
+      id: "no_sessions",
+      message: "No active forecast sessions yet.",
+      next_action: "Select a question and run Create Session in the guided workflow.",
+    });
+  }
+  if (input.openRequestCount === 0) {
+    states.push({
+      id: "no_open_requests",
+      message: "No open source requests in the inbox.",
+      next_action: "Run Assess Evidence and Plan Source Requests when evidence is thin.",
+    });
+  }
+  if (input.agentRunCount === 0) {
+    states.push({
+      id: "no_agent_runs",
+      message: "No agent runs recorded yet.",
+      next_action: "Assign an agent to a session, then use Run Agent in the guided workflow.",
+    });
+  }
+  if (input.refreshCount === 0) {
+    states.push({
+      id: "no_market_refreshes",
+      message: "No Polymarket market refreshes logged yet.",
+      next_action: "Use Refresh Market after creating a live Polymarket session.",
+    });
+  }
+  return states;
+}
+
 export async function buildForecastDashboard(): Promise<ForecastDashboardResponse> {
   const warnings: string[] = [];
   const errors: string[] = [];
+  const operatorWarnings: string[] = [];
+  const fetchModes = getDashboardFetchModes();
+
+  for (const mode of fetchModes) {
+    if (!mode.live_fetch_allowed) {
+      operatorWarnings.push(`${mode.label}. ${mode.env_hint}`);
+    }
+  }
 
   let questions: DashboardQuestionRow[] = [];
   try {
@@ -80,6 +132,10 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
     );
   }
 
+  if (questions.length === 0) {
+    operatorWarnings.push("No imported Polymarket questions. Run mock ingest before testing.");
+  }
+
   const sessionsByBucket: Record<DashboardSessionBucket, DashboardSessionRow[]> = {
     draft: [],
     locked: [],
@@ -88,6 +144,17 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
     human_review: [],
   };
 
+  const sessionByMarketId = new Map<string, DashboardSessionRow>();
+  const sessionEnrichment = new Map<
+    string,
+    {
+      news_record_count: number;
+      has_evidence_assessment: boolean;
+      has_planned_source_requests: boolean;
+      has_scorecard: boolean;
+    }
+  >();
+
   let sessions: ReplaySession[] = [];
   try {
     sessions = (await listReplaySessions()).slice(0, 100);
@@ -95,14 +162,20 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
     errors.push(error instanceof Error ? error.message : "Failed to load replay sessions");
   }
 
+  let needsAssessmentCount = 0;
+  let lockedUnresolvedCount = 0;
+  let resolvedUnscoredCount = 0;
+
   for (const session of sessions) {
     try {
-      const [assessment, sessionRequests, runs] = await Promise.all([
+      const [assessment, sessionRequests, runs, snapshot, scorecard] = await Promise.all([
         loadSessionEvidenceAssessment(session.session_id),
         listSourceRequestsForSession(session.session_id),
         session.agent_id
           ? listAgentRunsForSession(session.session_id)
           : Promise.resolve([]),
+        getReplayEvidenceSnapshot(session.session_id),
+        loadReplayScorecard(session.session_id),
       ]);
 
       const openRequestCount = sessionRequests.filter((request) => request.status === "open").length;
@@ -117,6 +190,28 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
           session.status === "locked" &&
           (refresh?.resolution_status === "resolved" || refresh?.market_status === "resolved") &&
           Boolean(refresh?.winning_outcome);
+      }
+
+      const newsCount =
+        (snapshot?.news_evidence_records?.length ?? 0) +
+        (snapshot?.included_records ?? []).filter((record) => record.source_id === "gdelt_news_events")
+          .length;
+
+      sessionEnrichment.set(session.session_id, {
+        news_record_count: newsCount,
+        has_evidence_assessment: Boolean(assessment),
+        has_planned_source_requests: session.source_request_ids.length > 0,
+        has_scorecard: Boolean(scorecard),
+      });
+
+      if (session.status === "draft" && !assessment) {
+        needsAssessmentCount += 1;
+      }
+      if (session.status === "locked") {
+        lockedUnresolvedCount += 1;
+      }
+      if (session.status === "resolved" && !scorecard) {
+        resolvedUnscoredCount += 1;
       }
 
       const row: DashboardSessionRow = {
@@ -152,6 +247,13 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
         row.recommendation,
       );
       sessionsByBucket[row.bucket].push(row);
+
+      if (session.source_market_id) {
+        const existing = sessionByMarketId.get(session.source_market_id);
+        if (!existing || row.last_updated > existing.last_updated) {
+          sessionByMarketId.set(session.source_market_id, row);
+        }
+      }
     } catch (error) {
       warnings.push(
         `Session ${session.session_id}: ${error instanceof Error ? error.message : "enrichment failed"}`,
@@ -171,6 +273,25 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
     openSourceRequests = await listFilteredSourceRequests({ status: "open" });
   } catch (error) {
     errors.push(error instanceof Error ? error.message : "Failed to load open source requests");
+  }
+
+  if (openSourceRequests.length > 0) {
+    operatorWarnings.push(
+      `${openSourceRequests.length} open source request(s) need operator review in the inbox.`,
+    );
+  }
+  if (needsAssessmentCount > 0) {
+    operatorWarnings.push(
+      `${needsAssessmentCount} draft session(s) have no evidence assessment yet.`,
+    );
+  }
+  if (lockedUnresolvedCount > 0) {
+    operatorWarnings.push(
+      `${lockedUnresolvedCount} locked session(s) are waiting for market resolution or manual resolve.`,
+    );
+  }
+  if (resolvedUnscoredCount > 0) {
+    operatorWarnings.push(`${resolvedUnscoredCount} resolved session(s) have not been scored yet.`);
   }
 
   const recentRuns = await listRecentAgentRuns(40);
@@ -195,21 +316,42 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
 
   const recentMarketRefreshes = await listRecentMarketRefreshes(15);
 
-  if (questions.length === 0) {
-    warnings.push("No imported Polymarket questions in local index. Run mock ingest from dashboard.");
-  }
+  const activeSessionCount = Object.values(sessionCounts).reduce((sum, count) => sum + count, 0);
+  const emptyStates = buildEmptyStates({
+    questionCount: questions.length,
+    activeSessionCount,
+    openRequestCount: openSourceRequests.length,
+    agentRunCount: recentRuns.length,
+    refreshCount: recentMarketRefreshes.length,
+  });
+
+  const questionWorkflows: DashboardQuestionWorkflow[] = questions.map((question) => {
+    const session = sessionByMarketId.get(question.source_market_id) ?? null;
+    const enrichment = session ? sessionEnrichment.get(session.session_id) ?? null : null;
+    return {
+      source_market_id: question.source_market_id,
+      title: question.title,
+      session_id: session?.session_id ?? null,
+      steps: buildQuestionWorkflow(question, session, enrichment),
+    };
+  });
+
   if (openSourceRequests.length > 0) {
     warnings.push(`${openSourceRequests.length} open source request(s) awaiting operator action.`);
   }
 
   return {
     computed_at: new Date().toISOString(),
+    fetch_modes: fetchModes,
     questions,
+    question_workflows: questionWorkflows,
     sessions_by_bucket: sessionsByBucket,
     session_counts: sessionCounts,
     open_source_requests: openSourceRequests.slice(0, 50),
     agents: agentRows,
     recent_market_refreshes: recentMarketRefreshes,
+    empty_states: emptyStates,
+    operator_warnings: operatorWarnings,
     warnings,
     errors,
   };

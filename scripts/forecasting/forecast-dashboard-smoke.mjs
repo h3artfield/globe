@@ -69,18 +69,46 @@ function runGitignoreAudit() {
 async function main() {
   console.log("Forecast Lab dashboard smoke test");
 
+  const emptyDashboard = await json("GET", "/api/forecast/dashboard");
+  record("dashboard loads", emptyDashboard.ok && Boolean(emptyDashboard.payload.computed_at));
+  const hasQuestionsBeforeIngest = (emptyDashboard.payload.questions?.length ?? 0) > 0;
+  record(
+    "empty states render with actionable guidance",
+    Array.isArray(emptyDashboard.payload.empty_states) &&
+      emptyDashboard.payload.empty_states.every(
+        (item) => Boolean(item.id && item.message && item.next_action),
+      ) &&
+      (hasQuestionsBeforeIngest
+        ? !emptyDashboard.payload.empty_states.some((item) => item.id === "no_questions")
+        : emptyDashboard.payload.empty_states.some((item) => item.id === "no_questions")),
+  );
+  record(
+    "mock/live mode indicators present",
+    (emptyDashboard.payload.fetch_modes ?? []).some(
+      (mode) => mode.source === "polymarket" && mode.mode === "mock",
+    ) &&
+      (emptyDashboard.payload.fetch_modes ?? []).some(
+        (mode) => mode.source === "gdelt" && mode.mode === "mock",
+      ),
+  );
+  record(
+    "live fetch disabled warnings present",
+    (emptyDashboard.payload.operator_warnings ?? []).some((warning) =>
+      warning.toLowerCase().includes("live fetch disabled"),
+    ),
+  );
+
   await json("POST", "/api/forecast/question-sources/polymarket/ingest", { use_mock: true });
   await json("POST", "/api/forecast/evidence/gdelt/ingest", { use_mock: true, country: "UKR" });
 
   const dashboard1 = await json("GET", "/api/forecast/dashboard");
   record(
-    "dashboard summary loads",
-    dashboard1.ok && dashboard1.payload.computed_at,
-    { question_count: dashboard1.payload.questions?.length },
-  );
-  record(
     "dashboard includes imported questions",
     (dashboard1.payload.questions?.length ?? 0) >= 1,
+  );
+  record(
+    "question workflow steps present",
+    (dashboard1.payload.question_workflows?.[0]?.steps?.length ?? 0) >= 9,
   );
 
   const sourceMarketId = dashboard1.payload.questions?.[0]?.source_market_id;
@@ -103,6 +131,14 @@ async function main() {
     process.exit(1);
   }
 
+  const lockBlocked = await json("POST", `/api/forecast/replay/sessions/${sessionId}/lock`);
+  record(
+    "lock without probability returns clear blocked reason",
+    lockBlocked.status === 400 &&
+      String(lockBlocked.payload.error ?? "").toLowerCase().includes("probability"),
+    { error: lockBlocked.payload.error },
+  );
+
   await json("POST", `/api/forecast/replay/sessions/${sessionId}/news-evidence`);
   await json("POST", `/api/forecast/replay/sessions/${sessionId}/evidence-snapshot`);
   await json("POST", `/api/forecast/replay/sessions/${sessionId}/evidence-assessment`);
@@ -119,25 +155,41 @@ async function main() {
   });
 
   const dashboard2 = await json("GET", "/api/forecast/dashboard");
+  const workflow = (dashboard2.payload.question_workflows ?? []).find(
+    (item) => item.source_market_id === sourceMarketId,
+  );
+  record(
+    "guided workflow shows completed steps after actions",
+    workflow?.steps?.some((step) => step.step_id === "create_session" && step.state === "completed") &&
+      workflow?.steps?.some((step) => step.step_id === "assess_evidence" && step.state === "completed"),
+    {
+      steps: workflow?.steps?.map((step) => `${step.step_id}:${step.state}`),
+    },
+  );
+  record(
+    "lock step blocked until probability set",
+    workflow?.steps?.some(
+      (step) =>
+        step.step_id === "lock_forecast" &&
+        step.state === "blocked" &&
+        String(step.blocked_reason ?? "").toLowerCase().includes("probability"),
+    ),
+  );
+
   const sessionRows = Object.values(dashboard2.payload.sessions_by_bucket ?? {}).flat();
   const updated = sessionRows.find((row) => row.session_id === sessionId);
   record(
     "dashboard reflects updated session state",
-    Boolean(updated) &&
-      (updated.open_source_request_count > 0 ||
-        updated.latest_agent_run_status === "needs_sources" ||
-        updated.evidence_score != null),
+    Boolean(updated) && updated.evidence_score != null,
     {
       evidence_score: updated?.evidence_score,
       recommendation: updated?.recommendation,
-      latest_agent_run_status: updated?.latest_agent_run_status,
       open_source_request_count: updated?.open_source_request_count,
     },
   );
   record(
     "dashboard reflects open source requests",
     (dashboard2.payload.open_source_requests?.length ?? 0) >= 1,
-    { open_count: dashboard2.payload.open_source_requests?.length },
   );
   record(
     "dashboard reflects recent market refresh",
@@ -149,6 +201,7 @@ async function main() {
   const forbidden = ["privateKey", "wallet", "signTypedData", "placeOrder"];
   const files = [
     "src/lib/forecasting/buildForecastDashboard.ts",
+    "src/lib/forecasting/dashboardWorkflow.ts",
     "src/components/ForecastDashboardPageClient.tsx",
     "src/app/api/forecast/dashboard/route.ts",
   ];

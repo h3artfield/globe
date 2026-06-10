@@ -1021,14 +1021,62 @@ export type DashboardAgentRow = {
   recent_runs: ForecastAgentRun[];
 };
 
+export type DashboardFetchModeInfo = {
+  source: "polymarket" | "gdelt";
+  mode: "mock" | "live";
+  live_fetch_allowed: boolean;
+  label: string;
+  env_hint: string;
+};
+
+export type DashboardWorkflowStepId =
+  | "create_session"
+  | "find_news_evidence"
+  | "assess_evidence"
+  | "plan_source_requests"
+  | "run_agent"
+  | "apply_draft"
+  | "lock_forecast"
+  | "refresh_market"
+  | "resolve_from_market";
+
+export type DashboardWorkflowStepState = "completed" | "available" | "blocked";
+
+export type DashboardWorkflowStep = {
+  step_id: DashboardWorkflowStepId;
+  label: string;
+  state: DashboardWorkflowStepState;
+  blocked_reason: string | null;
+  last_result_summary: string | null;
+  session_id: string | null;
+  session_url: string | null;
+};
+
+export type DashboardQuestionWorkflow = {
+  source_market_id: string;
+  title: string;
+  session_id: string | null;
+  steps: DashboardWorkflowStep[];
+};
+
+export type DashboardEmptyState = {
+  id: string;
+  message: string;
+  next_action: string;
+};
+
 export type ForecastDashboardResponse = {
   computed_at: string;
+  fetch_modes: DashboardFetchModeInfo[];
   questions: DashboardQuestionRow[];
+  question_workflows: DashboardQuestionWorkflow[];
   sessions_by_bucket: Record<DashboardSessionBucket, DashboardSessionRow[]>;
   session_counts: Record<DashboardSessionBucket, number>;
   open_source_requests: ForecastSourceRequest[];
   agents: DashboardAgentRow[];
   recent_market_refreshes: PolymarketMarketRefresh[];
+  empty_states: DashboardEmptyState[];
+  operator_warnings: string[];
   warnings: string[];
   errors: string[];
 };

@@ -88,11 +88,68 @@ async function main() {
     record("create Polymarket forecast session", session.ok && Boolean(sessionId), { sessionId });
   }
 
-  if (!sessionId) {
+  const weakSession = await json("POST", "/api/forecast/replay/sessions", {
+    template_id: "unodc_homicide_rate_direction",
+    target: "USA",
+    year: 2010,
+    agent_id: agent?.agent_id,
+  });
+  const weakSessionId = weakSession.payload.session_id;
+  record("create weak replay session for strategy checks", weakSession.ok && Boolean(weakSessionId), {
+    weakSessionId,
+  });
+
+  if (!sessionId || !weakSessionId) {
     const failed = results.filter((item) => !item.ok);
     console.log(JSON.stringify({ total: results.length, failed: failed.length, results }, null, 2));
     process.exit(1);
   }
+
+  const cautious = await json("POST", `/api/forecast/replay/sessions/${weakSessionId}/agent-runs`, {
+    strategy_id: "cautious_source_hound",
+    agent_id: agent.agent_id,
+  });
+  record(
+    "cautious agent requests more sources on weak evidence",
+    cautious.ok && cautious.payload.status === "needs_sources",
+    { status: cautious.payload.status, recommended_action: cautious.payload.recommended_action },
+  );
+
+  const aggressiveSession = await json("POST", "/api/forecast/replay/sessions", {
+    template_id: "unodc_homicide_rate_direction",
+    target: "USA",
+    year: 2010,
+    agent_id: agent?.agent_id,
+  });
+  const aggressiveSessionId = aggressiveSession.payload.session_id;
+  await json("POST", `/api/forecast/replay/sessions/${aggressiveSessionId}/evidence-snapshot`);
+
+  const aggressive = await json(
+    "POST",
+    `/api/forecast/replay/sessions/${aggressiveSessionId}/agent-runs`,
+    {
+      strategy_id: "aggressive_pattern_matcher",
+      agent_id: agent.agent_id,
+    },
+  );
+  record(
+    "aggressive agent forecasts with weaker evidence",
+    aggressive.ok && aggressive.payload.status === "completed",
+    {
+      status: aggressive.payload.status,
+      confidence: aggressive.payload.confidence,
+      recommended_action: aggressive.payload.recommended_action,
+    },
+  );
+  record(
+    "aggressive agent requires human review (no auto-lock)",
+    aggressive.payload.status === "completed" &&
+      aggressive.payload.recommended_action === "human_review",
+    {
+      recommended_action: aggressive.payload.recommended_action,
+      uncertainty_notes: aggressive.payload.uncertainty_notes?.slice(0, 120),
+    },
+  );
 
   const attach = await json("POST", `/api/forecast/replay/sessions/${sessionId}/news-evidence`);
   record(
@@ -151,39 +208,6 @@ async function main() {
     {
       created: planB.payload.created_count,
       reused: planB.payload.reused_count,
-    },
-  );
-
-  const cautious = await json("POST", `/api/forecast/replay/sessions/${sessionId}/agent-runs`, {
-    strategy_id: "cautious_source_hound",
-    agent_id: agent.agent_id,
-  });
-  record(
-    "cautious agent requests more sources on weak evidence",
-    cautious.ok && cautious.payload.status === "needs_sources",
-    { status: cautious.payload.status, recommended_action: cautious.payload.recommended_action },
-  );
-
-  const aggressive = await json("POST", `/api/forecast/replay/sessions/${sessionId}/agent-runs`, {
-    strategy_id: "aggressive_pattern_matcher",
-    agent_id: agent.agent_id,
-  });
-  record(
-    "aggressive agent forecasts with weaker evidence",
-    aggressive.ok && aggressive.payload.status === "completed",
-    {
-      status: aggressive.payload.status,
-      confidence: aggressive.payload.confidence,
-      recommended_action: aggressive.payload.recommended_action,
-    },
-  );
-  record(
-    "aggressive agent marks uncertainty (no auto-lock)",
-    aggressive.payload.recommended_action === "human_review" &&
-      Boolean(aggressive.payload.uncertainty_notes),
-    {
-      recommended_action: aggressive.payload.recommended_action,
-      uncertainty_notes: aggressive.payload.uncertainty_notes?.slice(0, 120),
     },
   );
 

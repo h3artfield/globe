@@ -2,9 +2,58 @@
 
 Local-first workflow for the Historical Replay Forecast Lab (Phases 1–11). All runtime artifacts live under `data/forecasting/` and are gitignored; only folder scaffolds and hand-authored templates are tracked.
 
-**UI entry:** `/forecast` → Agents, Replay, Source Requests, Leaderboard, Tournaments.
+**UI entry:** `/forecast` → **Dashboard** (`/forecast/dashboard`), Agents, Replay, Source Requests, Leaderboard, Tournaments, Questions.
 
 **API base:** `/api/forecast/...`
+
+---
+
+## Operator dashboard (`/forecast/dashboard`)
+
+Single control room for mock-first Polymarket testing without jumping between pages.
+
+### Summary API
+
+- **Load:** `GET /api/forecast/dashboard`
+- Returns: question queue, guided workflows per question, sessions by bucket, open source requests, agent stats, recent market refreshes, fetch-mode indicators, empty states, operator warnings
+
+### Safe mock workflow
+
+1. Open `/forecast/dashboard`
+2. Confirm badges show **Polymarket: mock mode** and **GDELT: mock mode** (default when live-fetch env flags are off)
+3. **Ingest Mock Polymarket Questions** — loads local fixtures into the question index
+4. Select a question → follow the **Guided Question Workflow** steps in order:
+   - Create Session → Find News Evidence → Assess Evidence → Plan Source Requests
+   - Run Agent → Apply Draft → **Lock Forecast** (manual only; never auto-locked)
+   - Refresh Market → Resolve From Market (when market is resolved and session is locked)
+5. Each step shows **completed / available / blocked** with a reason when blocked
+6. Use session detail links for deep inspection; return to dashboard to continue
+
+### Enabling live fetch intentionally
+
+Live fetch is **off by default**. To enable:
+
+| Source | Env vars |
+|--------|----------|
+| Polymarket Gamma | `POLYMARKET_ALLOW_LIVE_FETCH=true` (and optionally `POLYMARKET_USE_MOCK=false`) |
+| GDELT | `GDELT_ALLOW_LIVE_FETCH=true` (and optionally `GDELT_USE_MOCK=false`) |
+
+Restart the dev server after changing env vars. Dashboard buttons label mock vs live; blocked live calls return explicit errors instead of silent failure.
+
+### No trading / wallet / auth / order behavior
+
+Forecast Lab is **read-only intake and local forecasting**:
+
+- No wallet, private key, CLOB auth, or order placement code paths
+- Polymarket integration reads public Gamma market metadata only
+- Locking a forecast requires an explicit operator click
+
+### Smoke test
+
+```bash
+npm run dev
+npm run forecast:dashboard-smoke
+```
 
 ---
 
@@ -165,6 +214,7 @@ Run the full stack smoke test (dev server required):
 ```bash
 npm run dev
 npm run forecast:e2e-smoke
+npm run forecast:dashboard-smoke
 ```
 
 Local copy also at `tmp/forecast-full-e2e-smoke.mjs` (gitignored).
