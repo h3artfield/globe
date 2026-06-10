@@ -12,6 +12,12 @@ export function ForecastNav() {
       <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast/agents">
         Agents
       </Link>
+      <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast/source-requests">
+        Source Requests
+      </Link>
+      <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast/leaderboard">
+        Leaderboard
+      </Link>
       <Link className="text-cyan-300 hover:text-cyan-100" href="/about">
         About &amp; Status
       </Link>

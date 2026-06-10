@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ForecastNav } from "@/components/ForecastNav";
+import { ReplayComparisonStarter } from "@/components/ReplayComparisonStarter";
 import { ReplaySessionList } from "@/components/ReplaySessionList";
 import { ReplaySessionStarter } from "@/components/ReplaySessionStarter";
 import { ReplayTemplateCard } from "@/components/ReplayTemplateCard";
@@ -39,6 +40,7 @@ export default async function ForecastReplayPage() {
         </header>
 
         <ReplaySessionStarter templates={templates} />
+        <ReplayComparisonStarter templates={templates} />
         <ReplaySessionList sessions={sessions} />
 
         <section className="space-y-4">

@@ -435,3 +435,35 @@ export type ReplayPostmortem = {
   source_limitations: string[];
   next_time_rules: string[];
 };
+
+export type ReplayComparisonGroup = {
+  comparison_group_id: string;
+  template_id: string;
+  target: ForecastTarget;
+  forecast_year: number;
+  resolution_year: number;
+  session_ids: string[];
+  agent_ids: string[];
+  created_at: string;
+};
+
+export type LeaderboardEntry = {
+  agent_id: string;
+  agent_name: string;
+  agent_type: ForecastAgentType;
+  total_forecasts: number;
+  resolved_forecasts: number;
+  average_brier_score: number | null;
+  direction_accuracy: number | null;
+  best_templates: string[];
+  worst_templates: string[];
+  common_source_gaps: string[];
+  common_judge_warnings: string[];
+  fulfilled_source_requests: number;
+  improvement_trend: string | null;
+};
+
+export type LeaderboardResponse = {
+  entries: LeaderboardEntry[];
+  computed_at: string;
+};
