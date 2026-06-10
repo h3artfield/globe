@@ -2,6 +2,9 @@
 
 Local file-based architecture extension for the geopolitical forecasting sandbox. No external database. No Cloud Agent. Builds on existing `data/processed/`, `data/world_model/`, `data/manual_imports/`, and Next.js API routes.
 
+**User flow (Phases 1–11):** see [FORECASTING_USER_FLOW.md](./FORECASTING_USER_FLOW.md)  
+**Merge strategy:** see [FORECASTING_MERGE_PLAN.md](./FORECASTING_MERGE_PLAN.md)
+
 ---
 
 ## Proposed data folders under `data/forecasting/`

@@ -55,6 +55,7 @@
     "kb:matrix": "tsx scripts/kb/build_completion_matrix.ts",
     "kb:queue": "tsx scripts/kb/build_completion_queue.ts",
     "kb:status": "tsx scripts/kb/kb_status.ts",
+    "forecast:e2e-smoke": "node scripts/forecasting/forecast-full-e2e-smoke.mjs",
     "kb:validate-imports": "node scripts/kb/forward_validate_imports.mjs",
     "kb:validate-events": "node scripts/kb/forward_validate_events.mjs",
     "kb:transform-batch1": "node scripts/kb/forward_transform_batch1.mjs",
