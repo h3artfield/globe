@@ -48,6 +48,11 @@ export async function scoreReplaySession(sessionId: string): Promise<ReplayScore
 
   assertScoringAllowed(session);
 
+  const existingScorecard = await loadReplayScorecard(sessionId);
+  if (existingScorecard) {
+    return existingScorecard;
+  }
+
   const resolution = await loadReplayResolution(sessionId);
   if (!resolution) {
     throw new ReplaySessionValidationError("Resolution required before scoring");

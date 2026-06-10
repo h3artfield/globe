@@ -1,15 +1,45 @@
-import { appendFile } from "node:fs/promises";
-import { randomBytes } from "node:crypto";
+import { appendFile, readFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import type { ReplayNextTimeRule, ReplayPostmortem, ReplaySession } from "@/types/forecasting";
 import { agentRulesPath } from "@/lib/forecasting/forecastAgentStore";
-import { repoPath } from "@/lib/pipeline/io";
+import { pathExists, repoPath } from "@/lib/pipeline/io";
 
 const GLOBAL_RULES_PATH = repoPath("data", "forecasting", "judges", "rules.v1.jsonl");
 
-function createRuleId(): string {
-  const stamp = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0, 14);
-  const suffix = randomBytes(3).toString("hex");
-  return `rule_${stamp}_${suffix}`;
+export function stableRuleId(sessionId: string, ruleText: string): string {
+  const hash = createHash("sha256")
+    .update(`${sessionId}:${ruleText}`)
+    .digest("hex")
+    .slice(0, 12);
+  return `rule_${hash}`;
+}
+
+async function loadExistingRuleIds(session: ReplaySession): Promise<Set<string>> {
+  const ids = new Set(session.postmortem_rule_ids);
+  const paths = [GLOBAL_RULES_PATH];
+  if (session.agent_id) {
+    paths.push(agentRulesPath(session.agent_id));
+  }
+  for (const filePath of paths) {
+    if (!(await pathExists(filePath))) {
+      continue;
+    }
+    const content = await readFile(filePath, "utf8");
+    for (const line of content.split("\n")) {
+      if (!line.trim()) {
+        continue;
+      }
+      try {
+        const rule = JSON.parse(line) as ReplayNextTimeRule;
+        if (rule.session_id === session.session_id) {
+          ids.add(rule.rule_id);
+        }
+      } catch {
+        // skip malformed lines
+      }
+    }
+  }
+  return ids;
 }
 
 function sourceFamilyFromTemplate(templateId: string, allowedSourceIds: string[]): string {
@@ -65,16 +95,25 @@ export async function extractPostmortemRules(
     ...new Set([...postmortem.next_time_rules, ...templateSpecificRules(session)]),
   ];
 
-  const rules: ReplayNextTimeRule[] = ruleTexts.map((ruleText) => ({
-    rule_id: createRuleId(),
-    agent_id: agentId,
-    session_id: session.session_id,
-    template_id: session.template_id,
-    source_family: sourceFamily,
-    mistake_type: mistakeType,
-    rule_text: ruleText,
-    created_at: createdAt,
-  }));
+  const existingRuleIds = await loadExistingRuleIds(session);
+  const rules: ReplayNextTimeRule[] = [];
+
+  for (const ruleText of ruleTexts) {
+    const ruleId = stableRuleId(session.session_id, ruleText);
+    if (existingRuleIds.has(ruleId)) {
+      continue;
+    }
+    rules.push({
+      rule_id: ruleId,
+      agent_id: agentId,
+      session_id: session.session_id,
+      template_id: session.template_id,
+      source_family: sourceFamily,
+      mistake_type: mistakeType,
+      rule_text: ruleText,
+      created_at: createdAt,
+    });
+  }
 
   for (const rule of rules) {
     const line = `${JSON.stringify(rule)}\n`;

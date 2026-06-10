@@ -9,6 +9,7 @@ import { loadReplayEvidenceSnapshot } from "@/lib/forecasting/replayEvidenceSnap
 import { loadReplayResolution } from "@/lib/forecasting/replayResolutionStore";
 import {
   createPostmortemId,
+  loadReplayPostmortem,
   saveReplayPostmortem,
 } from "@/lib/forecasting/replayPostmortemStore";
 import { extractPostmortemRules } from "@/lib/forecasting/extractPostmortemRules";
@@ -144,6 +145,11 @@ export async function generateReplayPostmortem(sessionId: string): Promise<Repla
   const scorecard = await loadReplayScorecard(sessionId);
   if (!scorecard) {
     throw new ReplaySessionValidationError("Scorecard required before postmortem generation");
+  }
+
+  const existingPostmortem = await loadReplayPostmortem(sessionId);
+  if (existingPostmortem) {
+    return existingPostmortem;
   }
 
   const [resolution, snapshot] = await Promise.all([

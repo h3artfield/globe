@@ -15,10 +15,13 @@ export async function createSessionSourceRequest(
   const request = await createSourceRequest(session, input);
 
   const requestedSources = [...new Set([...session.requested_sources, request.requested_source_id])];
+  const sourceRequestIds = session.source_request_ids.includes(request.source_request_id)
+    ? session.source_request_ids
+    : [...session.source_request_ids, request.source_request_id];
   const updated = {
     ...session,
     requested_sources: requestedSources,
-    source_request_ids: [...session.source_request_ids, request.source_request_id],
+    source_request_ids: sourceRequestIds,
     audit_trail: [
       ...session.audit_trail,
       {
