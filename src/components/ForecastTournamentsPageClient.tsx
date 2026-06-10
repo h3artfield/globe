@@ -193,13 +193,12 @@ export function ForecastTournamentsPageClient() {
                 className="rounded border border-slate-800 bg-slate-900/50 p-3"
               >
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <button
-                    type="button"
-                    className="text-left font-medium text-cyan-200"
-                    onClick={() => setActiveId(tournament.tournament_id)}
+                  <Link
+                    className="font-medium text-cyan-200 hover:text-cyan-100"
+                    href={`/forecast/tournaments/${tournament.tournament_id}`}
                   >
                     {tournament.title} · {tournament.status}
-                  </button>
+                  </Link>
                   <div className="flex gap-2">
                     <button
                       type="button"

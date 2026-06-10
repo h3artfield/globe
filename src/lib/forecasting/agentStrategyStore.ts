@@ -11,8 +11,24 @@ function strategyPath(agentId: string): string {
   return path.join(path.dirname(agentRulesPath(agentId)), "strategy.v1.json");
 }
 
+function archiveStrategyPath(agentId: string, version: number): string {
+  return path.join(path.dirname(agentRulesPath(agentId)), `strategy.archive.v${version}.v1.json`);
+}
+
 export async function loadAgentStrategy(agentId: string): Promise<ForecastAgentStrategy | null> {
   const filePath = strategyPath(agentId);
+  if (!(await pathExists(filePath))) {
+    return null;
+  }
+  const strategy = await readJsonFile<ForecastAgentStrategy>(filePath);
+  return { ...strategy, version: strategy.version ?? 1 };
+}
+
+export async function loadArchivedAgentStrategy(
+  agentId: string,
+  version: number,
+): Promise<ForecastAgentStrategy | null> {
+  const filePath = archiveStrategyPath(agentId, version);
   if (!(await pathExists(filePath))) {
     return null;
   }
@@ -26,6 +42,30 @@ export async function saveAgentStrategy(
   await writeJsonFile(strategyPath(agentId), strategy);
 }
 
+export async function archiveAgentStrategy(
+  agentId: string,
+  strategy: ForecastAgentStrategy,
+): Promise<void> {
+  await writeJsonFile(archiveStrategyPath(agentId, strategy.version ?? 1), strategy);
+}
+
+export async function createStrategyVersion(
+  agentId: string,
+  next: ForecastAgentStrategy,
+): Promise<ForecastAgentStrategy> {
+  const current = await loadAgentStrategy(agentId);
+  if (current) {
+    await archiveAgentStrategy(agentId, current);
+  }
+  const versioned: ForecastAgentStrategy = {
+    ...next,
+    agent_id: agentId,
+    version: (current?.version ?? next.version ?? 1) + 1,
+  };
+  await saveAgentStrategy(agentId, versioned);
+  return versioned;
+}
+
 export async function upsertAgentStrategy(
   agentId: string,
   input: CreateAgentStrategyRequest,
@@ -36,6 +76,7 @@ export async function upsertAgentStrategy(
     name: input.name.trim(),
     description: input.description?.trim() ?? existing?.description ?? "",
     agent_id: agentId,
+    version: existing?.version ?? 1,
     risk_style: input.risk_style ?? existing?.risk_style ?? "balanced",
     evidence_threshold: input.evidence_threshold ?? existing?.evidence_threshold ?? 6,
     uncertainty_penalty: input.uncertainty_penalty ?? existing?.uncertainty_penalty ?? 0.15,
@@ -54,15 +95,11 @@ export async function resolveAgentStrategy(
   agentId: string,
   strategyId: string,
 ): Promise<ForecastAgentStrategy | null> {
-  const builtin = getBuiltinAgentStrategy(strategyId);
-  if (builtin) {
-    return builtin;
-  }
   const saved = await loadAgentStrategy(agentId);
   if (saved && saved.strategy_id === strategyId) {
     return saved;
   }
-  return null;
+  return getBuiltinAgentStrategy(strategyId);
 }
 
 export function listAgentStrategyOptions(

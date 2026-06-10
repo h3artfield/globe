@@ -7,6 +7,7 @@ export const BUILTIN_AGENT_STRATEGIES: ForecastAgentStrategy[] = [
     description:
       "Requests additional local sources when evidence is thin or missing before drafting a forecast.",
     agent_id: null,
+    version: 1,
     risk_style: "cautious",
     evidence_threshold: 12,
     uncertainty_penalty: 0.25,
@@ -21,6 +22,7 @@ export const BUILTIN_AGENT_STRATEGIES: ForecastAgentStrategy[] = [
     description:
       "Drafts a forecast when medium-confidence evidence exists; requests sources only on major gaps.",
     agent_id: null,
+    version: 1,
     risk_style: "balanced",
     evidence_threshold: 6,
     uncertainty_penalty: 0.15,
@@ -35,6 +37,7 @@ export const BUILTIN_AGENT_STRATEGIES: ForecastAgentStrategy[] = [
     description:
       "Forecasts from weaker evidence patterns but marks higher uncertainty and wider probability moves.",
     agent_id: null,
+    version: 1,
     risk_style: "aggressive",
     evidence_threshold: 2,
     uncertainty_penalty: 0.08,

@@ -533,6 +533,7 @@ export type ForecastAgentStrategy = {
   name: string;
   description: string;
   agent_id: string | null;
+  version: number;
   risk_style: ForecastAgentRiskStyle;
   evidence_threshold: number;
   uncertainty_penalty: number;
@@ -659,4 +660,69 @@ export type CreateForecastTournamentRequest = {
   agent_ids: string[];
   strategy_ids: string[];
   run_config?: Partial<TournamentRunConfig>;
+};
+
+export type StrategyTuningProposalStatus = "proposed" | "accepted" | "rejected";
+
+export type StrategyTuningProposedChanges = {
+  evidence_threshold?: number;
+  source_gap_sensitivity?: number;
+  uncertainty_penalty?: number;
+  preferred_source_ids?: string[];
+  risk_style?: ForecastAgentRiskStyle;
+};
+
+export type ForecastStrategyTuningProposal = {
+  proposal_id: string;
+  tournament_id: string;
+  agent_id: string;
+  strategy_id: string;
+  created_at: string;
+  proposed_changes: StrategyTuningProposedChanges;
+  reasons: string[];
+  supporting_sessions: string[];
+  source_gap_patterns: string[];
+  judge_warning_patterns: string[];
+  expected_effect: string;
+  status: StrategyTuningProposalStatus;
+  applied_at: string | null;
+  previous_strategy_version: number | null;
+  new_strategy_version: number | null;
+};
+
+export type TournamentExportSessionSummary = {
+  session_id: string;
+  template_id: string;
+  target: string;
+  agent_id: string | null;
+  status: string;
+  probability: number | null;
+  brier_score: number | null;
+  direction_correct: boolean | null;
+  agent_run_status: string | null;
+  strategy_id: string | null;
+  source_request_count: number;
+  artifact_paths: {
+    session: string;
+    evidence_snapshot: string | null;
+    scorecard: string | null;
+    judge_audit: string | null;
+    postmortem: string | null;
+  };
+};
+
+export type TournamentExportReport = {
+  exported_at: string;
+  tournament: ForecastTournament;
+  sessions: TournamentExportSessionSummary[];
+  agent_summaries: Record<
+    string,
+    { average_brier: number | null; direction_accuracy: number | null; session_count: number }
+  >;
+  template_summaries: Record<string, { average_brier: number | null; session_count: number }>;
+  source_gaps: string[];
+  judge_warnings: string[];
+  score_summaries: Array<{ session_id: string; brier_score: number | null; outcome: string | null }>;
+  strategy_tuning_suggestions: string[];
+  tuning_proposal_ids: string[];
 };
