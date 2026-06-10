@@ -9,6 +9,11 @@ import type {
 import { pathExists, readJsonFile, repoPath } from "@/lib/pipeline/io";
 import { loadCountryMetrics } from "@/lib/forecasting/replay/loadCountryMetrics";
 import { writeFulfillmentArtifact } from "@/lib/forecasting/sourceFulfillmentStore";
+import {
+  assertSafeLocalPath,
+  assertSupportedExtension,
+  resolveSafeLocalPath,
+} from "@/lib/forecasting/sourceFulfillment/localPathSafety";
 import type { SourceFulfillmentArtifact } from "@/types/forecasting";
 
 export type SourceFulfillmentInput = {
@@ -57,10 +62,8 @@ export type SourceFulfillmentAdapter = {
 };
 
 function resolveLocalPath(localPath: string): string {
-  if (path.isAbsolute(localPath)) {
-    return localPath;
-  }
-  return repoPath(localPath.replace(/^[/\\]+/, ""));
+  assertSafeLocalPath(localPath);
+  return resolveSafeLocalPath(localPath);
 }
 
 function yearFromRecord(record: Partial<SourceFulfillmentRecord>): number | null {
@@ -264,6 +267,7 @@ export async function loadRecordsFromLocalPath(
   if (!(await pathExists(resolvedPath))) {
     throw new Error(`Local path not found: ${localPath}`);
   }
+  assertSupportedExtension(resolvedPath);
   const ext = path.extname(resolvedPath).toLowerCase();
   let records: SourceFulfillmentRecord[];
   if (ext === ".json") {

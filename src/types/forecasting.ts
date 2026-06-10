@@ -406,6 +406,9 @@ export type ReplayEvidenceSnapshot = {
   included_records: ReplayEvidenceIncludedRecord[];
   missing_sources: string[];
   excluded_future_records_count: number;
+  fulfillment_records_included: number;
+  fulfillment_records_excluded_irrelevant: number;
+  post_lock_regeneration: boolean;
   summary: string;
   limitations: string;
   source_paths: string[];

@@ -11,6 +11,7 @@ import {
 } from "@/lib/forecasting/replay/sourceAdapters/registry";
 import { mergeConfidence } from "@/lib/forecasting/replay/sourceAdapters/types";
 import { loadUsableFulfillmentEvidenceForSession } from "@/lib/forecasting/fulfillSourceRequestWithArtifact";
+import { dedupeEvidenceRecords } from "@/lib/forecasting/sourceFulfillment/filterFulfillmentRecords";
 
 function assertSnapshotAllowed(status: ReplaySession["status"]): void {
   if (status !== "draft" && status !== "locked") {
@@ -43,9 +44,10 @@ export async function buildReplayEvidenceSnapshot(
   }
 
   assertSnapshotAllowed(session.status);
+  const postLockRegeneration = session.status === "locked";
 
   const adapters = getReplaySourceAdaptersForSession(session);
-  const includedRecords = [];
+  const adapterRecords = [];
   const missingSources: string[] = [];
   const sourcePaths = new Set<string>();
   const limitations: string[] = [];
@@ -63,7 +65,7 @@ export async function buildReplayEvidenceSnapshot(
     }
 
     const result = await adapter.buildEvidenceSnapshot(session);
-    includedRecords.push(...result.included_records);
+    adapterRecords.push(...result.included_records);
     excludedFutureCount += result.excluded_future_records_count;
     for (const path of result.source_paths) {
       sourcePaths.add(path);
@@ -75,26 +77,43 @@ export async function buildReplayEvidenceSnapshot(
     }
   }
 
-  const fulfillmentEvidence = await loadUsableFulfillmentEvidenceForSession(
-    sessionId,
-    session.forecast_year,
-  );
-  includedRecords.push(...fulfillmentEvidence.included_records);
+  const fulfillmentEvidence = await loadUsableFulfillmentEvidenceForSession(session);
+  const fulfillmentRecords = fulfillmentEvidence.included_records;
   excludedFutureCount += fulfillmentEvidence.excluded_future_records_count;
+
   for (const fulfillmentPath of fulfillmentEvidence.source_paths) {
     sourcePaths.add(fulfillmentPath);
   }
-  if (fulfillmentEvidence.included_records.length > 0) {
+
+  const mergedRecords = dedupeEvidenceRecords([...adapterRecords, ...fulfillmentRecords]);
+  const adapterRecordIds = new Set(adapterRecords.map((record) => record.record_id));
+  const fulfillmentRecordsIncluded = mergedRecords.filter(
+    (record) => !adapterRecordIds.has(record.record_id),
+  ).length;
+  const fulfillmentExcludedIrrelevant = fulfillmentEvidence.excluded_irrelevant_count;
+
+  if (fulfillmentRecordsIncluded > 0) {
     limitations.push(
-      `Included ${fulfillmentEvidence.included_records.length} record(s) from fulfilled source requests.`,
+      `Fulfillment added ${fulfillmentRecordsIncluded} record(s): ${fulfillmentEvidence.fulfillment_summaries.join("; ")}.`,
+    );
+  }
+  if (fulfillmentExcludedIrrelevant > 0) {
+    limitations.push(
+      `Excluded ${fulfillmentExcludedIrrelevant} fulfilled record(s) as irrelevant (wrong source, target, template metric, or cutoff).`,
+    );
+  }
+  if (postLockRegeneration) {
+    limitations.push(
+      "Snapshot regenerated after lock; this view is for review only and does not replace the forecast evidence snapshot used at lock.",
     );
   }
 
   const confidence = mergeConfidence(confidences.length > 0 ? confidences : ["low"]);
+  const adapterOnlyCount = mergedRecords.length - fulfillmentRecordsIncluded;
   const summary =
-    includedRecords.length === 0
+    mergedRecords.length === 0
       ? `No evidence records available at or before as_of year ${session.forecast_year}.`
-      : `${includedRecords.length} record(s) included at or before as_of year ${session.forecast_year}; ${excludedFutureCount} future record(s) excluded.`;
+      : `${mergedRecords.length} record(s) at or before as_of year ${session.forecast_year} (${adapterOnlyCount} adapter + ${fulfillmentRecordsIncluded} fulfillment); ${excludedFutureCount} future excluded; ${fulfillmentExcludedIrrelevant} irrelevant fulfillment excluded.`;
 
   const snapshot: ReplayEvidenceSnapshot = {
     evidence_snapshot_id: createEvidenceSnapshotId(),
@@ -103,9 +122,12 @@ export async function buildReplayEvidenceSnapshot(
     created_at: new Date().toISOString(),
     as_of_year: session.forecast_year,
     allowed_source_ids: session.allowed_source_ids,
-    included_records: includedRecords,
+    included_records: mergedRecords,
     missing_sources: missingSources,
     excluded_future_records_count: excludedFutureCount,
+    fulfillment_records_included: fulfillmentRecordsIncluded,
+    fulfillment_records_excluded_irrelevant: fulfillmentExcludedIrrelevant,
+    post_lock_regeneration: postLockRegeneration,
     summary,
     limitations: limitations.join(" ").trim(),
     source_paths: [...sourcePaths],
@@ -114,15 +136,21 @@ export async function buildReplayEvidenceSnapshot(
 
   await saveReplayEvidenceSnapshot(snapshot);
 
-  const updatedSession = appendAudit(
-    {
-      ...session,
-      evidence_snapshot_id: snapshot.evidence_snapshot_id,
-    },
-    "evidence_snapshot_created",
-    `records=${includedRecords.length}; excluded_future=${excludedFutureCount}`,
-  );
-  await saveReplaySession(updatedSession);
+  const sessionUpdate: ReplaySession = postLockRegeneration
+    ? appendAudit(
+        session,
+        "evidence_snapshot_regenerated_after_lock",
+        `records=${mergedRecords.length}; forecast_snapshot=${session.evidence_snapshot_id ?? "none"}`,
+      )
+    : appendAudit(
+        {
+          ...session,
+          evidence_snapshot_id: snapshot.evidence_snapshot_id,
+        },
+        "evidence_snapshot_created",
+        `records=${mergedRecords.length}; excluded_future=${excludedFutureCount}`,
+      );
+  await saveReplaySession(sessionUpdate);
 
   return snapshot;
 }

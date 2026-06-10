@@ -1,6 +1,7 @@
 import type {
   ForecastSourceRequest,
   FulfillSourceRequestBody,
+  ReplaySession,
   SourceFulfillmentArtifact,
   SourceFulfillmentType,
 } from "@/types/forecasting";
@@ -11,6 +12,8 @@ import {
   saveSourceRequest,
 } from "@/lib/forecasting/sourceRequestStore";
 import { saveSourceFulfillment } from "@/lib/forecasting/sourceFulfillmentStore";
+import { filterFulfillmentRecordsForSession } from "@/lib/forecasting/sourceFulfillment/filterFulfillmentRecords";
+import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 function normalizeInput(body: FulfillSourceRequestBody): SourceFulfillmentInput {
   const localPaths = [
@@ -77,6 +80,23 @@ export async function fulfillSourceRequestWithArtifact(
   let result = await adapter.fulfill(request, input);
   result = adapter.validateCutoff(request, result);
 
+  const session = await loadReplaySession(request.session_id);
+  if (session) {
+    const filtered = filterFulfillmentRecordsForSession(result.records_usable, request, session);
+    const irrelevant = filtered.rejected_irrelevant_count;
+    result = {
+      ...result,
+      records_usable: filtered.usable,
+      records_rejected: result.records_rejected + irrelevant,
+      rejected_future_records_count:
+        result.rejected_future_records_count + filtered.rejected_future_count,
+      summary:
+        irrelevant > 0
+          ? `${result.summary} Filtered ${irrelevant} irrelevant record(s) (source/target/template/cutoff).`
+          : result.summary,
+    };
+  }
+
   if (body.summary?.trim()) {
     result = { ...result, summary: body.summary.trim() };
   }
@@ -111,20 +131,24 @@ export async function fulfillSourceRequestWithArtifact(
 }
 
 export async function loadUsableFulfillmentEvidenceForSession(
-  sessionId: string,
-  cutoffYear: number,
+  session: ReplaySession,
 ): Promise<{
   included_records: SourceFulfillmentArtifact["records_usable"];
   excluded_future_records_count: number;
+  excluded_irrelevant_count: number;
   source_paths: string[];
+  fulfillment_summaries: string[];
 }> {
   const { loadSourceFulfillmentsForSession } = await import(
     "@/lib/forecasting/sourceFulfillmentStore"
   );
-  const artifacts = await loadSourceFulfillmentsForSession(sessionId);
+  const { loadSourceRequest } = await import("@/lib/forecasting/sourceRequestStore");
+  const artifacts = await loadSourceFulfillmentsForSession(session.session_id);
   const included: SourceFulfillmentArtifact["records_usable"] = [];
   const sourcePaths = new Set<string>();
+  const fulfillmentSummaries: string[] = [];
   let excludedFuture = 0;
+  let excludedIrrelevant = 0;
 
   for (const artifact of artifacts) {
     if (!artifact.safe_for_evidence_snapshot) {
@@ -133,23 +157,33 @@ export async function loadUsableFulfillmentEvidenceForSession(
     if (!artifact.usable_for_original_forecast) {
       continue;
     }
+    const request = await loadSourceRequest(artifact.source_request_id);
+    if (!request) {
+      continue;
+    }
     for (const path of artifact.local_paths) {
       sourcePaths.add(path);
     }
-    for (const record of artifact.records_usable) {
-      const year = record.year;
-      if (year !== null && year > cutoffYear) {
-        excludedFuture += 1;
-        continue;
-      }
-      included.push(record);
+    const filtered = filterFulfillmentRecordsForSession(
+      artifact.records_usable,
+      request,
+      session,
+    );
+    excludedFuture += filtered.rejected_future_count;
+    excludedIrrelevant += filtered.rejected_irrelevant_count;
+    if (filtered.usable.length > 0) {
+      fulfillmentSummaries.push(
+        `${filtered.usable.length} from ${artifact.source_id} (${artifact.fulfillment_id})`,
+      );
     }
-    excludedFuture += artifact.rejected_future_records_count;
+    included.push(...filtered.usable);
   }
 
   return {
     included_records: included,
     excluded_future_records_count: excludedFuture,
+    excluded_irrelevant_count: excludedIrrelevant,
     source_paths: [...sourcePaths],
+    fulfillment_summaries: fulfillmentSummaries,
   };
 }
