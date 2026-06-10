@@ -67,6 +67,14 @@ export type ResolutionSpec =
       event_type: string;
       window_start: string;
       window_end: string;
+    }
+  | {
+      kind: "polymarket_market_outcome";
+      source: "polymarket";
+      market_id: string;
+      condition_id: string | null;
+      resolution_source: string;
+      end_date: string | null;
     };
 
 export type ReplayTemplate = {
@@ -362,6 +370,11 @@ export type ReplaySession = {
   judge_audit_id: string | null;
   postmortem_id: string | null;
   audit_trail: ReplaySessionAuditEntry[];
+  forecast_mode: ForecastMode;
+  source_question_id: string | null;
+  source_market_id: string | null;
+  external_source: "polymarket" | null;
+  external_source_url: string | null;
 };
 
 export type UpdateReplaySessionDraftRequest = {
@@ -725,4 +738,74 @@ export type TournamentExportReport = {
   score_summaries: Array<{ session_id: string; brier_score: number | null; outcome: string | null }>;
   strategy_tuning_suggestions: string[];
   tuning_proposal_ids: string[];
+};
+
+export type PolymarketCategoryConfig = {
+  category_id: string;
+  display_name: string;
+  source_url: string;
+  polymarket_slug: string;
+  enabled: boolean;
+  import_priority: number;
+};
+
+export type PolymarketSourceConfig = {
+  version: string;
+  source: "polymarket";
+  gamma_api_base_url: string;
+  categories: PolymarketCategoryConfig[];
+};
+
+export type QuestionResolutionStatus = "open" | "closed" | "resolved" | "unknown";
+
+export type ForecastQuestionSourceMarket = {
+  source_market_id: string;
+  source: "polymarket";
+  source_url: string;
+  category: string;
+  title: string;
+  description: string;
+  question_text: string;
+  event_id: string;
+  market_id: string;
+  condition_id: string | null;
+  outcomes: string[];
+  outcome_prices: number[];
+  implied_probability: number | null;
+  volume: number | null;
+  liquidity: number | null;
+  start_date: string | null;
+  end_date: string | null;
+  resolution_status: QuestionResolutionStatus;
+  resolution_source: string;
+  tags: string[];
+  related_country_iso3_list: string[];
+  related_relationship_pair_list: string[];
+  topics: string[];
+  imported_at: string;
+  raw_record_path: string;
+};
+
+export type PolymarketQuestionQuery = {
+  category?: string;
+  status?: QuestionResolutionStatus;
+  country?: string;
+  relationship?: string;
+  topic?: string;
+  min_volume?: number;
+  min_liquidity?: number;
+  closing_before?: string;
+  closing_after?: string;
+  sort?: "volume" | "liquidity" | "end_date" | "imported_at";
+  limit?: number;
+};
+
+export type CreateForecastSessionFromPolymarketRequest = {
+  source_market_id: string;
+  agent_id?: string;
+};
+
+export type PolymarketIngestRequest = {
+  categories?: string[];
+  use_mock?: boolean;
 };

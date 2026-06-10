@@ -21,6 +21,9 @@ export function ForecastNav() {
       <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast/tournaments">
         Tournaments
       </Link>
+      <Link className="text-cyan-300 hover:text-cyan-100" href="/forecast/questions">
+        Questions
+      </Link>
       <Link className="text-cyan-300 hover:text-cyan-100" href="/about">
         About &amp; Status
       </Link>

@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "source": "polymarket",
+  "gamma_api_base_url": "https://gamma-api.polymarket.com",
+  "categories": [
+    {
+      "category_id": "geopolitics",
+      "display_name": "Geopolitics",
+      "source_url": "https://polymarket.com/geopolitics",
+      "polymarket_slug": "geopolitics",
+      "enabled": true,
+      "import_priority": 1
+    },
+    {
+      "category_id": "economy",
+      "display_name": "Economy",
+      "source_url": "https://polymarket.com/economy",
+      "polymarket_slug": "economy",
+      "enabled": true,
+      "import_priority": 2
+    },
+    {
+      "category_id": "finance",
+      "display_name": "Finance",
+      "source_url": "https://polymarket.com/finance",
+      "polymarket_slug": "finance",
+      "enabled": true,
+      "import_priority": 3
+    },
+    {
+      "category_id": "elections",
+      "display_name": "Elections",
+      "source_url": "https://polymarket.com/elections",
+      "polymarket_slug": "elections",
+      "enabled": true,
+      "import_priority": 4
+    },
+    {
+      "category_id": "politics",
+      "display_name": "Politics",
+      "source_url": "https://polymarket.com/politics",
+      "polymarket_slug": "politics",
+      "enabled": true,
+      "import_priority": 5
+    }
+  ]
+}

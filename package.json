@@ -56,6 +56,7 @@
     "kb:queue": "tsx scripts/kb/build_completion_queue.ts",
     "kb:status": "tsx scripts/kb/kb_status.ts",
     "forecast:e2e-smoke": "node scripts/forecasting/forecast-full-e2e-smoke.mjs",
+    "forecast:polymarket-smoke": "node scripts/forecasting/forecast-polymarket-smoke.mjs",
     "kb:validate-imports": "node scripts/kb/forward_validate_imports.mjs",
     "kb:validate-events": "node scripts/kb/forward_validate_events.mjs",
     "kb:transform-batch1": "node scripts/kb/forward_transform_batch1.mjs",
@@ -76,6 +77,7 @@
   "homepage": "https://github.com/h3artfield/globe#readme",
   "dependencies": {
     "@cesium/widgets": "^16.0.0",
+    "better-sqlite3": "^12.10.0",
     "cesium": "^1.142.0",
     "next": "^16.2.7",
     "react": "^19.2.7",
@@ -84,6 +86,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^25.9.2",
     "@types/react": "^19.2.17",

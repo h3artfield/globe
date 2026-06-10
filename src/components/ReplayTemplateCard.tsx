@@ -10,6 +10,10 @@ function formatResolutionRule(spec: ReplayTemplate["resolution_spec"]): string {
   if (spec.kind === "metric_threshold") {
     return `${spec.source_id} · ${spec.metric_id} at year ${spec.year} ${spec.comparator} ${spec.threshold}`;
   }
+  if (spec.kind === "polymarket_market_outcome") {
+    const endDate = spec.end_date ? ` by ${spec.end_date}` : "";
+    return `Polymarket market ${spec.market_id}${endDate} · ${spec.resolution_source}`;
+  }
   return `${spec.source_id} · event "${spec.event_type}" between ${spec.window_start} and ${spec.window_end}`;
 }
 

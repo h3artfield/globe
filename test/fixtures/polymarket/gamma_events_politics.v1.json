@@ -1,0 +1,59 @@
+[
+  {
+    "id": "fixture-event-9001",
+    "title": "Will Ukraine join NATO before 2027?",
+    "slug": "ukraine-nato-before-2027-fixture",
+    "description": "Resolves Yes if Ukraine becomes a NATO member before January 1, 2027.",
+    "tags": [{ "slug": "politics", "label": "Politics" }, { "slug": "geopolitics", "label": "Geopolitics" }],
+    "markets": [
+      {
+        "id": "fixture-market-9001",
+        "question": "Will Ukraine join NATO before 2027?",
+        "slug": "ukraine-nato-before-2027-fixture",
+        "conditionId": "0xfixturecondition9001",
+        "description": "Resolves Yes if Ukraine becomes a NATO member before January 1, 2027.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.22\", \"0.78\"]",
+        "volume": "125000.50",
+        "volumeNum": 125000.5,
+        "liquidity": "8500.25",
+        "liquidityNum": 8500.25,
+        "startDate": "2025-01-15T12:00:00Z",
+        "endDate": "2026-12-31T23:59:59Z",
+        "closed": false,
+        "active": true,
+        "resolvedBy": "0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74",
+        "resolutionSource": "Official NATO membership records",
+        "enableOrderBook": true
+      }
+    ]
+  },
+  {
+    "id": "fixture-event-9002",
+    "title": "USA CHN trade deal in 2026?",
+    "slug": "usa-chn-trade-deal-2026-fixture",
+    "description": "Will the United States and China announce a bilateral trade deal in 2026?",
+    "tags": [{ "slug": "economy", "label": "Economy" }, { "slug": "politics", "label": "Politics" }],
+    "markets": [
+      {
+        "id": "fixture-market-9002",
+        "question": "Will the US and China announce a bilateral trade deal in 2026?",
+        "slug": "usa-chn-trade-deal-2026-fixture",
+        "conditionId": "0xfixturecondition9002",
+        "description": "Resolves Yes if both governments announce a bilateral trade agreement in calendar year 2026.",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.41\", \"0.59\"]",
+        "volume": "98000.00",
+        "volumeNum": 98000,
+        "liquidity": "12000.00",
+        "liquidityNum": 12000,
+        "startDate": "2025-06-01T00:00:00Z",
+        "endDate": "2026-12-31T23:59:59Z",
+        "closed": false,
+        "active": true,
+        "resolutionSource": "Official government announcements",
+        "enableOrderBook": true
+      }
+    ]
+  }
+]
