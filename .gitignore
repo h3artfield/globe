@@ -31,6 +31,8 @@ data/forecasting/agents/**/tuning_proposals/*.v1.json
 data/forecasting/agents/**/strategy.archive.*.v1.json
 data/forecasting/question_sources/polymarket/questions.v1.jsonl
 data/raw/polymarket/**
+data/forecasting/evidence_sources/gdelt/news_events.v1.jsonl
+data/raw/gdelt/**
 data/db/*.sqlite
 
 # Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)

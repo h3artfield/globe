@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ForecastNav } from "@/components/ForecastNav";
 import { ReplaySessionAgentPanel } from "@/components/ReplaySessionAgentPanel";
 import { ReplaySessionAgentRunPanel } from "@/components/ReplaySessionAgentRunPanel";
+import { ReplaySessionNewsEvidence } from "@/components/ReplaySessionNewsEvidence";
 import { ReplaySessionEvidenceResolution } from "@/components/ReplaySessionEvidenceResolution";
 import { ReplaySessionForecastForm } from "@/components/ReplaySessionForecastForm";
 import { ReplaySessionScoring } from "@/components/ReplaySessionScoring";
@@ -97,6 +98,8 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
         <ReplaySessionAgentRunPanel session={session} />
 
         <ReplaySessionAgentPanel session={session} initialSourceRequests={sourceRequests} />
+
+        <ReplaySessionNewsEvidence session={session} initialSnapshot={snapshot} />
 
         <ReplaySessionEvidenceResolution
           session={session}

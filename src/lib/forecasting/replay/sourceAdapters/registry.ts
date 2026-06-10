@@ -1,4 +1,5 @@
 import type { ReplaySession } from "@/types/forecasting";
+import { gdeltNewsEventsAdapter } from "@/lib/forecasting/replay/sourceAdapters/gdeltNewsEventsAdapter";
 import { unComtradeBilateralAdapter } from "@/lib/forecasting/replay/sourceAdapters/unComtradeBilateralAdapter";
 import { ucdpAdapter } from "@/lib/forecasting/replay/sourceAdapters/ucdpAdapter";
 import { unodcAdapter } from "@/lib/forecasting/replay/sourceAdapters/unodcAdapter";
@@ -12,6 +13,7 @@ const ADAPTERS: ReplaySourceAdapter[] = [
   ucdpAdapter,
   unodcAdapter,
   wvsAdapter,
+  gdeltNewsEventsAdapter,
 ];
 
 const ADAPTER_BY_SOURCE_ID = new Map(ADAPTERS.map((adapter) => [adapter.source_id, adapter]));

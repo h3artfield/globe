@@ -139,7 +139,19 @@ function draftForecastFromEvidence(
     }
   } else {
     keySignals.push(`Template ${session.template_id} uses non-metric resolution logic.`);
-    probability = 50;
+    if (snapshot?.news_evidence_records?.length) {
+      for (const record of snapshot.news_evidence_records.slice(0, 3)) {
+        keySignals.push(`News (${record.outlet}): ${record.title}`);
+      }
+      probability =
+        strategy.risk_style === "aggressive"
+          ? 55
+          : strategy.risk_style === "balanced"
+            ? 52
+            : 50;
+    } else {
+      probability = 50;
+    }
   }
 
   probability -= Math.round(strategy.uncertainty_penalty * 100 * (snapshot ? 0 : 1));

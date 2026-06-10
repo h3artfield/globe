@@ -409,6 +409,28 @@ export type ReplayEvidenceIncludedRecord = {
   value_summary: string;
 };
 
+export type NewsEvidenceRecord = {
+  evidence_record_id: string;
+  source: "gdelt";
+  source_url: string;
+  title: string;
+  outlet: string;
+  published_at: string;
+  fetched_at: string;
+  summary: string;
+  language: string;
+  country_iso3_list: string[];
+  relationship_pair_list: string[];
+  topics: string[];
+  entities: string[];
+  event_type: string | null;
+  sentiment_tone: number | null;
+  relevance_score: number;
+  source_quality_score: number;
+  confidence: ReplayForecastConfidence;
+  raw_record_path: string;
+};
+
 export type ReplayEvidenceSnapshot = {
   evidence_snapshot_id: string;
   session_id: string;
@@ -417,6 +439,7 @@ export type ReplayEvidenceSnapshot = {
   as_of_year: number;
   allowed_source_ids: string[];
   included_records: ReplayEvidenceIncludedRecord[];
+  news_evidence_records?: NewsEvidenceRecord[];
   missing_sources: string[];
   excluded_future_records_count: number;
   fulfillment_records_included: number;
@@ -808,4 +831,43 @@ export type CreateForecastSessionFromPolymarketRequest = {
 export type PolymarketIngestRequest = {
   categories?: string[];
   use_mock?: boolean;
+};
+
+export type GdeltNewsSourceConfig = {
+  version: string;
+  source: "gdelt";
+  doc_api_base_url: string;
+  enabled: boolean;
+  default_mode: "mock" | "live";
+  mock_fixture_path: string;
+  supported_query_types: string[];
+  enabled_topics: string[];
+  country_support: { enabled: boolean; iso3_field: string };
+  relationship_support: { enabled: boolean; pair_field: string };
+  default_date_window_days: number;
+  max_records_per_ingest: number;
+  live_fetch_requires_env: string;
+  mock_mode_env: string;
+};
+
+export type GdeltNewsQuery = {
+  query?: string;
+  country?: string;
+  relationship?: string;
+  topic?: string;
+  start_date?: string;
+  end_date?: string;
+  limit?: number;
+  sort?: "published_at" | "relevance_score" | "fetched_at";
+};
+
+export type GdeltNewsIngestRequest = {
+  query?: string;
+  country?: string;
+  relationship?: string;
+  topic?: string;
+  start_date?: string;
+  end_date?: string;
+  use_mock?: boolean;
+  limit?: number;
 };

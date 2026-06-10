@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "source": "gdelt",
+  "doc_api_base_url": "https://api.gdeltproject.org/api/v2/doc/doc",
+  "enabled": true,
+  "default_mode": "mock",
+  "mock_fixture_path": "test/fixtures/gdelt/news_events_geopolitics.v1.json",
+  "supported_query_types": ["keyword", "country", "relationship", "topic"],
+  "enabled_topics": [
+    "geopolitics",
+    "economy",
+    "finance",
+    "elections",
+    "politics",
+    "conflict",
+    "diplomacy",
+    "trade"
+  ],
+  "country_support": {
+    "enabled": true,
+    "iso3_field": "country_iso3_list"
+  },
+  "relationship_support": {
+    "enabled": true,
+    "pair_field": "relationship_pair_list"
+  },
+  "default_date_window_days": 90,
+  "max_records_per_ingest": 50,
+  "live_fetch_requires_env": "GDELT_ALLOW_LIVE_FETCH",
+  "mock_mode_env": "GDELT_USE_MOCK"
+}
