@@ -29,6 +29,9 @@ data/forecasting/tournaments/**/tournament.v1.json
 data/forecasting/tournaments/**/report.v1.json
 data/forecasting/agents/**/tuning_proposals/*.v1.json
 data/forecasting/agents/**/strategy.archive.*.v1.json
+data/forecasting/question_sources/polymarket/questions.v1.jsonl
+data/raw/polymarket/**
+data/db/*.sqlite
 
 # Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)
 data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv

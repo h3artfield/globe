@@ -5,7 +5,7 @@
  */
 import { execSync } from "node:child_process";
 
-const BASE = "http://localhost:3000";
+const BASE = process.env.FORECAST_SMOKE_BASE ?? "http://localhost:3000";
 const REPO = process.cwd();
 
 const results = [];

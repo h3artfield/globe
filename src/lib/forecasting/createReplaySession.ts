@@ -87,6 +87,11 @@ export async function createReplaySessionFromTemplate(
     scorecard_id: null,
     judge_audit_id: null,
     postmortem_id: null,
+    forecast_mode: "historical_replay",
+    source_question_id: null,
+    source_market_id: null,
+    external_source: null,
+    external_source_url: null,
     audit_trail: [
       {
         at: createdAt,
