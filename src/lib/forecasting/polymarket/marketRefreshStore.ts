@@ -50,3 +50,16 @@ export async function loadLatestMarketRefresh(
   const rows = await loadMarketRefreshesForMarket(sourceMarketId, 1);
   return rows[0] ?? null;
 }
+
+export async function listRecentMarketRefreshes(limit = 20): Promise<PolymarketMarketRefresh[]> {
+  if (!(await pathExists(REFRESHES_JSONL))) {
+    return [];
+  }
+  const raw = await readFile(REFRESHES_JSONL, "utf8");
+  const rows = raw
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => JSON.parse(line) as PolymarketMarketRefresh);
+  return rows.slice(-limit).reverse();
+}

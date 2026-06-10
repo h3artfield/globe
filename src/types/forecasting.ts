@@ -963,3 +963,72 @@ export type PlanSourceRequestsResult = {
   reused: ForecastSourceRequest[];
   skipped: SourceGap[];
 };
+
+export type DashboardSessionBucket =
+  | "draft"
+  | "locked"
+  | "resolved"
+  | "needs_sources"
+  | "human_review";
+
+export type DashboardQuestionRow = {
+  source_market_id: string;
+  title: string;
+  category: string;
+  implied_probability: number | null;
+  volume: number | null;
+  liquidity: number | null;
+  end_date: string | null;
+  resolution_status: QuestionResolutionStatus;
+  source_url: string;
+  last_refreshed_at: string | null;
+};
+
+export type DashboardSessionRow = {
+  session_id: string;
+  bucket: DashboardSessionBucket;
+  status: ReplaySessionStatus;
+  question_text: string;
+  template_id: string;
+  agent_id: string | null;
+  agent_name: string | null;
+  probability: number | null;
+  confidence: ReplayForecastConfidence | null;
+  evidence_score: number | null;
+  recommendation: EvidenceRecommendation | null;
+  market_status: QuestionResolutionStatus | null;
+  source_gap_count: number;
+  open_source_request_count: number;
+  last_updated: string;
+  forecast_mode: ForecastMode;
+  external_source: "polymarket" | null;
+  source_market_id: string | null;
+  resolvable_from_market: boolean;
+  latest_agent_run_id: string | null;
+  latest_agent_run_status: ForecastAgentRun["status"] | null;
+  latest_agent_run_recommended_action: ForecastAgentRun["recommended_action"] | null;
+};
+
+export type DashboardAgentRow = {
+  agent_id: string;
+  agent_name: string;
+  agent_type: ForecastAgentType;
+  resolved_forecasts: number;
+  total_forecasts: number;
+  average_brier_score: number | null;
+  direction_accuracy: number | null;
+  needs_sources_count: number;
+  recent_runs: ForecastAgentRun[];
+};
+
+export type ForecastDashboardResponse = {
+  computed_at: string;
+  questions: DashboardQuestionRow[];
+  sessions_by_bucket: Record<DashboardSessionBucket, DashboardSessionRow[]>;
+  session_counts: Record<DashboardSessionBucket, number>;
+  open_source_requests: ForecastSourceRequest[];
+  agents: DashboardAgentRow[];
+  recent_market_refreshes: PolymarketMarketRefresh[];
+  warnings: string[];
+  errors: string[];
+};

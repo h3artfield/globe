@@ -75,3 +75,20 @@ export async function listAgentRuns(agentId: string): Promise<ForecastAgentRun[]
   }
   return runs.sort((left, right) => right.created_at.localeCompare(left.created_at));
 }
+
+export async function listRecentAgentRuns(limit = 30): Promise<ForecastAgentRun[]> {
+  let agentDirs: string[] = [];
+  try {
+    agentDirs = await readdir(AGENTS_DIR, { withFileTypes: true }).then((items) =>
+      items.filter((item) => item.isDirectory()).map((item) => item.name),
+    );
+  } catch {
+    return [];
+  }
+
+  const runs: ForecastAgentRun[] = [];
+  for (const agentId of agentDirs) {
+    runs.push(...(await listAgentRuns(agentId)));
+  }
+  return runs.sort((left, right) => right.created_at.localeCompare(left.created_at)).slice(0, limit);
+}
