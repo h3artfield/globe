@@ -555,6 +555,7 @@ export type ForecastAgentRun = {
   status: ForecastAgentRunStatus;
   evidence_snapshot_id: string | null;
   source_request_ids_created: string[];
+  source_request_ids_reused: string[];
   probability: number | null;
   confidence: ReplayForecastConfidence | null;
   rationale: string;

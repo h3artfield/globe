@@ -13,6 +13,14 @@ import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 import { ReplaySessionValidationError } from "@/lib/forecasting/replaySessionValidation";
 import { createSessionSourceRequest } from "@/lib/forecasting/sessionSourceRequests";
 import { listSourceRequestsForSession } from "@/lib/forecasting/sourceRequestStore";
+import {
+  buildAgentSourceRequestCriteria,
+  findReusableAgentSourceRequest,
+} from "@/lib/forecasting/sourceRequestDedupe";
+import {
+  validateConfidence,
+  validateProbability,
+} from "@/lib/forecasting/replaySessionValidation";
 
 function clampProbability(value: number): number {
   return Math.max(1, Math.min(99, Math.round(value)));
@@ -201,27 +209,37 @@ export async function runForecastAgent(
   const evaluation = evidenceScore(session, snapshot, strategy);
   const existingRequests = await listSourceRequestsForSession(sessionId);
   const sourceRequestIdsCreated: string[] = [];
+  const sourceRequestIdsReused: string[] = [];
 
   if (evaluation.needsSources) {
     const missing = evaluation.missingSources.length
       ? evaluation.missingSources
       : session.allowed_source_ids;
+    const requestType = "dataset_refresh" as const;
     for (const sourceId of missing) {
-      const alreadyOpen = existingRequests.some(
-        (request) => request.requested_source_id === sourceId && request.status === "open",
-      );
-      if (alreadyOpen) {
-        continue;
-      }
-      const created = await createSessionSourceRequest(sessionId, {
-        request_type: "dataset_refresh",
+      const input = {
+        request_type: requestType,
         requested_source_id: sourceId,
         reason: `Agent strategy ${strategy.strategy_id} detected insufficient local evidence before forecast lock.`,
-        priority: strategy.risk_style === "cautious" ? "high" : "medium",
-      });
+        priority: strategy.risk_style === "cautious" ? ("high" as const) : ("medium" as const),
+      };
+      const criteria = buildAgentSourceRequestCriteria(
+        sessionId,
+        agentId,
+        input,
+        session.forecast_year,
+      );
+      const reusable = findReusableAgentSourceRequest(existingRequests, criteria);
+      if (reusable) {
+        sourceRequestIdsReused.push(reusable.source_request_id);
+        continue;
+      }
+      const created = await createSessionSourceRequest(sessionId, input);
       sourceRequestIdsCreated.push(created.source_request_id);
+      existingRequests.push(created);
     }
 
+    const linkedCount = sourceRequestIdsCreated.length + sourceRequestIdsReused.length;
     const run: ForecastAgentRun = {
       agent_run_id: createAgentRunId(),
       session_id: sessionId,
@@ -231,9 +249,10 @@ export async function runForecastAgent(
       status: "needs_sources",
       evidence_snapshot_id: snapshot?.evidence_snapshot_id ?? null,
       source_request_ids_created: sourceRequestIdsCreated,
+      source_request_ids_reused: sourceRequestIdsReused,
       probability: null,
       confidence: null,
-      rationale: `Evidence insufficient (${evaluation.recordCount} records; threshold ${strategy.evidence_threshold}). Created ${sourceRequestIdsCreated.length} source request(s) for local refresh.`,
+      rationale: `Evidence insufficient (${evaluation.recordCount} records; threshold ${strategy.evidence_threshold}). Linked ${linkedCount} source request(s) (${sourceRequestIdsCreated.length} created, ${sourceRequestIdsReused.length} reused).`,
       key_signals: evaluation.warnings,
       assumptions: ["Agent will not lock until evidence gaps are addressed."],
       uncertainty_notes: "Forecast withheld pending source fulfillment and evidence regeneration.",
@@ -255,6 +274,7 @@ export async function runForecastAgent(
     status: "completed",
     evidence_snapshot_id: snapshot?.evidence_snapshot_id ?? null,
     source_request_ids_created: sourceRequestIdsCreated,
+    source_request_ids_reused: sourceRequestIdsReused,
     probability: draft.probability,
     confidence: draft.confidence,
     rationale: draft.rationale,
@@ -294,11 +314,14 @@ export async function applyAgentRunToSession(
     );
   }
 
+  const probability = validateProbability(run.probability, true);
+  const confidence = validateConfidence(run.confidence);
+
   const updated: ReplaySession = {
     ...session,
     user_forecast: {
-      probability: run.probability,
-      confidence: run.confidence,
+      probability,
+      confidence,
       rationale: run.rationale,
     },
     forecast_rationale: run.rationale,

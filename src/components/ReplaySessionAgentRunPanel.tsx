@@ -150,8 +150,9 @@ export function ReplaySessionAgentRunPanel({ session }: ReplaySessionAgentRunPan
             </p>
           ) : null}
           <p className="mt-1 text-xs text-slate-500">
-            recommended: {latestRun.recommended_action} · source requests created:{" "}
-            {latestRun.source_request_ids_created.length}
+            recommended: {latestRun.recommended_action} · created:{" "}
+            {latestRun.source_request_ids_created.length} · reused:{" "}
+            {(latestRun.source_request_ids_reused ?? []).length}
           </p>
           {latestRun.key_signals.length > 0 ? (
             <ul className="mt-2 list-disc pl-5 text-xs text-slate-400">
@@ -163,8 +164,30 @@ export function ReplaySessionAgentRunPanel({ session }: ReplaySessionAgentRunPan
         </div>
       ) : null}
 
-      {runs.length > 1 ? (
-        <p className="mt-2 text-xs text-slate-500">{runs.length} total run(s) for this session.</p>
+      {runs.length > 0 ? (
+        <div className="mt-4">
+          <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
+            Run history ({runs.length})
+          </p>
+          <ul className="mt-2 space-y-2 text-xs text-slate-400">
+            {runs.map((run, index) => (
+              <li
+                key={run.agent_run_id}
+                className={`rounded border px-2 py-1 ${index === 0 ? "border-violet-700 bg-violet-950/20" : "border-slate-800"}`}
+              >
+                {index === 0 ? "Latest · " : ""}
+                {run.created_at} · {run.status} · {run.strategy_id}
+                {run.probability !== null ? ` · p=${run.probability}%` : ""}
+                {run.source_request_ids_created.length > 0
+                  ? ` · +${run.source_request_ids_created.length} req`
+                  : ""}
+                {(run.source_request_ids_reused ?? []).length > 0
+                  ? ` · reused ${run.source_request_ids_reused.length}`
+                  : ""}
+              </li>
+            ))}
+          </ul>
+        </div>
       ) : null}
 
       {error ? <p className="mt-3 text-sm text-rose-300">{error}</p> : null}
