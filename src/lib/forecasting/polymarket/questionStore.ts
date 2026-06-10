@@ -223,3 +223,26 @@ export async function loadQuestionsJsonl(): Promise<ForecastQuestionSourceMarket
 export function getQuestionStorePaths(): { jsonlPath: string; dbPath: string } {
   return { jsonlPath: JSONL_PATH, dbPath: DB_PATH };
 }
+
+export function listIndexedPolymarketSourceMarketIds(): string[] {
+  const db = openDb();
+  const rows = db
+    .prepare("SELECT source_market_id FROM forecast_questions WHERE source = 'polymarket'")
+    .all() as Array<{ source_market_id: string }>;
+  db.close();
+  return rows.map((row) => row.source_market_id);
+}
+
+export async function upsertQuestionsJsonl(questions: ForecastQuestionSourceMarket[]): Promise<void> {
+  if (questions.length === 0) {
+    return;
+  }
+  const existing = await loadQuestionsJsonl();
+  const byId = new Map(existing.map((question) => [question.source_market_id, question]));
+  for (const question of questions) {
+    byId.set(question.source_market_id, question);
+  }
+  await mkdir(path.dirname(JSONL_PATH), { recursive: true });
+  const content = [...byId.values()].map((question) => JSON.stringify(question)).join("\n");
+  await writeFile(JSONL_PATH, content ? `${content}\n` : "", "utf8");
+}

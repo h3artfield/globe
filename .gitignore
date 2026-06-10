@@ -31,6 +31,7 @@ data/forecasting/tournaments/**/report.v1.json
 data/forecasting/agents/**/tuning_proposals/*.v1.json
 data/forecasting/agents/**/strategy.archive.*.v1.json
 data/forecasting/question_sources/polymarket/questions.v1.jsonl
+data/forecasting/question_sources/polymarket/market_refreshes.v1.jsonl
 data/raw/polymarket/**
 data/forecasting/evidence_sources/gdelt/news_events.v1.jsonl
 data/raw/gdelt/**

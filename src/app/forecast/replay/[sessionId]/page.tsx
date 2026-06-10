@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ForecastNav } from "@/components/ForecastNav";
 import { ReplaySessionAgentPanel } from "@/components/ReplaySessionAgentPanel";
 import { ReplaySessionAgentRunPanel } from "@/components/ReplaySessionAgentRunPanel";
+import { ReplaySessionMarketStatus } from "@/components/ReplaySessionMarketStatus";
 import { ReplaySessionNewsEvidence } from "@/components/ReplaySessionNewsEvidence";
 import { ReplaySessionEvidenceQuality } from "@/components/ReplaySessionEvidenceQuality";
 import { ReplaySessionEvidenceResolution } from "@/components/ReplaySessionEvidenceResolution";
@@ -15,6 +16,8 @@ import { getReplayJudgeAudit } from "@/lib/forecasting/runReplayJudge";
 import { getReplayScorecard } from "@/lib/forecasting/scoreReplaySession";
 import { listSessionSourceRequests } from "@/lib/forecasting/sessionSourceRequests";
 import { loadSessionEvidenceAssessment } from "@/lib/forecasting/evidence/evidenceAssessmentStore";
+import { getPolymarketQuestionById } from "@/lib/forecasting/polymarket/questionStore";
+import { loadLatestMarketRefresh } from "@/lib/forecasting/polymarket/marketRefreshStore";
 import { loadReplaySession } from "@/lib/forecasting/replaySessionStore";
 
 type SessionPageProps = {
@@ -37,6 +40,15 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
   if (!session) {
     notFound();
   }
+
+  const polymarketQuestion =
+    session.forecast_mode === "live" && session.source_market_id
+      ? getPolymarketQuestionById(session.source_market_id)
+      : null;
+  const polymarketRefresh =
+    session.source_market_id != null
+      ? await loadLatestMarketRefresh(session.source_market_id)
+      : null;
 
   const [snapshot, resolution, scorecard, audit, postmortem, sourceRequests, evidenceAssessment] =
     await Promise.all([
@@ -98,6 +110,12 @@ export default async function ReplaySessionPage({ params }: SessionPageProps) {
         </section>
 
         <ReplaySessionForecastForm session={session} />
+
+        <ReplaySessionMarketStatus
+          session={session}
+          initialQuestion={polymarketQuestion}
+          initialRefresh={polymarketRefresh}
+        />
 
         <ReplaySessionAgentRunPanel session={session} />
 

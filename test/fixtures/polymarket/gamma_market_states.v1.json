@@ -1,0 +1,64 @@
+{
+  "open": [
+    {
+      "id": "fixture-event-9001",
+      "title": "Will Ukraine join NATO before 2027?",
+      "slug": "ukraine-nato-before-2027-fixture",
+      "description": "Resolves Yes if Ukraine becomes a NATO member before January 1, 2027.",
+      "tags": [{ "slug": "politics", "label": "Politics" }, { "slug": "geopolitics", "label": "Geopolitics" }],
+      "markets": [
+        {
+          "id": "fixture-market-9001",
+          "question": "Will Ukraine join NATO before 2027?",
+          "slug": "ukraine-nato-before-2027-fixture",
+          "conditionId": "0xfixturecondition9001",
+          "description": "Resolves Yes if Ukraine becomes a NATO member before January 1, 2027.",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "outcomePrices": "[\"0.35\", \"0.65\"]",
+          "volume": "132500.75",
+          "volumeNum": 132500.75,
+          "liquidity": "9100.50",
+          "liquidityNum": 9100.5,
+          "startDate": "2025-01-15T12:00:00Z",
+          "endDate": "2026-12-31T23:59:59Z",
+          "closed": false,
+          "active": true,
+          "resolvedBy": "0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74",
+          "resolutionSource": "Official NATO membership records",
+          "enableOrderBook": true
+        }
+      ]
+    }
+  ],
+  "resolved": [
+    {
+      "id": "fixture-event-9001",
+      "title": "Will Ukraine join NATO before 2027?",
+      "slug": "ukraine-nato-before-2027-fixture",
+      "description": "Resolves Yes if Ukraine becomes a NATO member before January 1, 2027.",
+      "tags": [{ "slug": "politics", "label": "Politics" }, { "slug": "geopolitics", "label": "Geopolitics" }],
+      "markets": [
+        {
+          "id": "fixture-market-9001",
+          "question": "Will Ukraine join NATO before 2027?",
+          "slug": "ukraine-nato-before-2027-fixture",
+          "conditionId": "0xfixturecondition9001",
+          "description": "Resolves Yes if Ukraine becomes a NATO member before January 1, 2027.",
+          "outcomes": "[\"Yes\", \"No\"]",
+          "outcomePrices": "[\"1\", \"0\"]",
+          "volume": "145000.00",
+          "volumeNum": 145000,
+          "liquidity": "0",
+          "liquidityNum": 0,
+          "startDate": "2025-01-15T12:00:00Z",
+          "endDate": "2026-12-31T23:59:59Z",
+          "closed": true,
+          "active": false,
+          "resolvedBy": "0x6A9D222616C90FcA5754cd1333cFD9b7fb6a4F74",
+          "resolutionSource": "Official NATO membership records",
+          "enableOrderBook": false
+        }
+      ]
+    }
+  ]
+}

@@ -52,6 +52,26 @@ function inferResolutionStatus(market: GammaMarketRecord): QuestionResolutionSta
   return "unknown";
 }
 
+export function inferWinningOutcome(
+  outcomes: string[],
+  outcomePrices: number[],
+  resolutionStatus: QuestionResolutionStatus,
+): string | null {
+  if (resolutionStatus !== "resolved" || outcomes.length === 0) {
+    return null;
+  }
+  let winningIndex = 0;
+  for (let index = 1; index < outcomePrices.length; index += 1) {
+    if ((outcomePrices[index] ?? 0) > (outcomePrices[winningIndex] ?? 0)) {
+      winningIndex = index;
+    }
+  }
+  if ((outcomePrices[winningIndex] ?? 0) >= 0.9) {
+    return outcomes[winningIndex] ?? null;
+  }
+  return null;
+}
+
 function extractCountries(text: string): string[] {
   const upper = text.toUpperCase();
   const found = new Set<string>();
@@ -110,6 +130,9 @@ export function normalizePolymarketMarket(
   const relationships = extractRelationshipPairs(textBlob, countries);
   const slug = market.slug ?? event.slug ?? market.id;
 
+  const resolutionStatus = inferResolutionStatus(market);
+  const winningOutcome = inferWinningOutcome(outcomes, outcomePrices, resolutionStatus);
+
   return {
     source_market_id: `polymarket_${market.id}`,
     source: "polymarket",
@@ -128,7 +151,7 @@ export function normalizePolymarketMarket(
     liquidity: parseNumber(market.liquidityNum ?? market.liquidity),
     start_date: market.startDate ?? null,
     end_date: market.endDate ?? null,
-    resolution_status: inferResolutionStatus(market),
+    resolution_status: resolutionStatus,
     resolution_source: market.resolutionSource ?? market.resolvedBy ?? "",
     tags: tagSlugs,
     related_country_iso3_list: countries,
@@ -136,6 +159,8 @@ export function normalizePolymarketMarket(
     topics: tagSlugs,
     imported_at: importedAt,
     raw_record_path: rawRecordPath,
+    winning_outcome: winningOutcome,
+    last_refreshed_at: importedAt,
   };
 }
 

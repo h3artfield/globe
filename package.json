@@ -57,6 +57,7 @@
     "kb:status": "tsx scripts/kb/kb_status.ts",
     "forecast:e2e-smoke": "node scripts/forecasting/forecast-full-e2e-smoke.mjs",
     "forecast:polymarket-smoke": "node scripts/forecasting/forecast-polymarket-smoke.mjs",
+    "forecast:polymarket-refresh-smoke": "node scripts/forecasting/forecast-polymarket-refresh-smoke.mjs",
     "forecast:gdelt-smoke": "node scripts/forecasting/forecast-gdelt-smoke.mjs",
     "forecast:evidence-assessment-smoke": "node scripts/forecasting/forecast-evidence-assessment-smoke.mjs",
     "kb:validate-imports": "node scripts/kb/forward_validate_imports.mjs",

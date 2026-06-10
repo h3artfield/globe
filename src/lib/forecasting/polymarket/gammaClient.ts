@@ -34,6 +34,9 @@ export type GammaMarketRecord = {
 };
 
 const MOCK_FIXTURE = repoPath("test", "fixtures", "polymarket", "gamma_events_politics.v1.json");
+const MOCK_STATES_FIXTURE = repoPath("test", "fixtures", "polymarket", "gamma_market_states.v1.json");
+
+export type PolymarketMockMarketState = "default" | "open" | "resolved";
 
 async function fetchGammaEventsByTag(
   baseUrl: string,
@@ -61,6 +64,67 @@ async function loadMockEvents(categorySlug: string): Promise<GammaEventRecord[]>
   return events.filter((event) =>
     (event.tags ?? []).some((tag) => tag.slug === categorySlug),
   );
+}
+
+function findMarketInEvents(
+  events: GammaEventRecord[],
+  marketId: string,
+): { event: GammaEventRecord; market: GammaMarketRecord } | null {
+  for (const event of events) {
+    for (const market of event.markets ?? []) {
+      if (String(market.id) === marketId) {
+        return { event, market };
+      }
+    }
+  }
+  return null;
+}
+
+async function loadMockMarketEvents(state: PolymarketMockMarketState): Promise<GammaEventRecord[]> {
+  if (state === "default") {
+    const raw = await readFile(MOCK_FIXTURE, "utf8");
+    return JSON.parse(raw) as GammaEventRecord[];
+  }
+  const raw = await readFile(MOCK_STATES_FIXTURE, "utf8");
+  const payload = JSON.parse(raw) as { open: GammaEventRecord[]; resolved: GammaEventRecord[] };
+  return state === "resolved" ? payload.resolved : payload.open;
+}
+
+async function fetchGammaMarketById(baseUrl: string, marketId: string): Promise<GammaMarketRecord | null> {
+  const url = `${baseUrl.replace(/\/$/, "")}/markets/${marketId}`;
+  const response = await fetch(url, { headers: { Accept: "application/json" } });
+  if (!response.ok) {
+    throw new Error(`Gamma API market fetch failed for ${marketId}: HTTP ${response.status}`);
+  }
+  const payload = (await response.json()) as GammaMarketRecord;
+  return payload?.id ? payload : null;
+}
+
+export async function fetchPolymarketMarketRecord(
+  marketId: string,
+  options?: { forceMock?: boolean; mockState?: PolymarketMockMarketState },
+): Promise<{ event: GammaEventRecord; market: GammaMarketRecord } | null> {
+  if (options?.forceMock || isPolymarketMockMode()) {
+    const mockState = options?.mockState ?? "open";
+    const events = await loadMockMarketEvents(mockState === "default" ? "default" : mockState);
+    return findMarketInEvents(events, marketId);
+  }
+
+  const config = await loadPolymarketSourceConfig();
+  const market = await fetchGammaMarketById(config.gamma_api_base_url, marketId);
+  if (!market) {
+    return null;
+  }
+  return {
+    event: {
+      id: market.id,
+      title: market.question,
+      slug: market.slug,
+      description: market.description,
+      markets: [market],
+    },
+    market,
+  };
 }
 
 export async function fetchPolymarketCategoryEvents(

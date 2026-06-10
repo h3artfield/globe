@@ -807,6 +807,48 @@ export type ForecastQuestionSourceMarket = {
   topics: string[];
   imported_at: string;
   raw_record_path: string;
+  winning_outcome?: string | null;
+  last_refreshed_at?: string | null;
+};
+
+export type PolymarketMarketRefresh = {
+  refresh_id: string;
+  source_market_id: string;
+  market_id: string;
+  session_id?: string | null;
+  fetched_at: string;
+  title: string;
+  description: string;
+  market_status: QuestionResolutionStatus;
+  outcomes: string[];
+  outcome_prices: number[];
+  implied_probability: number | null;
+  volume: number | null;
+  liquidity: number | null;
+  end_date: string | null;
+  resolution_status: QuestionResolutionStatus;
+  winning_outcome: string | null;
+  source_url: string;
+  refresh_mode: "mock" | "live";
+};
+
+export type PolymarketRefreshRequest = {
+  use_mock?: boolean;
+  source_market_ids?: string[];
+  mock_state?: "open" | "resolved";
+};
+
+export type PolymarketRefreshResult = {
+  refreshed_count: number;
+  used_mock: boolean;
+  refreshes: PolymarketMarketRefresh[];
+};
+
+export type ResolveFromMarketResult = {
+  resolved: boolean;
+  message: string;
+  resolution?: ReplayResolution;
+  refresh?: PolymarketMarketRefresh;
 };
 
 export type PolymarketQuestionQuery = {

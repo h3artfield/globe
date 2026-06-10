@@ -1,4 +1,5 @@
 import type { ReplaySession } from "@/types/forecasting";
+import { polymarketMarketAdapter } from "@/lib/forecasting/replay/sourceAdapters/polymarketMarketAdapter";
 import { gdeltNewsEventsAdapter } from "@/lib/forecasting/replay/sourceAdapters/gdeltNewsEventsAdapter";
 import { unComtradeBilateralAdapter } from "@/lib/forecasting/replay/sourceAdapters/unComtradeBilateralAdapter";
 import { ucdpAdapter } from "@/lib/forecasting/replay/sourceAdapters/ucdpAdapter";
@@ -14,6 +15,7 @@ const ADAPTERS: ReplaySourceAdapter[] = [
   unodcAdapter,
   wvsAdapter,
   gdeltNewsEventsAdapter,
+  polymarketMarketAdapter,
 ];
 
 const ADAPTER_BY_SOURCE_ID = new Map(ADAPTERS.map((adapter) => [adapter.source_id, adapter]));
@@ -50,6 +52,9 @@ export function getPrimaryResolutionAdapter(session: ReplaySession): ReplaySourc
   }
   if (spec.kind === "event_exists") {
     return getReplaySourceAdapter(spec.source_id);
+  }
+  if (spec.kind === "polymarket_market_outcome") {
+    return polymarketMarketAdapter;
   }
   return null;
 }
