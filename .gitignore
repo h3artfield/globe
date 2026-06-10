@@ -25,6 +25,7 @@ data/forecasting/comparisons/**/comparison.v1.json
 data/forecasting/source_fulfillments/**/fulfillment.v1.json
 data/forecasting/agents/**/strategy.v1.json
 data/forecasting/agents/**/runs/*.v1.json
+data/forecasting/tournaments/**/tournament.v1.json
 
 # Large official raw exports (re-stage locally after clone; see BATCH_1_SHARED_DATASETS.md)
 data/manual_imports_raw/vdem/V-Dem-CY-Full+Others-v16.csv

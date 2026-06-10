@@ -584,3 +584,78 @@ export type RunForecastAgentRequest = {
   strategy_id: string;
   agent_id?: string;
 };
+
+export type TournamentSourceRequestPolicy =
+  | "ignore_missing_sources"
+  | "create_requests_only"
+  | "require_fulfillment_before_lock";
+
+export type TournamentRunConfig = {
+  require_evidence_snapshot: boolean;
+  allow_auto_apply_agent_draft: boolean;
+  allow_auto_lock: boolean;
+  allow_auto_resolve_score_judge_postmortem: boolean;
+  max_sessions: number;
+  source_request_policy: TournamentSourceRequestPolicy;
+};
+
+export type TournamentStatus = "draft" | "running" | "completed" | "failed";
+
+export type TournamentSessionError = {
+  template_id: string;
+  target: string;
+  year: number;
+  agent_id: string;
+  strategy_id: string;
+  session_id: string | null;
+  error: string;
+};
+
+export type TournamentSummary = {
+  total_sessions: number;
+  completed_sessions: number;
+  failed_sessions: number;
+  needs_sources_sessions: number;
+  locked_sessions: number;
+  resolved_sessions: number;
+  average_brier_by_agent: Record<string, number | null>;
+  direction_accuracy_by_agent: Record<string, number | null>;
+  average_brier_by_template: Record<string, number | null>;
+  average_brier_by_strategy: Record<string, number | null>;
+  common_source_gaps: string[];
+  common_judge_warnings: string[];
+  best_performing_strategy: string | null;
+  worst_performing_strategy: string | null;
+  recommended_strategy_changes: string[];
+  strategy_tuning_suggestions: string[];
+  session_errors: TournamentSessionError[];
+};
+
+export type ForecastTournament = {
+  tournament_id: string;
+  created_at: string;
+  title: string;
+  description: string;
+  template_ids: string[];
+  targets: string[];
+  years: number[];
+  agent_ids: string[];
+  strategy_ids: string[];
+  session_ids: string[];
+  status: TournamentStatus;
+  run_config: TournamentRunConfig;
+  summary: TournamentSummary;
+  warnings: string[];
+  errors: string[];
+};
+
+export type CreateForecastTournamentRequest = {
+  title: string;
+  description?: string;
+  template_ids: string[];
+  targets: string[];
+  years: number[];
+  agent_ids: string[];
+  strategy_ids: string[];
+  run_config?: Partial<TournamentRunConfig>;
+};
