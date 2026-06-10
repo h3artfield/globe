@@ -525,3 +525,61 @@ export type LeaderboardResponse = {
   entries: LeaderboardEntry[];
   computed_at: string;
 };
+
+export type ForecastAgentRiskStyle = "cautious" | "balanced" | "aggressive";
+
+export type ForecastAgentStrategy = {
+  strategy_id: string;
+  name: string;
+  description: string;
+  agent_id: string | null;
+  risk_style: ForecastAgentRiskStyle;
+  evidence_threshold: number;
+  uncertainty_penalty: number;
+  source_gap_sensitivity: number;
+  preferred_source_ids: string[];
+  rule_weights: Record<string, number>;
+  active: boolean;
+};
+
+export type ForecastAgentRunStatus = "completed" | "needs_sources" | "failed";
+
+export type ForecastAgentRecommendedAction = "lock" | "request_sources" | "human_review";
+
+export type ForecastAgentRun = {
+  agent_run_id: string;
+  session_id: string;
+  agent_id: string;
+  strategy_id: string;
+  created_at: string;
+  status: ForecastAgentRunStatus;
+  evidence_snapshot_id: string | null;
+  source_request_ids_created: string[];
+  probability: number | null;
+  confidence: ReplayForecastConfidence | null;
+  rationale: string;
+  key_signals: string[];
+  assumptions: string[];
+  uncertainty_notes: string;
+  recommended_action: ForecastAgentRecommendedAction;
+  warnings: string[];
+  errors: string[];
+};
+
+export type CreateAgentStrategyRequest = {
+  strategy_id?: string;
+  name: string;
+  description?: string;
+  risk_style?: ForecastAgentRiskStyle;
+  evidence_threshold?: number;
+  uncertainty_penalty?: number;
+  source_gap_sensitivity?: number;
+  preferred_source_ids?: string[];
+  rule_weights?: Record<string, number>;
+  active?: boolean;
+};
+
+export type RunForecastAgentRequest = {
+  strategy_id: string;
+  agent_id?: string;
+};

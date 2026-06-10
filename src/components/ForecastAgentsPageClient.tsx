@@ -2,13 +2,20 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import type { AgentPerformanceSummary, ForecastAgentProfile } from "@/types/forecasting";
+import type {
+  AgentPerformanceSummary,
+  ForecastAgentProfile,
+  ForecastAgentRun,
+  ForecastAgentStrategy,
+} from "@/types/forecasting";
 import { ForecastNav } from "@/components/ForecastNav";
 
 export function ForecastAgentsPageClient() {
   const [agents, setAgents] = useState<ForecastAgentProfile[]>([]);
   const [selectedId, setSelectedId] = useState<string>("");
   const [performance, setPerformance] = useState<AgentPerformanceSummary | null>(null);
+  const [agentRuns, setAgentRuns] = useState<ForecastAgentRun[]>([]);
+  const [savedStrategy, setSavedStrategy] = useState<ForecastAgentStrategy | null>(null);
   const [name, setName] = useState("");
   const [type, setType] = useState<"human" | "ai" | "hybrid">("human");
   const [error, setError] = useState<string | null>(null);
@@ -35,6 +42,16 @@ export function ForecastAgentsPageClient() {
       .then((response) => response.json())
       .then((payload) => setPerformance(payload as AgentPerformanceSummary))
       .catch(() => setPerformance(null));
+    void fetch(`/api/forecast/agents/${selectedId}/runs`)
+      .then((response) => response.json())
+      .then((payload) => setAgentRuns((payload as { runs: ForecastAgentRun[] }).runs ?? []))
+      .catch(() => setAgentRuns([]));
+    void fetch(`/api/forecast/agents/${selectedId}/strategy`)
+      .then((response) => response.json())
+      .then((payload) =>
+        setSavedStrategy((payload as { saved_strategy: ForecastAgentStrategy | null }).saved_strategy),
+      )
+      .catch(() => setSavedStrategy(null));
   }, [selectedId]);
 
   async function createAgent() {
@@ -74,6 +91,8 @@ export function ForecastAgentsPageClient() {
   }
 
   const selectedAgent = agents.find((agent) => agent.agent_id === selectedId) ?? null;
+  const needsSourcesCount = agentRuns.filter((run) => run.status === "needs_sources").length;
+  const completedRuns = agentRuns.filter((run) => run.status === "completed");
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,#1e3a8a_0,#020617_40%,#000_100%)] p-4 text-white md:p-6">
@@ -211,6 +230,42 @@ export function ForecastAgentsPageClient() {
                   ))}
                 </ul>
               </div>
+            ) : null}
+          </section>
+        ) : null}
+
+        {selectedAgent ? (
+          <section className="rounded-2xl border border-slate-800 bg-slate-950/70 p-5 shadow-xl backdrop-blur">
+            <h2 className="text-lg font-semibold">Agent strategy & runs</h2>
+            <p className="mt-2 text-sm text-slate-400">
+              Saved strategy: {savedStrategy?.name ?? "none (using built-in strategies on session page)"}
+            </p>
+            <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
+              <div>
+                <dt className="text-slate-500">Recent runs</dt>
+                <dd>{agentRuns.length}</dd>
+              </div>
+              <div>
+                <dt className="text-slate-500">needs_sources runs</dt>
+                <dd>{needsSourcesCount}</dd>
+              </div>
+              <div>
+                <dt className="text-slate-500">Completed runs</dt>
+                <dd>{completedRuns.length}</dd>
+              </div>
+              <div>
+                <dt className="text-slate-500">Avg score (resolved sessions)</dt>
+                <dd>{performance?.average_brier_score?.toFixed(4) ?? "n/a"}</dd>
+              </div>
+            </dl>
+            {agentRuns.length > 0 ? (
+              <ul className="mt-3 space-y-2 text-xs text-slate-400">
+                {agentRuns.slice(0, 5).map((run) => (
+                  <li key={run.agent_run_id} className="rounded border border-slate-800 px-2 py-1">
+                    {run.created_at} · {run.status} · {run.strategy_id} · session {run.session_id}
+                  </li>
+                ))}
+              </ul>
             ) : null}
           </section>
         ) : null}
