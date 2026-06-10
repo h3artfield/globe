@@ -14,7 +14,6 @@ import { getDashboardFetchModes } from "@/lib/forecasting/dashboardFetchModes";
 import { buildQuestionWorkflow } from "@/lib/forecasting/dashboardWorkflow";
 import { loadSessionEvidenceAssessment } from "@/lib/forecasting/evidence/evidenceAssessmentStore";
 import { listForecastAgents } from "@/lib/forecasting/forecastAgentStore";
-import { buildLeaderboard } from "@/lib/forecasting/buildLeaderboard";
 import { getReplayEvidenceSnapshot } from "@/lib/forecasting/buildReplayEvidenceSnapshot";
 import { listFilteredSourceRequests } from "@/lib/forecasting/listFilteredSourceRequests";
 import {
@@ -23,7 +22,9 @@ import {
 } from "@/lib/forecasting/polymarket/marketRefreshStore";
 import { queryPolymarketQuestions } from "@/lib/forecasting/polymarket/questionStore";
 import { loadReplayScorecard } from "@/lib/forecasting/replayScorecardStore";
-import { listReplaySessions } from "@/lib/forecasting/replaySessionStore";
+import { loadReplayJudgeAudit } from "@/lib/forecasting/replayJudgeAuditStore";
+import { loadReplayPostmortem } from "@/lib/forecasting/replayPostmortemStore";
+import { listRecentReplaySessions } from "@/lib/forecasting/replaySessionStore";
 import { listAgentRunsForSession } from "@/lib/forecasting/agentRunStore";
 import { listSourceRequestsForSession } from "@/lib/forecasting/sourceRequestStore";
 
@@ -152,12 +153,17 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
       has_evidence_assessment: boolean;
       has_planned_source_requests: boolean;
       has_scorecard: boolean;
+      has_judge: boolean;
+      has_postmortem: boolean;
+      cautious_run_status: string | null;
+      aggressive_run_status: string | null;
+      latest_completed_run_id: string | null;
     }
   >();
 
   let sessions: ReplaySession[] = [];
   try {
-    sessions = (await listReplaySessions()).slice(0, 100);
+    sessions = await listRecentReplaySessions(30);
   } catch (error) {
     errors.push(error instanceof Error ? error.message : "Failed to load replay sessions");
   }
@@ -168,7 +174,8 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
 
   for (const session of sessions) {
     try {
-      const [assessment, sessionRequests, runs, snapshot, scorecard] = await Promise.all([
+      const [assessment, sessionRequests, runs, snapshot, scorecard, judge, postmortem] =
+        await Promise.all([
         loadSessionEvidenceAssessment(session.session_id),
         listSourceRequestsForSession(session.session_id),
         session.agent_id
@@ -176,10 +183,16 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
           : Promise.resolve([]),
         getReplayEvidenceSnapshot(session.session_id),
         loadReplayScorecard(session.session_id),
+        loadReplayJudgeAudit(session.session_id),
+        loadReplayPostmortem(session.session_id),
       ]);
 
       const openRequestCount = sessionRequests.filter((request) => request.status === "open").length;
       const latestRun = runs[0] ?? null;
+      const cautiousRun = runs.find((run) => run.strategy_id === "cautious_source_hound") ?? null;
+      const aggressiveRun = runs.find((run) => run.strategy_id === "aggressive_pattern_matcher") ?? null;
+      const latestCompletedRun =
+        runs.find((run) => run.status === "completed") ?? null;
       let marketStatus: DashboardSessionRow["market_status"] = null;
       let resolvableFromMarket = false;
 
@@ -202,6 +215,11 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
         has_evidence_assessment: Boolean(assessment),
         has_planned_source_requests: session.source_request_ids.length > 0,
         has_scorecard: Boolean(scorecard),
+        has_judge: Boolean(judge),
+        has_postmortem: Boolean(postmortem),
+        cautious_run_status: cautiousRun?.status ?? null,
+        aggressive_run_status: aggressiveRun?.status ?? null,
+        latest_completed_run_id: latestCompletedRun?.agent_run_id ?? null,
       });
 
       if (session.status === "draft" && !assessment) {
@@ -234,9 +252,10 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
         external_source: session.external_source,
         source_market_id: session.source_market_id,
         resolvable_from_market: resolvableFromMarket,
-        latest_agent_run_id: latestRun?.agent_run_id ?? null,
-        latest_agent_run_status: latestRun?.status ?? null,
-        latest_agent_run_recommended_action: latestRun?.recommended_action ?? null,
+        latest_agent_run_id: latestCompletedRun?.agent_run_id ?? latestRun?.agent_run_id ?? null,
+        latest_agent_run_status: latestCompletedRun?.status ?? latestRun?.status ?? null,
+        latest_agent_run_recommended_action:
+          latestCompletedRun?.recommended_action ?? latestRun?.recommended_action ?? null,
       };
 
       row.bucket = classifySessionBucket(
@@ -295,20 +314,20 @@ export async function buildForecastDashboard(): Promise<ForecastDashboardRespons
   }
 
   const recentRuns = await listRecentAgentRuns(40);
-  const leaderboard = await buildLeaderboard();
   const agents = await listForecastAgents();
 
   const agentRows: DashboardAgentRow[] = agents.map((agent) => {
-    const entry = leaderboard.entries.find((item) => item.agent_id === agent.agent_id);
+    const agentSessions = sessions.filter((session) => session.agent_id === agent.agent_id);
+    const resolvedSessions = agentSessions.filter((session) => session.status === "resolved");
     const agentRuns = recentRuns.filter((run) => run.agent_id === agent.agent_id);
     return {
       agent_id: agent.agent_id,
       agent_name: agent.name,
       agent_type: agent.type,
-      resolved_forecasts: entry?.resolved_forecasts ?? 0,
-      total_forecasts: entry?.total_forecasts ?? 0,
-      average_brier_score: entry?.average_brier_score ?? null,
-      direction_accuracy: entry?.direction_accuracy ?? null,
+      resolved_forecasts: resolvedSessions.length,
+      total_forecasts: agentSessions.length,
+      average_brier_score: null,
+      direction_accuracy: null,
       needs_sources_count: agentRuns.filter((run) => run.status === "needs_sources").length,
       recent_runs: agentRuns.slice(0, 5),
     };

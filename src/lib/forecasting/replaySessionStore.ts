@@ -80,6 +80,23 @@ export async function listReplaySessions(): Promise<ReplaySession[]> {
   return sessions.sort((left, right) => right.created_at.localeCompare(left.created_at));
 }
 
+export async function listRecentReplaySessions(limit: number): Promise<ReplaySession[]> {
+  let entries: string[] = [];
+  try {
+    entries = await readdir(SESSIONS_DIR, { withFileTypes: true }).then((items) =>
+      items.filter((item) => item.isDirectory()).map((item) => item.name),
+    );
+  } catch {
+    return [];
+  }
+
+  const recentIds = entries.sort((left, right) => right.localeCompare(left)).slice(0, limit);
+  const sessions = await Promise.all(recentIds.map((sessionId) => loadReplaySession(sessionId)));
+  return sessions
+    .filter((session): session is ReplaySession => session != null)
+    .sort((left, right) => right.created_at.localeCompare(left.created_at));
+}
+
 export async function createReplaySession(input: CreateReplaySessionRequest): Promise<ReplaySession> {
   const session = await createReplaySessionFromTemplate(input);
   await saveReplaySession(session);

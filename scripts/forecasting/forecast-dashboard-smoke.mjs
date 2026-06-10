@@ -108,7 +108,7 @@ async function main() {
   );
   record(
     "question workflow steps present",
-    (dashboard1.payload.question_workflows?.[0]?.steps?.length ?? 0) >= 9,
+    (dashboard1.payload.question_workflows?.[0]?.steps?.length ?? 0) >= 12,
   );
 
   const sourceMarketId = dashboard1.payload.questions?.[0]?.source_market_id;
@@ -144,7 +144,7 @@ async function main() {
   await json("POST", `/api/forecast/replay/sessions/${sessionId}/evidence-assessment`);
   await json("POST", `/api/forecast/replay/sessions/${sessionId}/plan-source-requests`);
   const agentRun = await json("POST", `/api/forecast/replay/sessions/${sessionId}/agent-runs`, {
-    strategy_id: "cautious_source_hound",
+    strategy_id: "aggressive_pattern_matcher",
     agent_id: agent.agent_id,
   });
   record("agent run from dashboard workflow", agentRun.ok, { status: agentRun.payload.status });
@@ -161,7 +161,10 @@ async function main() {
   record(
     "guided workflow shows completed steps after actions",
     workflow?.steps?.some((step) => step.step_id === "create_session" && step.state === "completed") &&
-      workflow?.steps?.some((step) => step.step_id === "assess_evidence" && step.state === "completed"),
+      workflow?.steps?.some((step) => step.step_id === "assess_evidence" && step.state === "completed") &&
+      workflow?.steps?.some(
+        (step) => step.step_id === "run_aggressive_agent" && step.state === "completed",
+      ),
     {
       steps: workflow?.steps?.map((step) => `${step.step_id}:${step.state}`),
     },

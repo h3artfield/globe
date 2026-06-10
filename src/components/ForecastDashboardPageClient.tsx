@@ -32,6 +32,22 @@ const BUCKET_ORDER: DashboardSessionBucket[] = [
   "resolved",
 ];
 
+const STEP_SUCCESS_LABELS: Record<DashboardWorkflowStepId, string> = {
+  create_session: "Session created.",
+  find_news_evidence: "News evidence attached.",
+  assess_evidence: "Evidence assessed.",
+  plan_source_requests: "Source requests planned.",
+  run_cautious_agent: "Cautious agent run complete.",
+  run_aggressive_agent: "Aggressive agent run complete.",
+  apply_draft: "Draft applied to session.",
+  lock_forecast: "Forecast locked.",
+  refresh_market: "Market refreshed.",
+  resolve_from_market: "Session resolved from market.",
+  score_session: "Session scored.",
+  judge_session: "Judge audit complete.",
+  postmortem_session: "Postmortem generated.",
+};
+
 function formatProb(value: number | null): string {
   if (value == null) {
     return "—";
@@ -46,6 +62,7 @@ export function ForecastDashboardPageClient() {
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const loadDashboard = useCallback(async () => {
     const response = await fetch("/api/forecast/dashboard");
@@ -58,9 +75,14 @@ export function ForecastDashboardPageClient() {
   }, []);
 
   useEffect(() => {
-    void loadDashboard().catch((caught) => {
-      setError(caught instanceof Error ? caught.message : "Failed to load dashboard");
-    });
+    setLoading(true);
+    void loadDashboard()
+      .catch((caught) => {
+        setError(caught instanceof Error ? caught.message : "Failed to load dashboard");
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   }, [loadDashboard]);
 
   const activeSessions = useMemo(() => {
@@ -91,7 +113,7 @@ export function ForecastDashboardPageClient() {
     }
   }, [selectedWorkflow?.session_id]);
 
-  const polymarketMock = dashboard?.fetch_modes.find((mode) => mode.source === "polymarket")?.mode === "mock";
+  const liveFetchDisabled = dashboard?.fetch_modes.some((mode) => !mode.live_fetch_allowed) ?? true;
 
   async function runAction(label: string, action: () => Promise<void>) {
     setBusy(true);
@@ -100,22 +122,59 @@ export function ForecastDashboardPageClient() {
     try {
       await action();
       setMessage(label);
+      setLoading(true);
       await loadDashboard();
     } catch (caught) {
       const reason = caught instanceof Error ? caught.message : "Action failed";
       setError(reason);
     } finally {
       setBusy(false);
+      setLoading(false);
     }
   }
 
+  async function ensureAgent() {
+    if ((dashboard?.agents.length ?? 0) > 0) {
+      return dashboard!.agents[0]!.agent_id;
+    }
+    const response = await fetch("/api/forecast/agents", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: "Dashboard Operator Agent",
+        type: "ai",
+        description: "Created from Forecast Lab operator dashboard.",
+      }),
+    });
+    const payload = (await response.json()) as { agent_id?: string; error?: string };
+    if (!response.ok) {
+      throw new Error(payload.error ?? "Failed to create agent");
+    }
+    return payload.agent_id ?? null;
+  }
+
   async function createSession(sourceMarketId: string, agentId?: string | null) {
+    const existingWorkflow = dashboard?.question_workflows.find(
+      (workflow) => workflow.source_market_id === sourceMarketId && workflow.session_id,
+    );
+    if (existingWorkflow?.session_id) {
+      setSelectedSessionId(existingWorkflow.session_id);
+      throw new Error(
+        `Session already exists for this question (${existingWorkflow.session_id}). Select it in Active Sessions or open session detail.`,
+      );
+    }
+
+    const resolvedAgentId = agentId ?? (await ensureAgent());
+    if (!resolvedAgentId) {
+      throw new Error("No agent available. Create an agent first.");
+    }
+
     const response = await fetch("/api/forecast/question-sources/polymarket/sessions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         source_market_id: sourceMarketId,
-        agent_id: agentId ?? undefined,
+        agent_id: resolvedAgentId,
       }),
     });
     const payload = (await response.json()) as { session_id?: string; error?: string };
@@ -124,6 +183,18 @@ export function ForecastDashboardPageClient() {
     }
     if (payload.session_id) {
       setSelectedSessionId(payload.session_id);
+    }
+  }
+
+  async function runAgentStrategy(sessionId: string, strategyId: string, agentId: string) {
+    const response = await fetch(`/api/forecast/replay/sessions/${sessionId}/agent-runs`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ strategy_id: strategyId, agent_id: agentId }),
+    });
+    const payload = (await response.json()) as { error?: string };
+    if (!response.ok) {
+      throw new Error(payload.error ?? "Agent run failed");
     }
   }
 
@@ -179,31 +250,26 @@ export function ForecastDashboardPageClient() {
           }
         }
         break;
-      case "run_agent":
+      case "run_cautious_agent":
+      case "run_aggressive_agent":
         if (!sessionId) {
           throw new Error("Create a session first.");
         }
         {
-          const response = await fetch(
-            `/api/forecast/replay/sessions/${sessionId}/agent-runs`,
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                strategy_id: "balanced_baseline",
-                agent_id: selectedSession?.agent_id ?? dashboard?.agents[0]?.agent_id,
-              }),
-            },
-          );
-          const payload = (await response.json()) as { error?: string };
-          if (!response.ok) {
-            throw new Error(payload.error ?? "Run agent failed");
+          const agentId = selectedSession?.agent_id ?? dashboard?.agents[0]?.agent_id;
+          if (!agentId) {
+            throw new Error("Assign an agent before running strategies.");
           }
+          await runAgentStrategy(
+            sessionId,
+            stepId === "run_cautious_agent" ? "cautious_source_hound" : "aggressive_pattern_matcher",
+            agentId,
+          );
         }
         break;
       case "apply_draft":
         if (!sessionId || !selectedSession?.latest_agent_run_id || !selectedSession.agent_id) {
-          throw new Error("Need a completed agent run before applying draft.");
+          throw new Error("Need a completed agent run before applying a draft.");
         }
         {
           const response = await fetch(
@@ -268,6 +334,48 @@ export function ForecastDashboardPageClient() {
           }
           if (!payload.resolved) {
             throw new Error(payload.message ?? "Market not resolved yet");
+          }
+        }
+        break;
+      case "score_session":
+        if (!sessionId) {
+          throw new Error("Create a session first.");
+        }
+        {
+          const response = await fetch(`/api/forecast/replay/sessions/${sessionId}/score`, {
+            method: "POST",
+          });
+          const payload = (await response.json()) as { error?: string };
+          if (!response.ok) {
+            throw new Error(payload.error ?? "Score session failed");
+          }
+        }
+        break;
+      case "judge_session":
+        if (!sessionId) {
+          throw new Error("Create a session first.");
+        }
+        {
+          const response = await fetch(`/api/forecast/replay/sessions/${sessionId}/judge`, {
+            method: "POST",
+          });
+          const payload = (await response.json()) as { error?: string };
+          if (!response.ok) {
+            throw new Error(payload.error ?? "Judge session failed");
+          }
+        }
+        break;
+      case "postmortem_session":
+        if (!sessionId) {
+          throw new Error("Create a session first.");
+        }
+        {
+          const response = await fetch(`/api/forecast/replay/sessions/${sessionId}/postmortem`, {
+            method: "POST",
+          });
+          const payload = (await response.json()) as { error?: string };
+          if (!response.ok) {
+            throw new Error(payload.error ?? "Postmortem failed");
           }
         }
         break;
@@ -344,6 +452,12 @@ export function ForecastDashboardPageClient() {
           </section>
         ) : null}
 
+        {loading ? (
+          <section className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4 text-sm text-slate-400">
+            Refreshing dashboard…
+          </section>
+        ) : null}
+
         {dashboard?.errors.length ? (
           <section className="rounded-2xl border border-rose-800/60 bg-rose-950/20 p-4 text-sm text-rose-100">
             <h2 className="font-semibold">Errors</h2>
@@ -366,7 +480,7 @@ export function ForecastDashboardPageClient() {
                 className="rounded-lg border border-violet-700 bg-violet-950/50 px-3 py-2 text-sm disabled:opacity-50"
                 disabled={busy}
                 onClick={() =>
-                  runAction("Mock Polymarket ingest complete.", async () => {
+                  runAction("Mock Polymarket questions imported.", async () => {
                     const response = await fetch("/api/forecast/question-sources/polymarket/ingest", {
                       method: "POST",
                       headers: { "Content-Type": "application/json" },
@@ -379,7 +493,7 @@ export function ForecastDashboardPageClient() {
                   })
                 }
               >
-                {polymarketMock ? "Ingest Mock Polymarket Questions" : "Ingest Polymarket Questions (Live fetch disabled)"}
+                Ingest Mock Polymarket Questions
               </button>
               <button
                 type="button"
@@ -390,7 +504,7 @@ export function ForecastDashboardPageClient() {
                     const response = await fetch("/api/forecast/question-sources/polymarket/refresh", {
                       method: "POST",
                       headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ use_mock: polymarketMock }),
+                      body: JSON.stringify({ use_mock: true }),
                     });
                     const payload = (await response.json()) as { error?: string };
                     if (!response.ok) {
@@ -399,8 +513,18 @@ export function ForecastDashboardPageClient() {
                   })
                 }
               >
-                {polymarketMock ? "Refresh Markets (Mock)" : "Refresh Markets"}
+                {liveFetchDisabled ? "Refresh Markets (Mock)" : "Refresh Markets"}
               </button>
+              {(dashboard?.agents.length ?? 0) === 0 ? (
+                <button
+                  type="button"
+                  className="rounded-lg border border-emerald-700 bg-emerald-950/50 px-3 py-2 text-sm disabled:opacity-50"
+                  disabled={busy}
+                  onClick={() => runAction("Test agent created.", () => ensureAgent().then(() => undefined))}
+                >
+                  Create Test Agent
+                </button>
+              ) : null}
             </div>
           </div>
 
@@ -425,7 +549,9 @@ export function ForecastDashboardPageClient() {
             busy={busy}
             fetchModes={dashboard?.fetch_modes ?? []}
             workflow={selectedWorkflow}
-            onRunStep={(stepId) => runAction(`${stepId} complete.`, () => runWorkflowStep(stepId))}
+            onRunStep={(stepId) =>
+              runAction(STEP_SUCCESS_LABELS[stepId], () => runWorkflowStep(stepId))
+            }
           />
         </section>
 
@@ -481,7 +607,7 @@ export function ForecastDashboardPageClient() {
                           )
                         }
                       >
-                        {polymarketMock ? "Refresh Market (Mock)" : "Refresh Market"}
+                        {liveFetchDisabled ? "Refresh Market (Mock)" : "Refresh Market"}
                       </button>
                     </div>
                   </li>
@@ -494,7 +620,7 @@ export function ForecastDashboardPageClient() {
             <h2 className="text-lg font-semibold">Agent Performance Summary</h2>
             {(dashboard?.agents.length ?? 0) === 0 ? (
               <p className="mt-3 text-sm text-slate-500">
-                No agents yet. Create one from the Agents page, then assign it when creating a session.
+                No agents yet. Click Create Test Agent above, or create one from the Agents page.
               </p>
             ) : (
               <ul className="mt-3 space-y-3 text-sm">

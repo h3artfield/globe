@@ -1034,11 +1034,15 @@ export type DashboardWorkflowStepId =
   | "find_news_evidence"
   | "assess_evidence"
   | "plan_source_requests"
-  | "run_agent"
+  | "run_cautious_agent"
+  | "run_aggressive_agent"
   | "apply_draft"
   | "lock_forecast"
   | "refresh_market"
-  | "resolve_from_market";
+  | "resolve_from_market"
+  | "score_session"
+  | "judge_session"
+  | "postmortem_session";
 
 export type DashboardWorkflowStepState = "completed" | "available" | "blocked";
 

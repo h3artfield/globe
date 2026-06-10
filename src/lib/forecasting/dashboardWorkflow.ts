@@ -10,6 +10,11 @@ type SessionEnrichment = {
   has_evidence_assessment: boolean;
   has_planned_source_requests: boolean;
   has_scorecard: boolean;
+  has_judge: boolean;
+  has_postmortem: boolean;
+  cautious_run_status: string | null;
+  aggressive_run_status: string | null;
+  latest_completed_run_id: string | null;
 };
 
 function step(
@@ -123,34 +128,78 @@ export function buildQuestionWorkflow(
     return step("plan_source_requests", "Plan Source Requests", "available", null, null, sessionId);
   })();
 
-  const runAgent = (() => {
+  const runCautiousAgent = (() => {
     if (!sessionId) {
-      return step("run_agent", "Run Agent", "blocked", "Create a session first.", null, null);
+      return step("run_cautious_agent", "Run Cautious Agent", "blocked", "Create a session first.", null, null);
     }
     if (!isDraft) {
-      return step("run_agent", "Run Agent", "blocked", "Agent runs are only allowed on draft sessions.", null, sessionId);
+      return step(
+        "run_cautious_agent",
+        "Run Cautious Agent",
+        "blocked",
+        "Agent runs are only allowed on draft sessions.",
+        null,
+        sessionId,
+      );
     }
     if (!session?.agent_id) {
       return step(
-        "run_agent",
-        "Run Agent",
+        "run_cautious_agent",
+        "Run Cautious Agent",
         "blocked",
         "Assign an agent to the session before running a strategy.",
         null,
         sessionId,
       );
     }
-    if (session.latest_agent_run_id) {
+    if (enrichment?.cautious_run_status) {
       return step(
-        "run_agent",
-        "Run Agent",
+        "run_cautious_agent",
+        "Run Cautious Agent",
         "completed",
         null,
-        `Latest run ${session.latest_agent_run_status ?? "unknown"} (${session.latest_agent_run_recommended_action ?? "n/a"}).`,
+        `Cautious run: ${enrichment.cautious_run_status}.`,
         sessionId,
       );
     }
-    return step("run_agent", "Run Agent", "available", null, null, sessionId);
+    return step("run_cautious_agent", "Run Cautious Agent", "available", null, null, sessionId);
+  })();
+
+  const runAggressiveAgent = (() => {
+    if (!sessionId) {
+      return step("run_aggressive_agent", "Run Aggressive Agent", "blocked", "Create a session first.", null, null);
+    }
+    if (!isDraft) {
+      return step(
+        "run_aggressive_agent",
+        "Run Aggressive Agent",
+        "blocked",
+        "Agent runs are only allowed on draft sessions.",
+        null,
+        sessionId,
+      );
+    }
+    if (!session?.agent_id) {
+      return step(
+        "run_aggressive_agent",
+        "Run Aggressive Agent",
+        "blocked",
+        "Assign an agent to the session before running a strategy.",
+        null,
+        sessionId,
+      );
+    }
+    if (enrichment?.aggressive_run_status) {
+      return step(
+        "run_aggressive_agent",
+        "Run Aggressive Agent",
+        "completed",
+        null,
+        `Aggressive run: ${enrichment.aggressive_run_status}.`,
+        sessionId,
+      );
+    }
+    return step("run_aggressive_agent", "Run Aggressive Agent", "available", null, null, sessionId);
   })();
 
   const applyDraft = (() => {
@@ -170,13 +219,13 @@ export function buildQuestionWorkflow(
         sessionId,
       );
     }
-    if (session.latest_agent_run_status !== "completed") {
+    if (session.latest_agent_run_status !== "completed" && !enrichment?.latest_completed_run_id) {
       return step(
         "apply_draft",
         "Apply Draft",
         "blocked",
         session.latest_agent_run_status === "needs_sources"
-          ? "Latest agent run needs more sources; fulfill gaps or run a different strategy."
+          ? "Latest agent run needs more sources; fulfill gaps or run aggressive strategy."
           : "Run an agent to completion before applying a draft.",
         null,
         sessionId,
@@ -269,15 +318,79 @@ export function buildQuestionWorkflow(
     return step("resolve_from_market", "Resolve From Market", "available", null, null, sessionId);
   })();
 
+  const scoreSession = (() => {
+    if (!sessionId) {
+      return step("score_session", "Score Session", "blocked", "Create a session first.", null, null);
+    }
+    if (enrichment?.has_scorecard) {
+      return step("score_session", "Score Session", "completed", null, "Scorecard saved.", sessionId);
+    }
+    if (!isResolved) {
+      return step(
+        "score_session",
+        "Score Session",
+        "blocked",
+        "Resolve the session before scoring.",
+        null,
+        sessionId,
+      );
+    }
+    return step("score_session", "Score Session", "available", null, null, sessionId);
+  })();
+
+  const judgeSession = (() => {
+    if (!sessionId) {
+      return step("judge_session", "Judge Session", "blocked", "Create a session first.", null, null);
+    }
+    if (enrichment?.has_judge) {
+      return step("judge_session", "Judge Session", "completed", null, "Judge audit saved.", sessionId);
+    }
+    if (!enrichment?.has_scorecard) {
+      return step(
+        "judge_session",
+        "Judge Session",
+        "blocked",
+        "Score the session before running judge.",
+        null,
+        sessionId,
+      );
+    }
+    return step("judge_session", "Judge Session", "available", null, null, sessionId);
+  })();
+
+  const postmortemSession = (() => {
+    if (!sessionId) {
+      return step("postmortem_session", "Postmortem", "blocked", "Create a session first.", null, null);
+    }
+    if (enrichment?.has_postmortem) {
+      return step("postmortem_session", "Postmortem", "completed", null, "Postmortem saved.", sessionId);
+    }
+    if (!enrichment?.has_judge) {
+      return step(
+        "postmortem_session",
+        "Postmortem",
+        "blocked",
+        "Run judge before generating postmortem.",
+        null,
+        sessionId,
+      );
+    }
+    return step("postmortem_session", "Postmortem", "available", null, null, sessionId);
+  })();
+
   return [
     createSession,
     findNews,
     assessEvidence,
     planRequests,
-    runAgent,
+    runCautiousAgent,
+    runAggressiveAgent,
     applyDraft,
     lockForecast,
     refreshMarket,
     resolveFromMarket,
+    scoreSession,
+    judgeSession,
+    postmortemSession,
   ];
 }
