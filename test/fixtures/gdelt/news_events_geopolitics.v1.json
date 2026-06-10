@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fixture-gdelt-9001",
+    "url": "https://example.com/news/ukraine-nato-bid-2025",
+    "title": "Ukraine accelerates NATO membership talks amid security concerns",
+    "domain": "reuters.com",
+    "language": "English",
+    "seendate": "20250515120000",
+    "sourcecountry": "UKR",
+    "tone": -1.8,
+    "themes": ["GEOPOLITICS", "MILITARY", "DIPLOMACY"],
+    "entities": ["UKR", "NATO", "EU"],
+    "summary": "Officials signal renewed diplomatic momentum toward NATO accession before 2027."
+  },
+  {
+    "id": "fixture-gdelt-9002",
+    "url": "https://example.com/news/us-china-trade-talks-2025",
+    "title": "US and China resume bilateral trade negotiations in Geneva",
+    "domain": "apnews.com",
+    "language": "English",
+    "seendate": "20250520143000",
+    "sourcecountry": "USA",
+    "tone": 0.5,
+    "themes": ["ECONOMY", "TRADE", "POLITICS"],
+    "entities": ["USA", "CHN"],
+    "summary": "Negotiators discuss tariff reductions and a potential 2026 trade framework."
+  },
+  {
+    "id": "fixture-gdelt-9003",
+    "url": "https://example.com/news/nato-expansion-debate",
+    "title": "NATO allies debate timeline for new member accession",
+    "domain": "bbc.co.uk",
+    "language": "English",
+    "seendate": "20250510100000",
+    "sourcecountry": "GBR",
+    "tone": -0.3,
+    "themes": ["GEOPOLITICS", "POLITICS"],
+    "entities": ["NATO", "UKR"],
+    "summary": "Alliance members weigh political and military criteria for eastern expansion."
+  },
+  {
+    "id": "fixture-gdelt-9004",
+    "url": "https://example.com/news/chn-usa-summit-preview",
+    "title": "China signals openness to trade deal with United States",
+    "domain": "scmp.com",
+    "language": "English",
+    "seendate": "20250522180000",
+    "sourcecountry": "CHN",
+    "tone": 1.2,
+    "themes": ["ECONOMY", "TRADE", "GEOPOLITICS"],
+    "entities": ["CHN", "USA"],
+    "summary": "Beijing officials hint at announcement window in calendar year 2026."
+  }
+]

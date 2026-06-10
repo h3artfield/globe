@@ -28,5 +28,8 @@ export async function loadReplayEvidenceSnapshot(
   if (!(await pathExists(filePath))) {
     return null;
   }
-  return readJsonFile<ReplayEvidenceSnapshot>(filePath);
+  return readJsonFile<ReplayEvidenceSnapshot>(filePath).then((snapshot) => ({
+    ...snapshot,
+    news_evidence_records: snapshot.news_evidence_records ?? [],
+  }));
 }
