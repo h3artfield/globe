@@ -644,6 +644,7 @@ export type ForecastTournament = {
   session_ids: string[];
   status: TournamentStatus;
   run_config: TournamentRunConfig;
+  run_count: number;
   summary: TournamentSummary;
   warnings: string[];
   errors: string[];
