@@ -4,7 +4,7 @@ import type {
 } from "@/types/forecasting";
 import { buildTournamentSummary } from "@/lib/forecasting/buildTournamentSummary";
 import { buildReplayEvidenceSnapshot } from "@/lib/forecasting/buildReplayEvidenceSnapshot";
-import { createReplaySessionFromTemplate } from "@/lib/forecasting/createReplaySession";
+import { createReplaySession } from "@/lib/forecasting/replaySessionStore";
 import { generateReplayPostmortem } from "@/lib/forecasting/generateReplayPostmortem";
 import { recomputeAgentPerformance } from "@/lib/forecasting/recomputeAgentPerformance";
 import { resolveReplaySession } from "@/lib/forecasting/resolveReplaySession";
@@ -39,9 +39,57 @@ export async function runForecastTournament(tournamentId: string): Promise<Forec
     throw new Error(`Tournament not found: ${tournamentId}`);
   }
 
+  const nextRunCount = (tournament.run_count ?? 0) + 1;
+
+  if (
+    tournament.session_ids.length > 0 &&
+    (tournament.status === "completed" || tournament.status === "running")
+  ) {
+    const warnings = [
+      ...tournament.warnings,
+      `Idempotent re-run #${nextRunCount}: retained ${tournament.session_ids.length} existing session(s); no new sessions created.`,
+    ];
+    let updated: ForecastTournament = {
+      ...tournament,
+      run_count: nextRunCount,
+      status: "completed",
+      warnings,
+    };
+    if (tournament.run_config.allow_auto_resolve_score_judge_postmortem) {
+      for (const sessionId of tournament.session_ids) {
+        try {
+          let session = await loadReplaySession(sessionId);
+          if (!session) {
+            continue;
+          }
+          if (session.status === "locked") {
+            await resolveReplaySession(sessionId);
+            session = await loadReplaySession(sessionId);
+          }
+          if (session?.status === "resolved") {
+            await scoreReplaySession(sessionId);
+            await runReplayJudge(sessionId);
+            await generateReplayPostmortem(sessionId);
+          }
+        } catch {
+          // per-session refresh is non-fatal
+        }
+      }
+    }
+    updated.summary = await buildTournamentSummary(updated);
+    updated.summary.strategy_tuning_suggestions = suggestStrategyTuning(updated.summary);
+    updated.summary.recommended_strategy_changes = buildRecommendedStrategyChanges(
+      updated,
+      updated.summary,
+    );
+    await saveTournament(updated);
+    return updated;
+  }
+
   const running: ForecastTournament = {
     ...tournament,
     status: "running",
+    run_count: nextRunCount,
     session_ids: [],
     warnings: [],
     errors: [],
@@ -70,7 +118,7 @@ export async function runForecastTournament(tournamentId: string): Promise<Forec
           const strategyId = strategyForAgent(tournament, agentIndex);
 
           try {
-            const session = await createReplaySessionFromTemplate({
+            const session = await createReplaySession({
               template_id: templateId,
               target,
               year,

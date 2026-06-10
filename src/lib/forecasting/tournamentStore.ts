@@ -101,6 +101,7 @@ export async function createTournament(
     strategy_ids: input.strategy_ids,
     session_ids: [],
     status: "draft",
+    run_count: 0,
     run_config: {
       ...DEFAULT_TOURNAMENT_RUN_CONFIG,
       ...input.run_config,
